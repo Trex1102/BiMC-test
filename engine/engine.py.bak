@@ -1,21 +1,20 @@
-import json
-import time
-from pathlib import Path
-
 import torch
 import torch.nn as nn
+import models.clip as clip
 from datasets.data_manager import DatasetManager
+from torch.nn import functional as F
 from tqdm import tqdm
 from utils.evaluator import AccuracyEvaluator
 from models.bimc import BiMC
 import numpy as np
+import time
 
 
 class Runner:
 
     def __init__(self, cfg):
         self.cfg = cfg
-        self.data_manager = DatasetManager(cfg)
+        self.data_manager = DatasetManager(cfg,) 
         self.device = cfg.DEVICE.DEVICE_NAME
 
         self.model = BiMC(cfg, self.data_manager.template, self.device)
@@ -28,77 +27,33 @@ class Runner:
             self.is_distributed = True
         else:
             self.is_distributed = False
+            
 
         self.acc_list = []
         self.task_acc_list = []
-        self.task_results = []
         self.evaluator = AccuracyEvaluator(self.data_manager.class_index_in_task)
 
-        self.project_root = Path(__file__).resolve().parent.parent
-        output_root = Path(self.cfg.OUTPUT.ROOT)
-        if not output_root.is_absolute():
-            output_root = self.project_root / output_root
-        self.output_root = output_root
-        self.experiment_dir = self._create_experiment_dir()
-        self._save_config()
-
-    def _create_experiment_dir(self):
-        trainer_name = 'bimc_ensemble' if self.cfg.TRAINER.BiMC.USING_ENSEMBLE else 'bimc'
-        timestamp = time.strftime('%Y%m%d-%H%M%S')
-        experiment_dir = self.output_root / self.cfg.DATASET.NAME / trainer_name / f'seed{self.cfg.SEED}_{timestamp}'
-        experiment_dir.mkdir(parents=True, exist_ok=True)
-        print(f'Saving experiment artifacts to: {experiment_dir}')
-        return experiment_dir
-
-    def _save_config(self):
-        config_path = self.experiment_dir / 'config.yaml'
-        config_path.write_text(self.cfg.dump(), encoding='utf-8')
-
-    def _save_results(self, total_runtime_sec):
-        summary = {
-            'dataset': self.cfg.DATASET.NAME,
-            'trainer': 'bimc_ensemble' if self.cfg.TRAINER.BiMC.USING_ENSEMBLE else 'bimc',
-            'seed': self.cfg.SEED,
-            'runtime_sec': round(total_runtime_sec, 3),
-            'acc_list': self.acc_list,
-            'task_acc_list': self.task_acc_list,
-            'task_results': self.task_results,
-        }
-
-        results_path = self.experiment_dir / 'results.json'
-        with results_path.open('w', encoding='utf-8') as f:
-            json.dump(summary, f, indent=2)
-
-        summary_lines = [
-            f"dataset: {summary['dataset']}",
-            f"trainer: {summary['trainer']}",
-            f"seed: {summary['seed']}",
-            f"runtime_sec: {summary['runtime_sec']}",
-            f"final_acc: {self.acc_list[-1] if self.acc_list else 'N/A'}",
-            f"acc_list: {self.acc_list}",
-            'task-wise acc:',
-        ]
-        summary_lines.extend([f'task {i:2d}: {task_acc}' for i, task_acc in enumerate(self.task_acc_list)])
-        (self.experiment_dir / 'summary.txt').write_text('\n'.join(summary_lines) + '\n', encoding='utf-8')
 
     def merge_dicts(self, dict_list):
         result = {}
 
         keys_to_merge = [
-            'description_proto',
-            'description_features',
+            'description_proto', 
+            'description_features', 
             'description_targets',
-            'text_features',
+            'text_features', 
             'text_targets',
-            'image_proto',
-            'images_features',
+            'image_proto', 
+            'images_features', 
             'images_targets'
         ]
 
         for key in keys_to_merge:
             result[key] = torch.cat([d[key] for d in dict_list], dim=0)
 
+
         weights = [len(d['class_index']) for d in dict_list]
+
 
         cov_keys = [
             'cov_image',
@@ -111,30 +66,30 @@ class Runner:
                 cov_sums[key] += d[key] * weights[i]
 
         for key in cov_keys:
-            if weight_sum > 0:
+            if weight_sum > 0: 
                 result[key] = cov_sums[key] / weight_sum
 
         return result
+
+
 
     @torch.no_grad()
     def run(self):
         print(f'Start inferencing on all tasks: [0, {self.data_manager.num_tasks - 1}]')
         state_dict_list = []
-        overall_start_time = time.time()
         for i in range(self.data_manager.num_tasks):
             self.model.eval()
 
             current_class_name = np.array(self.data_manager.class_names)[self.data_manager.class_index_in_task[i]]
-            loader = self.data_manager.get_dataloader(i, source='train', mode='test', accumulate_past=False)
+            loader = self.data_manager.get_dataloader(i, source='train', mode='test', accumulate_past=False)            
 
-            current_state_dict = self.model.build_task_statistics(
-                current_class_name,
-                loader,
-                class_index=self.data_manager.class_index_in_task[i],
-                calibrate_novel_vision_proto=self.cfg.TRAINER.BiMC.VISION_CALIBRATION,
-            )
 
-            state_dict_list.append(current_state_dict)
+
+            current_state_dict = self.model.build_task_statistics(current_class_name, loader,
+                                                             class_index=self.data_manager.class_index_in_task[i], 
+                                                             calibrate_novel_vision_proto=self.cfg.TRAINER.BiMC.VISION_CALIBRATION,)
+
+            state_dict_list.append(current_state_dict)            
             merged_state_dict = self.merge_dicts(state_dict_list)
 
             start_time = time.time()
@@ -144,22 +99,14 @@ class Runner:
             print(f'+++++++++++  task {i}, time: {elapsed_time} ++++++++++++++++')
 
             print(f'=> Task [{i}], Acc: {acc["mean_acc"]:.3f}')
-            self.acc_list.append(round(acc['mean_acc'], 3))
+            self.acc_list.append(round(acc["mean_acc"], 3))
             self.task_acc_list.append(acc['task_acc'])
-            self.task_results.append({
-                'task_id': i,
-                'elapsed_time_sec': round(elapsed_time, 3),
-                'metrics': acc,
-            })
 
         print(f'Final acc:{self.acc_list}')
         print('Task-wise acc:')
         for i, task_acc in enumerate(self.task_acc_list):
             print(f'task {i:2d}, acc:{task_acc}')
-
-        total_runtime_sec = time.time() - overall_start_time
-        self._save_results(total_runtime_sec)
-        print(f'Saved results to: {self.experiment_dir}')
+    
 
     @torch.no_grad()
     def inference_task_covariance(self, task_id, state_dict):
@@ -175,25 +122,21 @@ class Runner:
 
         num_base_class = len(self.data_manager.class_index_in_task[0])
         num_accumulated_class = max(self.data_manager.class_index_in_task[task_id]) + 1
-
+        
         test_loader = self.data_manager.get_dataloader(task_id, source='test', mode='test')
         all_logits = []
         all_targets = []
 
-        for _, batch in enumerate(tqdm(test_loader)):
+        for i, batch in enumerate(tqdm(test_loader)):
             data, targets = self.parse_batch(batch)
-            logits = self.model.forward_ours(
-                data,
-                num_accumulated_class,
-                num_base_class,
-                image_proto,
-                cov_image,
-                description_proto,
-                description_features,
-                description_targets,
-                text_features,
-                beta=beta,
-            )
+            logits = self.model.forward_ours(data, num_accumulated_class, num_base_class,
+                                                   image_proto, 
+                                                   cov_image,
+                                                   description_proto,
+                                                   description_features, 
+                                                   description_targets,
+                                                   text_features,
+                                                   beta=beta)
 
             all_logits.append(logits)
             all_targets.append(targets)
@@ -201,9 +144,10 @@ class Runner:
         all_logits = torch.cat(all_logits, dim=0)
         all_targets = torch.cat(all_targets, dim=0)
 
-        eval_acc = self.evaluator.calc_accuracy(all_logits, all_targets, task_id)
+        eval_acc = self.evaluator.calc_accuracy(all_logits, all_targets, task_id) 
         print(f"Test acc mean: {eval_acc['mean_acc']}, task-wise acc: {eval_acc['task_acc']}")
         return eval_acc
+    
 
     def parse_batch(self, batch):
         data = batch['image']
