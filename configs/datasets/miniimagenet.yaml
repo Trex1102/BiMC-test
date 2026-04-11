@@ -1,6 +1,6 @@
 DATASET:
-  NAME: "MiniImagenet"
-  ROOT: "/home/chenyiyang/dataset/"
+  NAME: "miniimagenet"
+  ROOT: "dataset/miniimagenet/"
   GPT_PATH: "description/modified_miniimagent_output_final.json"
   NUM_CLASSES: 100
   NUM_INIT_CLS: 60

@@ -1,6 +1,6 @@
 DATASET:
   NAME: "CIFAR100"
-  ROOT: "/home/chenyiyang/dataset/"
+  ROOT: "dataset/"
   GPT_PATH: "./description/cifar100_prompts_full.json"
   NUM_CLASSES: 100
   NUM_INIT_CLS: 60
