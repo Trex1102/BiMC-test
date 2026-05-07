@@ -1,0 +1,24 @@
+/media/bio/data/BiMC-test/models/clip/clip.py:23: UserWarning: PyTorch version 1.7.1 or higher is recommended
+  warnings.warn("PyTorch version 1.7.1 or higher is recommended")
+manual seed: 1
+use gpu: ['0']
+Files already downloaded and verified
+Files already downloaded and verified
+Loading CLIP (backbone: ViT-B/16)
+Prompt template:['a photo of a {}.']
+Loading DinoV2 ViT-B/14 from local hub: /home/bio/.cache/torch/hub/facebookresearch_dinov2_main
+/home/bio/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/home/bio/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/attention.py:34: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/home/bio/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/block.py:41: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+Loading DinoV2 weights: /home/bio/.cache/torch/hub/checkpoints/dinov2_vitb14_pretrain.pth
+class names: ['apple' 'aquarium fish' 'baby' 'bear' 'beaver' 'bed' 'bee' 'beetle'
+ 'bicycle' 'bottle' 'bowl' 'boy' 'bridge' 'bus' 'butterfly' 'camel' 'can'
+ 'castle' 'caterpillar' 'cattle' 'chair' 'chimpanzee' 'clock' 'cloud'
+ 'cockroach' 'couch' 'crab' 'crocodile' 'cup' 'dinosaur' 'dolphin'
+ 'elephant' 'flatfish' 'forest' 'fox' 'girl' 'hamster' 'house' 'kangaroo'
+ 'keyboard' 'lamp' 'lawn mower' 'leopard' 'lion' 'lizard' 'lobster' 'man'
+ 'maple tree' 'motorcycle' 'mountain' 'mouse' 'mushroom' 'oak tree'
+ 'orange' 'orchid' 'otter' 'palm tree' 'pear' 'pickup truck' 'pine tree']

@@ -58,3 +58,4 @@ baseline	cub200_bimc_dino_fusion	16	OK	2026-05-07 08:28:02 +06	2026-05-07 08:32:
 baseline	cub200_bimc_dino_fusion	17	OK	2026-05-07 08:32:18 +06	2026-05-07 08:36:34 +06	256	logs/fscil-test-20260507-020014/baseline_cub200_bimc_dino_fusion_seed17.log
 baseline	cub200_bimc_dino_fusion	18	OK	2026-05-07 08:36:34 +06	2026-05-07 08:40:50 +06	256	logs/fscil-test-20260507-020014/baseline_cub200_bimc_dino_fusion_seed18.log
 baseline	cub200_bimc_dino_fusion	19	OK	2026-05-07 08:40:50 +06	2026-05-07 08:45:05 +06	255	logs/fscil-test-20260507-020014/baseline_cub200_bimc_dino_fusion_seed19.log
+baseline	cub200_bimc_dino_fusion	20	OK	2026-05-07 08:45:05 +06	2026-05-07 08:49:29 +06	264	logs/fscil-test-20260507-020014/baseline_cub200_bimc_dino_fusion_seed20.log

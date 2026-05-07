@@ -184,3 +184,7 @@ ETA after 58/120: 2026-05-07 15:48:38 +06 (avg 414s/run, remaining 62)
 === END baseline dataset=cub200_bimc_dino_fusion seed=19 status=OK duration=255s at 2026-05-07 08:45:05 +06 ===
 ETA after 59/120: 2026-05-07 15:42:56 +06 (avg 411s/run, remaining 61)
 === START baseline dataset=cub200_bimc_dino_fusion seed=20 at 2026-05-07 08:45:05 +06 ===
+=== END baseline dataset=cub200_bimc_dino_fusion seed=20 status=OK duration=264s at 2026-05-07 08:49:29 +06 ===
+ETA after 60/120: 2026-05-07 15:38:29 +06 (avg 409s/run, remaining 60)
+--- Phase 2: conservative query prototype refinement on top of DinoV2 fusion ---
+=== START cpr dataset=cifar100 seed=1 at 2026-05-07 08:49:29 +06 ===
