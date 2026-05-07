@@ -1,0 +1,117 @@
+{
+  "dataset": "miniimagenet",
+  "train_cfg": "configs/trainers/bimc_ensemble.yaml",
+  "runtime_sec": 92.727,
+  "k_requested": 3,
+  "k_effective": 3,
+  "results": {
+    "original": {
+      "bank_stats": {
+        "base_fused_count_mean": 18.567,
+        "novel_fused_count_mean": 17.375,
+        "knn_description_count_mean": 18.09,
+        "novel_within_class_diversity_mean": 0.099035,
+        "novel_support_alignment_mean": 0.340729,
+        "novel_support_alignment_spread_mean": 0.00961,
+        "novel_confuser_overlap_rate_mean": 0.865086,
+        "novel_confuser_similarity_mean": 0.700085
+      },
+      "metrics": {
+        "full_acc": 92.4,
+        "full_base_acc": 93.4,
+        "full_novel_acc": 90.9,
+        "fused_only_acc": 92.0,
+        "fused_only_base_acc": 93.7,
+        "fused_only_novel_acc": 89.45,
+        "knn_only_acc": 89.41,
+        "knn_only_base_acc": 89.983,
+        "knn_only_novel_acc": 88.55,
+        "full_oracle_gain": 0.72,
+        "full_oracle_changed_rate": 0.775,
+        "fused_oracle_gain": 0.8,
+        "fused_oracle_changed_rate": 0.8
+      }
+    },
+    "novel_random_fused_k": {
+      "bank_stats": {
+        "base_fused_count_mean": 18.567,
+        "novel_fused_count_mean": 3.0,
+        "knn_description_count_mean": 18.09,
+        "novel_within_class_diversity_mean": 0.103938,
+        "novel_support_alignment_mean": 0.339819,
+        "novel_support_alignment_spread_mean": 0.0076,
+        "novel_confuser_overlap_rate_mean": 0.866667,
+        "novel_confuser_similarity_mean": 0.699329
+      },
+      "metrics": {
+        "full_acc": 92.48,
+        "full_base_acc": 93.483,
+        "full_novel_acc": 90.975,
+        "fused_only_acc": 91.9,
+        "fused_only_base_acc": 93.683,
+        "fused_only_novel_acc": 89.225,
+        "knn_only_acc": 89.41,
+        "knn_only_base_acc": 89.983,
+        "knn_only_novel_acc": 88.55,
+        "full_oracle_gain": 0.47,
+        "full_oracle_changed_rate": 0.675,
+        "fused_oracle_gain": 0.52,
+        "fused_oracle_changed_rate": 0.625
+      }
+    },
+    "novel_diverse_fused_k": {
+      "bank_stats": {
+        "base_fused_count_mean": 18.567,
+        "novel_fused_count_mean": 3.0,
+        "knn_description_count_mean": 18.09,
+        "novel_within_class_diversity_mean": 0.164111,
+        "novel_support_alignment_mean": 0.337091,
+        "novel_support_alignment_spread_mean": 0.009368,
+        "novel_confuser_overlap_rate_mean": 0.816667,
+        "novel_confuser_similarity_mean": 0.680481
+      },
+      "metrics": {
+        "full_acc": 92.48,
+        "full_base_acc": 93.4,
+        "full_novel_acc": 91.1,
+        "fused_only_acc": 91.97,
+        "fused_only_base_acc": 93.6,
+        "fused_only_novel_acc": 89.525,
+        "knn_only_acc": 89.41,
+        "knn_only_base_acc": 89.983,
+        "knn_only_novel_acc": 88.55,
+        "full_oracle_gain": 0.42,
+        "full_oracle_changed_rate": 0.625,
+        "fused_oracle_gain": 0.55,
+        "fused_oracle_changed_rate": 0.75
+      }
+    },
+    "novel_confuser_fused_k": {
+      "bank_stats": {
+        "base_fused_count_mean": 18.567,
+        "novel_fused_count_mean": 3.0,
+        "knn_description_count_mean": 18.09,
+        "novel_within_class_diversity_mean": 0.117756,
+        "novel_support_alignment_mean": 0.34292,
+        "novel_support_alignment_spread_mean": 0.006523,
+        "novel_confuser_overlap_rate_mean": 0.775,
+        "novel_confuser_similarity_mean": 0.660657
+      },
+      "metrics": {
+        "full_acc": 92.41,
+        "full_base_acc": 93.4,
+        "full_novel_acc": 90.925,
+        "fused_only_acc": 91.93,
+        "fused_only_base_acc": 93.7,
+        "fused_only_novel_acc": 89.275,
+        "knn_only_acc": 89.41,
+        "knn_only_base_acc": 89.983,
+        "knn_only_novel_acc": 88.55,
+        "full_oracle_gain": 0.61,
+        "full_oracle_changed_rate": 0.75,
+        "fused_oracle_gain": 0.55,
+        "fused_oracle_changed_rate": 0.725
+      }
+    }
+  }
+}

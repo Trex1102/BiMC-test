@@ -1,0 +1,66 @@
+{
+  "dataset": "cub200",
+  "train_cfg": "configs/trainers/bimc_ensemble.yaml",
+  "runtime_sec": 76.454,
+  "num_seen_classes": 200,
+  "num_base_classes": 100,
+  "beta": 0.3,
+  "lambda_t": 0.5,
+  "ensemble_alpha": 0.8,
+  "alpha_grid": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "max_passes": 2,
+  "baseline_full_acc": 72.765,
+  "baseline_base_acc": 79.155,
+  "baseline_novel_acc": 66.519,
+  "global_best_alpha": 1.0,
+  "global_best_full_acc": 79.858,
+  "global_best_base_acc": 78.317,
+  "global_best_novel_acc": 81.365,
+  "global_best_gain": 7.093,
+  "oracle_full_acc": 80.566,
+  "oracle_base_acc": 79.015,
+  "oracle_novel_acc": 82.082,
+  "oracle_gain": 7.801,
+  "changed_class_count": 87,
+  "changed_class_rate": 0.87,
+  "mean_alpha_changed": 0.704,
+  "num_novel_means": 100,
+  "global_sweep": [
+    {
+      "alpha": 0.0,
+      "full_acc": 72.765,
+      "base_acc": 79.155,
+      "novel_acc": 66.519
+    },
+    {
+      "alpha": 0.25,
+      "full_acc": 75.613,
+      "base_acc": 78.806,
+      "novel_acc": 72.491
+    },
+    {
+      "alpha": 0.5,
+      "full_acc": 77.805,
+      "base_acc": 78.457,
+      "novel_acc": 77.167
+    },
+    {
+      "alpha": 0.75,
+      "full_acc": 78.944,
+      "base_acc": 78.317,
+      "novel_acc": 79.556
+    },
+    {
+      "alpha": 1.0,
+      "full_acc": 79.858,
+      "base_acc": 78.317,
+      "novel_acc": 81.365
+    }
+  ]
+}

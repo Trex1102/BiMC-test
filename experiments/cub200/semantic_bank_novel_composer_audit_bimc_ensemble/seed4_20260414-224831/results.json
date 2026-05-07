@@ -1,0 +1,99 @@
+{
+  "dataset": "cub200",
+  "train_cfg": "configs/trainers/bimc_ensemble.yaml",
+  "runtime_sec": 29.617,
+  "compose_modes": [
+    "prompt_desc_atom",
+    "prompt_atom"
+  ],
+  "strategies": [
+    "prompt_top1",
+    "confuser_top1"
+  ],
+  "alphas": [
+    0.25
+  ],
+  "confuser_topk": 3,
+  "results": {
+    "prompt_desc_atom__prompt_top1": {
+      "composer_stats": {
+        "selected_atom_alignment_mean": 0.349135,
+        "selected_atom_margin_mean": -0.218856,
+        "num_novel_classes": 100
+      },
+      "alphas": {
+        "0.25": {
+          "full_acc": 73.007,
+          "full_base_acc": 79.225,
+          "full_novel_acc": 66.928,
+          "fused_only_acc": 72.264,
+          "fused_only_base_acc": 80.447,
+          "fused_only_novel_acc": 64.266,
+          "knn_only_acc": 56.559,
+          "knn_only_base_acc": 64.246,
+          "knn_only_novel_acc": 49.044
+        }
+      }
+    },
+    "prompt_desc_atom__confuser_top1": {
+      "composer_stats": {
+        "selected_atom_alignment_mean": 0.348259,
+        "selected_atom_margin_mean": -0.189194,
+        "num_novel_classes": 100
+      },
+      "alphas": {
+        "0.25": {
+          "full_acc": 72.817,
+          "full_base_acc": 79.295,
+          "full_novel_acc": 66.485,
+          "fused_only_acc": 72.195,
+          "fused_only_base_acc": 80.447,
+          "fused_only_novel_acc": 64.13,
+          "knn_only_acc": 56.559,
+          "knn_only_base_acc": 64.246,
+          "knn_only_novel_acc": 49.044
+        }
+      }
+    },
+    "prompt_atom__prompt_top1": {
+      "composer_stats": {
+        "selected_atom_alignment_mean": 0.349135,
+        "selected_atom_margin_mean": -0.218856,
+        "num_novel_classes": 100
+      },
+      "alphas": {
+        "0.25": {
+          "full_acc": 73.024,
+          "full_base_acc": 79.19,
+          "full_novel_acc": 66.997,
+          "fused_only_acc": 72.282,
+          "fused_only_base_acc": 80.482,
+          "fused_only_novel_acc": 64.266,
+          "knn_only_acc": 56.559,
+          "knn_only_base_acc": 64.246,
+          "knn_only_novel_acc": 49.044
+        }
+      }
+    },
+    "prompt_atom__confuser_top1": {
+      "composer_stats": {
+        "selected_atom_alignment_mean": 0.348259,
+        "selected_atom_margin_mean": -0.189194,
+        "num_novel_classes": 100
+      },
+      "alphas": {
+        "0.25": {
+          "full_acc": 73.024,
+          "full_base_acc": 79.26,
+          "full_novel_acc": 66.928,
+          "fused_only_acc": 72.368,
+          "fused_only_base_acc": 80.447,
+          "fused_only_novel_acc": 64.471,
+          "knn_only_acc": 56.559,
+          "knn_only_base_acc": 64.246,
+          "knn_only_novel_acc": 49.044
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+dataset: miniimagenet
+runtime_sec: 48.728
+semantic_oracle_gain: 0.58
+recovery_vs_semantic_oracle: 0.0172
+full.oracle_gain: 0.01
+full.changed_class_rate: 0.025
+full.mean_alpha_changed: 0.018
+fused_only.oracle_gain: 0.03
+fused_only.changed_class_rate: 0.075
+fused_only.mean_alpha_changed: 0.018

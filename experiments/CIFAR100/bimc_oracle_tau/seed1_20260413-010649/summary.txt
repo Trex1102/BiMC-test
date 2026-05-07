@@ -1,0 +1,26 @@
+dataset: CIFAR100
+trainer: bimc_oracle_tau
+seed: 1
+runtime_sec: 106.615
+final_acc: 72.47
+final_harmonic_acc: 71.36
+final_nll: 4.441406
+final_brier: 0.986328
+final_ece: 0.71279
+acc_list: [79.62, 77.97, 77.23, 75.4, 74.71, 74.25, 74.47, 73.46, 72.47]
+task-wise acc:
+beta_prior: 0.65
+oracle_mode: tau
+oracle_search_metric: acc
+oracle_beta: 0.65
+oracle_delta: 0.0
+oracle_tau: 0.5
+task  0: [79.62]
+task  1: [79.37, 61.2]
+task  2: [78.75, 59.0, 77.2]
+task  3: [78.0, 57.2, 74.6, 63.2]
+task  4: [77.55, 57.8, 74.0, 62.8, 70.2]
+task  5: [77.18, 56.0, 73.8, 62.4, 69.8, 74.0]
+task  6: [76.95, 58.8, 74.0, 63.6, 69.6, 75.0, 76.0]
+task  7: [76.72, 54.2, 74.4, 61.6, 69.6, 72.6, 76.2, 66.6]
+task  8: [75.88, 55.2, 72.4, 60.4, 65.8, 73.2, 75.2, 67.0, 69.6]

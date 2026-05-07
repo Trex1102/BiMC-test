@@ -1,0 +1,6 @@
+dataset: miniimagenet
+baseline_full_acc: 92.61
+cpr_full_acc: 92.65
+final_full_acc: 92.61
+final_gain: 0.0
+gain_over_cpr: -0.04

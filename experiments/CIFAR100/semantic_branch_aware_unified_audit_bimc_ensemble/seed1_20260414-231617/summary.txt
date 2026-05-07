@@ -1,0 +1,11 @@
+dataset: CIFAR100
+runtime_sec: 111.175
+threshold: 0.25
+alpha_bank: 0.25
+alpha_compose: 0.25
+diverse_branch_rate: 0.0
+compose_branch_rate: 1.0
+full_acc: 73.23
+full_base_acc: 77.9
+full_novel_acc: 66.225
+fused_only_novel_acc: 68.525

@@ -1,0 +1,84 @@
+{
+  "dataset": "miniimagenet",
+  "train_cfg": "configs/trainers/bimc_ensemble.yaml",
+  "runtime_sec": 69.476,
+  "episodes": {
+    "train": 60,
+    "val": 15,
+    "test": 15
+  },
+  "num_base_classes": 60,
+  "pseudo_novel_per_episode": 5,
+  "split_classes": {
+    "train": 42,
+    "val": 9,
+    "test": 9
+  },
+  "split_summary": {
+    "train": {
+      "num_candidates": 6000,
+      "num_positive": 567,
+      "num_negative": 2882,
+      "num_neutral": 2551
+    },
+    "val": {
+      "num_candidates": 1500,
+      "num_positive": 124,
+      "num_negative": 841,
+      "num_neutral": 535
+    },
+    "test": {
+      "num_candidates": 1500,
+      "num_positive": 107,
+      "num_negative": 679,
+      "num_neutral": 714
+    }
+  },
+  "probe": {
+    "val_loss": 2.60834,
+    "train_positive_rate": 0.1644,
+    "test_pearson_gain": 0.1929,
+    "test_precision_at_10pct": 0.0759,
+    "test_precision_at_20pct": 0.121
+  },
+  "thresholds": {
+    "class_local": {
+      "threshold": 0.95,
+      "mode": "class_local",
+      "switched_classes": 1,
+      "switched_precision": 1.0,
+      "changed_class_rate": 0.0133,
+      "mean_episode_gain": 0.0033,
+      "oracle_top1_mean_gain": 0.0489
+    },
+    "session_top1": {
+      "threshold": 0.95,
+      "mode": "session_top1",
+      "switched_classes": 1,
+      "switched_precision": 1.0,
+      "changed_class_rate": 0.0133,
+      "mean_episode_gain": 0.0033,
+      "oracle_top1_mean_gain": 0.0489
+    }
+  },
+  "test_policy": {
+    "class_local": {
+      "threshold": 0.95,
+      "mode": "class_local",
+      "switched_classes": 0,
+      "switched_precision": 0.0,
+      "changed_class_rate": 0.0,
+      "mean_episode_gain": 0.0,
+      "oracle_top1_mean_gain": 0.0578
+    },
+    "session_top1": {
+      "threshold": 0.95,
+      "mode": "session_top1",
+      "switched_classes": 0,
+      "switched_precision": 0.0,
+      "changed_class_rate": 0.0,
+      "mean_episode_gain": 0.0,
+      "oracle_top1_mean_gain": 0.0578
+    }
+  }
+}

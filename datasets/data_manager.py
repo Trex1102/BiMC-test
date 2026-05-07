@@ -18,6 +18,7 @@ class DatasetManager:
         self.num_inc_cls     = cfg.DATASET.NUM_INC_CLS
         self.num_base_shot   = cfg.DATASET.NUM_BASE_SHOT
         self.num_inc_shot    = cfg.DATASET.NUM_INC_SHOT
+        self.low_res_size    = cfg.DATASET.LOW_RES_SIZE
         
         # training setting of data
         self.num_workers     = cfg.DATALOADER.NUM_WORKERS
@@ -185,19 +186,34 @@ class DatasetManager:
         img_size = 224
         MEAN = [0.48145466, 0.4578275, 0.40821073]
         STD  = [0.26862954, 0.26130258, 0.27577711]
-        train_transform  = transforms.Compose([
-            # transforms.RandomResizedCrop(img_size, scale=(0.5, 1), interpolation=transforms.InterpolationMode.BICUBIC),
+        train_ops = [
             transforms.RandomResizedCrop((img_size, img_size), scale=(0.08, 1.0), ratio=(0.75, 1.333), interpolation=transforms.InterpolationMode.BICUBIC, antialias=None),
             transforms.RandomHorizontalFlip(p=0.5),
-            transforms.ToTensor(),
-            transforms.Normalize(MEAN, STD),
-        ])
-        test_transform = transforms.Compose([
+        ]
+        test_ops = [
             transforms.Resize(img_size, interpolation=transforms.InterpolationMode.BICUBIC),
             transforms.CenterCrop(img_size),
+        ]
+
+        if self.low_res_size and self.low_res_size > 0:
+            degrade_ops = [
+                transforms.Resize((self.low_res_size, self.low_res_size), interpolation=transforms.InterpolationMode.BICUBIC),
+                transforms.Resize((img_size, img_size), interpolation=transforms.InterpolationMode.BICUBIC),
+            ]
+            train_ops.extend(degrade_ops)
+            test_ops.extend(degrade_ops)
+
+        train_ops.extend([
             transforms.ToTensor(),
             transforms.Normalize(MEAN, STD),
         ])
+        test_ops.extend([
+            transforms.ToTensor(),
+            transforms.Normalize(MEAN, STD),
+        ])
+
+        train_transform = transforms.Compose(train_ops)
+        test_transform = transforms.Compose(test_ops)
         return train_transform, test_transform
     
 

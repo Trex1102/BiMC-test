@@ -1,0 +1,16 @@
+dataset: CIFAR100
+runtime_sec: 46.764
+prompt_only.oracle_gain: 0.26
+prompt_only.changed_class_rate: 0.25
+desc_mean_only.oracle_gain: 0.13
+desc_mean_only.changed_class_rate: 0.2
+desc_atom_direct.oracle_gain: 0.8
+desc_atom_direct.changed_class_rate: 0.775
+prompt_desc_atom.oracle_gain: 0.7
+prompt_desc_atom.changed_class_rate: 0.425
+base_anchor_family.oracle_gain: 0.38
+base_anchor_family.changed_class_rate: 0.35
+prompt_desc_composer.oracle_gain: 0.76
+prompt_desc_composer.changed_class_rate: 0.6
+full.oracle_gain: 1.0
+full.changed_class_rate: 0.625

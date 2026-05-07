@@ -1,0 +1,49 @@
+dataset: cub200
+train_cfg: configs/trainers/bimc_ensemble.yaml
+runtime_sec: 120.438
+recommendation: pivot_option2
+strong_signal_count: 0
+conditions:
+  hubness_growth: False
+  occurrence_skew_growth: False
+  density_imbalance: False
+  prototype_crowding: False
+  margin_collapse: False
+final_metrics:
+  task_id: 10
+  num_seen_classes: 200
+  num_base_classes: 100
+  beta_prior: 0.3
+  hubness_skew: 0.9320306770366806
+  k_occurrence_gini: 0.2242778736624096
+  k_occurrence_max_over_mean: 2.878840179496011
+  base_local_density: 9.664220884435855
+  novel_local_density: 10.0830259902063
+  base_novel_density_ratio: 0.9584643433253833
+  novel_nearest_base_rate: 0.09000000357627869
+  novel_base_neighbor_fraction: 0.1720000058412552
+  novel_base_neighbor_excess: -0.3279999941587448
+  base_class_prior: 0.5
+  novel_margin_mean: 0.0002909954928327352
+  novel_margin_median: 0.000306679867208004
+  novel_margin_violation_rate: 0.046666666865348816
+  novel_margin_severe_rate: 0.0
+base_metrics:
+  task_id: 0
+  num_seen_classes: 100
+  num_base_classes: 100
+  beta_prior: 0.3
+  hubness_skew: 0.639926293068291
+  k_occurrence_gini: 0.228949720670391
+  k_occurrence_max_over_mean: 2.2486033519552917
+  base_local_density: 9.6642212261385
+  novel_local_density: 0.0
+  base_novel_density_ratio: 1.0
+  novel_nearest_base_rate: 0.0
+  novel_base_neighbor_fraction: 0.0
+  novel_base_neighbor_excess: 0.0
+  base_class_prior: 1.0
+  novel_margin_mean: -2.5261713744839653e-05
+  novel_margin_median: 0.0
+  novel_margin_violation_rate: 1.0
+  novel_margin_severe_rate: 0.0

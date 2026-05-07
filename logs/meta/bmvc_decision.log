@@ -1,0 +1,32 @@
+{
+  "mode": "bmvc",
+  "train_cfg_stem": "bimc_ensemble",
+  "datasets": [
+    {
+      "dataset": "CIFAR100",
+      "baseline_acc": 73.24,
+      "method_acc": 68.59,
+      "method_gain": -4.65,
+      "oracle_gain": 1.05,
+      "recovery_rate": -4.4286,
+      "recommendation": "kill_direction"
+    },
+    {
+      "dataset": "miniimagenet",
+      "baseline_acc": 92.45,
+      "method_acc": 92.07,
+      "method_gain": -0.38,
+      "oracle_gain": 0.58,
+      "recovery_rate": -0.6552,
+      "recommendation": "kill_direction"
+    }
+  ],
+  "kill_switch": {
+    "decision": "kill_direction",
+    "continue_flag": false,
+    "non_negative_all": false,
+    "strong_datasets": 0,
+    "mean_gain": -2.515,
+    "mean_recovery": -2.5419
+  }
+}

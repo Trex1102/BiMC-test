@@ -1,0 +1,11 @@
+dataset: miniimagenet
+baseline_full_acc: 92.45
+best_global_gain: 0.36
+oracle_gain: 0.58
+best_gate_mass_thr: 0.3
+best_gate_top_novel_thr: 0.0
+best_gate_margin_thr: 0.0
+best_gate_gated_query_count: 3935
+best_gate_gated_base_count: 156
+best_gate_gated_novel_count: 3779
+best_gate_novel_recall: 0.9447

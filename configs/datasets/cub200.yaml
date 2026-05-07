@@ -1,5 +1,5 @@
 DATASET:
-  NAME: "CUB200"
+  NAME: "CUB_200_2011"
   ROOT: "dataset/CUB_200_2011/"
   GPT_PATH: "description/modified_cub200_output.json"
   NUM_CLASSES: 200

@@ -1,0 +1,11 @@
+dataset: cub200
+baseline_full_acc: 72.765
+global_best_alpha: 1.0
+global_best_gain: 7.093
+oracle_full_acc: 80.566
+oracle_gain: 7.801
+baseline_base_acc: 79.155
+baseline_novel_acc: 66.519
+oracle_base_acc: 79.015
+oracle_novel_acc: 82.082
+changed_class_rate: 0.87

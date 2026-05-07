@@ -1,0 +1,10 @@
+dataset: CIFAR100
+session 0: baseline=82.117 qpr=82.117 cpr=82.117 cpr_qpr=82.117
+session 1: baseline=79.754 qpr=79.831 cpr=79.754 cpr_qpr=79.831
+session 2: baseline=78.929 qpr=78.786 cpr=78.929 cpr_qpr=78.786
+session 3: baseline=77.013 qpr=76.853 cpr=77.013 cpr_qpr=76.853
+session 4: baseline=76.150 qpr=76.050 cpr=76.150 cpr_qpr=76.050
+session 5: baseline=75.788 qpr=75.776 cpr=75.788 cpr_qpr=75.776
+session 6: baseline=75.433 qpr=75.456 cpr=75.578 cpr_qpr=75.722
+session 7: baseline=74.705 qpr=74.874 cpr=74.842 cpr_qpr=74.989
+session 8: baseline=73.240 qpr=73.320 cpr=73.340 cpr_qpr=73.480

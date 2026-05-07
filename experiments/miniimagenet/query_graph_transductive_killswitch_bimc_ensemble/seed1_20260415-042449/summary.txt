@@ -1,0 +1,12 @@
+dataset: miniimagenet
+baseline_full_acc: 92.46
+transductive_oracle_full_acc: 92.26
+transductive_oracle_gain: -0.2
+routed_anchor_gain: 0.0
+discrete_oracle_gain: 0.66
+baseline_base_acc: 93.483
+baseline_novel_acc: 90.925
+transductive_oracle_base_acc: 93.5
+transductive_oracle_novel_acc: 90.4
+mean_alpha_base: 0.6
+mean_alpha_novel: 0.6

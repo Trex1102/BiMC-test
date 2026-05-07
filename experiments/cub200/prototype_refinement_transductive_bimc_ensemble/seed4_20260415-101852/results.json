@@ -1,0 +1,57 @@
+{
+  "dataset": "cub200",
+  "train_cfg": "configs/trainers/bimc_ensemble.yaml",
+  "runtime_sec": 53.645,
+  "num_seen_classes": 200,
+  "num_base_classes": 100,
+  "beta": 0.3,
+  "lambda_t": 0.5,
+  "ensemble_alpha": 0.8,
+  "num_iters": 3,
+  "quota_multiplier": 1.0,
+  "proto_alpha": 0.75,
+  "sinkhorn_tau": 0.5,
+  "sinkhorn_iters": 50,
+  "baseline_full_acc": 73.179,
+  "baseline_base_acc": 79.469,
+  "baseline_novel_acc": 67.031,
+  "final_full_acc": 67.535,
+  "final_base_acc": 76.257,
+  "final_novel_acc": 59.01,
+  "final_gain": -5.644,
+  "history": [
+    {
+      "iter": 1,
+      "full_acc": 67.553,
+      "base_acc": 76.257,
+      "novel_acc": 59.044,
+      "novel_quota": 2900,
+      "per_class_quota": 29,
+      "mean_class_mass": 29.0,
+      "std_class_mass": 0.0
+    },
+    {
+      "iter": 2,
+      "full_acc": 67.535,
+      "base_acc": 76.257,
+      "novel_acc": 59.01,
+      "novel_quota": 2900,
+      "per_class_quota": 29,
+      "mean_class_mass": 29.0,
+      "std_class_mass": 0.0
+    },
+    {
+      "iter": 3,
+      "full_acc": 67.535,
+      "base_acc": 76.257,
+      "novel_acc": 59.01,
+      "novel_quota": 2900,
+      "per_class_quota": 29,
+      "mean_class_mass": 29.0,
+      "std_class_mass": 0.0
+    }
+  ],
+  "rectification_oracle_gain": 7.801,
+  "rectification_oracle_path": "/media/bio/data/BiMC-test/experiments/cub200/prototype_rectification_killswitch_bimc_ensemble/seed1_20260415-043941",
+  "recovery_vs_oracle": -72.3
+}

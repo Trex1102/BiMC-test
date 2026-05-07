@@ -1,0 +1,2 @@
+manual seed: 1
+use gpu: ['0']

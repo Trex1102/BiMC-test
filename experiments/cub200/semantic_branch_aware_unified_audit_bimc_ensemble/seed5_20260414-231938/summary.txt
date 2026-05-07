@@ -1,0 +1,11 @@
+dataset: cub200
+runtime_sec: 41.85
+threshold: 0.25
+alpha_bank: 0.25
+alpha_compose: 0.25
+diverse_branch_rate: 0.0
+compose_branch_rate: 1.0
+full_acc: 72.661
+full_base_acc: 79.085
+full_novel_acc: 66.382
+fused_only_novel_acc: 63.959

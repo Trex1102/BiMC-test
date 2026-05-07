@@ -1,0 +1,5 @@
+{
+  "dataset": "CIFAR100",
+  "train_cfg": "configs/trainers/bimc_ensemble.yaml",
+  "runtime_sec": 45.612,
+  "num_seen_classes": 

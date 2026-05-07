@@ -1,0 +1,20 @@
+{
+  "dataset": "cub200",
+  "train_cfg": "configs/trainers/bimc_ensemble.yaml",
+  "runtime_sec": 59.388,
+  "num_seen_classes": 200,
+  "num_base_classes": 100,
+  "num_novel_classes": 100,
+  "target_novel_mass": 0.5,
+  "t_base": 0.75,
+  "t_novel": 0.75,
+  "delta": -0.0216,
+  "achieved_novel_mass": 0.5,
+  "baseline_full_acc": 72.575,
+  "baseline_base_acc": 78.422,
+  "baseline_novel_acc": 66.86,
+  "final_full_acc": 72.368,
+  "final_base_acc": 82.088,
+  "final_novel_acc": 62.867,
+  "final_gain": -0.207
+}

@@ -1,0 +1,48 @@
+{
+  "dataset": "CIFAR100",
+  "train_cfg": "configs/trainers/bimc_adaptive_ensemble.yaml",
+  "runtime_sec": 99.482,
+  "num_seen_classes": 100,
+  "num_base_classes": 60,
+  "beta": 0.65,
+  "lambda_t": 0.5,
+  "ensemble_alpha": 0.6,
+  "alpha_grid": [
+    0.5
+  ],
+  "mass_thr": 0.3,
+  "min_count": 5,
+  "topk_per_class": null,
+  "baseline_full_acc": 73.24,
+  "baseline_base_acc": 77.733,
+  "baseline_novel_acc": 66.5,
+  "best_alpha": 0.5,
+  "final_full_acc": 73.34,
+  "final_base_acc": 77.433,
+  "final_novel_acc": 67.2,
+  "final_gain": 0.1,
+  "updated_class_count": 40,
+  "updated_class_rate": 1.0,
+  "mean_queries_per_updated_class": 89.225,
+  "mean_selected_per_updated_class": 89.225,
+  "gated_query_count": 3569,
+  "gated_base_count": 438,
+  "gated_novel_count": 3131,
+  "conservative_oracle_gain": null,
+  "conservative_oracle_path": null,
+  "alpha_sweep": [
+    {
+      "alpha": 0.5,
+      "full_acc": 73.34,
+      "base_acc": 77.433,
+      "novel_acc": 67.2,
+      "gain": 0.1,
+      "updated_class_count": 40,
+      "updated_class_rate": 1.0,
+      "mean_queries_per_updated_class": 89.225,
+      "mean_selected_per_updated_class": 89.225,
+      "gated_query_count": 3569,
+      "gated_novel_count": 3131
+    }
+  ]
+}

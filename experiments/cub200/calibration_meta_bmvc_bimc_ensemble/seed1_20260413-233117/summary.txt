@@ -1,0 +1,19 @@
+dataset: cub200
+train_cfg: configs/trainers/bimc_ensemble.yaml
+mode: bmvc
+runtime_sec: 146.573
+baseline_acc: 72.765
+method_acc: 42.82
+oracle_acc: 72.765
+method_gain: -29.945
+oracle_gain: 0.0
+recovery_rate: None
+recommendation: kill_direction
+baseline_nll: 5.160137
+method_nll: 5.106673
+oracle_nll: 5.024411
+val_param_mae: 0.159699
+val_episode_gain: -1.8571
+predicted_params: {'beta': 0.3, 'alpha_base': 0.0, 'alpha_novel': 0.0, 'delta': 0.0, 'tau': 0.5}
+method_params: {'beta': 0.3, 'alpha_base': 0.0, 'alpha_novel': 0.0, 'delta': 0.0, 'tau': 0.5}
+oracle_params: {'beta': 0.3, 'alpha_base': 0.8, 'alpha_novel': 0.8, 'delta': 0.0, 'tau': 0.5}

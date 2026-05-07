@@ -1,0 +1,68 @@
+/media/bio/data/BiMC-test/models/clip/clip.py:23: UserWarning: PyTorch version 1.7.1 or higher is recommended
+  warnings.warn("PyTorch version 1.7.1 or higher is recommended")
+manual seed: 1
+use gpu: ['0']
+Files already downloaded and verified
+Files already downloaded and verified
+Loading CLIP (backbone: ViT-B/16)
+Prompt template:['a photo of a {}.']
+class names: ['apple' 'aquarium fish' 'baby' 'bear' 'beaver' 'bed' 'bee' 'beetle'
+ 'bicycle' 'bottle' 'bowl' 'boy' 'bridge' 'bus' 'butterfly' 'camel' 'can'
+ 'castle' 'caterpillar' 'cattle' 'chair' 'chimpanzee' 'clock' 'cloud'
+ 'cockroach' 'couch' 'crab' 'crocodile' 'cup' 'dinosaur' 'dolphin'
+ 'elephant' 'flatfish' 'forest' 'fox' 'girl' 'hamster' 'house' 'kangaroo'
+ 'keyboard' 'lamp' 'lawn mower' 'leopard' 'lion' 'lizard' 'lobster' 'man'
+ 'maple tree' 'motorcycle' 'mountain' 'mouse' 'mushroom' 'oak tree'
+ 'orange' 'orchid' 'otter' 'palm tree' 'pear' 'pickup truck' 'pine tree']
+all targets:tensor([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16, 17,
+        18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35,
+        36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53,
+        54, 55, 56, 57, 58, 59], device='cuda:0')
+finish loading covariance
+task=0 | hubness=0.734 | gini=0.212 | density_ratio=1.000 | crowding_excess=0.000 | margin_violation=1.000
+class names: ['plain' 'plate' 'poppy' 'porcupine' 'possum']
+all targets:tensor([60, 61, 62, 63, 64], device='cuda:0')
+calibrate vision proto on class [[60 61 62 63 64]]
+finish loading covariance
+task=1 | hubness=0.820 | gini=0.213 | density_ratio=1.029 | crowding_excess=-0.003 | margin_violation=0.418
+class names: ['rabbit' 'raccoon' 'ray' 'road' 'rocket']
+all targets:tensor([65, 66, 67, 68, 69], device='cuda:0')
+calibrate vision proto on class [[65 66 67 68 69]]
+finish loading covariance
+task=2 | hubness=0.800 | gini=0.211 | density_ratio=1.041 | crowding_excess=0.003 | margin_violation=0.222
+class names: ['rose' 'sea' 'seal' 'shark' 'shrew']
+all targets:tensor([70, 71, 72, 73, 74], device='cuda:0')
+calibrate vision proto on class [[70 71 72 73 74]]
+finish loading covariance
+task=3 | hubness=0.955 | gini=0.204 | density_ratio=0.988 | crowding_excess=-0.107 | margin_violation=0.350
+class names: ['skunk' 'skyscraper' 'snail' 'snake' 'spider']
+all targets:tensor([75, 76, 77, 78, 79], device='cuda:0')
+calibrate vision proto on class [[75 76 77 78 79]]
+finish loading covariance
+task=4 | hubness=0.950 | gini=0.204 | density_ratio=1.009 | crowding_excess=-0.100 | margin_violation=0.288
+class names: ['squirrel' 'streetcar' 'sunflower' 'sweet pepper' 'table']
+all targets:tensor([80, 81, 82, 83, 84], device='cuda:0')
+calibrate vision proto on class [[80 81 82 83 84]]
+finish loading covariance
+task=5 | hubness=0.889 | gini=0.199 | density_ratio=1.000 | crowding_excess=-0.098 | margin_violation=0.222
+class names: ['tank' 'telephone' 'television' 'tiger' 'tractor']
+all targets:tensor([85, 86, 87, 88, 89], device='cuda:0')
+calibrate vision proto on class [[85 86 87 88 89]]
+finish loading covariance
+task=6 | hubness=0.831 | gini=0.197 | density_ratio=1.011 | crowding_excess=-0.047 | margin_violation=0.216
+class names: ['train' 'trout' 'tulip' 'turtle' 'wardrobe']
+all targets:tensor([90, 91, 92, 93, 94], device='cuda:0')
+calibrate vision proto on class [[90 91 92 93 94]]
+finish loading covariance
+task=7 | hubness=0.904 | gini=0.198 | density_ratio=1.010 | crowding_excess=-0.060 | margin_violation=0.246
+class names: ['whale' 'willow tree' 'wolf' 'woman' 'worm']
+all targets:tensor([95, 96, 97, 98, 99], device='cuda:0')
+calibrate vision proto on class [[95 96 97 98 99]]
+finish loading covariance
+task=8 | hubness=0.945 | gini=0.202 | density_ratio=1.010 | crowding_excess=-0.050 | margin_violation=0.348
+Saved diagnostics to: /media/bio/data/BiMC-test/experiments/CIFAR100/geometry_killswitch_bimc_ensemble/seed1_20260413-021119
+{
+  "dataset": "CIFAR100",
+  "recommendation": "pivot_option2",
+  "strong_signal_count": 0
+}

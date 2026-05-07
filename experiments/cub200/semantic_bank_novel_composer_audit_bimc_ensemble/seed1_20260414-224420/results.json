@@ -1,0 +1,501 @@
+{
+  "dataset": "cub200",
+  "train_cfg": "configs/trainers/bimc_ensemble.yaml",
+  "runtime_sec": 45.618,
+  "compose_modes": [
+    "desc_atom_only",
+    "prompt_desc_atom",
+    "prompt_atom"
+  ],
+  "strategies": [
+    "image_top1",
+    "prompt_top1",
+    "confuser_top1"
+  ],
+  "alphas": [
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "confuser_topk": 3,
+  "results": {
+    "desc_atom_only__image_top1": {
+      "composer_stats": {
+        "selected_atom_alignment_mean": 0.361199,
+        "selected_atom_margin_mean": -0.204409,
+        "num_novel_classes": 100
+      },
+      "alphas": {
+        "0.25": {
+          "full_acc": 72.782,
+          "full_base_acc": 79.155,
+          "full_novel_acc": 66.553,
+          "fused_only_acc": 72.799,
+          "fused_only_base_acc": 80.307,
+          "fused_only_novel_acc": 65.461,
+          "knn_only_acc": 56.559,
+          "knn_only_base_acc": 64.246,
+          "knn_only_novel_acc": 49.044
+        },
+        "0.5": {
+          "full_acc": 72.661,
+          "full_base_acc": 79.05,
+          "full_novel_acc": 66.416,
+          "fused_only_acc": 72.868,
+          "fused_only_base_acc": 80.237,
+          "fused_only_novel_acc": 65.666,
+          "knn_only_acc": 56.559,
+          "knn_only_base_acc": 64.246,
+          "knn_only_novel_acc": 49.044
+        },
+        "0.75": {
+          "full_acc": 72.696,
+          "full_base_acc": 79.05,
+          "full_novel_acc": 66.485,
+          "fused_only_acc": 72.592,
+          "fused_only_base_acc": 80.307,
+          "fused_only_novel_acc": 65.051,
+          "knn_only_acc": 56.559,
+          "knn_only_base_acc": 64.246,
+          "knn_only_novel_acc": 49.044
+        },
+        "1.0": {
+          "full_acc": 72.402,
+          "full_base_acc": 78.946,
+          "full_novel_acc": 66.007,
+          "fused_only_acc": 72.523,
+          "fused_only_base_acc": 80.272,
+          "fused_only_novel_acc": 64.949,
+          "knn_only_acc": 56.559,
+          "knn_only_base_acc": 64.246,
+          "knn_only_novel_acc": 49.044
+        }
+      }
+    },
+    "desc_atom_only__prompt_top1": {
+      "composer_stats": {
+        "selected_atom_alignment_mean": 0.348944,
+        "selected_atom_margin_mean": -0.218062,
+        "num_novel_classes": 100
+      },
+      "alphas": {
+        "0.25": {
+          "full_acc": 72.696,
+          "full_base_acc": 79.26,
+          "full_novel_acc": 66.28,
+          "fused_only_acc": 72.575,
+          "fused_only_base_acc": 80.342,
+          "fused_only_novel_acc": 64.983,
+          "knn_only_acc": 56.559,
+          "knn_only_base_acc": 64.246,
+          "knn_only_novel_acc": 49.044
+        },
+        "0.5": {
+          "full_acc": 72.541,
+          "full_base_acc": 79.295,
+          "full_novel_acc": 65.939,
+          "fused_only_acc": 72.489,
+          "fused_only_base_acc": 80.342,
+          "fused_only_novel_acc": 64.812,
+          "knn_only_acc": 56.559,
+          "knn_only_base_acc": 64.246,
+          "knn_only_novel_acc": 49.044
+        },
+        "0.75": {
+          "full_acc": 72.523,
+          "full_base_acc": 79.33,
+          "full_novel_acc": 65.87,
+          "fused_only_acc": 72.437,
+          "fused_only_base_acc": 80.447,
+          "fused_only_novel_acc": 64.608,
+          "knn_only_acc": 56.559,
+          "knn_only_base_acc": 64.246,
+          "knn_only_novel_acc": 49.044
+        },
+        "1.0": {
+          "full_acc": 72.385,
+          "full_base_acc": 79.434,
+          "full_novel_acc": 65.495,
+          "fused_only_acc": 72.351,
+          "fused_only_base_acc": 80.447,
+          "fused_only_novel_acc": 64.437,
+          "knn_only_acc": 56.559,
+          "knn_only_base_acc": 64.246,
+          "knn_only_novel_acc": 49.044
+        }
+      }
+    },
+    "desc_atom_only__confuser_top1": {
+      "composer_stats": {
+        "selected_atom_alignment_mean": 0.350176,
+        "selected_atom_margin_mean": -0.18771,
+        "num_novel_classes": 100
+      },
+      "alphas": {
+        "0.25": {
+          "full_acc": 72.644,
+          "full_base_acc": 79.155,
+          "full_novel_acc": 66.28,
+          "fused_only_acc": 72.489,
+          "fused_only_base_acc": 80.307,
+          "fused_only_novel_acc": 64.846,
+          "knn_only_acc": 56.559,
+          "knn_only_base_acc": 64.246,
+          "knn_only_novel_acc": 49.044
+        },
+        "0.5": {
+          "full_acc": 72.523,
+          "full_base_acc": 79.015,
+          "full_novel_acc": 66.177,
+          "fused_only_acc": 72.523,
+          "fused_only_base_acc": 80.377,
+          "fused_only_novel_acc": 64.846,
+          "knn_only_acc": 56.559,
+          "knn_only_base_acc": 64.246,
+          "knn_only_novel_acc": 49.044
+        },
+        "0.75": {
+          "full_acc": 72.696,
+          "full_base_acc": 79.26,
+          "full_novel_acc": 66.28,
+          "fused_only_acc": 72.109,
+          "fused_only_base_acc": 80.482,
+          "fused_only_novel_acc": 63.925,
+          "knn_only_acc": 56.559,
+          "knn_only_base_acc": 64.246,
+          "knn_only_novel_acc": 49.044
+        },
+        "1.0": {
+          "full_acc": 72.368,
+          "full_base_acc": 79.365,
+          "full_novel_acc": 65.529,
+          "fused_only_acc": 71.85,
+          "fused_only_base_acc": 80.622,
+          "fused_only_novel_acc": 63.276,
+          "knn_only_acc": 56.559,
+          "knn_only_base_acc": 64.246,
+          "knn_only_novel_acc": 49.044
+        }
+      }
+    },
+    "prompt_desc_atom__image_top1": {
+      "composer_stats": {
+        "selected_atom_alignment_mean": 0.361199,
+        "selected_atom_margin_mean": -0.204409,
+        "num_novel_classes": 100
+      },
+      "alphas": {
+        "0.25": {
+          "full_acc": 72.748,
+          "full_base_acc": 79.225,
+          "full_novel_acc": 66.416,
+          "fused_only_acc": 72.592,
+          "fused_only_base_acc": 80.342,
+          "fused_only_novel_acc": 65.017,
+          "knn_only_acc": 56.559,
+          "knn_only_base_acc": 64.246,
+          "knn_only_novel_acc": 49.044
+        },
+        "0.5": {
+          "full_acc": 72.679,
+          "full_base_acc": 79.12,
+          "full_novel_acc": 66.382,
+          "fused_only_acc": 72.696,
+          "fused_only_base_acc": 80.307,
+          "fused_only_novel_acc": 65.256,
+          "knn_only_acc": 56.559,
+          "knn_only_base_acc": 64.246,
+          "knn_only_novel_acc": 49.044
+        },
+        "0.75": {
+          "full_acc": 72.765,
+          "full_base_acc": 79.225,
+          "full_novel_acc": 66.451,
+          "fused_only_acc": 72.765,
+          "fused_only_base_acc": 80.237,
+          "fused_only_novel_acc": 65.461,
+          "knn_only_acc": 56.559,
+          "knn_only_base_acc": 64.246,
+          "knn_only_novel_acc": 49.044
+        },
+        "1.0": {
+          "full_acc": 72.713,
+          "full_base_acc": 79.085,
+          "full_novel_acc": 66.485,
+          "fused_only_acc": 72.679,
+          "fused_only_base_acc": 80.237,
+          "fused_only_novel_acc": 65.29,
+          "knn_only_acc": 56.559,
+          "knn_only_base_acc": 64.246,
+          "knn_only_novel_acc": 49.044
+        }
+      }
+    },
+    "prompt_desc_atom__prompt_top1": {
+      "composer_stats": {
+        "selected_atom_alignment_mean": 0.348944,
+        "selected_atom_margin_mean": -0.218062,
+        "num_novel_classes": 100
+      },
+      "alphas": {
+        "0.25": {
+          "full_acc": 72.886,
+          "full_base_acc": 79.295,
+          "full_novel_acc": 66.621,
+          "fused_only_acc": 72.592,
+          "fused_only_base_acc": 80.412,
+          "fused_only_novel_acc": 64.949,
+          "knn_only_acc": 56.559,
+          "knn_only_base_acc": 64.246,
+          "knn_only_novel_acc": 49.044
+        },
+        "0.5": {
+          "full_acc": 72.817,
+          "full_base_acc": 79.33,
+          "full_novel_acc": 66.451,
+          "fused_only_acc": 72.61,
+          "fused_only_base_acc": 80.447,
+          "fused_only_novel_acc": 64.949,
+          "knn_only_acc": 56.559,
+          "knn_only_base_acc": 64.246,
+          "knn_only_novel_acc": 49.044
+        },
+        "0.75": {
+          "full_acc": 72.679,
+          "full_base_acc": 79.26,
+          "full_novel_acc": 66.246,
+          "fused_only_acc": 72.575,
+          "fused_only_base_acc": 80.377,
+          "fused_only_novel_acc": 64.949,
+          "knn_only_acc": 56.559,
+          "knn_only_base_acc": 64.246,
+          "knn_only_novel_acc": 49.044
+        },
+        "1.0": {
+          "full_acc": 72.782,
+          "full_base_acc": 79.33,
+          "full_novel_acc": 66.382,
+          "fused_only_acc": 72.437,
+          "fused_only_base_acc": 80.307,
+          "fused_only_novel_acc": 64.744,
+          "knn_only_acc": 56.559,
+          "knn_only_base_acc": 64.246,
+          "knn_only_novel_acc": 49.044
+        }
+      }
+    },
+    "prompt_desc_atom__confuser_top1": {
+      "composer_stats": {
+        "selected_atom_alignment_mean": 0.350176,
+        "selected_atom_margin_mean": -0.18771,
+        "num_novel_classes": 100
+      },
+      "alphas": {
+        "0.25": {
+          "full_acc": 72.782,
+          "full_base_acc": 79.295,
+          "full_novel_acc": 66.416,
+          "fused_only_acc": 72.575,
+          "fused_only_base_acc": 80.342,
+          "fused_only_novel_acc": 64.983,
+          "knn_only_acc": 56.559,
+          "knn_only_base_acc": 64.246,
+          "knn_only_novel_acc": 49.044
+        },
+        "0.5": {
+          "full_acc": 72.696,
+          "full_base_acc": 79.12,
+          "full_novel_acc": 66.416,
+          "fused_only_acc": 72.627,
+          "fused_only_base_acc": 80.342,
+          "fused_only_novel_acc": 65.085,
+          "knn_only_acc": 56.559,
+          "knn_only_base_acc": 64.246,
+          "knn_only_novel_acc": 49.044
+        },
+        "0.75": {
+          "full_acc": 72.592,
+          "full_base_acc": 79.155,
+          "full_novel_acc": 66.177,
+          "fused_only_acc": 72.472,
+          "fused_only_base_acc": 80.272,
+          "fused_only_novel_acc": 64.846,
+          "knn_only_acc": 56.559,
+          "knn_only_base_acc": 64.246,
+          "knn_only_novel_acc": 49.044
+        },
+        "1.0": {
+          "full_acc": 72.661,
+          "full_base_acc": 79.12,
+          "full_novel_acc": 66.348,
+          "fused_only_acc": 72.506,
+          "fused_only_base_acc": 80.272,
+          "fused_only_novel_acc": 64.915,
+          "knn_only_acc": 56.559,
+          "knn_only_base_acc": 64.246,
+          "knn_only_novel_acc": 49.044
+        }
+      }
+    },
+    "prompt_atom__image_top1": {
+      "composer_stats": {
+        "selected_atom_alignment_mean": 0.361199,
+        "selected_atom_margin_mean": -0.204409,
+        "num_novel_classes": 100
+      },
+      "alphas": {
+        "0.25": {
+          "full_acc": 72.799,
+          "full_base_acc": 79.085,
+          "full_novel_acc": 66.655,
+          "fused_only_acc": 72.661,
+          "fused_only_base_acc": 80.342,
+          "fused_only_novel_acc": 65.154,
+          "knn_only_acc": 56.559,
+          "knn_only_base_acc": 64.246,
+          "knn_only_novel_acc": 49.044
+        },
+        "0.5": {
+          "full_acc": 72.834,
+          "full_base_acc": 79.295,
+          "full_novel_acc": 66.519,
+          "fused_only_acc": 72.679,
+          "fused_only_base_acc": 80.342,
+          "fused_only_novel_acc": 65.188,
+          "knn_only_acc": 56.559,
+          "knn_only_base_acc": 64.246,
+          "knn_only_novel_acc": 49.044
+        },
+        "0.75": {
+          "full_acc": 72.73,
+          "full_base_acc": 79.19,
+          "full_novel_acc": 66.416,
+          "fused_only_acc": 72.644,
+          "fused_only_base_acc": 80.342,
+          "fused_only_novel_acc": 65.119,
+          "knn_only_acc": 56.559,
+          "knn_only_base_acc": 64.246,
+          "knn_only_novel_acc": 49.044
+        },
+        "1.0": {
+          "full_acc": 72.644,
+          "full_base_acc": 79.19,
+          "full_novel_acc": 66.246,
+          "fused_only_acc": 72.713,
+          "fused_only_base_acc": 80.307,
+          "fused_only_novel_acc": 65.29,
+          "knn_only_acc": 56.559,
+          "knn_only_base_acc": 64.246,
+          "knn_only_novel_acc": 49.044
+        }
+      }
+    },
+    "prompt_atom__prompt_top1": {
+      "composer_stats": {
+        "selected_atom_alignment_mean": 0.348944,
+        "selected_atom_margin_mean": -0.218062,
+        "num_novel_classes": 100
+      },
+      "alphas": {
+        "0.25": {
+          "full_acc": 72.679,
+          "full_base_acc": 79.225,
+          "full_novel_acc": 66.28,
+          "fused_only_acc": 72.558,
+          "fused_only_base_acc": 80.342,
+          "fused_only_novel_acc": 64.949,
+          "knn_only_acc": 56.559,
+          "knn_only_base_acc": 64.246,
+          "knn_only_novel_acc": 49.044
+        },
+        "0.5": {
+          "full_acc": 72.661,
+          "full_base_acc": 79.26,
+          "full_novel_acc": 66.212,
+          "fused_only_acc": 72.489,
+          "fused_only_base_acc": 80.342,
+          "fused_only_novel_acc": 64.812,
+          "knn_only_acc": 56.559,
+          "knn_only_base_acc": 64.246,
+          "knn_only_novel_acc": 49.044
+        },
+        "0.75": {
+          "full_acc": 72.73,
+          "full_base_acc": 79.33,
+          "full_novel_acc": 66.28,
+          "fused_only_acc": 72.489,
+          "fused_only_base_acc": 80.412,
+          "fused_only_novel_acc": 64.744,
+          "knn_only_acc": 56.559,
+          "knn_only_base_acc": 64.246,
+          "knn_only_novel_acc": 49.044
+        },
+        "1.0": {
+          "full_acc": 72.592,
+          "full_base_acc": 79.365,
+          "full_novel_acc": 65.973,
+          "fused_only_acc": 72.351,
+          "fused_only_base_acc": 80.377,
+          "fused_only_novel_acc": 64.505,
+          "knn_only_acc": 56.559,
+          "knn_only_base_acc": 64.246,
+          "knn_only_novel_acc": 49.044
+        }
+      }
+    },
+    "prompt_atom__confuser_top1": {
+      "composer_stats": {
+        "selected_atom_alignment_mean": 0.350176,
+        "selected_atom_margin_mean": -0.18771,
+        "num_novel_classes": 100
+      },
+      "alphas": {
+        "0.25": {
+          "full_acc": 72.868,
+          "full_base_acc": 79.26,
+          "full_novel_acc": 66.621,
+          "fused_only_acc": 72.592,
+          "fused_only_base_acc": 80.342,
+          "fused_only_novel_acc": 65.017,
+          "knn_only_acc": 56.559,
+          "knn_only_base_acc": 64.246,
+          "knn_only_novel_acc": 49.044
+        },
+        "0.5": {
+          "full_acc": 72.765,
+          "full_base_acc": 79.19,
+          "full_novel_acc": 66.485,
+          "fused_only_acc": 72.575,
+          "fused_only_base_acc": 80.342,
+          "fused_only_novel_acc": 64.983,
+          "knn_only_acc": 56.559,
+          "knn_only_base_acc": 64.246,
+          "knn_only_novel_acc": 49.044
+        },
+        "0.75": {
+          "full_acc": 72.834,
+          "full_base_acc": 79.19,
+          "full_novel_acc": 66.621,
+          "fused_only_acc": 72.627,
+          "fused_only_base_acc": 80.342,
+          "fused_only_novel_acc": 65.085,
+          "knn_only_acc": 56.559,
+          "knn_only_base_acc": 64.246,
+          "knn_only_novel_acc": 49.044
+        },
+        "1.0": {
+          "full_acc": 72.644,
+          "full_base_acc": 79.19,
+          "full_novel_acc": 66.246,
+          "fused_only_acc": 72.368,
+          "fused_only_base_acc": 80.377,
+          "fused_only_novel_acc": 64.539,
+          "knn_only_acc": 56.559,
+          "knn_only_base_acc": 64.246,
+          "knn_only_novel_acc": 49.044
+        }
+      }
+    }
+  }
+}

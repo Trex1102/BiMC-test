@@ -1,0 +1,193 @@
+{
+  "dataset": "CIFAR100",
+  "train_cfg": "configs/trainers/bimc_ensemble.yaml",
+  "runtime_sec": 187.124,
+  "threshold": 0.25,
+  "k": 3,
+  "alpha_bank": 0.25,
+  "alpha_compose": 0.25,
+  "confuser_topk": 3,
+  "compose_mode": "prompt_desc_atom",
+  "strategy": "prompt_top1",
+  "gate_stats": {
+    "novel_diversity_mean": 0.116196,
+    "diversity_threshold": 0.25,
+    "diverse_branch_rate": 0.0,
+    "compose_branch_rate": 1.0,
+    "diverse_branch_count": 0,
+    "compose_branch_count": 40
+  },
+  "metrics": {
+    "full_acc": 73.0,
+    "full_base_acc": 77.817,
+    "full_novel_acc": 65.775,
+    "fused_only_acc": 72.19,
+    "fused_only_base_acc": 74.9,
+    "fused_only_novel_acc": 68.125,
+    "knn_only_acc": 65.24,
+    "knn_only_base_acc": 66.417,
+    "knn_only_novel_acc": 63.475
+  },
+  "branch_details": {
+    "60": {
+      "branch": "compose_branch",
+      "diversity": 0.109558
+    },
+    "61": {
+      "branch": "compose_branch",
+      "diversity": 0.12854
+    },
+    "62": {
+      "branch": "compose_branch",
+      "diversity": 0.1604
+    },
+    "63": {
+      "branch": "compose_branch",
+      "diversity": 0.066833
+    },
+    "64": {
+      "branch": "compose_branch",
+      "diversity": 0.106995
+    },
+    "65": {
+      "branch": "compose_branch",
+      "diversity": 0.141724
+    },
+    "66": {
+      "branch": "compose_branch",
+      "diversity": 0.116333
+    },
+    "67": {
+      "branch": "compose_branch",
+      "diversity": 0.135498
+    },
+    "68": {
+      "branch": "compose_branch",
+      "diversity": 0.135864
+    },
+    "69": {
+      "branch": "compose_branch",
+      "diversity": 0.127075
+    },
+    "70": {
+      "branch": "compose_branch",
+      "diversity": 0.100769
+    },
+    "71": {
+      "branch": "compose_branch",
+      "diversity": 0.122375
+    },
+    "72": {
+      "branch": "compose_branch",
+      "diversity": 0.132935
+    },
+    "73": {
+      "branch": "compose_branch",
+      "diversity": 0.104614
+    },
+    "74": {
+      "branch": "compose_branch",
+      "diversity": 0.074951
+    },
+    "75": {
+      "branch": "compose_branch",
+      "diversity": 0.089722
+    },
+    "76": {
+      "branch": "compose_branch",
+      "diversity": 0.130249
+    },
+    "77": {
+      "branch": "compose_branch",
+      "diversity": 0.089844
+    },
+    "78": {
+      "branch": "compose_branch",
+      "diversity": 0.103516
+    },
+    "79": {
+      "branch": "compose_branch",
+      "diversity": 0.117859
+    },
+    "80": {
+      "branch": "compose_branch",
+      "diversity": 0.109558
+    },
+    "81": {
+      "branch": "compose_branch",
+      "diversity": 0.121094
+    },
+    "82": {
+      "branch": "compose_branch",
+      "diversity": 0.097046
+    },
+    "83": {
+      "branch": "compose_branch",
+      "diversity": 0.072205
+    },
+    "84": {
+      "branch": "compose_branch",
+      "diversity": 0.146973
+    },
+    "85": {
+      "branch": "compose_branch",
+      "diversity": 0.09259
+    },
+    "86": {
+      "branch": "compose_branch",
+      "diversity": 0.116943
+    },
+    "87": {
+      "branch": "compose_branch",
+      "diversity": 0.111267
+    },
+    "88": {
+      "branch": "compose_branch",
+      "diversity": 0.161255
+    },
+    "89": {
+      "branch": "compose_branch",
+      "diversity": 0.105774
+    },
+    "90": {
+      "branch": "compose_branch",
+      "diversity": 0.141724
+    },
+    "91": {
+      "branch": "compose_branch",
+      "diversity": 0.107178
+    },
+    "92": {
+      "branch": "compose_branch",
+      "diversity": 0.090698
+    },
+    "93": {
+      "branch": "compose_branch",
+      "diversity": 0.108215
+    },
+    "94": {
+      "branch": "compose_branch",
+      "diversity": 0.087585
+    },
+    "95": {
+      "branch": "compose_branch",
+      "diversity": 0.114746
+    },
+    "96": {
+      "branch": "compose_branch",
+      "diversity": 0.071716
+    },
+    "97": {
+      "branch": "compose_branch",
+      "diversity": 0.131348
+    },
+    "98": {
+      "branch": "compose_branch",
+      "diversity": 0.230103
+    },
+    "99": {
+      "branch": "compose_branch",
+      "diversity": 0.134155
+    }
+  }
+}

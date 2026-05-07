@@ -1,0 +1,49 @@
+{
+  "dataset": "cub200",
+  "train_cfg": "configs/trainers/bimc_ensemble.yaml",
+  "runtime_sec": 53.535,
+  "num_seen_classes": 200,
+  "num_base_classes": 100,
+  "beta": 0.3,
+  "lambda_t": 0.5,
+  "ensemble_alpha": 0.8,
+  "alpha_grid": [
+    0.5
+  ],
+  "mass_thr": 0.3,
+  "min_count": 5,
+  "topk_per_class": 8,
+  "baseline_full_acc": 72.765,
+  "baseline_base_acc": 79.155,
+  "baseline_novel_acc": 66.519,
+  "best_alpha": 0.5,
+  "final_full_acc": 73.076,
+  "final_base_acc": 79.085,
+  "final_novel_acc": 67.201,
+  "final_gain": 0.311,
+  "updated_class_count": 99,
+  "updated_class_rate": 0.99,
+  "mean_queries_per_updated_class": 30.303,
+  "mean_selected_per_updated_class": 8.0,
+  "gated_query_count": 3004,
+  "gated_base_count": 164,
+  "gated_novel_count": 2840,
+  "conservative_oracle_gain": 7.542,
+  "conservative_oracle_path": "/media/bio/data/BiMC-test/experiments/cub200/prototype_conservative_rectification_killswitch_bimc_ensemble/seed1_20260415-050346",
+  "alpha_sweep": [
+    {
+      "alpha": 0.5,
+      "full_acc": 73.076,
+      "base_acc": 79.085,
+      "novel_acc": 67.201,
+      "gain": 0.311,
+      "updated_class_count": 99,
+      "updated_class_rate": 0.99,
+      "mean_queries_per_updated_class": 30.303,
+      "mean_selected_per_updated_class": 8.0,
+      "gated_query_count": 3004,
+      "gated_novel_count": 2840
+    }
+  ],
+  "recovery_vs_oracle": 4.1
+}

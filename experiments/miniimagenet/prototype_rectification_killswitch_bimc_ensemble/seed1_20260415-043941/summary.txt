@@ -1,0 +1,11 @@
+dataset: miniimagenet
+baseline_full_acc: 92.45
+global_best_alpha: 1.0
+global_best_gain: 0.45
+oracle_full_acc: 93.11
+oracle_gain: 0.66
+baseline_base_acc: 93.4
+baseline_novel_acc: 91.025
+oracle_base_acc: 93.05
+oracle_novel_acc: 93.2
+changed_class_rate: 0.5

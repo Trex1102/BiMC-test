@@ -1,0 +1,14 @@
+dataset: miniimagenet
+baseline_full_acc: 92.46
+trainable_full_acc: 92.27
+trainable_gain: -0.19
+graph_oracle_gain: 0.11
+baseline_base_acc: 93.483
+baseline_novel_acc: 90.925
+trainable_base_acc: 93.467
+trainable_novel_acc: 90.475
+mean_alpha_base: 0.6372
+mean_alpha_novel: 0.6054
+std_alpha_base: 0.0142
+std_alpha_novel: 0.0068
+best_val_acc: 95.467

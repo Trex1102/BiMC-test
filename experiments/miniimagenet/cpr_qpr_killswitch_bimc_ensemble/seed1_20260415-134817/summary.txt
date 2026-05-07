@@ -1,0 +1,7 @@
+dataset: miniimagenet
+baseline_full_acc: 92.45
+cpr_full_acc: 92.6
+cpr_gain: 0.15
+known_ratio_best_gain_over_cpr: 0.02
+oracle_best_gain_over_cpr: 0.02
+oracle_best_gain_over_baseline: 0.17

@@ -1,0 +1,318 @@
+{
+  "dataset": "miniimagenet",
+  "trainer": "bimc_oracle_delta",
+  "seed": 1,
+  "runtime_sec": 108.768,
+  "acc_list": [
+    95.1,
+    94.85,
+    93.16,
+    92.77,
+    92.96,
+    92.64,
+    91.9,
+    91.93,
+    91.93
+  ],
+  "task_acc_list": [
+    [
+      95.1
+    ],
+    [
+      94.97,
+      93.4
+    ],
+    [
+      94.65,
+      93.2,
+      75.2
+    ],
+    [
+      94.48,
+      93.2,
+      75.6,
+      89.0
+    ],
+    [
+      94.47,
+      93.2,
+      75.6,
+      89.0,
+      96.0
+    ],
+    [
+      94.23,
+      93.0,
+      75.2,
+      89.0,
+      94.4,
+      92.4
+    ],
+    [
+      94.07,
+      92.6,
+      75.0,
+      89.0,
+      94.4,
+      92.0,
+      82.4
+    ],
+    [
+      93.85,
+      92.4,
+      74.4,
+      88.6,
+      94.2,
+      92.2,
+      81.2,
+      97.4
+    ],
+    [
+      93.72,
+      92.4,
+      74.6,
+      88.6,
+      94.2,
+      92.2,
+      81.6,
+      97.4,
+      93.0
+    ]
+  ],
+  "task_results": [
+    {
+      "task_id": 0,
+      "elapsed_time_sec": 6.33,
+      "metrics": {
+        "mean_acc": 95.1,
+        "task_acc": [
+          95.1
+        ],
+        "harmonic_acc": 0.0,
+        "base_avg_acc": 95.1,
+        "inc_avg_acc": 0.0,
+        "nll": 3.894531,
+        "brier": 0.976074,
+        "ece": 0.930614,
+        "beta_prior": 0.65,
+        "oracle_mode": "delta",
+        "oracle_search_metric": "acc",
+        "oracle_beta": 0.65,
+        "oracle_delta": -1.5,
+        "oracle_tau": 1.0
+      }
+    },
+    {
+      "task_id": 1,
+      "elapsed_time_sec": 6.807,
+      "metrics": {
+        "mean_acc": 94.85,
+        "task_acc": [
+          94.97,
+          93.4
+        ],
+        "harmonic_acc": 94.18,
+        "base_avg_acc": 94.97,
+        "inc_avg_acc": 93.4,
+        "nll": 3.976562,
+        "brier": 0.978027,
+        "ece": 0.929663,
+        "beta_prior": 0.65,
+        "oracle_mode": "delta",
+        "oracle_search_metric": "acc",
+        "oracle_beta": 0.65,
+        "oracle_delta": 0.0,
+        "oracle_tau": 1.0
+      }
+    },
+    {
+      "task_id": 2,
+      "elapsed_time_sec": 7.309,
+      "metrics": {
+        "mean_acc": 93.16,
+        "task_acc": [
+          94.65,
+          93.2,
+          75.2
+        ],
+        "harmonic_acc": 89.12,
+        "base_avg_acc": 94.65,
+        "inc_avg_acc": 84.2,
+        "nll": 4.050781,
+        "brier": 0.97998,
+        "ece": 0.914115,
+        "beta_prior": 0.65,
+        "oracle_mode": "delta",
+        "oracle_search_metric": "acc",
+        "oracle_beta": 0.65,
+        "oracle_delta": 0.0,
+        "oracle_tau": 1.0
+      }
+    },
+    {
+      "task_id": 3,
+      "elapsed_time_sec": 7.807,
+      "metrics": {
+        "mean_acc": 92.77,
+        "task_acc": [
+          94.48,
+          93.2,
+          75.6,
+          89.0
+        ],
+        "harmonic_acc": 90.0,
+        "base_avg_acc": 94.48,
+        "inc_avg_acc": 85.93,
+        "nll": 4.117188,
+        "brier": 0.980957,
+        "ece": 0.911437,
+        "beta_prior": 0.65,
+        "oracle_mode": "delta",
+        "oracle_search_metric": "acc",
+        "oracle_beta": 0.65,
+        "oracle_delta": 0.0,
+        "oracle_tau": 1.0
+      }
+    },
+    {
+      "task_id": 4,
+      "elapsed_time_sec": 8.303,
+      "metrics": {
+        "mean_acc": 92.96,
+        "task_acc": [
+          94.47,
+          93.2,
+          75.6,
+          89.0,
+          96.0
+        ],
+        "harmonic_acc": 91.36,
+        "base_avg_acc": 94.47,
+        "inc_avg_acc": 88.45,
+        "nll": 4.183594,
+        "brier": 0.981934,
+        "ece": 0.914351,
+        "beta_prior": 0.65,
+        "oracle_mode": "delta",
+        "oracle_search_metric": "acc",
+        "oracle_beta": 0.65,
+        "oracle_delta": 0.0,
+        "oracle_tau": 1.0
+      }
+    },
+    {
+      "task_id": 5,
+      "elapsed_time_sec": 8.789,
+      "metrics": {
+        "mean_acc": 92.64,
+        "task_acc": [
+          94.23,
+          93.0,
+          75.2,
+          89.0,
+          94.4,
+          92.4
+        ],
+        "harmonic_acc": 91.43,
+        "base_avg_acc": 94.23,
+        "inc_avg_acc": 88.8,
+        "nll": 4.246094,
+        "brier": 0.98291,
+        "ece": 0.911972,
+        "beta_prior": 0.65,
+        "oracle_mode": "delta",
+        "oracle_search_metric": "acc",
+        "oracle_beta": 0.65,
+        "oracle_delta": 0.0,
+        "oracle_tau": 1.0
+      }
+    },
+    {
+      "task_id": 6,
+      "elapsed_time_sec": 9.287,
+      "metrics": {
+        "mean_acc": 91.9,
+        "task_acc": [
+          94.07,
+          92.6,
+          75.0,
+          89.0,
+          94.4,
+          92.0,
+          82.4
+        ],
+        "harmonic_acc": 90.7,
+        "base_avg_acc": 94.07,
+        "inc_avg_acc": 87.57,
+        "nll": 4.304688,
+        "brier": 0.983887,
+        "ece": 0.90545,
+        "beta_prior": 0.65,
+        "oracle_mode": "delta",
+        "oracle_search_metric": "acc",
+        "oracle_beta": 0.65,
+        "oracle_delta": 0.0,
+        "oracle_tau": 1.0
+      }
+    },
+    {
+      "task_id": 7,
+      "elapsed_time_sec": 9.789,
+      "metrics": {
+        "mean_acc": 91.93,
+        "task_acc": [
+          93.85,
+          92.4,
+          74.4,
+          88.6,
+          94.2,
+          92.2,
+          81.2,
+          97.4
+        ],
+        "harmonic_acc": 91.16,
+        "base_avg_acc": 93.85,
+        "inc_avg_acc": 88.63,
+        "nll": 4.355469,
+        "brier": 0.984375,
+        "ece": 0.906408,
+        "beta_prior": 0.65,
+        "oracle_mode": "delta",
+        "oracle_search_metric": "acc",
+        "oracle_beta": 0.65,
+        "oracle_delta": 0.0,
+        "oracle_tau": 1.0
+      }
+    },
+    {
+      "task_id": 8,
+      "elapsed_time_sec": 10.28,
+      "metrics": {
+        "mean_acc": 91.93,
+        "task_acc": [
+          93.72,
+          92.4,
+          74.6,
+          88.6,
+          94.2,
+          92.2,
+          81.6,
+          97.4,
+          93.0
+        ],
+        "harmonic_acc": 91.43,
+        "base_avg_acc": 93.72,
+        "inc_avg_acc": 89.25,
+        "nll": 4.410156,
+        "brier": 0.985352,
+        "ece": 0.907093,
+        "beta_prior": 0.65,
+        "oracle_mode": "delta",
+        "oracle_search_metric": "acc",
+        "oracle_beta": 0.65,
+        "oracle_delta": 0.0,
+        "oracle_tau": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+dataset: cub200
+train_cfg: configs/trainers/bimc_ensemble.yaml
+runtime_sec: 19.457
+baseline_acc: 72.765
+trainable_acc: 72.696
+trainable_gain: -0.069
+oracle_gain: 1.691
+recovery_rate: -0.0408
+best_val_acc: 87.5
+best_val_nll: 5.14793
+test_class_balanced_nll: 5.15963
+test_class_balanced_margin: 0.01377
+changed_class_rate: 0.0
+base_atom_usage_rate: 0.0
+desc_atom_usage_rate: 0.0
+baseline_alignment_gap: 0.640495
+trainable_alignment_gap: 0.639795

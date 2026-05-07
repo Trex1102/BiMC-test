@@ -1,0 +1,11 @@
+dataset: CIFAR100
+baseline_full_acc: 73.17
+router_oracle_full_acc: 73.45
+router_oracle_gain: 0.28
+discrete_oracle_gain: 3.25
+baseline_base_acc: 77.867
+baseline_novel_acc: 66.125
+router_oracle_base_acc: 76.35
+router_oracle_novel_acc: 69.1
+mean_alpha_base: 0.7502
+mean_alpha_novel: 0.8436

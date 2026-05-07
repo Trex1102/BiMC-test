@@ -1,0 +1,10 @@
+dataset: miniimagenet
+baseline_full_acc: 92.28
+best_alpha: 0.75
+final_full_acc: 92.51
+final_gain: 0.23
+baseline_base_acc: 92.867
+baseline_novel_acc: 91.4
+final_base_acc: 92.633
+final_novel_acc: 92.325
+recovery_vs_oracle: 39.7

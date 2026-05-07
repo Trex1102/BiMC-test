@@ -1,0 +1,20 @@
+dataset: miniimagenet
+trainer: bimc_adaptive_risk_pseudo_prior_nll_margin
+seed: 1
+runtime_sec: 109.421
+final_acc: 89.67
+final_harmonic_acc: 88.64
+final_nll: 4.371094
+final_brier: 0.984375
+final_ece: 0.883989
+acc_list: [94.33, 94.02, 91.89, 90.76, 91.44, 90.58, 89.48, 89.39, 89.67]
+task-wise acc:
+task  0: [94.33]
+task  1: [94.22, 91.6]
+task  2: [93.88, 91.0, 68.8]
+task  3: [93.58, 90.0, 67.6, 80.8]
+task  4: [93.77, 90.8, 69.2, 82.2, 95.6]
+task  5: [93.23, 89.2, 67.4, 80.4, 95.4, 88.6]
+task  6: [93.05, 89.0, 63.0, 80.6, 95.2, 88.6, 77.6]
+task  7: [92.95, 89.0, 62.6, 80.4, 95.2, 88.0, 74.2, 93.6]
+task  8: [93.0, 89.2, 63.8, 80.8, 95.2, 88.2, 74.8, 93.6, 91.8]

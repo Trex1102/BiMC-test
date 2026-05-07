@@ -1,0 +1,26 @@
+dataset: miniimagenet
+trainer: bimc_oracle_joint_ensemble
+seed: 1
+runtime_sec: 135.394
+final_acc: 92.47
+final_harmonic_acc: 92.25
+final_nll: 4.287749
+final_brier: 0.982512
+final_ece: 0.910892
+acc_list: [95.7, 95.68, 94.13, 93.77, 93.69, 93.39, 92.52, 92.61, 92.47]
+task-wise acc:
+beta_prior: 0.65
+oracle_mode: joint
+oracle_search_metric: acc
+oracle_beta: 0.7
+oracle_delta: 0.0
+oracle_tau: 0.5
+task  0: [95.7]
+task  1: [95.48, 98.0]
+task  2: [94.6, 97.6, 85.0]
+task  3: [94.0, 97.2, 86.8, 94.6]
+task  4: [94.32, 96.8, 82.2, 92.0, 96.2]
+task  5: [94.13, 96.0, 82.2, 91.8, 94.4, 93.6]
+task  6: [93.57, 95.6, 81.8, 91.8, 94.4, 93.6, 85.4]
+task  7: [93.53, 94.8, 81.2, 91.4, 94.0, 93.6, 84.8, 97.4]
+task  8: [93.28, 94.8, 80.4, 91.4, 94.0, 93.6, 84.4, 97.2, 94.2]

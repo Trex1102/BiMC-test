@@ -1,0 +1,72 @@
+{
+  "dataset": "CIFAR100",
+  "train_cfg": "configs/trainers/bimc_ensemble.yaml",
+  "runtime_sec": 92.44,
+  "num_seen_classes": 100,
+  "num_base_classes": 60,
+  "beta": 0.65,
+  "lambda_t": 0.5,
+  "ensemble_alpha": 0.6,
+  "alpha_grid": [
+    0.5,
+    0.75,
+    1.0
+  ],
+  "mass_thr": 0.3,
+  "min_count": 5,
+  "baseline_full_acc": 73.07,
+  "baseline_base_acc": 77.617,
+  "baseline_novel_acc": 66.25,
+  "best_alpha": 0.5,
+  "final_full_acc": 73.36,
+  "final_base_acc": 77.517,
+  "final_novel_acc": 67.125,
+  "final_gain": 0.29,
+  "updated_class_count": 40,
+  "updated_class_rate": 1.0,
+  "mean_queries_per_updated_class": 89.1,
+  "gated_query_count": 3564,
+  "gated_base_count": 439,
+  "gated_novel_count": 3125,
+  "conservative_oracle_gain": 0.97,
+  "conservative_oracle_path": "/media/bio/data/BiMC-test/experiments/CIFAR100/prototype_conservative_rectification_killswitch_bimc_ensemble/seed1_20260415-050346",
+  "alpha_sweep": [
+    {
+      "alpha": 0.5,
+      "full_acc": 73.36,
+      "base_acc": 77.517,
+      "novel_acc": 67.125,
+      "gain": 0.29,
+      "updated_class_count": 40,
+      "updated_class_rate": 1.0,
+      "mean_queries_per_updated_class": 89.1,
+      "gated_query_count": 3564,
+      "gated_novel_count": 3125
+    },
+    {
+      "alpha": 0.75,
+      "full_acc": 73.32,
+      "base_acc": 77.617,
+      "novel_acc": 66.875,
+      "gain": 0.25,
+      "updated_class_count": 40,
+      "updated_class_rate": 1.0,
+      "mean_queries_per_updated_class": 89.1,
+      "gated_query_count": 3564,
+      "gated_novel_count": 3125
+    },
+    {
+      "alpha": 1.0,
+      "full_acc": 73.14,
+      "base_acc": 77.683,
+      "novel_acc": 66.325,
+      "gain": 0.07,
+      "updated_class_count": 40,
+      "updated_class_rate": 1.0,
+      "mean_queries_per_updated_class": 89.1,
+      "gated_query_count": 3564,
+      "gated_novel_count": 3125
+    }
+  ],
+  "recovery_vs_oracle": 29.9
+}

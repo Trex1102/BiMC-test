@@ -1,0 +1,42 @@
+{
+  "dataset": "cub200",
+  "train_cfg": "configs/trainers/bimc_ensemble.yaml",
+  "runtime_sec": 34.349,
+  "num_seen_classes": 200,
+  "num_base_classes": 100,
+  "beta": 0.3,
+  "lambda_t": 0.5,
+  "ensemble_alpha": 0.8,
+  "alpha_grid": [
+    0.5
+  ],
+  "min_count": 5,
+  "baseline_full_acc": 72.575,
+  "baseline_base_acc": 78.422,
+  "baseline_novel_acc": 66.86,
+  "best_alpha": 0.5,
+  "final_full_acc": 73.283,
+  "final_base_acc": 77.584,
+  "final_novel_acc": 69.078,
+  "final_gain": 0.708,
+  "updated_class_count": 99,
+  "updated_class_rate": 0.99,
+  "gated_query_count": 3038,
+  "gated_base_count": 184,
+  "gated_novel_count": 2854,
+  "mean_queries_per_updated_class": 30.646,
+  "alpha_sweep": [
+    {
+      "alpha": 0.5,
+      "full_acc": 73.283,
+      "base_acc": 77.584,
+      "novel_acc": 69.078,
+      "gain": 0.708,
+      "updated_class_count": 99,
+      "updated_class_rate": 0.99,
+      "mean_queries_per_updated_class": 30.646,
+      "gated_query_count": 3038,
+      "gated_novel_count": 2854
+    }
+  ]
+}

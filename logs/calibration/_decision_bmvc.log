@@ -1,0 +1,88 @@
+{
+  "mode": "bmvc",
+  "train_cfg_stem": "bimc_ensemble",
+  "datasets": [
+    {
+      "dataset": "CIFAR100",
+      "baseline_acc": 73.24,
+      "method_acc": 71.41,
+      "oracle_acc": 73.54,
+      "method_gain": -1.83,
+      "oracle_gain": 0.3,
+      "recovery_rate": -6.1001,
+      "recommendation": "kill_direction",
+      "method_params": {
+        "beta": 0.65,
+        "alpha_base": 0.0,
+        "alpha_novel": 1.0,
+        "delta": 0.0,
+        "tau": 0.5
+      },
+      "oracle_params": {
+        "beta": 0.65,
+        "alpha_base": 0.6,
+        "alpha_novel": 0.8,
+        "delta": 0.0,
+        "tau": 0.5
+      }
+    },
+    {
+      "dataset": "cub200",
+      "baseline_acc": 72.765,
+      "method_acc": 42.82,
+      "oracle_acc": 72.765,
+      "method_gain": -29.945,
+      "oracle_gain": 0.0,
+      "recovery_rate": null,
+      "recommendation": "kill_direction",
+      "method_params": {
+        "beta": 0.3,
+        "alpha_base": 0.0,
+        "alpha_novel": 0.0,
+        "delta": 0.0,
+        "tau": 0.5
+      },
+      "oracle_params": {
+        "beta": 0.3,
+        "alpha_base": 0.8,
+        "alpha_novel": 0.8,
+        "delta": 0.0,
+        "tau": 0.5
+      }
+    },
+    {
+      "dataset": "miniimagenet",
+      "baseline_acc": 92.45,
+      "method_acc": 89.76,
+      "oracle_acc": 92.45,
+      "method_gain": -2.69,
+      "oracle_gain": 0.0,
+      "recovery_rate": null,
+      "recommendation": "kill_direction",
+      "method_params": {
+        "beta": 0.65,
+        "alpha_base": 0.0,
+        "alpha_novel": 0.0,
+        "delta": 0.0,
+        "tau": 0.5
+      },
+      "oracle_params": {
+        "beta": 0.65,
+        "alpha_base": 0.6,
+        "alpha_novel": 0.6,
+        "delta": 0.0,
+        "tau": 0.5
+      }
+    }
+  ],
+  "kill_switch": {
+    "decision": "kill_direction",
+    "continue_flag": false,
+    "non_negative_all": false,
+    "mean_gain": -11.4883,
+    "mean_recovery": -2.0334,
+    "cifar_gain": -1.83,
+    "cub_gain": -29.945,
+    "mini_gain": -2.69
+  }
+}

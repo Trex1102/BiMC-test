@@ -1,0 +1,14 @@
+dataset: cub200
+baseline_full_acc: 72.782
+trainable_full_acc: 72.644
+trainable_gain: -0.138
+graph_oracle_gain: 0.656
+baseline_base_acc: 79.365
+baseline_novel_acc: 66.348
+trainable_base_acc: 79.504
+trainable_novel_acc: 65.939
+mean_alpha_base: 0.8181
+mean_alpha_novel: 0.7999
+std_alpha_base: 0.0249
+std_alpha_novel: 0.0227
+best_val_acc: 82.21

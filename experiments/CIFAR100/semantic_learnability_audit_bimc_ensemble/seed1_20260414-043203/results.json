@@ -1,0 +1,84 @@
+{
+  "dataset": "CIFAR100",
+  "train_cfg": "configs/trainers/bimc_ensemble.yaml",
+  "runtime_sec": 71.632,
+  "episodes": {
+    "train": 60,
+    "val": 15,
+    "test": 15
+  },
+  "num_base_classes": 60,
+  "pseudo_novel_per_episode": 5,
+  "split_classes": {
+    "train": 42,
+    "val": 9,
+    "test": 9
+  },
+  "split_summary": {
+    "train": {
+      "num_candidates": 6000,
+      "num_positive": 1534,
+      "num_negative": 3880,
+      "num_neutral": 586
+    },
+    "val": {
+      "num_candidates": 1500,
+      "num_positive": 337,
+      "num_negative": 1049,
+      "num_neutral": 114
+    },
+    "test": {
+      "num_candidates": 1500,
+      "num_positive": 293,
+      "num_negative": 1091,
+      "num_neutral": 116
+    }
+  },
+  "probe": {
+    "val_loss": 3.295726,
+    "train_positive_rate": 0.2833,
+    "test_pearson_gain": 0.5746,
+    "test_precision_at_10pct": 0.6449,
+    "test_precision_at_20pct": 0.6318
+  },
+  "thresholds": {
+    "class_local": {
+      "threshold": 1.1,
+      "mode": "class_local",
+      "switched_classes": 0,
+      "switched_precision": 0.0,
+      "changed_class_rate": 0.0,
+      "mean_episode_gain": 0.0,
+      "oracle_top1_mean_gain": 0.1422
+    },
+    "session_top1": {
+      "threshold": 1.1,
+      "mode": "session_top1",
+      "switched_classes": 0,
+      "switched_precision": 0.0,
+      "changed_class_rate": 0.0,
+      "mean_episode_gain": 0.0,
+      "oracle_top1_mean_gain": 0.1422
+    }
+  },
+  "test_policy": {
+    "class_local": {
+      "threshold": 1.1,
+      "mode": "class_local",
+      "switched_classes": 0,
+      "switched_precision": 0.0,
+      "changed_class_rate": 0.0,
+      "mean_episode_gain": 0.0,
+      "oracle_top1_mean_gain": 0.1022
+    },
+    "session_top1": {
+      "threshold": 1.1,
+      "mode": "session_top1",
+      "switched_classes": 0,
+      "switched_precision": 0.0,
+      "changed_class_rate": 0.0,
+      "mean_episode_gain": 0.0,
+      "oracle_top1_mean_gain": 0.1022
+    }
+  }
+}

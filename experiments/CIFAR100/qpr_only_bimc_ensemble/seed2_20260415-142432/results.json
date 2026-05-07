@@ -1,0 +1,20 @@
+{
+  "dataset": "CIFAR100",
+  "train_cfg": "configs/trainers/bimc_ensemble.yaml",
+  "runtime_sec": 420.444,
+  "num_seen_classes": 100,
+  "num_base_classes": 60,
+  "num_novel_classes": 40,
+  "target_novel_mass": 0.4,
+  "t_base": 0.75,
+  "t_novel": 0.75,
+  "delta": 0.0019,
+  "achieved_novel_mass": 0.4,
+  "baseline_full_acc": 73.58,
+  "baseline_base_acc": 78.0,
+  "baseline_novel_acc": 66.95,
+  "final_full_acc": 73.74,
+  "final_base_acc": 77.5,
+  "final_novel_acc": 68.1,
+  "final_gain": 0.16
+}

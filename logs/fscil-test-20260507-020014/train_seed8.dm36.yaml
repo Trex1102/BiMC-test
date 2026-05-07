@@ -1,0 +1,37 @@
+METHOD: "bimc_dino_fusion"
+SEED: 8
+
+DEVICE:
+  DEVICE_NAME: "cuda"
+  GPU_ID: "0;"
+
+DATALOADER:
+  TRAIN:
+    BATCH_SIZE_BASE: 64
+    BATCH_SIZE_INC: 64
+  TEST:
+    BATCH_SIZE: 100
+  NUM_WORKERS: 4
+
+MODEL:
+  BACKBONE:
+    NAME: "ViT-B/16"
+
+TRAINER:
+  BiMC:
+    PREC: "fp16"
+
+    # Notebook ablation setting: use naive visual prototypes.
+    VISION_CALIBRATION: False
+    LAMBDA_I: 0.1
+    TAU: 16
+
+    TEXT_CALIBRATION: True
+    LAMBDA_T: 0.5
+
+    # DinoV2 Mahalanobis branch follows the notebook ablation: gamma=1 for every session.
+    GAMMA_BASE: 1.0
+    GAMMA_INC: 1.0
+
+    # Enable masked ensemble: base uses DinoV2 Mahalanobis, novel uses CMNN.
+    USING_ENSEMBLE: True

@@ -1,0 +1,186 @@
+Run id: 20260507-020014
+Remote repo: /media/bio/data/BiMC-test
+Train cfg: configs/trainers/bimc_dino_fusion.yaml
+Datasets: configs/datasets/cifar100.yaml configs/datasets/miniimagenet.yaml configs/datasets/cub200_bimc_dino_fusion.yaml
+Seeds: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+Total runs: 120 (60 baseline + 60 CPR)
+Started: 2026-05-07 02:00:14 +06
+--- Phase 1: BiMC DinoV2/CLIP visual fusion baseline (omega=0.7) ---
+=== START baseline dataset=cifar100 seed=1 at 2026-05-07 02:00:14 +06 ===
+=== END baseline dataset=cifar100 seed=1 status=OK duration=472s at 2026-05-07 02:08:06 +06 ===
+ETA after 1/120: 2026-05-07 17:44:14 +06 (avg 472s/run, remaining 119)
+=== START baseline dataset=cifar100 seed=2 at 2026-05-07 02:08:06 +06 ===
+=== END baseline dataset=cifar100 seed=2 status=OK duration=470s at 2026-05-07 02:15:56 +06 ===
+ETA after 2/120: 2026-05-07 17:42:14 +06 (avg 471s/run, remaining 118)
+=== START baseline dataset=cifar100 seed=3 at 2026-05-07 02:15:56 +06 ===
+=== END baseline dataset=cifar100 seed=3 status=OK duration=471s at 2026-05-07 02:23:47 +06 ===
+ETA after 3/120: 2026-05-07 17:42:14 +06 (avg 471s/run, remaining 117)
+=== START baseline dataset=cifar100 seed=4 at 2026-05-07 02:23:47 +06 ===
+=== END baseline dataset=cifar100 seed=4 status=OK duration=471s at 2026-05-07 02:31:38 +06 ===
+ETA after 4/120: 2026-05-07 17:42:14 +06 (avg 471s/run, remaining 116)
+=== START baseline dataset=cifar100 seed=5 at 2026-05-07 02:31:38 +06 ===
+=== END baseline dataset=cifar100 seed=5 status=OK duration=472s at 2026-05-07 02:39:30 +06 ===
+ETA after 5/120: 2026-05-07 17:42:15 +06 (avg 471s/run, remaining 115)
+=== START baseline dataset=cifar100 seed=6 at 2026-05-07 02:39:30 +06 ===
+=== END baseline dataset=cifar100 seed=6 status=OK duration=471s at 2026-05-07 02:47:21 +06 ===
+ETA after 6/120: 2026-05-07 17:42:15 +06 (avg 471s/run, remaining 114)
+=== START baseline dataset=cifar100 seed=7 at 2026-05-07 02:47:21 +06 ===
+=== END baseline dataset=cifar100 seed=7 status=OK duration=472s at 2026-05-07 02:55:13 +06 ===
+ETA after 7/120: 2026-05-07 17:42:16 +06 (avg 471s/run, remaining 113)
+=== START baseline dataset=cifar100 seed=8 at 2026-05-07 02:55:13 +06 ===
+=== END baseline dataset=cifar100 seed=8 status=OK duration=472s at 2026-05-07 03:03:05 +06 ===
+ETA after 8/120: 2026-05-07 17:42:17 +06 (avg 471s/run, remaining 112)
+=== START baseline dataset=cifar100 seed=9 at 2026-05-07 03:03:05 +06 ===
+=== END baseline dataset=cifar100 seed=9 status=OK duration=471s at 2026-05-07 03:10:56 +06 ===
+ETA after 9/120: 2026-05-07 17:42:17 +06 (avg 471s/run, remaining 111)
+=== START baseline dataset=cifar100 seed=10 at 2026-05-07 03:10:56 +06 ===
+=== END baseline dataset=cifar100 seed=10 status=OK duration=472s at 2026-05-07 03:18:48 +06 ===
+ETA after 10/120: 2026-05-07 17:42:18 +06 (avg 471s/run, remaining 110)
+=== START baseline dataset=cifar100 seed=11 at 2026-05-07 03:18:48 +06 ===
+=== END baseline dataset=cifar100 seed=11 status=OK duration=472s at 2026-05-07 03:26:40 +06 ===
+ETA after 11/120: 2026-05-07 17:42:19 +06 (avg 471s/run, remaining 109)
+=== START baseline dataset=cifar100 seed=12 at 2026-05-07 03:26:40 +06 ===
+=== END baseline dataset=cifar100 seed=12 status=OK duration=472s at 2026-05-07 03:34:32 +06 ===
+ETA after 12/120: 2026-05-07 17:42:20 +06 (avg 471s/run, remaining 108)
+=== START baseline dataset=cifar100 seed=13 at 2026-05-07 03:34:32 +06 ===
+=== END baseline dataset=cifar100 seed=13 status=OK duration=471s at 2026-05-07 03:42:23 +06 ===
+ETA after 13/120: 2026-05-07 17:42:20 +06 (avg 471s/run, remaining 107)
+=== START baseline dataset=cifar100 seed=14 at 2026-05-07 03:42:23 +06 ===
+=== END baseline dataset=cifar100 seed=14 status=OK duration=472s at 2026-05-07 03:50:15 +06 ===
+ETA after 14/120: 2026-05-07 17:42:21 +06 (avg 471s/run, remaining 106)
+=== START baseline dataset=cifar100 seed=15 at 2026-05-07 03:50:15 +06 ===
+=== END baseline dataset=cifar100 seed=15 status=OK duration=471s at 2026-05-07 03:58:06 +06 ===
+ETA after 15/120: 2026-05-07 17:42:21 +06 (avg 471s/run, remaining 105)
+=== START baseline dataset=cifar100 seed=16 at 2026-05-07 03:58:06 +06 ===
+=== END baseline dataset=cifar100 seed=16 status=OK duration=472s at 2026-05-07 04:05:58 +06 ===
+ETA after 16/120: 2026-05-07 17:42:22 +06 (avg 471s/run, remaining 104)
+=== START baseline dataset=cifar100 seed=17 at 2026-05-07 04:05:58 +06 ===
+=== END baseline dataset=cifar100 seed=17 status=OK duration=471s at 2026-05-07 04:13:49 +06 ===
+ETA after 17/120: 2026-05-07 17:42:22 +06 (avg 471s/run, remaining 103)
+=== START baseline dataset=cifar100 seed=18 at 2026-05-07 04:13:49 +06 ===
+=== END baseline dataset=cifar100 seed=18 status=OK duration=477s at 2026-05-07 04:21:46 +06 ===
+ETA after 18/120: 2026-05-07 17:42:28 +06 (avg 471s/run, remaining 102)
+=== START baseline dataset=cifar100 seed=19 at 2026-05-07 04:21:46 +06 ===
+=== END baseline dataset=cifar100 seed=19 status=OK duration=479s at 2026-05-07 04:29:45 +06 ===
+ETA after 19/120: 2026-05-07 17:44:17 +06 (avg 472s/run, remaining 101)
+=== START baseline dataset=cifar100 seed=20 at 2026-05-07 04:29:45 +06 ===
+=== END baseline dataset=cifar100 seed=20 status=OK duration=487s at 2026-05-07 04:37:52 +06 ===
+ETA after 20/120: 2026-05-07 17:44:32 +06 (avg 472s/run, remaining 100)
+=== START baseline dataset=miniimagenet seed=1 at 2026-05-07 04:37:52 +06 ===
+=== END baseline dataset=miniimagenet seed=1 status=OK duration=819s at 2026-05-07 04:51:31 +06 ===
+ETA after 21/120: 2026-05-07 18:18:22 +06 (avg 489s/run, remaining 99)
+=== START baseline dataset=miniimagenet seed=2 at 2026-05-07 04:51:31 +06 ===
+=== END baseline dataset=miniimagenet seed=2 status=OK duration=496s at 2026-05-07 04:59:47 +06 ===
+ETA after 22/120: 2026-05-07 18:18:29 +06 (avg 489s/run, remaining 98)
+=== START baseline dataset=miniimagenet seed=3 at 2026-05-07 04:59:47 +06 ===
+=== END baseline dataset=miniimagenet seed=3 status=OK duration=485s at 2026-05-07 05:07:52 +06 ===
+ETA after 23/120: 2026-05-07 18:18:25 +06 (avg 489s/run, remaining 97)
+=== START baseline dataset=miniimagenet seed=4 at 2026-05-07 05:07:52 +06 ===
+=== END baseline dataset=miniimagenet seed=4 status=OK duration=478s at 2026-05-07 05:15:50 +06 ===
+ETA after 24/120: 2026-05-07 18:18:14 +06 (avg 489s/run, remaining 96)
+=== START baseline dataset=miniimagenet seed=5 at 2026-05-07 05:15:50 +06 ===
+=== END baseline dataset=miniimagenet seed=5 status=OK duration=478s at 2026-05-07 05:23:48 +06 ===
+ETA after 25/120: 2026-05-07 18:16:28 +06 (avg 488s/run, remaining 95)
+=== START baseline dataset=miniimagenet seed=6 at 2026-05-07 05:23:48 +06 ===
+=== END baseline dataset=miniimagenet seed=6 status=OK duration=478s at 2026-05-07 05:31:46 +06 ===
+ETA after 26/120: 2026-05-07 18:16:18 +06 (avg 488s/run, remaining 94)
+=== START baseline dataset=miniimagenet seed=7 at 2026-05-07 05:31:46 +06 ===
+=== END baseline dataset=miniimagenet seed=7 status=OK duration=478s at 2026-05-07 05:39:44 +06 ===
+ETA after 27/120: 2026-05-07 18:14:35 +06 (avg 487s/run, remaining 93)
+=== START baseline dataset=miniimagenet seed=8 at 2026-05-07 05:39:44 +06 ===
+=== END baseline dataset=miniimagenet seed=8 status=OK duration=478s at 2026-05-07 05:47:42 +06 ===
+ETA after 28/120: 2026-05-07 18:14:26 +06 (avg 487s/run, remaining 92)
+=== START baseline dataset=miniimagenet seed=9 at 2026-05-07 05:47:42 +06 ===
+=== END baseline dataset=miniimagenet seed=9 status=OK duration=478s at 2026-05-07 05:55:40 +06 ===
+ETA after 29/120: 2026-05-07 18:14:17 +06 (avg 487s/run, remaining 91)
+=== START baseline dataset=miniimagenet seed=10 at 2026-05-07 05:55:40 +06 ===
+=== END baseline dataset=miniimagenet seed=10 status=OK duration=478s at 2026-05-07 06:03:38 +06 ===
+ETA after 30/120: 2026-05-07 18:12:38 +06 (avg 486s/run, remaining 90)
+=== START baseline dataset=miniimagenet seed=11 at 2026-05-07 06:03:38 +06 ===
+=== END baseline dataset=miniimagenet seed=11 status=OK duration=477s at 2026-05-07 06:11:35 +06 ===
+ETA after 31/120: 2026-05-07 18:12:29 +06 (avg 486s/run, remaining 89)
+=== START baseline dataset=miniimagenet seed=12 at 2026-05-07 06:11:35 +06 ===
+=== END baseline dataset=miniimagenet seed=12 status=OK duration=478s at 2026-05-07 06:19:34 +06 ===
+ETA after 32/120: 2026-05-07 18:12:22 +06 (avg 486s/run, remaining 88)
+=== START baseline dataset=miniimagenet seed=13 at 2026-05-07 06:19:34 +06 ===
+=== END baseline dataset=miniimagenet seed=13 status=OK duration=475s at 2026-05-07 06:27:29 +06 ===
+ETA after 33/120: 2026-05-07 18:10:44 +06 (avg 485s/run, remaining 87)
+=== START baseline dataset=miniimagenet seed=14 at 2026-05-07 06:27:29 +06 ===
+=== END baseline dataset=miniimagenet seed=14 status=OK duration=475s at 2026-05-07 06:35:24 +06 ===
+ETA after 34/120: 2026-05-07 18:10:34 +06 (avg 485s/run, remaining 86)
+=== START baseline dataset=miniimagenet seed=15 at 2026-05-07 06:35:24 +06 ===
+=== END baseline dataset=miniimagenet seed=15 status=OK duration=476s at 2026-05-07 06:43:20 +06 ===
+ETA after 35/120: 2026-05-07 18:10:25 +06 (avg 485s/run, remaining 85)
+=== START baseline dataset=miniimagenet seed=16 at 2026-05-07 06:43:20 +06 ===
+=== END baseline dataset=miniimagenet seed=16 status=OK duration=475s at 2026-05-07 06:51:15 +06 ===
+ETA after 36/120: 2026-05-07 18:10:15 +06 (avg 485s/run, remaining 84)
+=== START baseline dataset=miniimagenet seed=17 at 2026-05-07 06:51:15 +06 ===
+=== END baseline dataset=miniimagenet seed=17 status=OK duration=476s at 2026-05-07 06:59:11 +06 ===
+ETA after 37/120: 2026-05-07 18:08:43 +06 (avg 484s/run, remaining 83)
+=== START baseline dataset=miniimagenet seed=18 at 2026-05-07 06:59:11 +06 ===
+=== END baseline dataset=miniimagenet seed=18 status=OK duration=476s at 2026-05-07 07:07:07 +06 ===
+ETA after 38/120: 2026-05-07 18:08:35 +06 (avg 484s/run, remaining 82)
+=== START baseline dataset=miniimagenet seed=19 at 2026-05-07 07:07:07 +06 ===
+=== END baseline dataset=miniimagenet seed=19 status=OK duration=475s at 2026-05-07 07:15:02 +06 ===
+ETA after 39/120: 2026-05-07 18:08:26 +06 (avg 484s/run, remaining 81)
+=== START baseline dataset=miniimagenet seed=20 at 2026-05-07 07:15:02 +06 ===
+=== END baseline dataset=miniimagenet seed=20 status=OK duration=475s at 2026-05-07 07:22:57 +06 ===
+ETA after 40/120: 2026-05-07 18:08:17 +06 (avg 484s/run, remaining 80)
+=== START baseline dataset=cub200_bimc_dino_fusion seed=1 at 2026-05-07 07:22:57 +06 ===
+=== END baseline dataset=cub200_bimc_dino_fusion seed=1 status=OK duration=305s at 2026-05-07 07:28:02 +06 ===
+ETA after 41/120: 2026-05-07 17:58:43 +06 (avg 479s/run, remaining 79)
+=== START baseline dataset=cub200_bimc_dino_fusion seed=2 at 2026-05-07 07:28:02 +06 ===
+=== END baseline dataset=cub200_bimc_dino_fusion seed=2 status=OK duration=259s at 2026-05-07 07:32:21 +06 ===
+ETA after 42/120: 2026-05-07 17:48:33 +06 (avg 474s/run, remaining 78)
+=== START baseline dataset=cub200_bimc_dino_fusion seed=3 at 2026-05-07 07:32:21 +06 ===
+=== END baseline dataset=cub200_bimc_dino_fusion seed=3 status=OK duration=258s at 2026-05-07 07:36:39 +06 ===
+ETA after 43/120: 2026-05-07 17:38:32 +06 (avg 469s/run, remaining 77)
+=== START baseline dataset=cub200_bimc_dino_fusion seed=4 at 2026-05-07 07:36:39 +06 ===
+=== END baseline dataset=cub200_bimc_dino_fusion seed=4 status=OK duration=258s at 2026-05-07 07:40:57 +06 ===
+ETA after 44/120: 2026-05-07 17:28:41 +06 (avg 464s/run, remaining 76)
+=== START baseline dataset=cub200_bimc_dino_fusion seed=5 at 2026-05-07 07:40:57 +06 ===
+=== END baseline dataset=cub200_bimc_dino_fusion seed=5 status=OK duration=258s at 2026-05-07 07:45:15 +06 ===
+ETA after 45/120: 2026-05-07 17:20:15 +06 (avg 460s/run, remaining 75)
+=== START baseline dataset=cub200_bimc_dino_fusion seed=6 at 2026-05-07 07:45:15 +06 ===
+=== END baseline dataset=cub200_bimc_dino_fusion seed=6 status=OK duration=257s at 2026-05-07 07:49:32 +06 ===
+ETA after 46/120: 2026-05-07 17:10:42 +06 (avg 455s/run, remaining 74)
+=== START baseline dataset=cub200_bimc_dino_fusion seed=7 at 2026-05-07 07:49:32 +06 ===
+=== END baseline dataset=cub200_bimc_dino_fusion seed=7 status=OK duration=257s at 2026-05-07 07:53:49 +06 ===
+ETA after 47/120: 2026-05-07 17:02:32 +06 (avg 451s/run, remaining 73)
+=== START baseline dataset=cub200_bimc_dino_fusion seed=8 at 2026-05-07 07:53:49 +06 ===
+=== END baseline dataset=cub200_bimc_dino_fusion seed=8 status=OK duration=258s at 2026-05-07 07:58:07 +06 ===
+ETA after 48/120: 2026-05-07 16:54:31 +06 (avg 447s/run, remaining 72)
+=== START baseline dataset=cub200_bimc_dino_fusion seed=9 at 2026-05-07 07:58:07 +06 ===
+=== END baseline dataset=cub200_bimc_dino_fusion seed=9 status=OK duration=256s at 2026-05-07 08:02:23 +06 ===
+ETA after 49/120: 2026-05-07 16:46:36 +06 (avg 443s/run, remaining 71)
+=== START baseline dataset=cub200_bimc_dino_fusion seed=10 at 2026-05-07 08:02:23 +06 ===
+=== END baseline dataset=cub200_bimc_dino_fusion seed=10 status=OK duration=257s at 2026-05-07 08:06:40 +06 ===
+ETA after 50/120: 2026-05-07 16:38:50 +06 (avg 439s/run, remaining 70)
+=== START baseline dataset=cub200_bimc_dino_fusion seed=11 at 2026-05-07 08:06:40 +06 ===
+=== END baseline dataset=cub200_bimc_dino_fusion seed=11 status=OK duration=257s at 2026-05-07 08:10:57 +06 ===
+ETA after 51/120: 2026-05-07 16:32:21 +06 (avg 436s/run, remaining 69)
+=== START baseline dataset=cub200_bimc_dino_fusion seed=12 at 2026-05-07 08:10:57 +06 ===
+=== END baseline dataset=cub200_bimc_dino_fusion seed=12 status=OK duration=256s at 2026-05-07 08:15:13 +06 ===
+ETA after 52/120: 2026-05-07 16:24:49 +06 (avg 432s/run, remaining 68)
+=== START baseline dataset=cub200_bimc_dino_fusion seed=13 at 2026-05-07 08:15:13 +06 ===
+=== END baseline dataset=cub200_bimc_dino_fusion seed=13 status=OK duration=257s at 2026-05-07 08:19:30 +06 ===
+ETA after 53/120: 2026-05-07 16:18:33 +06 (avg 429s/run, remaining 67)
+=== START baseline dataset=cub200_bimc_dino_fusion seed=14 at 2026-05-07 08:19:30 +06 ===
+=== END baseline dataset=cub200_bimc_dino_fusion seed=14 status=OK duration=256s at 2026-05-07 08:23:46 +06 ===
+ETA after 54/120: 2026-05-07 16:12:22 +06 (avg 426s/run, remaining 66)
+=== START baseline dataset=cub200_bimc_dino_fusion seed=15 at 2026-05-07 08:23:46 +06 ===
+=== END baseline dataset=cub200_bimc_dino_fusion seed=15 status=OK duration=256s at 2026-05-07 08:28:02 +06 ===
+ETA after 55/120: 2026-05-07 16:06:17 +06 (avg 423s/run, remaining 65)
+=== START baseline dataset=cub200_bimc_dino_fusion seed=16 at 2026-05-07 08:28:02 +06 ===
+=== END baseline dataset=cub200_bimc_dino_fusion seed=16 status=OK duration=256s at 2026-05-07 08:32:18 +06 ===
+ETA after 56/120: 2026-05-07 16:00:18 +06 (avg 420s/run, remaining 64)
+=== START baseline dataset=cub200_bimc_dino_fusion seed=17 at 2026-05-07 08:32:18 +06 ===
+=== END baseline dataset=cub200_bimc_dino_fusion seed=17 status=OK duration=256s at 2026-05-07 08:36:34 +06 ===
+ETA after 57/120: 2026-05-07 15:54:25 +06 (avg 417s/run, remaining 63)
+=== START baseline dataset=cub200_bimc_dino_fusion seed=18 at 2026-05-07 08:36:34 +06 ===
+=== END baseline dataset=cub200_bimc_dino_fusion seed=18 status=OK duration=256s at 2026-05-07 08:40:50 +06 ===
+ETA after 58/120: 2026-05-07 15:48:38 +06 (avg 414s/run, remaining 62)
+=== START baseline dataset=cub200_bimc_dino_fusion seed=19 at 2026-05-07 08:40:50 +06 ===
+=== END baseline dataset=cub200_bimc_dino_fusion seed=19 status=OK duration=255s at 2026-05-07 08:45:05 +06 ===
+ETA after 59/120: 2026-05-07 15:42:56 +06 (avg 411s/run, remaining 61)
+=== START baseline dataset=cub200_bimc_dino_fusion seed=20 at 2026-05-07 08:45:05 +06 ===

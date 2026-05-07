@@ -1,0 +1,11 @@
+dataset: cub200
+baseline_full_acc: 72.782
+graph_router_oracle_full_acc: 73.438
+graph_router_oracle_gain: 0.656
+discrete_oracle_gain: 3.711
+baseline_base_acc: 79.365
+baseline_novel_acc: 66.348
+graph_router_oracle_base_acc: 80.063
+graph_router_oracle_novel_acc: 66.962
+mean_alpha_base: 0.8871
+mean_alpha_novel: 0.827

@@ -1,0 +1,10 @@
+dataset: CIFAR100
+runtime_sec: 61.177
+semantic_oracle_gain: 1.05
+recovery_vs_semantic_oracle: 0.819
+full.oracle_gain: 0.86
+full.changed_class_rate: 0.525
+full.mean_alpha_changed: 0.4604
+fused_only.oracle_gain: 0.71
+fused_only.changed_class_rate: 0.55
+fused_only.mean_alpha_changed: 0.3379

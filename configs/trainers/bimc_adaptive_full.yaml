@@ -1,0 +1,59 @@
+METHOD: "bimc_adaptive"
+SEED: 1
+
+DEVICE:
+  DEVICE_NAME: "cuda"
+  GPU_ID: "0;"
+
+DATALOADER:
+  TRAIN:
+    BATCH_SIZE_BASE: 64
+    BATCH_SIZE_INC: 64
+  TEST:
+    BATCH_SIZE: 100
+  NUM_WORKERS: 4
+
+MODEL:
+  BACKBONE:
+    NAME: "ViT-B/16"
+
+TRAINER:
+  BiMC:
+    PREC: "fp16"
+    VISION_CALIBRATION: True
+    LAMBDA_I: 0.1
+    TAU: 16
+    TEXT_CALIBRATION: True
+    LAMBDA_T: 0.5
+    GAMMA_BASE: 1.0
+    GAMMA_INC: 5.0
+    USING_ENSEMBLE: False
+
+  BiMCAdaptive:
+    ENABLE_ADAPTIVE_BETA: True
+    ENABLE_ADAPTIVE_TEXT: True
+    ENABLE_ADAPTIVE_VISION: True
+    USE_PROMPT_ENSEMBLE: True
+    PROMPT_TEMPLATES:
+      - "a photo of a {}."
+      - "a close-up photo of a {}."
+      - "a centered photo of a {}."
+      - "a bright photo of a {}."
+      - "a cropped photo of a {}."
+      - "a clean photo of a {}."
+      - "a detailed photo of a {}."
+    USE_AGREEMENT_GATE: True
+    AGREEMENT_POWER: 1.0
+    MIN_AGREEMENT: 0.05
+    EPS: 1.0e-6
+    MAX_KAPPA: 1000.0
+    SINGLETON_KAPPA: 1.0
+    RELIABILITY_COUNT_POWER: 0.5
+    RELIABILITY_LOGIT_SCALE: 0.5
+    BETA_SHRINKAGE_NU: 5.0
+    TEXT_SHRINKAGE_NU: 8.0
+    VISION_SHRINKAGE_NU: 5.0
+    MIN_WEIGHT: 0.05
+    MAX_WEIGHT: 0.95
+    MIN_VISION_WEIGHT: 0.0
+    MAX_VISION_WEIGHT: 0.35

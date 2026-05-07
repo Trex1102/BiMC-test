@@ -1,0 +1,20 @@
+dataset: CIFAR100
+train_cfg: configs/trainers/bimc_ensemble.yaml
+runtime_sec: 48.304
+k_effective: 3
+[original] full_acc=73.16 full_novel_acc=66.1 full_oracle_gain=1.11
+[original] fused_only_acc=72.66 fused_only_novel_acc=68.8 fused_oracle_gain=0.86
+[original] knn_only_acc=65.26 knn_only_novel_acc=63.475
+[original] count_mean=40.0 diversity_mean=0.121326 align_spread=0.009916 confuser_overlap=0.89575
+[random_k] full_acc=72.37 full_novel_acc=65.475 full_oracle_gain=1.09
+[random_k] fused_only_acc=71.61 fused_only_novel_acc=67.95 fused_oracle_gain=1.37
+[random_k] knn_only_acc=63.35 knn_only_novel_acc=62.175
+[random_k] count_mean=3.0 diversity_mean=0.128861 align_spread=0.006997 confuser_overlap=0.91
+[diverse_k] full_acc=71.67 full_novel_acc=64.725 full_oracle_gain=1.58
+[diverse_k] fused_only_acc=71.47 fused_only_novel_acc=67.775 fused_oracle_gain=1.35
+[diverse_k] knn_only_acc=54.15 knn_only_novel_acc=53.425
+[diverse_k] count_mean=3.0 diversity_mean=0.337777 align_spread=0.011009 confuser_overlap=0.763333
+[confuser_k] full_acc=71.1 full_novel_acc=67.225 full_oracle_gain=2.01
+[confuser_k] fused_only_acc=71.35 fused_only_novel_acc=68.65 fused_oracle_gain=1.06
+[confuser_k] knn_only_acc=55.21 knn_only_novel_acc=54.15
+[confuser_k] count_mean=3.0 diversity_mean=0.227795 align_spread=0.009475 confuser_overlap=0.763333

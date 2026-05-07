@@ -1,0 +1,1154 @@
+{
+  "dataset": "CIFAR100",
+  "train_cfg": "configs/trainers/bimc_ensemble.yaml",
+  "runtime_sec": 203.537,
+  "num_seen_classes": 100,
+  "num_base_classes": 60,
+  "baseline_beta": 0.65,
+  "baseline_lambda_t": 0.5,
+  "ensemble_alpha": 0.6,
+  "max_desc_atoms": 3,
+  "base_atom_topk": 2,
+  "max_desc_candidates": 2,
+  "max_base_candidates": 1,
+  "max_other_candidates": 1,
+  "branch_topk": 2,
+  "max_confusers": 4,
+  "min_margin_gain": 0.0015,
+  "min_positive_rate": 0.6,
+  "oracle_gain": 1.05,
+  "oracle_results_dir": "/media/bio/data/BiMC-test/experiments/CIFAR100/semantic_killswitch_bimc_ensemble/seed1_20260414-033652",
+  "recovery_rate": 0.0,
+  "baseline_acc": 73.17,
+  "method_acc": 73.17,
+  "method_gain": 0.0,
+  "test_class_balanced_nll": 4.527344,
+  "test_class_balanced_margin": 0.017395,
+  "changed_class_rate": 0.0,
+  "base_atom_usage_rate": 0.0,
+  "desc_atom_usage_rate": 0.0,
+  "baseline_alignment_gap": 0.715332,
+  "method_alignment_gap": 0.715332,
+  "mean_pruned_bank_size": 6.0,
+  "mean_confuser_count": 3.975,
+  "mean_selected_margin_gain": 0.0,
+  "chosen_candidates": {
+    "60": "baseline_sem",
+    "61": "baseline_sem",
+    "62": "baseline_sem",
+    "63": "baseline_sem",
+    "64": "baseline_sem",
+    "65": "baseline_sem",
+    "66": "baseline_sem",
+    "67": "baseline_sem",
+    "68": "baseline_sem",
+    "69": "baseline_sem",
+    "70": "baseline_sem",
+    "71": "baseline_sem",
+    "72": "baseline_sem",
+    "73": "baseline_sem",
+    "74": "baseline_sem",
+    "75": "baseline_sem",
+    "76": "baseline_sem",
+    "77": "baseline_sem",
+    "78": "baseline_sem",
+    "79": "baseline_sem",
+    "80": "baseline_sem",
+    "81": "baseline_sem",
+    "82": "baseline_sem",
+    "83": "baseline_sem",
+    "84": "baseline_sem",
+    "85": "baseline_sem",
+    "86": "baseline_sem",
+    "87": "baseline_sem",
+    "88": "baseline_sem",
+    "89": "baseline_sem",
+    "90": "baseline_sem",
+    "91": "baseline_sem",
+    "92": "baseline_sem",
+    "93": "baseline_sem",
+    "94": "baseline_sem",
+    "95": "baseline_sem",
+    "96": "baseline_sem",
+    "97": "baseline_sem",
+    "98": "baseline_sem",
+    "99": "baseline_sem"
+  },
+  "class_diagnostics": {
+    "60": {
+      "confusers": [
+        49,
+        23,
+        68,
+        71
+      ],
+      "confuser_counts": {
+        "49": 7,
+        "23": 6,
+        "52": 3,
+        "68": 6,
+        "58": 1,
+        "38": 2,
+        "71": 4,
+        "31": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 6.3e-05,
+      "best_positive_rate": 0.8,
+      "best_min_gain": -3.1e-05,
+      "selected_name": "baseline_sem"
+    },
+    "61": {
+      "confusers": [
+        10,
+        28,
+        22,
+        67
+      ],
+      "confuser_counts": {
+        "10": 15,
+        "28": 5,
+        "18": 1,
+        "40": 1,
+        "22": 4,
+        "67": 2,
+        "45": 1,
+        "84": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 4.6e-05,
+      "best_positive_rate": 1.0,
+      "best_min_gain": 8e-06,
+      "selected_name": "baseline_sem"
+    },
+    "62": {
+      "confusers": [
+        92,
+        70,
+        54,
+        82
+      ],
+      "confuser_counts": {
+        "92": 15,
+        "70": 4,
+        "54": 4,
+        "82": 4,
+        "83": 2,
+        "88": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 3.4e-05,
+      "best_positive_rate": 0.8,
+      "best_min_gain": -1.5e-05,
+      "selected_name": "baseline_sem"
+    },
+    "63": {
+      "confusers": [
+        74,
+        64,
+        38,
+        50
+      ],
+      "confuser_counts": {
+        "74": 8,
+        "64": 5,
+        "4": 1,
+        "50": 2,
+        "93": 1,
+        "80": 2,
+        "38": 4,
+        "59": 1,
+        "66": 2,
+        "21": 1,
+        "97": 2,
+        "42": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 4.6e-05,
+      "best_positive_rate": 0.8,
+      "best_min_gain": 0.0,
+      "selected_name": "baseline_sem"
+    },
+    "64": {
+      "confusers": [
+        74,
+        50,
+        36,
+        97
+      ],
+      "confuser_counts": {
+        "74": 9,
+        "65": 1,
+        "4": 1,
+        "55": 1,
+        "36": 3,
+        "50": 8,
+        "67": 1,
+        "38": 2,
+        "97": 3,
+        "66": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 5e-05,
+      "best_positive_rate": 1.0,
+      "best_min_gain": 3.1e-05,
+      "selected_name": "baseline_sem"
+    },
+    "65": {
+      "confusers": [
+        38,
+        74,
+        36,
+        55
+      ],
+      "confuser_counts": {
+        "38": 5,
+        "74": 5,
+        "55": 4,
+        "34": 1,
+        "4": 1,
+        "36": 5,
+        "50": 3,
+        "97": 1,
+        "84": 1,
+        "75": 1,
+        "27": 1,
+        "86": 1,
+        "87": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 7.5e-05,
+      "best_positive_rate": 0.6,
+      "best_min_gain": -5.3e-05,
+      "selected_name": "baseline_sem"
+    },
+    "66": {
+      "confusers": [
+        4,
+        64,
+        97,
+        50
+      ],
+      "confuser_counts": {
+        "65": 2,
+        "50": 3,
+        "64": 5,
+        "4": 6,
+        "55": 1,
+        "97": 5,
+        "34": 1,
+        "42": 1,
+        "74": 1,
+        "3": 1,
+        "72": 1,
+        "38": 3
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 2.9e-05,
+      "best_positive_rate": 0.8,
+      "best_min_gain": 0.0,
+      "selected_name": "baseline_sem"
+    },
+    "67": {
+      "confusers": [
+        73,
+        27,
+        30,
+        95
+      ],
+      "confuser_counts": {
+        "30": 3,
+        "73": 8,
+        "95": 3,
+        "93": 1,
+        "32": 2,
+        "27": 4,
+        "23": 1,
+        "33": 1,
+        "4": 2,
+        "3": 1,
+        "34": 1,
+        "55": 1,
+        "31": 1,
+        "74": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 6e-05,
+      "best_positive_rate": 1.0,
+      "best_min_gain": 8e-06,
+      "selected_name": "baseline_sem"
+    },
+    "68": {
+      "confusers": [
+        60,
+        23,
+        52,
+        12
+      ],
+      "confuser_counts": {
+        "60": 6,
+        "33": 2,
+        "23": 4,
+        "52": 3,
+        "47": 2,
+        "41": 1,
+        "96": 1,
+        "81": 1,
+        "59": 1,
+        "8": 1,
+        "48": 1,
+        "12": 3,
+        "71": 3,
+        "58": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 2e-05,
+      "best_positive_rate": 0.8,
+      "best_min_gain": 0.0,
+      "selected_name": "baseline_sem"
+    },
+    "69": {
+      "confusers": [
+        23,
+        85,
+        16,
+        67
+      ],
+      "confuser_counts": {
+        "85": 3,
+        "23": 10,
+        "45": 2,
+        "16": 3,
+        "39": 1,
+        "27": 1,
+        "9": 1,
+        "40": 1,
+        "67": 3,
+        "22": 1,
+        "42": 1,
+        "60": 1,
+        "73": 2
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 6.7e-05,
+      "best_positive_rate": 1.0,
+      "best_min_gain": 1.5e-05,
+      "selected_name": "baseline_sem"
+    },
+    "70": {
+      "confusers": [
+        92,
+        62,
+        54
+      ],
+      "confuser_counts": {
+        "92": 15,
+        "62": 8,
+        "54": 7
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 0.000101,
+      "best_positive_rate": 1.0,
+      "best_min_gain": 6.1e-05,
+      "selected_name": "baseline_sem"
+    },
+    "71": {
+      "confusers": [
+        23,
+        60,
+        49,
+        55
+      ],
+      "confuser_counts": {
+        "60": 9,
+        "23": 10,
+        "93": 1,
+        "17": 1,
+        "49": 3,
+        "55": 3,
+        "87": 1,
+        "56": 1,
+        "32": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 3.4e-05,
+      "best_positive_rate": 0.8,
+      "best_min_gain": 0.0,
+      "selected_name": "baseline_sem"
+    },
+    "72": {
+      "confusers": [
+        55,
+        4,
+        3,
+        74
+      ],
+      "confuser_counts": {
+        "4": 8,
+        "3": 4,
+        "55": 10,
+        "74": 4,
+        "66": 1,
+        "93": 1,
+        "95": 1,
+        "38": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 4.6e-05,
+      "best_positive_rate": 0.6,
+      "best_min_gain": -8e-06,
+      "selected_name": "baseline_sem"
+    },
+    "73": {
+      "confusers": [
+        30,
+        95,
+        67,
+        1
+      ],
+      "confuser_counts": {
+        "30": 8,
+        "95": 4,
+        "67": 4,
+        "91": 2,
+        "32": 2,
+        "27": 1,
+        "97": 2,
+        "55": 2,
+        "42": 1,
+        "64": 1,
+        "1": 3
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 4.4e-05,
+      "best_positive_rate": 0.8,
+      "best_min_gain": 0.0,
+      "selected_name": "baseline_sem"
+    },
+    "74": {
+      "confusers": [
+        50,
+        64,
+        4,
+        55
+      ],
+      "confuser_counts": {
+        "50": 6,
+        "64": 5,
+        "42": 1,
+        "36": 1,
+        "63": 1,
+        "4": 3,
+        "55": 3,
+        "66": 2,
+        "27": 2,
+        "44": 3,
+        "29": 2,
+        "14": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 8.2e-05,
+      "best_positive_rate": 1.0,
+      "best_min_gain": 3.1e-05,
+      "selected_name": "baseline_sem"
+    },
+    "75": {
+      "confusers": [
+        55,
+        86,
+        65,
+        4
+      ],
+      "confuser_counts": {
+        "86": 4,
+        "65": 4,
+        "45": 1,
+        "87": 1,
+        "55": 6,
+        "4": 2,
+        "74": 2,
+        "99": 2,
+        "44": 2,
+        "77": 1,
+        "41": 1,
+        "79": 1,
+        "39": 1,
+        "40": 1,
+        "95": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 4.6e-05,
+      "best_positive_rate": 0.8,
+      "best_min_gain": -4.6e-05,
+      "selected_name": "baseline_sem"
+    },
+    "76": {
+      "confusers": [
+        12,
+        69,
+        47,
+        67
+      ],
+      "confuser_counts": {
+        "12": 11,
+        "69": 7,
+        "67": 2,
+        "49": 2,
+        "47": 3,
+        "22": 1,
+        "17": 1,
+        "52": 1,
+        "60": 2
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 2.7e-05,
+      "best_positive_rate": 0.8,
+      "best_min_gain": 0.0,
+      "selected_name": "baseline_sem"
+    },
+    "77": {
+      "confusers": [
+        51,
+        7,
+        27,
+        26
+      ],
+      "confuser_counts": {
+        "7": 3,
+        "26": 2,
+        "51": 8,
+        "4": 1,
+        "55": 2,
+        "27": 3,
+        "74": 2,
+        "80": 2,
+        "14": 2,
+        "63": 1,
+        "57": 1,
+        "52": 1,
+        "92": 1,
+        "54": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 1.4e-05,
+      "best_positive_rate": 0.8,
+      "best_min_gain": 0.0,
+      "selected_name": "baseline_sem"
+    },
+    "78": {
+      "confusers": [
+        99,
+        44,
+        18,
+        74
+      ],
+      "confuser_counts": {
+        "99": 9,
+        "44": 5,
+        "27": 2,
+        "18": 4,
+        "75": 1,
+        "62": 2,
+        "70": 2,
+        "92": 1,
+        "54": 1,
+        "74": 3
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 8.1e-05,
+      "best_positive_rate": 1.0,
+      "best_min_gain": 6.1e-05,
+      "selected_name": "baseline_sem"
+    },
+    "79": {
+      "confusers": [
+        7,
+        18,
+        26,
+        44
+      ],
+      "confuser_counts": {
+        "7": 7,
+        "6": 1,
+        "18": 4,
+        "44": 3,
+        "26": 4,
+        "9": 1,
+        "99": 1,
+        "55": 2,
+        "27": 1,
+        "45": 1,
+        "85": 1,
+        "12": 1,
+        "24": 3
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 4.4e-05,
+      "best_positive_rate": 1.0,
+      "best_min_gain": 8e-06,
+      "selected_name": "baseline_sem"
+    },
+    "80": {
+      "confusers": [
+        74,
+        55,
+        64,
+        50
+      ],
+      "confuser_counts": {
+        "75": 2,
+        "55": 4,
+        "4": 1,
+        "66": 1,
+        "74": 5,
+        "64": 4,
+        "52": 1,
+        "47": 1,
+        "3": 1,
+        "27": 1,
+        "31": 1,
+        "33": 2,
+        "29": 1,
+        "85": 1,
+        "17": 1,
+        "50": 3
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 4.1e-05,
+      "best_positive_rate": 1.0,
+      "best_min_gain": 1.5e-05,
+      "selected_name": "baseline_sem"
+    },
+    "81": {
+      "confusers": [
+        13,
+        90,
+        68,
+        33
+      ],
+      "confuser_counts": {
+        "90": 6,
+        "68": 5,
+        "55": 1,
+        "12": 1,
+        "33": 3,
+        "59": 1,
+        "45": 2,
+        "58": 1,
+        "37": 1,
+        "13": 7,
+        "8": 1,
+        "4": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 6e-05,
+      "best_positive_rate": 0.8,
+      "best_min_gain": 0.0,
+      "selected_name": "baseline_sem"
+    },
+    "82": {
+      "confusers": [
+        92,
+        62,
+        70,
+        6
+      ],
+      "confuser_counts": {
+        "92": 11,
+        "70": 4,
+        "62": 5,
+        "52": 1,
+        "6": 4,
+        "23": 1,
+        "53": 1,
+        "14": 2,
+        "54": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 8.7e-05,
+      "best_positive_rate": 1.0,
+      "best_min_gain": 4.6e-05,
+      "selected_name": "baseline_sem"
+    },
+    "83": {
+      "confusers": [
+        0,
+        45,
+        10,
+        53
+      ],
+      "confuser_counts": {
+        "0": 8,
+        "53": 2,
+        "57": 2,
+        "45": 7,
+        "61": 1,
+        "92": 2,
+        "54": 1,
+        "18": 1,
+        "10": 4,
+        "70": 2
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 6.6e-05,
+      "best_positive_rate": 1.0,
+      "best_min_gain": 3.1e-05,
+      "selected_name": "baseline_sem"
+    },
+    "84": {
+      "confusers": [
+        40,
+        20,
+        5,
+        94
+      ],
+      "confuser_counts": {
+        "40": 10,
+        "86": 2,
+        "32": 1,
+        "45": 1,
+        "22": 1,
+        "28": 2,
+        "20": 3,
+        "25": 2,
+        "5": 3,
+        "94": 3,
+        "54": 1,
+        "10": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 3.2e-05,
+      "best_positive_rate": 1.0,
+      "best_min_gain": 8e-06,
+      "selected_name": "baseline_sem"
+    },
+    "85": {
+      "confusers": [
+        89,
+        27,
+        55,
+        12
+      ],
+      "confuser_counts": {
+        "12": 2,
+        "89": 9,
+        "55": 4,
+        "58": 1,
+        "27": 5,
+        "17": 1,
+        "69": 1,
+        "42": 2,
+        "13": 2,
+        "29": 1,
+        "88": 1,
+        "4": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 4.7e-05,
+      "best_positive_rate": 1.0,
+      "best_min_gain": 1.5e-05,
+      "selected_name": "baseline_sem"
+    },
+    "86": {
+      "confusers": [
+        39,
+        22,
+        10,
+        40
+      ],
+      "confuser_counts": {
+        "40": 2,
+        "39": 9,
+        "67": 1,
+        "27": 1,
+        "22": 4,
+        "74": 1,
+        "42": 1,
+        "41": 2,
+        "10": 3,
+        "4": 2,
+        "50": 1,
+        "32": 1,
+        "99": 1,
+        "9": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 3.5e-05,
+      "best_positive_rate": 1.0,
+      "best_min_gain": 2.3e-05,
+      "selected_name": "baseline_sem"
+    },
+    "87": {
+      "confusers": [
+        39,
+        86,
+        22,
+        25
+      ],
+      "confuser_counts": {
+        "39": 10,
+        "86": 5,
+        "22": 3,
+        "27": 1,
+        "25": 3,
+        "92": 2,
+        "54": 1,
+        "42": 1,
+        "45": 1,
+        "94": 2,
+        "13": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 5.8e-05,
+      "best_positive_rate": 1.0,
+      "best_min_gain": 4.6e-05,
+      "selected_name": "baseline_sem"
+    },
+    "88": {
+      "confusers": [
+        42,
+        43,
+        97,
+        74
+      ],
+      "confuser_counts": {
+        "43": 10,
+        "42": 11,
+        "97": 5,
+        "74": 2,
+        "34": 1,
+        "3": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 2.4e-05,
+      "best_positive_rate": 1.0,
+      "best_min_gain": 8e-06,
+      "selected_name": "baseline_sem"
+    },
+    "89": {
+      "confusers": [
+        41,
+        85,
+        27,
+        58
+      ],
+      "confuser_counts": {
+        "41": 5,
+        "58": 3,
+        "32": 1,
+        "85": 5,
+        "6": 2,
+        "45": 1,
+        "60": 1,
+        "27": 4,
+        "39": 1,
+        "49": 3,
+        "90": 1,
+        "68": 1,
+        "33": 1,
+        "4": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 5.6e-05,
+      "best_positive_rate": 1.0,
+      "best_min_gain": 2.3e-05,
+      "selected_name": "baseline_sem"
+    },
+    "90": {
+      "confusers": [
+        81,
+        87,
+        85,
+        89
+      ],
+      "confuser_counts": {
+        "87": 3,
+        "81": 7,
+        "40": 1,
+        "85": 3,
+        "69": 2,
+        "27": 1,
+        "33": 2,
+        "12": 2,
+        "89": 3,
+        "55": 1,
+        "4": 1,
+        "48": 1,
+        "13": 3
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 2e-05,
+      "best_positive_rate": 0.6,
+      "best_min_gain": -8e-06,
+      "selected_name": "baseline_sem"
+    },
+    "91": {
+      "confusers": [
+        32,
+        1,
+        4,
+        27
+      ],
+      "confuser_counts": {
+        "27": 2,
+        "32": 8,
+        "96": 1,
+        "60": 2,
+        "4": 4,
+        "1": 7,
+        "30": 1,
+        "73": 2,
+        "33": 2,
+        "3": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 2.9e-05,
+      "best_positive_rate": 0.6,
+      "best_min_gain": -1.5e-05,
+      "selected_name": "baseline_sem"
+    },
+    "92": {
+      "confusers": [
+        54,
+        70,
+        62,
+        82
+      ],
+      "confuser_counts": {
+        "62": 7,
+        "70": 9,
+        "82": 3,
+        "54": 10,
+        "14": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 6.4e-05,
+      "best_positive_rate": 0.8,
+      "best_min_gain": -2.3e-05,
+      "selected_name": "baseline_sem"
+    },
+    "93": {
+      "confusers": [
+        77,
+        32,
+        67,
+        30
+      ],
+      "confuser_counts": {
+        "30": 3,
+        "73": 2,
+        "1": 1,
+        "32": 5,
+        "77": 6,
+        "67": 4,
+        "74": 3,
+        "80": 1,
+        "63": 1,
+        "65": 1,
+        "44": 1,
+        "51": 1,
+        "84": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 6.3e-05,
+      "best_positive_rate": 0.8,
+      "best_min_gain": -3.1e-05,
+      "selected_name": "baseline_sem"
+    },
+    "94": {
+      "confusers": [
+        87,
+        84,
+        25,
+        40
+      ],
+      "confuser_counts": {
+        "76": 1,
+        "40": 2,
+        "33": 1,
+        "25": 3,
+        "87": 7,
+        "37": 1,
+        "84": 7,
+        "27": 1,
+        "23": 1,
+        "22": 1,
+        "86": 1,
+        "39": 1,
+        "4": 1,
+        "16": 1,
+        "32": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 6.4e-05,
+      "best_positive_rate": 0.8,
+      "best_min_gain": -8e-06,
+      "selected_name": "baseline_sem"
+    },
+    "95": {
+      "confusers": [
+        73,
+        30,
+        67,
+        55
+      ],
+      "confuser_counts": {
+        "67": 6,
+        "99": 1,
+        "55": 4,
+        "69": 1,
+        "73": 8,
+        "49": 2,
+        "30": 7,
+        "4": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 6.9e-05,
+      "best_positive_rate": 1.0,
+      "best_min_gain": 3.8e-05,
+      "selected_name": "baseline_sem"
+    },
+    "96": {
+      "confusers": [
+        52,
+        47,
+        33,
+        59
+      ],
+      "confuser_counts": {
+        "52": 10,
+        "47": 8,
+        "33": 5,
+        "60": 1,
+        "59": 3,
+        "12": 1,
+        "56": 1,
+        "44": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 5.6e-05,
+      "best_positive_rate": 1.0,
+      "best_min_gain": 3.1e-05,
+      "selected_name": "baseline_sem"
+    },
+    "97": {
+      "confusers": [
+        42,
+        34,
+        88,
+        43
+      ],
+      "confuser_counts": {
+        "34": 4,
+        "64": 3,
+        "42": 6,
+        "27": 2,
+        "3": 3,
+        "88": 4,
+        "43": 4,
+        "84": 1,
+        "66": 2,
+        "4": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 6.3e-05,
+      "best_positive_rate": 1.0,
+      "best_min_gain": 2.3e-05,
+      "selected_name": "baseline_sem"
+    },
+    "98": {
+      "confusers": [
+        35,
+        2,
+        46,
+        55
+      ],
+      "confuser_counts": {
+        "35": 14,
+        "46": 3,
+        "55": 3,
+        "99": 1,
+        "2": 6,
+        "11": 1,
+        "97": 1,
+        "74": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 8.2e-05,
+      "best_positive_rate": 1.0,
+      "best_min_gain": 1.5e-05,
+      "selected_name": "baseline_sem"
+    },
+    "99": {
+      "confusers": [
+        18,
+        44,
+        78,
+        50
+      ],
+      "confuser_counts": {
+        "10": 2,
+        "40": 1,
+        "80": 1,
+        "55": 1,
+        "16": 1,
+        "78": 3,
+        "44": 4,
+        "50": 3,
+        "18": 5,
+        "64": 1,
+        "60": 1,
+        "96": 1,
+        "77": 2,
+        "51": 2,
+        "14": 1,
+        "67": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 0.000104,
+      "best_positive_rate": 0.8,
+      "best_min_gain": 0.0,
+      "selected_name": "baseline_sem"
+    }
+  }
+}

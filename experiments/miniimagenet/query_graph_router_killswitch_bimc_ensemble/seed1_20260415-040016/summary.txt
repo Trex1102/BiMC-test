@@ -1,0 +1,11 @@
+dataset: miniimagenet
+baseline_full_acc: 92.46
+graph_router_oracle_full_acc: 92.57
+graph_router_oracle_gain: 0.11
+discrete_oracle_gain: 0.66
+baseline_base_acc: 93.483
+baseline_novel_acc: 90.925
+graph_router_oracle_base_acc: 93.75
+graph_router_oracle_novel_acc: 90.8
+mean_alpha_base: 0.6985
+mean_alpha_novel: 0.6657

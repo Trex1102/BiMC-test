@@ -1,0 +1,11 @@
+dataset: CIFAR100
+baseline_full_acc: 73.24
+best_global_gain: 0.56
+oracle_gain: 0.97
+best_gate_mass_thr: 0.3
+best_gate_top_novel_thr: 0.0
+best_gate_margin_thr: 0.0
+best_gate_gated_query_count: 3569
+best_gate_gated_base_count: 438
+best_gate_gated_novel_count: 3131
+best_gate_novel_recall: 0.7827

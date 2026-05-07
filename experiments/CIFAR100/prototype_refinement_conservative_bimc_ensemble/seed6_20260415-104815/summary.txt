@@ -1,0 +1,10 @@
+dataset: CIFAR100
+baseline_full_acc: 73.53
+best_alpha: 0.5
+final_full_acc: 73.5
+final_gain: -0.03
+baseline_base_acc: 77.6
+baseline_novel_acc: 67.425
+final_base_acc: 77.35
+final_novel_acc: 67.725
+recovery_vs_oracle: -3.1

@@ -1,0 +1,11 @@
+dataset: CIFAR100
+baseline_full_acc: 73.24
+global_best_alpha: 1.0
+global_best_gain: 0.84
+oracle_full_acc: 74.37
+oracle_gain: 1.13
+baseline_base_acc: 77.733
+baseline_novel_acc: 66.5
+oracle_base_acc: 77.667
+oracle_novel_acc: 69.425
+changed_class_rate: 0.775

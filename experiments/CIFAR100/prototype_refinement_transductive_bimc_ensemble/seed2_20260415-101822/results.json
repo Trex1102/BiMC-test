@@ -1,0 +1,57 @@
+{
+  "dataset": "CIFAR100",
+  "train_cfg": "configs/trainers/bimc_ensemble.yaml",
+  "runtime_sec": 112.282,
+  "num_seen_classes": 100,
+  "num_base_classes": 60,
+  "beta": 0.65,
+  "lambda_t": 0.5,
+  "ensemble_alpha": 0.6,
+  "num_iters": 3,
+  "quota_multiplier": 1.0,
+  "proto_alpha": 0.75,
+  "sinkhorn_tau": 0.5,
+  "sinkhorn_iters": 50,
+  "baseline_full_acc": 73.58,
+  "baseline_base_acc": 78.0,
+  "baseline_novel_acc": 66.95,
+  "final_full_acc": 72.8,
+  "final_base_acc": 76.033,
+  "final_novel_acc": 67.95,
+  "final_gain": -0.78,
+  "history": [
+    {
+      "iter": 1,
+      "full_acc": 72.92,
+      "base_acc": 76.067,
+      "novel_acc": 68.2,
+      "novel_quota": 4000,
+      "per_class_quota": 100,
+      "mean_class_mass": 100.0,
+      "std_class_mass": 0.0
+    },
+    {
+      "iter": 2,
+      "full_acc": 72.81,
+      "base_acc": 76.0,
+      "novel_acc": 68.025,
+      "novel_quota": 4000,
+      "per_class_quota": 100,
+      "mean_class_mass": 100.0,
+      "std_class_mass": 0.0
+    },
+    {
+      "iter": 3,
+      "full_acc": 72.8,
+      "base_acc": 76.033,
+      "novel_acc": 67.95,
+      "novel_quota": 4000,
+      "per_class_quota": 100,
+      "mean_class_mass": 100.0,
+      "std_class_mass": 0.0
+    }
+  ],
+  "rectification_oracle_gain": 1.13,
+  "rectification_oracle_path": "/media/bio/data/BiMC-test/experiments/CIFAR100/prototype_rectification_killswitch_bimc_ensemble/seed1_20260415-043941",
+  "recovery_vs_oracle": -69.0
+}

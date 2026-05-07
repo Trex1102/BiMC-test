@@ -1,0 +1,12 @@
+dataset: miniimagenet
+train_cfg: configs/trainers/bimc_ensemble.yaml
+runtime_sec: 400.786
+baseline_acc: 92.4
+oracle_acc: 92.98
+oracle_gain: 0.58
+recommendation: kill_option2
+changed_class_rate: 0.6
+base_atom_usage_rate: 0.125
+desc_atom_usage_rate: 0.35
+baseline_alignment_gap: 0.645508
+oracle_alignment_gap: 0.655273

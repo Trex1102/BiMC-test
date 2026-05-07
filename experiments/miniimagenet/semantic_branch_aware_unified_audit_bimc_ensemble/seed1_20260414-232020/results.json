@@ -1,0 +1,193 @@
+{
+  "dataset": "miniimagenet",
+  "train_cfg": "configs/trainers/bimc_ensemble.yaml",
+  "runtime_sec": 196.237,
+  "threshold": 0.1,
+  "k": 3,
+  "alpha_bank": 0.25,
+  "alpha_compose": 0.25,
+  "confuser_topk": 3,
+  "compose_mode": "prompt_desc_atom",
+  "strategy": "prompt_top1",
+  "gate_stats": {
+    "novel_diversity_mean": 0.099068,
+    "diversity_threshold": 0.1,
+    "diverse_branch_rate": 0.525,
+    "compose_branch_rate": 0.475,
+    "diverse_branch_count": 21,
+    "compose_branch_count": 19
+  },
+  "metrics": {
+    "full_acc": 92.38,
+    "full_base_acc": 93.367,
+    "full_novel_acc": 90.9,
+    "fused_only_acc": 92.08,
+    "fused_only_base_acc": 93.75,
+    "fused_only_novel_acc": 89.575,
+    "knn_only_acc": 89.41,
+    "knn_only_base_acc": 89.983,
+    "knn_only_novel_acc": 88.55
+  },
+  "branch_details": {
+    "60": {
+      "branch": "diverse_branch",
+      "diversity": 0.108154
+    },
+    "61": {
+      "branch": "compose_branch",
+      "diversity": 0.074707
+    },
+    "62": {
+      "branch": "diverse_branch",
+      "diversity": 0.107971
+    },
+    "63": {
+      "branch": "compose_branch",
+      "diversity": 0.063171
+    },
+    "64": {
+      "branch": "compose_branch",
+      "diversity": 0.094543
+    },
+    "65": {
+      "branch": "compose_branch",
+      "diversity": 0.075317
+    },
+    "66": {
+      "branch": "compose_branch",
+      "diversity": 0.092773
+    },
+    "67": {
+      "branch": "diverse_branch",
+      "diversity": 0.128906
+    },
+    "68": {
+      "branch": "compose_branch",
+      "diversity": 0.034393
+    },
+    "69": {
+      "branch": "compose_branch",
+      "diversity": 0.081665
+    },
+    "70": {
+      "branch": "diverse_branch",
+      "diversity": 0.11322
+    },
+    "71": {
+      "branch": "compose_branch",
+      "diversity": 0.076477
+    },
+    "72": {
+      "branch": "compose_branch",
+      "diversity": 0.078552
+    },
+    "73": {
+      "branch": "compose_branch",
+      "diversity": 0.07312
+    },
+    "74": {
+      "branch": "diverse_branch",
+      "diversity": 0.147705
+    },
+    "75": {
+      "branch": "compose_branch",
+      "diversity": 0.086792
+    },
+    "76": {
+      "branch": "diverse_branch",
+      "diversity": 0.152466
+    },
+    "77": {
+      "branch": "compose_branch",
+      "diversity": 0.073425
+    },
+    "78": {
+      "branch": "compose_branch",
+      "diversity": 0.077576
+    },
+    "79": {
+      "branch": "compose_branch",
+      "diversity": 0.088989
+    },
+    "80": {
+      "branch": "diverse_branch",
+      "diversity": 0.11377
+    },
+    "81": {
+      "branch": "diverse_branch",
+      "diversity": 0.124329
+    },
+    "82": {
+      "branch": "diverse_branch",
+      "diversity": 0.115662
+    },
+    "83": {
+      "branch": "compose_branch",
+      "diversity": 0.077942
+    },
+    "84": {
+      "branch": "diverse_branch",
+      "diversity": 0.131714
+    },
+    "85": {
+      "branch": "compose_branch",
+      "diversity": 0.052856
+    },
+    "86": {
+      "branch": "diverse_branch",
+      "diversity": 0.153809
+    },
+    "87": {
+      "branch": "compose_branch",
+      "diversity": 0.09314
+    },
+    "88": {
+      "branch": "compose_branch",
+      "diversity": 0.065796
+    },
+    "89": {
+      "branch": "diverse_branch",
+      "diversity": 0.106934
+    },
+    "90": {
+      "branch": "diverse_branch",
+      "diversity": 0.100342
+    },
+    "91": {
+      "branch": "diverse_branch",
+      "diversity": 0.134766
+    },
+    "92": {
+      "branch": "diverse_branch",
+      "diversity": 0.130127
+    },
+    "93": {
+      "branch": "diverse_branch",
+      "diversity": 0.100281
+    },
+    "94": {
+      "branch": "diverse_branch",
+      "diversity": 0.128906
+    },
+    "95": {
+      "branch": "diverse_branch",
+      "diversity": 0.103149
+    },
+    "96": {
+      "branch": "diverse_branch",
+      "diversity": 0.103394
+    },
+    "97": {
+      "branch": "diverse_branch",
+      "diversity": 0.109253
+    },
+    "98": {
+      "branch": "compose_branch",
+      "diversity": 0.062805
+    },
+    "99": {
+      "branch": "diverse_branch",
+      "diversity": 0.12384
+    }
+  }
+}

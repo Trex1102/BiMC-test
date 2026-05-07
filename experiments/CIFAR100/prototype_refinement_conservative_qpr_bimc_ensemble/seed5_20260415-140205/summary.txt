@@ -1,0 +1,6 @@
+dataset: CIFAR100
+baseline_full_acc: 73.43
+cpr_full_acc: 73.76
+final_full_acc: 73.86
+final_gain: 0.43
+gain_over_cpr: 0.1

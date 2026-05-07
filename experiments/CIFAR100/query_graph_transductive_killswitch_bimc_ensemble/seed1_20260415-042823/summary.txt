@@ -1,0 +1,12 @@
+dataset: CIFAR100
+baseline_full_acc: 73.17
+transductive_oracle_full_acc: 100.0
+transductive_oracle_gain: 26.83
+routed_anchor_gain: 0.32
+discrete_oracle_gain: 3.25
+baseline_base_acc: 77.867
+baseline_novel_acc: 66.125
+transductive_oracle_base_acc: 100.0
+transductive_oracle_novel_acc: 100.0
+mean_alpha_base: 0.622
+mean_alpha_novel: 0.6451

@@ -1,0 +1,16 @@
+dataset: miniimagenet
+runtime_sec: 46.479
+prompt_only.oracle_gain: 0.05
+prompt_only.changed_class_rate: 0.075
+desc_mean_only.oracle_gain: 0.02
+desc_mean_only.changed_class_rate: 0.025
+desc_atom_direct.oracle_gain: 0.25
+desc_atom_direct.changed_class_rate: 0.4
+prompt_desc_atom.oracle_gain: 0.14
+prompt_desc_atom.changed_class_rate: 0.3
+base_anchor_family.oracle_gain: 0.09
+base_anchor_family.changed_class_rate: 0.1
+prompt_desc_composer.oracle_gain: 0.39
+prompt_desc_composer.changed_class_rate: 0.5
+full.oracle_gain: 0.53
+full.changed_class_rate: 0.65

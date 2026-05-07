@@ -1,0 +1,40 @@
+seed= alpha=0.0
+/media/bio/data/BiMC-test/models/clip/clip.py:23: UserWarning: PyTorch version 1.7.1 or higher is recommended
+  warnings.warn("PyTorch version 1.7.1 or higher is recommended")
+usage: semantic_bank_novel_interp_audit.py [-h] --data_cfg DATA_CFG
+                                           --train_cfg TRAIN_CFG [--k K]
+                                           [--confuser_topk CONFUSER_TOPK]
+                                           [--base_atom_topk BASE_ATOM_TOPK]
+                                           [--alphas ALPHAS [ALPHAS ...]]
+                                           [--seed_override SEED_OVERRIDE]
+semantic_bank_novel_interp_audit.py: error: argument --seed_override: expected one argument
+seed= alpha=0.0
+/media/bio/data/BiMC-test/models/clip/clip.py:23: UserWarning: PyTorch version 1.7.1 or higher is recommended
+  warnings.warn("PyTorch version 1.7.1 or higher is recommended")
+usage: semantic_bank_novel_interp_audit.py [-h] --data_cfg DATA_CFG
+                                           --train_cfg TRAIN_CFG [--k K]
+                                           [--confuser_topk CONFUSER_TOPK]
+                                           [--base_atom_topk BASE_ATOM_TOPK]
+                                           [--alphas ALPHAS [ALPHAS ...]]
+                                           [--seed_override SEED_OVERRIDE]
+semantic_bank_novel_interp_audit.py: error: argument --seed_override: expected one argument
+seed= alpha=0.0
+/media/bio/data/BiMC-test/models/clip/clip.py:23: UserWarning: PyTorch version 1.7.1 or higher is recommended
+  warnings.warn("PyTorch version 1.7.1 or higher is recommended")
+usage: semantic_bank_novel_interp_audit.py [-h] --data_cfg DATA_CFG
+                                           --train_cfg TRAIN_CFG [--k K]
+                                           [--confuser_topk CONFUSER_TOPK]
+                                           [--base_atom_topk BASE_ATOM_TOPK]
+                                           [--alphas ALPHAS [ALPHAS ...]]
+                                           [--seed_override SEED_OVERRIDE]
+semantic_bank_novel_interp_audit.py: error: argument --seed_override: expected one argument
+seed= alpha=0.0
+/media/bio/data/BiMC-test/models/clip/clip.py:23: UserWarning: PyTorch version 1.7.1 or higher is recommended
+  warnings.warn("PyTorch version 1.7.1 or higher is recommended")
+usage: semantic_bank_novel_interp_audit.py [-h] --data_cfg DATA_CFG
+                                           --train_cfg TRAIN_CFG [--k K]
+                                           [--confuser_topk CONFUSER_TOPK]
+                                           [--base_atom_topk BASE_ATOM_TOPK]
+                                           [--alphas ALPHAS [ALPHAS ...]]
+                                           [--seed_override SEED_OVERRIDE]
+semantic_bank_novel_interp_audit.py: error: argument --seed_override: expected one argument

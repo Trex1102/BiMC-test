@@ -1,0 +1,6 @@
+dataset: cub200
+baseline_full_acc: 72.592
+cpr_full_acc: 72.627
+final_full_acc: 73.473
+final_gain: 0.88
+gain_over_cpr: 0.846

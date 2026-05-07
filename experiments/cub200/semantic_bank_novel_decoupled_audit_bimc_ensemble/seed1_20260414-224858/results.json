@@ -1,0 +1,117 @@
+{
+  "dataset": "cub200",
+  "train_cfg": "configs/trainers/bimc_ensemble.yaml",
+  "runtime_sec": 75.857,
+  "k_requested": 3,
+  "k_effective": 3,
+  "results": {
+    "original": {
+      "bank_stats": {
+        "base_fused_count_mean": 23.24,
+        "novel_fused_count_mean": 22.91,
+        "knn_description_count_mean": 23.075,
+        "novel_within_class_diversity_mean": 0.085512,
+        "novel_support_alignment_mean": 0.347502,
+        "novel_support_alignment_spread_mean": 0.008012,
+        "novel_confuser_overlap_rate_mean": 0.791436,
+        "novel_confuser_similarity_mean": 0.557334
+      },
+      "metrics": {
+        "full_acc": 72.73,
+        "full_base_acc": 79.155,
+        "full_novel_acc": 66.451,
+        "fused_only_acc": 72.506,
+        "fused_only_base_acc": 80.307,
+        "fused_only_novel_acc": 64.881,
+        "knn_only_acc": 56.559,
+        "knn_only_base_acc": 64.246,
+        "knn_only_novel_acc": 49.044,
+        "full_oracle_gain": 2.071,
+        "full_oracle_changed_rate": 0.68,
+        "fused_oracle_gain": 2.658,
+        "fused_oracle_changed_rate": 0.77
+      }
+    },
+    "novel_random_fused_k": {
+      "bank_stats": {
+        "base_fused_count_mean": 23.24,
+        "novel_fused_count_mean": 3.0,
+        "knn_description_count_mean": 23.075,
+        "novel_within_class_diversity_mean": 0.083404,
+        "novel_support_alignment_mean": 0.34772,
+        "novel_support_alignment_spread_mean": 0.006322,
+        "novel_confuser_overlap_rate_mean": 0.783333,
+        "novel_confuser_similarity_mean": 0.558008
+      },
+      "metrics": {
+        "full_acc": 72.799,
+        "full_base_acc": 79.19,
+        "full_novel_acc": 66.553,
+        "fused_only_acc": 72.472,
+        "fused_only_base_acc": 80.307,
+        "fused_only_novel_acc": 64.812,
+        "knn_only_acc": 56.559,
+        "knn_only_base_acc": 64.246,
+        "knn_only_novel_acc": 49.044,
+        "full_oracle_gain": 1.312,
+        "full_oracle_changed_rate": 0.45,
+        "fused_oracle_gain": 1.657,
+        "fused_oracle_changed_rate": 0.54
+      }
+    },
+    "novel_diverse_fused_k": {
+      "bank_stats": {
+        "base_fused_count_mean": 23.24,
+        "novel_fused_count_mean": 3.0,
+        "knn_description_count_mean": 23.075,
+        "novel_within_class_diversity_mean": 0.166006,
+        "novel_support_alignment_mean": 0.343193,
+        "novel_support_alignment_spread_mean": 0.008883,
+        "novel_confuser_overlap_rate_mean": 0.766667,
+        "novel_confuser_similarity_mean": 0.543848
+      },
+      "metrics": {
+        "full_acc": 72.73,
+        "full_base_acc": 79.085,
+        "full_novel_acc": 66.519,
+        "fused_only_acc": 72.679,
+        "fused_only_base_acc": 80.272,
+        "fused_only_novel_acc": 65.256,
+        "knn_only_acc": 56.559,
+        "knn_only_base_acc": 64.246,
+        "knn_only_novel_acc": 49.044,
+        "full_oracle_gain": 2.226,
+        "full_oracle_changed_rate": 0.69,
+        "fused_oracle_gain": 1.829,
+        "fused_oracle_changed_rate": 0.56
+      }
+    },
+    "novel_confuser_fused_k": {
+      "bank_stats": {
+        "base_fused_count_mean": 23.24,
+        "novel_fused_count_mean": 3.0,
+        "knn_description_count_mean": 23.075,
+        "novel_within_class_diversity_mean": 0.122234,
+        "novel_support_alignment_mean": 0.349021,
+        "novel_support_alignment_spread_mean": 0.006819,
+        "novel_confuser_overlap_rate_mean": 0.726667,
+        "novel_confuser_similarity_mean": 0.542427
+      },
+      "metrics": {
+        "full_acc": 72.541,
+        "full_base_acc": 79.05,
+        "full_novel_acc": 66.177,
+        "fused_only_acc": 72.575,
+        "fused_only_base_acc": 80.168,
+        "fused_only_novel_acc": 65.154,
+        "knn_only_acc": 56.559,
+        "knn_only_base_acc": 64.246,
+        "knn_only_novel_acc": 49.044,
+        "full_oracle_gain": 1.812,
+        "full_oracle_changed_rate": 0.56,
+        "fused_oracle_gain": 1.571,
+        "fused_oracle_changed_rate": 0.55
+      }
+    }
+  }
+}

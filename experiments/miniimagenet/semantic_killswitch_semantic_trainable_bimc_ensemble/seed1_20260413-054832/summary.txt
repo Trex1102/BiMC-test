@@ -1,0 +1,17 @@
+dataset: miniimagenet
+train_cfg: configs/trainers/bimc_ensemble.yaml
+runtime_sec: 46.83
+baseline_acc: 92.43
+trainable_acc: 92.44
+trainable_gain: 0.01
+oracle_gain: 0.58
+recovery_rate: 0.0172
+best_val_acc: 95.0
+best_val_nll: 4.429439
+test_class_balanced_nll: 4.437394
+test_class_balanced_margin: 0.070771
+changed_class_rate: 0.0
+base_atom_usage_rate: 0.0
+desc_atom_usage_rate: 0.0
+baseline_alignment_gap: 0.645227
+trainable_alignment_gap: 0.645105

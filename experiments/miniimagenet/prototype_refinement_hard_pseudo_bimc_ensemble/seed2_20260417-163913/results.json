@@ -1,0 +1,42 @@
+{
+  "dataset": "miniimagenet",
+  "train_cfg": "configs/trainers/bimc_ensemble.yaml",
+  "runtime_sec": 63.384,
+  "num_seen_classes": 100,
+  "num_base_classes": 60,
+  "beta": 0.65,
+  "lambda_t": 0.5,
+  "ensemble_alpha": 0.6,
+  "alpha_grid": [
+    0.5
+  ],
+  "min_count": 5,
+  "baseline_full_acc": 92.39,
+  "baseline_base_acc": 93.067,
+  "baseline_novel_acc": 91.375,
+  "best_alpha": 0.5,
+  "final_full_acc": 92.54,
+  "final_base_acc": 92.733,
+  "final_novel_acc": 92.25,
+  "final_gain": 0.15,
+  "updated_class_count": 40,
+  "updated_class_rate": 1.0,
+  "gated_query_count": 3956,
+  "gated_base_count": 171,
+  "gated_novel_count": 3785,
+  "mean_queries_per_updated_class": 98.9,
+  "alpha_sweep": [
+    {
+      "alpha": 0.5,
+      "full_acc": 92.54,
+      "base_acc": 92.733,
+      "novel_acc": 92.25,
+      "gain": 0.15,
+      "updated_class_count": 40,
+      "updated_class_rate": 1.0,
+      "mean_queries_per_updated_class": 98.9,
+      "gated_query_count": 3956,
+      "gated_novel_count": 3785
+    }
+  ]
+}

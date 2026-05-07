@@ -1,0 +1,10 @@
+dataset: cub200
+runtime_sec: 54.228
+semantic_oracle_gain: 1.691
+recovery_vs_semantic_oracle: 0.5204
+full.oracle_gain: 0.88
+full.changed_class_rate: 0.37
+full.mean_alpha_changed: 0.4051
+fused_only.oracle_gain: 1.001
+fused_only.changed_class_rate: 0.41
+fused_only.mean_alpha_changed: 0.4404

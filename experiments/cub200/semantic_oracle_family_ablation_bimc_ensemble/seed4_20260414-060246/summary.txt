@@ -1,0 +1,16 @@
+dataset: cub200
+runtime_sec: 18.583
+prompt_only.oracle_gain: 0.362
+prompt_only.changed_class_rate: 0.14
+desc_mean_only.oracle_gain: 0.276
+desc_mean_only.changed_class_rate: 0.11
+desc_atom_direct.oracle_gain: 1.691
+desc_atom_direct.changed_class_rate: 0.55
+prompt_desc_atom.oracle_gain: 1.225
+prompt_desc_atom.changed_class_rate: 0.46
+base_anchor_family.oracle_gain: 0.846
+base_anchor_family.changed_class_rate: 0.23
+prompt_desc_composer.oracle_gain: 1.433
+prompt_desc_composer.changed_class_rate: 0.51
+full.oracle_gain: 1.985
+full.changed_class_rate: 0.68

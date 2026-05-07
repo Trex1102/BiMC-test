@@ -1,0 +1,20 @@
+dataset: miniimagenet
+train_cfg: configs/trainers/bimc_ensemble.yaml
+runtime_sec: 92.727
+k_effective: 3
+[original] full_acc=92.4 full_base_acc=93.4 full_novel_acc=90.9 full_oracle_gain=0.72
+[original] fused_only_acc=92.0 fused_only_base_acc=93.7 fused_only_novel_acc=89.45 fused_oracle_gain=0.8
+[original] knn_only_acc=89.41 knn_only_base_acc=89.983 knn_only_novel_acc=88.55
+[original] base_fused_count=18.567 novel_fused_count=17.375 knn_count=18.09 novel_diversity=0.099035 novel_confuser_overlap=0.865086
+[novel_random_fused_k] full_acc=92.48 full_base_acc=93.483 full_novel_acc=90.975 full_oracle_gain=0.47
+[novel_random_fused_k] fused_only_acc=91.9 fused_only_base_acc=93.683 fused_only_novel_acc=89.225 fused_oracle_gain=0.52
+[novel_random_fused_k] knn_only_acc=89.41 knn_only_base_acc=89.983 knn_only_novel_acc=88.55
+[novel_random_fused_k] base_fused_count=18.567 novel_fused_count=3.0 knn_count=18.09 novel_diversity=0.103938 novel_confuser_overlap=0.866667
+[novel_diverse_fused_k] full_acc=92.48 full_base_acc=93.4 full_novel_acc=91.1 full_oracle_gain=0.42
+[novel_diverse_fused_k] fused_only_acc=91.97 fused_only_base_acc=93.6 fused_only_novel_acc=89.525 fused_oracle_gain=0.55
+[novel_diverse_fused_k] knn_only_acc=89.41 knn_only_base_acc=89.983 knn_only_novel_acc=88.55
+[novel_diverse_fused_k] base_fused_count=18.567 novel_fused_count=3.0 knn_count=18.09 novel_diversity=0.164111 novel_confuser_overlap=0.816667
+[novel_confuser_fused_k] full_acc=92.41 full_base_acc=93.4 full_novel_acc=90.925 full_oracle_gain=0.61
+[novel_confuser_fused_k] fused_only_acc=91.93 fused_only_base_acc=93.7 fused_only_novel_acc=89.275 fused_oracle_gain=0.55
+[novel_confuser_fused_k] knn_only_acc=89.41 knn_only_base_acc=89.983 knn_only_novel_acc=88.55
+[novel_confuser_fused_k] base_fused_count=18.567 novel_fused_count=3.0 knn_count=18.09 novel_diversity=0.117756 novel_confuser_overlap=0.775

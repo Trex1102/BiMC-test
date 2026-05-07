@@ -1,0 +1,11 @@
+dataset: cub200
+train_cfg: configs/trainers/bimc_ensemble.yaml
+runtime_sec: 41.725
+[prompt_desc_atom__prompt_top1] atom_align=0.346963 atom_margin=-0.220842
+[prompt_desc_atom__prompt_top1] alpha=0.25 full_acc=72.782 full_base_acc=78.352 full_novel_acc=67.338 fused_only_novel_acc=64.71
+[prompt_desc_atom__confuser_top1] atom_align=0.345544 atom_margin=-0.190969
+[prompt_desc_atom__confuser_top1] alpha=0.25 full_acc=72.61 full_base_acc=78.387 full_novel_acc=66.962 fused_only_novel_acc=65.051
+[prompt_atom__prompt_top1] atom_align=0.346963 atom_margin=-0.220842
+[prompt_atom__prompt_top1] alpha=0.25 full_acc=72.661 full_base_acc=78.561 full_novel_acc=66.894 fused_only_novel_acc=64.573
+[prompt_atom__confuser_top1] atom_align=0.345544 atom_margin=-0.190969
+[prompt_atom__confuser_top1] alpha=0.25 full_acc=72.575 full_base_acc=78.422 full_novel_acc=66.86 fused_only_novel_acc=64.881

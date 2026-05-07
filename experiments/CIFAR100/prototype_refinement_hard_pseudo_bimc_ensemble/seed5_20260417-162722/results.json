@@ -1,0 +1,42 @@
+{
+  "dataset": "CIFAR100",
+  "train_cfg": "configs/trainers/bimc_ensemble.yaml",
+  "runtime_sec": 50.972,
+  "num_seen_classes": 100,
+  "num_base_classes": 60,
+  "beta": 0.65,
+  "lambda_t": 0.5,
+  "ensemble_alpha": 0.6,
+  "alpha_grid": [
+    0.5
+  ],
+  "min_count": 5,
+  "baseline_full_acc": 73.43,
+  "baseline_base_acc": 77.783,
+  "baseline_novel_acc": 66.9,
+  "best_alpha": 0.5,
+  "final_full_acc": 73.78,
+  "final_base_acc": 77.567,
+  "final_novel_acc": 68.1,
+  "final_gain": 0.35,
+  "updated_class_count": 40,
+  "updated_class_rate": 1.0,
+  "gated_query_count": 3593,
+  "gated_base_count": 444,
+  "gated_novel_count": 3149,
+  "mean_queries_per_updated_class": 89.825,
+  "alpha_sweep": [
+    {
+      "alpha": 0.5,
+      "full_acc": 73.78,
+      "base_acc": 77.567,
+      "novel_acc": 68.1,
+      "gain": 0.35,
+      "updated_class_count": 40,
+      "updated_class_rate": 1.0,
+      "mean_queries_per_updated_class": 89.825,
+      "gated_query_count": 3593,
+      "gated_novel_count": 3149
+    }
+  ]
+}

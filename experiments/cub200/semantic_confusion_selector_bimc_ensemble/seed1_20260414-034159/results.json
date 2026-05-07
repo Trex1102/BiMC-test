@@ -1,0 +1,2744 @@
+{
+  "dataset": "cub200",
+  "train_cfg": "configs/trainers/bimc_ensemble.yaml",
+  "runtime_sec": 185.674,
+  "num_seen_classes": 200,
+  "num_base_classes": 100,
+  "baseline_beta": 0.3,
+  "baseline_lambda_t": 0.5,
+  "ensemble_alpha": 0.8,
+  "max_desc_atoms": 3,
+  "base_atom_topk": 2,
+  "max_desc_candidates": 2,
+  "max_base_candidates": 1,
+  "max_other_candidates": 1,
+  "branch_topk": 2,
+  "max_confusers": 4,
+  "min_margin_gain": 0.0015,
+  "min_positive_rate": 0.6,
+  "oracle_gain": 1.691,
+  "oracle_results_dir": "/media/bio/data/BiMC-test/experiments/cub200/semantic_killswitch_bimc_ensemble/seed1_20260414-033936",
+  "recovery_rate": 0.0,
+  "baseline_acc": 72.73,
+  "method_acc": 72.73,
+  "method_gain": 0.0,
+  "test_class_balanced_nll": 5.160156,
+  "test_class_balanced_margin": 0.013779,
+  "changed_class_rate": 0.0,
+  "base_atom_usage_rate": 0.0,
+  "desc_atom_usage_rate": 0.0,
+  "baseline_alignment_gap": 0.640625,
+  "method_alignment_gap": 0.640625,
+  "mean_pruned_bank_size": 6.0,
+  "mean_confuser_count": 3.98,
+  "mean_selected_margin_gain": 0.0,
+  "chosen_candidates": {
+    "100": "baseline_sem",
+    "101": "baseline_sem",
+    "102": "baseline_sem",
+    "103": "baseline_sem",
+    "104": "baseline_sem",
+    "105": "baseline_sem",
+    "106": "baseline_sem",
+    "107": "baseline_sem",
+    "108": "baseline_sem",
+    "109": "baseline_sem",
+    "110": "baseline_sem",
+    "111": "baseline_sem",
+    "112": "baseline_sem",
+    "113": "baseline_sem",
+    "114": "baseline_sem",
+    "115": "baseline_sem",
+    "116": "baseline_sem",
+    "117": "baseline_sem",
+    "118": "baseline_sem",
+    "119": "baseline_sem",
+    "120": "baseline_sem",
+    "121": "baseline_sem",
+    "122": "baseline_sem",
+    "123": "baseline_sem",
+    "124": "baseline_sem",
+    "125": "baseline_sem",
+    "126": "baseline_sem",
+    "127": "baseline_sem",
+    "128": "baseline_sem",
+    "129": "baseline_sem",
+    "130": "baseline_sem",
+    "131": "baseline_sem",
+    "132": "baseline_sem",
+    "133": "baseline_sem",
+    "134": "baseline_sem",
+    "135": "baseline_sem",
+    "136": "baseline_sem",
+    "137": "baseline_sem",
+    "138": "baseline_sem",
+    "139": "baseline_sem",
+    "140": "baseline_sem",
+    "141": "baseline_sem",
+    "142": "baseline_sem",
+    "143": "baseline_sem",
+    "144": "baseline_sem",
+    "145": "baseline_sem",
+    "146": "baseline_sem",
+    "147": "baseline_sem",
+    "148": "baseline_sem",
+    "149": "baseline_sem",
+    "150": "baseline_sem",
+    "151": "baseline_sem",
+    "152": "baseline_sem",
+    "153": "baseline_sem",
+    "154": "baseline_sem",
+    "155": "baseline_sem",
+    "156": "baseline_sem",
+    "157": "baseline_sem",
+    "158": "baseline_sem",
+    "159": "baseline_sem",
+    "160": "baseline_sem",
+    "161": "baseline_sem",
+    "162": "baseline_sem",
+    "163": "baseline_sem",
+    "164": "baseline_sem",
+    "165": "baseline_sem",
+    "166": "baseline_sem",
+    "167": "baseline_sem",
+    "168": "baseline_sem",
+    "169": "baseline_sem",
+    "170": "baseline_sem",
+    "171": "baseline_sem",
+    "172": "baseline_sem",
+    "173": "baseline_sem",
+    "174": "baseline_sem",
+    "175": "baseline_sem",
+    "176": "baseline_sem",
+    "177": "baseline_sem",
+    "178": "baseline_sem",
+    "179": "baseline_sem",
+    "180": "baseline_sem",
+    "181": "baseline_sem",
+    "182": "baseline_sem",
+    "183": "baseline_sem",
+    "184": "baseline_sem",
+    "185": "baseline_sem",
+    "186": "baseline_sem",
+    "187": "baseline_sem",
+    "188": "baseline_sem",
+    "189": "baseline_sem",
+    "190": "baseline_sem",
+    "191": "baseline_sem",
+    "192": "baseline_sem",
+    "193": "baseline_sem",
+    "194": "baseline_sem",
+    "195": "baseline_sem",
+    "196": "baseline_sem",
+    "197": "baseline_sem",
+    "198": "baseline_sem",
+    "199": "baseline_sem"
+  },
+  "class_diagnostics": {
+    "100": {
+      "confusers": [
+        99,
+        1,
+        142,
+        102
+      ],
+      "confuser_counts": {
+        "99": 15,
+        "142": 3,
+        "59": 2,
+        "1": 5,
+        "58": 1,
+        "65": 1,
+        "102": 3
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 3e-06,
+      "best_positive_rate": 0.4,
+      "best_min_gain": 0.0,
+      "selected_name": "baseline_sem"
+    },
+    "101": {
+      "confusers": [
+        38,
+        39,
+        36,
+        42
+      ],
+      "confuser_counts": {
+        "39": 7,
+        "36": 5,
+        "42": 2,
+        "38": 8,
+        "154": 2,
+        "150": 1,
+        "152": 1,
+        "37": 2,
+        "102": 2
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 1.1e-05,
+      "best_positive_rate": 0.6,
+      "best_min_gain": -1.5e-05,
+      "selected_name": "baseline_sem"
+    },
+    "102": {
+      "confusers": [
+        101,
+        37,
+        39,
+        38
+      ],
+      "confuser_counts": {
+        "101": 5,
+        "37": 5,
+        "38": 3,
+        "39": 5,
+        "147": 2,
+        "90": 1,
+        "77": 3,
+        "75": 1,
+        "73": 1,
+        "152": 1,
+        "150": 1,
+        "36": 1,
+        "134": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 9e-06,
+      "best_positive_rate": 0.4,
+      "best_min_gain": -8e-06,
+      "selected_name": "baseline_sem"
+    },
+    "103": {
+      "confusers": [
+        130,
+        38,
+        124,
+        182
+      ],
+      "confuser_counts": {
+        "124": 4,
+        "182": 3,
+        "119": 1,
+        "114": 3,
+        "130": 5,
+        "38": 5,
+        "42": 1,
+        "36": 1,
+        "90": 1,
+        "127": 1,
+        "149": 2,
+        "10": 2,
+        "96": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 2e-06,
+      "best_positive_rate": 0.4,
+      "best_min_gain": -8e-06,
+      "selected_name": "baseline_sem"
+    },
+    "104": {
+      "confusers": [
+        91,
+        21,
+        186,
+        27
+      ],
+      "confuser_counts": {
+        "91": 15,
+        "21": 13,
+        "186": 1,
+        "27": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 2.7e-05,
+      "best_positive_rate": 0.6,
+      "best_min_gain": -1.5e-05,
+      "selected_name": "baseline_sem"
+    },
+    "105": {
+      "confusers": [
+        7,
+        6,
+        1,
+        89
+      ],
+      "confuser_counts": {
+        "7": 11,
+        "1": 5,
+        "6": 7,
+        "89": 2,
+        "5": 1,
+        "145": 2,
+        "146": 1,
+        "61": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 6e-06,
+      "best_positive_rate": 0.6,
+      "best_min_gain": -3.1e-05,
+      "selected_name": "baseline_sem"
+    },
+    "106": {
+      "confusers": [
+        29,
+        28,
+        107,
+        3
+      ],
+      "confuser_counts": {
+        "28": 11,
+        "107": 4,
+        "29": 13,
+        "3": 2
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 5e-06,
+      "best_positive_rate": 0.6,
+      "best_min_gain": -8e-06,
+      "selected_name": "baseline_sem"
+    },
+    "107": {
+      "confusers": [
+        106,
+        29,
+        71,
+        3
+      ],
+      "confuser_counts": {
+        "71": 4,
+        "43": 1,
+        "29": 6,
+        "104": 1,
+        "106": 7,
+        "3": 4,
+        "28": 2,
+        "22": 1,
+        "2": 1,
+        "70": 1,
+        "7": 1,
+        "6": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 6e-06,
+      "best_positive_rate": 0.6,
+      "best_min_gain": -8e-06,
+      "selected_name": "baseline_sem"
+    },
+    "108": {
+      "confusers": [
+        94,
+        20,
+        96,
+        97
+      ],
+      "confuser_counts": {
+        "20": 6,
+        "96": 5,
+        "94": 8,
+        "97": 5,
+        "19": 2,
+        "171": 2,
+        "170": 1,
+        "136": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 1e-06,
+      "best_positive_rate": 0.6,
+      "best_min_gain": -1.5e-05,
+      "selected_name": "baseline_sem"
+    },
+    "109": {
+      "confusers": [
+        193,
+        149,
+        80,
+        102
+      ],
+      "confuser_counts": {
+        "193": 14,
+        "80": 2,
+        "102": 2,
+        "149": 10,
+        "91": 2
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 2.6e-05,
+      "best_positive_rate": 1.0,
+      "best_min_gain": 8e-06,
+      "selected_name": "baseline_sem"
+    },
+    "110": {
+      "confusers": [
+        111,
+        77,
+        113,
+        40
+      ],
+      "confuser_counts": {
+        "111": 9,
+        "113": 5,
+        "134": 1,
+        "77": 7,
+        "40": 2,
+        "90": 1,
+        "73": 2,
+        "72": 1,
+        "150": 1,
+        "19": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 5e-06,
+      "best_positive_rate": 0.8,
+      "best_min_gain": -1.9e-05,
+      "selected_name": "baseline_sem"
+    },
+    "111": {
+      "confusers": [
+        110,
+        77,
+        40,
+        90
+      ],
+      "confuser_counts": {
+        "110": 13,
+        "90": 3,
+        "40": 5,
+        "77": 8,
+        "92": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 7e-06,
+      "best_positive_rate": 0.8,
+      "best_min_gain": -8e-06,
+      "selected_name": "baseline_sem"
+    },
+    "112": {
+      "confusers": [
+        120,
+        122,
+        114,
+        130
+      ],
+      "confuser_counts": {
+        "120": 14,
+        "114": 5,
+        "116": 1,
+        "127": 1,
+        "122": 6,
+        "130": 2,
+        "126": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 2e-06,
+      "best_positive_rate": 0.4,
+      "best_min_gain": 0.0,
+      "selected_name": "baseline_sem"
+    },
+    "113": {
+      "confusers": [
+        110,
+        114,
+        150,
+        77
+      ],
+      "confuser_counts": {
+        "110": 5,
+        "150": 4,
+        "84": 1,
+        "115": 1,
+        "114": 5,
+        "102": 2,
+        "77": 3,
+        "123": 2,
+        "56": 1,
+        "12": 1,
+        "125": 2,
+        "137": 2,
+        "159": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 5e-06,
+      "best_positive_rate": 0.4,
+      "best_min_gain": -2.3e-05,
+      "selected_name": "baseline_sem"
+    },
+    "114": {
+      "confusers": [
+        116,
+        130,
+        123,
+        125
+      ],
+      "confuser_counts": {
+        "116": 10,
+        "125": 2,
+        "124": 2,
+        "123": 4,
+        "118": 2,
+        "121": 2,
+        "130": 5,
+        "122": 2,
+        "120": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 1.2e-05,
+      "best_positive_rate": 1.0,
+      "best_min_gain": 4e-06,
+      "selected_name": "baseline_sem"
+    },
+    "115": {
+      "confusers": [
+        116,
+        129,
+        117,
+        114
+      ],
+      "confuser_counts": {
+        "116": 4,
+        "118": 2,
+        "130": 1,
+        "114": 3,
+        "129": 4,
+        "117": 4,
+        "132": 3,
+        "121": 3,
+        "131": 3,
+        "123": 1,
+        "124": 1,
+        "38": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 0.0,
+      "best_positive_rate": 0.0,
+      "best_min_gain": 0.0,
+      "selected_name": "baseline_sem"
+    },
+    "116": {
+      "confusers": [
+        114,
+        120,
+        124,
+        123
+      ],
+      "confuser_counts": {
+        "120": 4,
+        "122": 1,
+        "114": 8,
+        "115": 1,
+        "123": 2,
+        "118": 2,
+        "130": 2,
+        "112": 2,
+        "129": 1,
+        "121": 1,
+        "126": 2,
+        "124": 3,
+        "127": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 2e-06,
+      "best_positive_rate": 0.8,
+      "best_min_gain": -1.1e-05,
+      "selected_name": "baseline_sem"
+    },
+    "117": {
+      "confusers": [
+        121,
+        129,
+        118,
+        116
+      ],
+      "confuser_counts": {
+        "116": 3,
+        "118": 4,
+        "114": 3,
+        "112": 1,
+        "129": 5,
+        "121": 8,
+        "119": 1,
+        "128": 1,
+        "33": 1,
+        "123": 1,
+        "115": 2
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 2e-06,
+      "best_positive_rate": 0.6,
+      "best_min_gain": -8e-06,
+      "selected_name": "baseline_sem"
+    },
+    "118": {
+      "confusers": [
+        116,
+        121,
+        123,
+        114
+      ],
+      "confuser_counts": {
+        "114": 3,
+        "116": 7,
+        "123": 4,
+        "121": 7,
+        "120": 2,
+        "112": 1,
+        "117": 1,
+        "127": 1,
+        "177": 1,
+        "102": 1,
+        "38": 1,
+        "37": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 5e-06,
+      "best_positive_rate": 0.8,
+      "best_min_gain": -8e-06,
+      "selected_name": "baseline_sem"
+    },
+    "119": {
+      "confusers": [
+        114,
+        128,
+        124,
+        118
+      ],
+      "confuser_counts": {
+        "114": 5,
+        "118": 3,
+        "38": 1,
+        "128": 5,
+        "121": 1,
+        "182": 2,
+        "124": 5,
+        "75": 1,
+        "183": 1,
+        "98": 2,
+        "123": 1,
+        "129": 1,
+        "33": 1,
+        "112": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 3e-06,
+      "best_positive_rate": 0.6,
+      "best_min_gain": -8e-06,
+      "selected_name": "baseline_sem"
+    },
+    "120": {
+      "confusers": [
+        122,
+        130,
+        126,
+        124
+      ],
+      "confuser_counts": {
+        "124": 2,
+        "112": 2,
+        "122": 6,
+        "116": 2,
+        "127": 2,
+        "130": 6,
+        "114": 1,
+        "123": 2,
+        "12": 1,
+        "126": 4,
+        "87": 1,
+        "103": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 2e-06,
+      "best_positive_rate": 0.4,
+      "best_min_gain": -1.1e-05,
+      "selected_name": "baseline_sem"
+    },
+    "121": {
+      "confusers": [
+        123,
+        116,
+        130,
+        120
+      ],
+      "confuser_counts": {
+        "123": 5,
+        "122": 1,
+        "116": 4,
+        "120": 3,
+        "114": 3,
+        "115": 1,
+        "158": 2,
+        "56": 1,
+        "124": 2,
+        "130": 4,
+        "118": 3,
+        "112": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 3e-06,
+      "best_positive_rate": 0.8,
+      "best_min_gain": -1.9e-05,
+      "selected_name": "baseline_sem"
+    },
+    "122": {
+      "confusers": [
+        120,
+        126,
+        112,
+        130
+      ],
+      "confuser_counts": {
+        "130": 2,
+        "120": 14,
+        "116": 2,
+        "114": 2,
+        "126": 4,
+        "123": 1,
+        "118": 1,
+        "112": 3,
+        "128": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 2e-06,
+      "best_positive_rate": 0.4,
+      "best_min_gain": -8e-06,
+      "selected_name": "baseline_sem"
+    },
+    "123": {
+      "confusers": [
+        126,
+        120,
+        130,
+        114
+      ],
+      "confuser_counts": {
+        "130": 5,
+        "126": 7,
+        "116": 2,
+        "120": 7,
+        "122": 1,
+        "114": 3,
+        "125": 2,
+        "149": 1,
+        "127": 1,
+        "124": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 3e-06,
+      "best_positive_rate": 0.4,
+      "best_min_gain": 0.0,
+      "selected_name": "baseline_sem"
+    },
+    "124": {
+      "confusers": [
+        128,
+        122,
+        126,
+        130
+      ],
+      "confuser_counts": {
+        "130": 2,
+        "126": 4,
+        "149": 2,
+        "103": 1,
+        "128": 8,
+        "119": 2,
+        "121": 2,
+        "120": 2,
+        "114": 1,
+        "122": 5,
+        "116": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 5e-06,
+      "best_positive_rate": 0.6,
+      "best_min_gain": -1.1e-05,
+      "selected_name": "baseline_sem"
+    },
+    "125": {
+      "confusers": [
+        114,
+        116,
+        123,
+        127
+      ],
+      "confuser_counts": {
+        "157": 1,
+        "196": 3,
+        "116": 4,
+        "114": 7,
+        "123": 4,
+        "126": 1,
+        "127": 4,
+        "122": 1,
+        "124": 1,
+        "121": 1,
+        "112": 2,
+        "117": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 2e-06,
+      "best_positive_rate": 0.4,
+      "best_min_gain": -8e-06,
+      "selected_name": "baseline_sem"
+    },
+    "126": {
+      "confusers": [
+        122,
+        120,
+        123,
+        130
+      ],
+      "confuser_counts": {
+        "122": 6,
+        "120": 6,
+        "132": 1,
+        "123": 4,
+        "127": 3,
+        "124": 2,
+        "130": 4,
+        "114": 3,
+        "128": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 2e-06,
+      "best_positive_rate": 0.4,
+      "best_min_gain": -1.1e-05,
+      "selected_name": "baseline_sem"
+    },
+    "127": {
+      "confusers": [
+        196,
+        125,
+        173,
+        122
+      ],
+      "confuser_counts": {
+        "173": 3,
+        "125": 5,
+        "196": 7,
+        "114": 2,
+        "120": 2,
+        "180": 1,
+        "121": 1,
+        "116": 2,
+        "149": 2,
+        "192": 1,
+        "122": 3,
+        "112": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 9e-06,
+      "best_positive_rate": 0.6,
+      "best_min_gain": -4e-06,
+      "selected_name": "baseline_sem"
+    },
+    "128": {
+      "confusers": [
+        124,
+        126,
+        123,
+        114
+      ],
+      "confuser_counts": {
+        "124": 8,
+        "114": 2,
+        "117": 2,
+        "112": 2,
+        "121": 2,
+        "126": 4,
+        "123": 3,
+        "127": 1,
+        "116": 1,
+        "129": 2,
+        "132": 1,
+        "119": 1,
+        "34": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 3e-06,
+      "best_positive_rate": 0.4,
+      "best_min_gain": -8e-06,
+      "selected_name": "baseline_sem"
+    },
+    "129": {
+      "confusers": [
+        115,
+        117,
+        118,
+        114
+      ],
+      "confuser_counts": {
+        "115": 8,
+        "118": 4,
+        "117": 5,
+        "121": 1,
+        "116": 1,
+        "114": 4,
+        "123": 2,
+        "125": 1,
+        "112": 2,
+        "128": 1,
+        "55": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 1e-06,
+      "best_positive_rate": 0.4,
+      "best_min_gain": -1.5e-05,
+      "selected_name": "baseline_sem"
+    },
+    "130": {
+      "confusers": [
+        120,
+        114,
+        116,
+        126
+      ],
+      "confuser_counts": {
+        "120": 7,
+        "122": 1,
+        "116": 4,
+        "114": 6,
+        "124": 3,
+        "128": 2,
+        "118": 1,
+        "126": 4,
+        "127": 1,
+        "121": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 3e-06,
+      "best_positive_rate": 0.6,
+      "best_min_gain": -8e-06,
+      "selected_name": "baseline_sem"
+    },
+    "131": {
+      "confusers": [
+        115,
+        132,
+        116,
+        121
+      ],
+      "confuser_counts": {
+        "132": 5,
+        "115": 11,
+        "116": 4,
+        "121": 4,
+        "122": 1,
+        "117": 1,
+        "127": 2,
+        "75": 1,
+        "123": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 0.0,
+      "best_positive_rate": 0.0,
+      "best_min_gain": 0.0,
+      "selected_name": "baseline_sem"
+    },
+    "132": {
+      "confusers": [
+        115,
+        131,
+        124,
+        128
+      ],
+      "confuser_counts": {
+        "115": 6,
+        "131": 4,
+        "121": 2,
+        "124": 3,
+        "128": 3,
+        "116": 3,
+        "114": 3,
+        "129": 2,
+        "84": 1,
+        "122": 2,
+        "130": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 0.0,
+      "best_positive_rate": 0.0,
+      "best_min_gain": 0.0,
+      "selected_name": "baseline_sem"
+    },
+    "133": {
+      "confusers": [
+        48,
+        8,
+        25,
+        74
+      ],
+      "confuser_counts": {
+        "48": 11,
+        "8": 8,
+        "25": 7,
+        "15": 1,
+        "74": 2,
+        "69": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 9e-06,
+      "best_positive_rate": 0.6,
+      "best_min_gain": -8e-06,
+      "selected_name": "baseline_sem"
+    },
+    "134": {
+      "confusers": [
+        77,
+        137,
+        141,
+        71
+      ],
+      "confuser_counts": {
+        "141": 2,
+        "102": 1,
+        "38": 1,
+        "18": 1,
+        "75": 1,
+        "71": 2,
+        "70": 2,
+        "137": 6,
+        "136": 2,
+        "197": 2,
+        "77": 8,
+        "39": 2
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 5e-06,
+      "best_positive_rate": 0.4,
+      "best_min_gain": -8e-06,
+      "selected_name": "baseline_sem"
+    },
+    "135": {
+      "confusers": [
+        136,
+        134,
+        14,
+        137
+      ],
+      "confuser_counts": {
+        "14": 3,
+        "136": 13,
+        "15": 1,
+        "137": 3,
+        "140": 1,
+        "143": 1,
+        "134": 4,
+        "48": 3,
+        "96": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 4e-06,
+      "best_positive_rate": 0.4,
+      "best_min_gain": -1.5e-05,
+      "selected_name": "baseline_sem"
+    },
+    "136": {
+      "confusers": [
+        135,
+        134,
+        129,
+        117
+      ],
+      "confuser_counts": {
+        "134": 6,
+        "129": 4,
+        "117": 4,
+        "40": 1,
+        "135": 9,
+        "137": 3,
+        "78": 1,
+        "97": 1,
+        "96": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 5e-06,
+      "best_positive_rate": 0.6,
+      "best_min_gain": -8e-06,
+      "selected_name": "baseline_sem"
+    },
+    "137": {
+      "confusers": [
+        134,
+        135,
+        159,
+        136
+      ],
+      "confuser_counts": {
+        "159": 4,
+        "163": 2,
+        "134": 9,
+        "135": 6,
+        "77": 1,
+        "136": 4,
+        "14": 1,
+        "145": 1,
+        "102": 1,
+        "38": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 3e-06,
+      "best_positive_rate": 0.4,
+      "best_min_gain": -1.5e-05,
+      "selected_name": "baseline_sem"
+    },
+    "138": {
+      "confusers": [
+        139,
+        41,
+        16,
+        96
+      ],
+      "confuser_counts": {
+        "139": 13,
+        "16": 5,
+        "41": 11,
+        "96": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 8e-06,
+      "best_positive_rate": 0.8,
+      "best_min_gain": -8e-06,
+      "selected_name": "baseline_sem"
+    },
+    "139": {
+      "confusers": [
+        138,
+        16,
+        41
+      ],
+      "confuser_counts": {
+        "138": 13,
+        "16": 13,
+        "41": 4
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 5e-06,
+      "best_positive_rate": 0.4,
+      "best_min_gain": -8e-06,
+      "selected_name": "baseline_sem"
+    },
+    "140": {
+      "confusers": [
+        143,
+        145,
+        144,
+        142
+      ],
+      "confuser_counts": {
+        "143": 15,
+        "144": 6,
+        "145": 8,
+        "142": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 0.0,
+      "best_positive_rate": 0.0,
+      "best_min_gain": 0.0,
+      "selected_name": "baseline_sem"
+    },
+    "141": {
+      "confusers": [
+        8,
+        145,
+        140,
+        71
+      ],
+      "confuser_counts": {
+        "145": 5,
+        "140": 3,
+        "90": 1,
+        "71": 2,
+        "143": 2,
+        "144": 2,
+        "60": 2,
+        "64": 1,
+        "8": 6,
+        "57": 2,
+        "133": 1,
+        "12": 2,
+        "28": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 2e-06,
+      "best_positive_rate": 0.6,
+      "best_min_gain": -8e-06,
+      "selected_name": "baseline_sem"
+    },
+    "142": {
+      "confusers": [
+        144,
+        143,
+        146,
+        145
+      ],
+      "confuser_counts": {
+        "146": 5,
+        "145": 5,
+        "144": 9,
+        "140": 4,
+        "143": 7
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 2e-06,
+      "best_positive_rate": 0.4,
+      "best_min_gain": -8e-06,
+      "selected_name": "baseline_sem"
+    },
+    "143": {
+      "confusers": [
+        140,
+        145,
+        144,
+        142
+      ],
+      "confuser_counts": {
+        "144": 7,
+        "140": 10,
+        "145": 8,
+        "146": 1,
+        "141": 1,
+        "142": 3
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 2e-06,
+      "best_positive_rate": 0.6,
+      "best_min_gain": -2.7e-05,
+      "selected_name": "baseline_sem"
+    },
+    "144": {
+      "confusers": [
+        143,
+        142,
+        145,
+        140
+      ],
+      "confuser_counts": {
+        "142": 7,
+        "143": 8,
+        "145": 7,
+        "140": 3,
+        "60": 3,
+        "58": 2
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 5e-06,
+      "best_positive_rate": 0.6,
+      "best_min_gain": -1.5e-05,
+      "selected_name": "baseline_sem"
+    },
+    "145": {
+      "confusers": [
+        144,
+        140,
+        146,
+        143
+      ],
+      "confuser_counts": {
+        "146": 5,
+        "143": 5,
+        "144": 7,
+        "140": 6,
+        "142": 4,
+        "141": 2,
+        "59": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 1e-06,
+      "best_positive_rate": 0.4,
+      "best_min_gain": -8e-06,
+      "selected_name": "baseline_sem"
+    },
+    "146": {
+      "confusers": [
+        145,
+        142,
+        140,
+        144
+      ],
+      "confuser_counts": {
+        "145": 13,
+        "142": 5,
+        "140": 4,
+        "144": 4,
+        "58": 2,
+        "143": 2
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 4e-06,
+      "best_positive_rate": 0.8,
+      "best_min_gain": -8e-06,
+      "selected_name": "baseline_sem"
+    },
+    "147": {
+      "confusers": [
+        169,
+        132,
+        179,
+        180
+      ],
+      "confuser_counts": {
+        "169": 3,
+        "179": 2,
+        "155": 1,
+        "180": 2,
+        "102": 2,
+        "114": 2,
+        "37": 1,
+        "172": 2,
+        "15": 1,
+        "33": 2,
+        "55": 2,
+        "75": 1,
+        "16": 1,
+        "132": 3,
+        "173": 1,
+        "171": 1,
+        "115": 1,
+        "166": 1,
+        "116": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 6e-06,
+      "best_positive_rate": 0.4,
+      "best_min_gain": -8e-06,
+      "selected_name": "baseline_sem"
+    },
+    "148": {
+      "confusers": [
+        149,
+        194,
+        119,
+        183
+      ],
+      "confuser_counts": {
+        "149": 8,
+        "119": 2,
+        "124": 1,
+        "30": 1,
+        "183": 2,
+        "109": 2,
+        "129": 1,
+        "118": 1,
+        "115": 1,
+        "27": 1,
+        "112": 1,
+        "194": 6,
+        "195": 2,
+        "53": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 5e-06,
+      "best_positive_rate": 0.8,
+      "best_min_gain": 0.0,
+      "selected_name": "baseline_sem"
+    },
+    "149": {
+      "confusers": [
+        124,
+        103,
+        90,
+        182
+      ],
+      "confuser_counts": {
+        "124": 6,
+        "182": 2,
+        "119": 2,
+        "183": 1,
+        "120": 1,
+        "114": 2,
+        "103": 5,
+        "148": 2,
+        "130": 1,
+        "109": 1,
+        "126": 1,
+        "112": 2,
+        "90": 3,
+        "91": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 5e-06,
+      "best_positive_rate": 0.4,
+      "best_min_gain": -4e-06,
+      "selected_name": "baseline_sem"
+    },
+    "150": {
+      "confusers": [
+        151,
+        155,
+        113,
+        152
+      ],
+      "confuser_counts": {
+        "113": 3,
+        "165": 1,
+        "151": 7,
+        "19": 2,
+        "164": 1,
+        "155": 5,
+        "152": 3,
+        "168": 1,
+        "156": 1,
+        "36": 3,
+        "159": 1,
+        "170": 1,
+        "154": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 2e-06,
+      "best_positive_rate": 0.8,
+      "best_min_gain": -2.3e-05,
+      "selected_name": "baseline_sem"
+    },
+    "151": {
+      "confusers": [
+        155,
+        38,
+        152,
+        150
+      ],
+      "confuser_counts": {
+        "152": 5,
+        "38": 6,
+        "36": 2,
+        "150": 5,
+        "155": 7,
+        "156": 1,
+        "154": 2,
+        "170": 1,
+        "172": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 2e-06,
+      "best_positive_rate": 0.2,
+      "best_min_gain": -3.1e-05,
+      "selected_name": "baseline_sem"
+    },
+    "152": {
+      "confusers": [
+        172,
+        42,
+        150,
+        36
+      ],
+      "confuser_counts": {
+        "150": 3,
+        "42": 5,
+        "36": 2,
+        "154": 1,
+        "172": 8,
+        "180": 1,
+        "174": 2,
+        "156": 1,
+        "160": 1,
+        "155": 2,
+        "167": 1,
+        "171": 1,
+        "151": 1,
+        "168": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 7e-06,
+      "best_positive_rate": 0.8,
+      "best_min_gain": -1.5e-05,
+      "selected_name": "baseline_sem"
+    },
+    "153": {
+      "confusers": [
+        152,
+        154,
+        177,
+        150
+      ],
+      "confuser_counts": {
+        "154": 6,
+        "155": 2,
+        "38": 2,
+        "37": 2,
+        "152": 7,
+        "150": 3,
+        "177": 4,
+        "30": 3,
+        "157": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 5e-06,
+      "best_positive_rate": 0.6,
+      "best_min_gain": -1.5e-05,
+      "selected_name": "baseline_sem"
+    },
+    "154": {
+      "confusers": [
+        155,
+        38,
+        152,
+        151
+      ],
+      "confuser_counts": {
+        "153": 3,
+        "155": 7,
+        "38": 5,
+        "152": 4,
+        "42": 1,
+        "151": 4,
+        "150": 2,
+        "101": 4
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 5e-06,
+      "best_positive_rate": 0.8,
+      "best_min_gain": -8e-06,
+      "selected_name": "baseline_sem"
+    },
+    "155": {
+      "confusers": [
+        151,
+        172,
+        175,
+        154
+      ],
+      "confuser_counts": {
+        "172": 3,
+        "151": 7,
+        "37": 1,
+        "42": 1,
+        "39": 1,
+        "175": 3,
+        "156": 1,
+        "181": 1,
+        "174": 1,
+        "152": 2,
+        "150": 2,
+        "178": 2,
+        "161": 1,
+        "171": 1,
+        "154": 3
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 2e-06,
+      "best_positive_rate": 0.4,
+      "best_min_gain": -1.5e-05,
+      "selected_name": "baseline_sem"
+    },
+    "156": {
+      "confusers": [
+        152,
+        174,
+        155,
+        175
+      ],
+      "confuser_counts": {
+        "174": 6,
+        "175": 4,
+        "155": 5,
+        "172": 2,
+        "42": 3,
+        "152": 7,
+        "151": 1,
+        "108": 1,
+        "19": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 2e-06,
+      "best_positive_rate": 0.4,
+      "best_min_gain": -8e-06,
+      "selected_name": "baseline_sem"
+    },
+    "157": {
+      "confusers": [
+        164,
+        36,
+        174,
+        162
+      ],
+      "confuser_counts": {
+        "164": 5,
+        "162": 3,
+        "32": 1,
+        "68": 1,
+        "102": 1,
+        "175": 2,
+        "156": 2,
+        "19": 1,
+        "39": 1,
+        "36": 5,
+        "174": 4,
+        "42": 2,
+        "94": 1,
+        "38": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 6e-06,
+      "best_positive_rate": 0.6,
+      "best_min_gain": -4e-06,
+      "selected_name": "baseline_sem"
+    },
+    "158": {
+      "confusers": [
+        159,
+        164,
+        98,
+        157
+      ],
+      "confuser_counts": {
+        "164": 6,
+        "157": 2,
+        "162": 1,
+        "159": 9,
+        "98": 4,
+        "163": 1,
+        "131": 2,
+        "114": 2,
+        "27": 2,
+        "80": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 3e-06,
+      "best_positive_rate": 0.4,
+      "best_min_gain": 0.0,
+      "selected_name": "baseline_sem"
+    },
+    "159": {
+      "confusers": [
+        163,
+        158,
+        38,
+        170
+      ],
+      "confuser_counts": {
+        "163": 7,
+        "158": 5,
+        "38": 2,
+        "97": 1,
+        "170": 2,
+        "157": 1,
+        "77": 1,
+        "56": 1,
+        "172": 2,
+        "152": 1,
+        "98": 1,
+        "171": 1,
+        "69": 1,
+        "20": 2,
+        "75": 2
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 4e-06,
+      "best_positive_rate": 0.4,
+      "best_min_gain": -1.5e-05,
+      "selected_name": "baseline_sem"
+    },
+    "160": {
+      "confusers": [
+        165,
+        176,
+        167,
+        174
+      ],
+      "confuser_counts": {
+        "165": 5,
+        "167": 3,
+        "168": 1,
+        "176": 5,
+        "174": 2,
+        "95": 1,
+        "180": 1,
+        "181": 2,
+        "161": 2,
+        "162": 1,
+        "156": 1,
+        "46": 1,
+        "175": 2,
+        "179": 2,
+        "19": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 5e-06,
+      "best_positive_rate": 0.6,
+      "best_min_gain": -3.8e-05,
+      "selected_name": "baseline_sem"
+    },
+    "161": {
+      "confusers": [
+        167,
+        179,
+        168,
+        180
+      ],
+      "confuser_counts": {
+        "167": 7,
+        "179": 5,
+        "19": 1,
+        "171": 1,
+        "175": 2,
+        "168": 5,
+        "180": 3,
+        "181": 2,
+        "155": 2,
+        "174": 1,
+        "97": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 3e-06,
+      "best_positive_rate": 0.6,
+      "best_min_gain": -2.7e-05,
+      "selected_name": "baseline_sem"
+    },
+    "162": {
+      "confusers": [
+        168,
+        174,
+        181,
+        164
+      ],
+      "confuser_counts": {
+        "164": 3,
+        "181": 4,
+        "160": 2,
+        "96": 1,
+        "174": 6,
+        "175": 1,
+        "95": 1,
+        "168": 7,
+        "94": 1,
+        "161": 3,
+        "173": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 4e-06,
+      "best_positive_rate": 0.4,
+      "best_min_gain": -1.5e-05,
+      "selected_name": "baseline_sem"
+    },
+    "163": {
+      "confusers": [
+        159,
+        14,
+        38,
+        36
+      ],
+      "confuser_counts": {
+        "159": 12,
+        "38": 3,
+        "36": 3,
+        "137": 3,
+        "14": 4,
+        "72": 1,
+        "53": 1,
+        "13": 1,
+        "169": 1,
+        "93": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 3e-06,
+      "best_positive_rate": 0.6,
+      "best_min_gain": -8e-06,
+      "selected_name": "baseline_sem"
+    },
+    "164": {
+      "confusers": [
+        162,
+        170,
+        157,
+        19
+      ],
+      "confuser_counts": {
+        "162": 7,
+        "168": 1,
+        "165": 2,
+        "170": 6,
+        "157": 4,
+        "150": 1,
+        "19": 3,
+        "151": 1,
+        "36": 1,
+        "199": 1,
+        "114": 1,
+        "166": 1,
+        "174": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 2e-06,
+      "best_positive_rate": 0.4,
+      "best_min_gain": 0.0,
+      "selected_name": "baseline_sem"
+    },
+    "165": {
+      "confusers": [
+        199,
+        164,
+        167,
+        160
+      ],
+      "confuser_counts": {
+        "199": 10,
+        "167": 4,
+        "173": 1,
+        "166": 1,
+        "164": 6,
+        "180": 2,
+        "160": 4,
+        "170": 1,
+        "19": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 7e-06,
+      "best_positive_rate": 0.8,
+      "best_min_gain": -8e-06,
+      "selected_name": "baseline_sem"
+    },
+    "166": {
+      "confusers": [
+        199,
+        174,
+        180,
+        167
+      ],
+      "confuser_counts": {
+        "167": 3,
+        "199": 6,
+        "168": 2,
+        "97": 2,
+        "172": 3,
+        "174": 4,
+        "180": 4,
+        "165": 1,
+        "161": 1,
+        "179": 3,
+        "181": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 3e-06,
+      "best_positive_rate": 0.4,
+      "best_min_gain": -8e-06,
+      "selected_name": "baseline_sem"
+    },
+    "167": {
+      "confusers": [
+        199,
+        161,
+        19,
+        97
+      ],
+      "confuser_counts": {
+        "199": 8,
+        "19": 3,
+        "179": 1,
+        "97": 3,
+        "161": 4,
+        "165": 2,
+        "180": 2,
+        "171": 1,
+        "166": 3,
+        "173": 1,
+        "174": 1,
+        "156": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 2e-06,
+      "best_positive_rate": 0.4,
+      "best_min_gain": -8e-06,
+      "selected_name": "baseline_sem"
+    },
+    "168": {
+      "confusers": [
+        170,
+        19,
+        171,
+        174
+      ],
+      "confuser_counts": {
+        "165": 1,
+        "166": 2,
+        "199": 1,
+        "19": 3,
+        "175": 2,
+        "170": 7,
+        "161": 2,
+        "171": 3,
+        "174": 3,
+        "97": 2,
+        "173": 2,
+        "38": 1,
+        "167": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 6e-06,
+      "best_positive_rate": 0.6,
+      "best_min_gain": -1.5e-05,
+      "selected_name": "baseline_sem"
+    },
+    "169": {
+      "confusers": [
+        172,
+        171,
+        199,
+        174
+      ],
+      "confuser_counts": {
+        "167": 2,
+        "179": 1,
+        "97": 1,
+        "165": 2,
+        "199": 3,
+        "171": 4,
+        "160": 1,
+        "155": 1,
+        "174": 3,
+        "172": 5,
+        "152": 1,
+        "159": 3,
+        "75": 3
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 5e-06,
+      "best_positive_rate": 0.4,
+      "best_min_gain": -2.7e-05,
+      "selected_name": "baseline_sem"
+    },
+    "170": {
+      "confusers": [
+        168,
+        164,
+        97,
+        173
+      ],
+      "confuser_counts": {
+        "168": 12,
+        "19": 2,
+        "97": 3,
+        "164": 4,
+        "165": 1,
+        "162": 2,
+        "180": 1,
+        "174": 2,
+        "173": 3
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 4e-06,
+      "best_positive_rate": 0.6,
+      "best_min_gain": 0.0,
+      "selected_name": "baseline_sem"
+    },
+    "171": {
+      "confusers": [
+        169,
+        174,
+        172,
+        19
+      ],
+      "confuser_counts": {
+        "172": 3,
+        "174": 4,
+        "181": 1,
+        "169": 5,
+        "19": 3,
+        "167": 2,
+        "108": 1,
+        "152": 2,
+        "162": 1,
+        "97": 2,
+        "168": 1,
+        "176": 1,
+        "178": 1,
+        "179": 2,
+        "42": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 5e-06,
+      "best_positive_rate": 0.8,
+      "best_min_gain": -2.3e-05,
+      "selected_name": "baseline_sem"
+    },
+    "172": {
+      "confusers": [
+        174,
+        178,
+        152,
+        171
+      ],
+      "confuser_counts": {
+        "178": 5,
+        "152": 4,
+        "151": 1,
+        "171": 3,
+        "174": 10,
+        "181": 1,
+        "155": 1,
+        "179": 3,
+        "180": 1,
+        "175": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 4e-06,
+      "best_positive_rate": 0.6,
+      "best_min_gain": -1.5e-05,
+      "selected_name": "baseline_sem"
+    },
+    "173": {
+      "confusers": [
+        162,
+        180,
+        168,
+        167
+      ],
+      "confuser_counts": {
+        "162": 6,
+        "178": 1,
+        "168": 3,
+        "167": 3,
+        "180": 6,
+        "157": 1,
+        "42": 1,
+        "37": 1,
+        "165": 1,
+        "175": 2,
+        "199": 1,
+        "170": 3,
+        "97": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 1e-06,
+      "best_positive_rate": 0.4,
+      "best_min_gain": -8e-06,
+      "selected_name": "baseline_sem"
+    },
+    "174": {
+      "confusers": [
+        181,
+        172,
+        175,
+        152
+      ],
+      "confuser_counts": {
+        "172": 6,
+        "176": 1,
+        "152": 2,
+        "97": 2,
+        "96": 1,
+        "168": 1,
+        "175": 5,
+        "162": 1,
+        "181": 8,
+        "167": 1,
+        "179": 2
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 4e-06,
+      "best_positive_rate": 0.6,
+      "best_min_gain": -1.1e-05,
+      "selected_name": "baseline_sem"
+    },
+    "175": {
+      "confusers": [
+        174,
+        168,
+        167,
+        161
+      ],
+      "confuser_counts": {
+        "168": 7,
+        "174": 8,
+        "167": 4,
+        "97": 1,
+        "178": 2,
+        "162": 3,
+        "161": 4,
+        "160": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 3e-06,
+      "best_positive_rate": 0.4,
+      "best_min_gain": -1.1e-05,
+      "selected_name": "baseline_sem"
+    },
+    "176": {
+      "confusers": [
+        181,
+        174,
+        179,
+        97
+      ],
+      "confuser_counts": {
+        "174": 8,
+        "181": 10,
+        "160": 2,
+        "179": 4,
+        "97": 4,
+        "94": 1,
+        "167": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 2e-06,
+      "best_positive_rate": 0.4,
+      "best_min_gain": -4e-06,
+      "selected_name": "baseline_sem"
+    },
+    "177": {
+      "confusers": [
+        180,
+        195,
+        196,
+        153
+      ],
+      "confuser_counts": {
+        "196": 3,
+        "180": 5,
+        "154": 1,
+        "195": 5,
+        "135": 1,
+        "132": 1,
+        "30": 1,
+        "98": 1,
+        "153": 3,
+        "178": 3,
+        "38": 1,
+        "157": 1,
+        "156": 2,
+        "174": 1,
+        "179": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 9e-06,
+      "best_positive_rate": 0.8,
+      "best_min_gain": -3.1e-05,
+      "selected_name": "baseline_sem"
+    },
+    "178": {
+      "confusers": [
+        172,
+        152,
+        154,
+        38
+      ],
+      "confuser_counts": {
+        "177": 1,
+        "154": 2,
+        "38": 2,
+        "37": 1,
+        "173": 1,
+        "155": 2,
+        "151": 1,
+        "172": 8,
+        "170": 1,
+        "156": 1,
+        "152": 7,
+        "171": 1,
+        "174": 2
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 6e-06,
+      "best_positive_rate": 0.6,
+      "best_min_gain": -1.5e-05,
+      "selected_name": "baseline_sem"
+    },
+    "179": {
+      "confusers": [
+        181,
+        167,
+        174,
+        161
+      ],
+      "confuser_counts": {
+        "160": 2,
+        "161": 3,
+        "181": 6,
+        "97": 1,
+        "167": 4,
+        "174": 4,
+        "172": 1,
+        "180": 1,
+        "171": 2,
+        "169": 1,
+        "166": 2,
+        "175": 2,
+        "199": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 6e-06,
+      "best_positive_rate": 0.6,
+      "best_min_gain": 0.0,
+      "selected_name": "baseline_sem"
+    },
+    "180": {
+      "confusers": [
+        173,
+        177,
+        167,
+        98
+      ],
+      "confuser_counts": {
+        "173": 7,
+        "167": 3,
+        "152": 1,
+        "165": 1,
+        "164": 2,
+        "177": 6,
+        "98": 3,
+        "157": 2,
+        "153": 3,
+        "125": 1,
+        "114": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 7e-06,
+      "best_positive_rate": 0.8,
+      "best_min_gain": -8e-06,
+      "selected_name": "baseline_sem"
+    },
+    "181": {
+      "confusers": [
+        174,
+        175,
+        179,
+        176
+      ],
+      "confuser_counts": {
+        "175": 4,
+        "161": 2,
+        "179": 4,
+        "174": 7,
+        "176": 4,
+        "180": 1,
+        "162": 2,
+        "97": 1,
+        "167": 2,
+        "172": 3
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 3e-06,
+      "best_positive_rate": 0.6,
+      "best_min_gain": 0.0,
+      "selected_name": "baseline_sem"
+    },
+    "182": {
+      "confusers": [
+        183,
+        98,
+        162,
+        103
+      ],
+      "confuser_counts": {
+        "183": 12,
+        "98": 9,
+        "103": 2,
+        "173": 1,
+        "162": 4,
+        "158": 1,
+        "157": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 5e-06,
+      "best_positive_rate": 0.6,
+      "best_min_gain": -2.3e-05,
+      "selected_name": "baseline_sem"
+    },
+    "183": {
+      "confusers": [
+        182,
+        98,
+        103,
+        180
+      ],
+      "confuser_counts": {
+        "182": 14,
+        "180": 1,
+        "192": 1,
+        "98": 7,
+        "158": 1,
+        "38": 1,
+        "103": 2,
+        "116": 1,
+        "97": 1,
+        "157": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 6e-06,
+      "best_positive_rate": 0.8,
+      "best_min_gain": -1.5e-05,
+      "selected_name": "baseline_sem"
+    },
+    "184": {
+      "confusers": [
+        185,
+        55,
+        47,
+        54
+      ],
+      "confuser_counts": {
+        "185": 15,
+        "30": 2,
+        "55": 4,
+        "47": 4,
+        "54": 3,
+        "97": 1,
+        "73": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 2e-06,
+      "best_positive_rate": 0.4,
+      "best_min_gain": -1.5e-05,
+      "selected_name": "baseline_sem"
+    },
+    "185": {
+      "confusers": [
+        184,
+        102,
+        73,
+        31
+      ],
+      "confuser_counts": {
+        "184": 15,
+        "102": 3,
+        "30": 1,
+        "32": 1,
+        "31": 2,
+        "73": 3,
+        "90": 1,
+        "153": 1,
+        "154": 1,
+        "151": 1,
+        "150": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 1e-06,
+      "best_positive_rate": 0.2,
+      "best_min_gain": 0.0,
+      "selected_name": "baseline_sem"
+    },
+    "186": {
+      "confusers": [
+        189,
+        191,
+        27,
+        93
+      ],
+      "confuser_counts": {
+        "189": 11,
+        "191": 11,
+        "27": 2,
+        "17": 1,
+        "93": 2,
+        "158": 2,
+        "97": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 4e-06,
+      "best_positive_rate": 0.6,
+      "best_min_gain": -8e-06,
+      "selected_name": "baseline_sem"
+    },
+    "187": {
+      "confusers": [
+        189,
+        191,
+        186,
+        190
+      ],
+      "confuser_counts": {
+        "189": 11,
+        "186": 5,
+        "191": 7,
+        "188": 2,
+        "190": 3,
+        "95": 1,
+        "56": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 3e-06,
+      "best_positive_rate": 0.6,
+      "best_min_gain": -4e-06,
+      "selected_name": "baseline_sem"
+    },
+    "188": {
+      "confusers": [
+        35,
+        189,
+        187,
+        191
+      ],
+      "confuser_counts": {
+        "35": 14,
+        "187": 2,
+        "189": 9,
+        "191": 2,
+        "190": 1,
+        "79": 1,
+        "186": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 5e-06,
+      "best_positive_rate": 0.6,
+      "best_min_gain": -8e-06,
+      "selected_name": "baseline_sem"
+    },
+    "189": {
+      "confusers": [
+        186,
+        191,
+        27
+      ],
+      "confuser_counts": {
+        "186": 14,
+        "191": 8,
+        "27": 8
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 8e-06,
+      "best_positive_rate": 0.6,
+      "best_min_gain": -1.5e-05,
+      "selected_name": "baseline_sem"
+    },
+    "190": {
+      "confusers": [
+        56,
+        189,
+        55,
+        34
+      ],
+      "confuser_counts": {
+        "56": 14,
+        "55": 2,
+        "16": 1,
+        "189": 7,
+        "34": 2,
+        "138": 2,
+        "107": 1,
+        "133": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 0.0,
+      "best_positive_rate": 0.0,
+      "best_min_gain": 0.0,
+      "selected_name": "baseline_sem"
+    },
+    "191": {
+      "confusers": [
+        186,
+        189,
+        56,
+        187
+      ],
+      "confuser_counts": {
+        "189": 8,
+        "186": 12,
+        "56": 2,
+        "187": 2,
+        "93": 2,
+        "158": 2,
+        "80": 1,
+        "79": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 0.0,
+      "best_positive_rate": 0.0,
+      "best_min_gain": 0.0,
+      "selected_name": "baseline_sem"
+    },
+    "192": {
+      "confusers": [
+        195,
+        196,
+        116,
+        198
+      ],
+      "confuser_counts": {
+        "195": 9,
+        "116": 2,
+        "75": 1,
+        "198": 2,
+        "196": 4,
+        "153": 2,
+        "157": 1,
+        "194": 1,
+        "177": 1,
+        "127": 1,
+        "149": 1,
+        "38": 2,
+        "18": 1,
+        "102": 1,
+        "93": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 1.3e-05,
+      "best_positive_rate": 0.8,
+      "best_min_gain": -1.5e-05,
+      "selected_name": "baseline_sem"
+    },
+    "193": {
+      "confusers": [
+        149,
+        109,
+        197,
+        17
+      ],
+      "confuser_counts": {
+        "109": 8,
+        "21": 1,
+        "87": 1,
+        "198": 1,
+        "149": 12,
+        "197": 2,
+        "78": 1,
+        "17": 2,
+        "192": 2
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 3e-06,
+      "best_positive_rate": 0.6,
+      "best_min_gain": 0.0,
+      "selected_name": "baseline_sem"
+    },
+    "194": {
+      "confusers": [
+        198,
+        196,
+        115,
+        195
+      ],
+      "confuser_counts": {
+        "198": 9,
+        "195": 2,
+        "148": 1,
+        "180": 1,
+        "115": 3,
+        "27": 1,
+        "153": 1,
+        "116": 1,
+        "114": 1,
+        "132": 2,
+        "125": 1,
+        "112": 1,
+        "196": 4,
+        "192": 1,
+        "129": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 2e-06,
+      "best_positive_rate": 0.4,
+      "best_min_gain": -8e-06,
+      "selected_name": "baseline_sem"
+    },
+    "195": {
+      "confusers": [
+        198,
+        192,
+        196,
+        38
+      ],
+      "confuser_counts": {
+        "198": 8,
+        "196": 3,
+        "192": 8,
+        "149": 1,
+        "38": 2,
+        "36": 1,
+        "171": 1,
+        "194": 2,
+        "10": 2,
+        "18": 1,
+        "183": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 5e-06,
+      "best_positive_rate": 0.4,
+      "best_min_gain": -1.5e-05,
+      "selected_name": "baseline_sem"
+    },
+    "196": {
+      "confusers": [
+        127,
+        192,
+        195,
+        114
+      ],
+      "confuser_counts": {
+        "192": 6,
+        "195": 5,
+        "197": 2,
+        "127": 7,
+        "128": 1,
+        "116": 1,
+        "112": 2,
+        "177": 1,
+        "198": 1,
+        "173": 1,
+        "114": 3
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 0.0,
+      "best_positive_rate": 0.0,
+      "best_min_gain": 0.0,
+      "selected_name": "baseline_sem"
+    },
+    "197": {
+      "confusers": [
+        195,
+        149,
+        192,
+        68
+      ],
+      "confuser_counts": {
+        "149": 4,
+        "195": 8,
+        "68": 3,
+        "193": 3,
+        "192": 4,
+        "196": 1,
+        "102": 2,
+        "39": 1,
+        "38": 1,
+        "154": 1,
+        "198": 1,
+        "108": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 1e-06,
+      "best_positive_rate": 0.8,
+      "best_min_gain": -3.1e-05,
+      "selected_name": "baseline_sem"
+    },
+    "198": {
+      "confusers": [
+        195,
+        192,
+        194,
+        196
+      ],
+      "confuser_counts": {
+        "195": 12,
+        "192": 9,
+        "194": 5,
+        "196": 4
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 4e-06,
+      "best_positive_rate": 0.6,
+      "best_min_gain": -1.5e-05,
+      "selected_name": "baseline_sem"
+    },
+    "199": {
+      "confusers": [
+        165,
+        19,
+        166,
+        167
+      ],
+      "confuser_counts": {
+        "165": 12,
+        "166": 3,
+        "172": 1,
+        "164": 1,
+        "180": 2,
+        "19": 5,
+        "167": 3,
+        "169": 2,
+        "97": 1
+      },
+      "bank_size": 6,
+      "accepted": false,
+      "best_mean_gain": 8e-06,
+      "best_positive_rate": 0.6,
+      "best_min_gain": -1.5e-05,
+      "selected_name": "baseline_sem"
+    }
+  }
+}

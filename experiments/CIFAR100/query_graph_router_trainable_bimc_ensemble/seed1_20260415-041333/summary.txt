@@ -1,0 +1,14 @@
+dataset: CIFAR100
+baseline_full_acc: 73.17
+trainable_full_acc: 73.3
+trainable_gain: 0.13
+graph_oracle_gain: 1.08
+baseline_base_acc: 77.867
+baseline_novel_acc: 66.125
+trainable_base_acc: 77.2
+trainable_novel_acc: 67.45
+mean_alpha_base: 0.6267
+mean_alpha_novel: 0.688
+std_alpha_base: 0.0736
+std_alpha_novel: 0.0533
+best_val_acc: 81.367

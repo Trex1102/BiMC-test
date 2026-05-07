@@ -1,0 +1,10 @@
+dataset: cub200
+baseline_full_acc: 72.075
+best_alpha: 0.5
+final_full_acc: 72.489
+final_gain: 0.414
+baseline_base_acc: 78.561
+baseline_novel_acc: 65.734
+final_base_acc: 78.003
+final_novel_acc: 67.099
+recovery_vs_oracle: 5.5

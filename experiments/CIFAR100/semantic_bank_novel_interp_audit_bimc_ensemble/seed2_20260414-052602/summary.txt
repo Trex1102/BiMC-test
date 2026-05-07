@@ -1,0 +1,12 @@
+dataset: CIFAR100
+train_cfg: configs/trainers/bimc_ensemble.yaml
+runtime_sec: 47.387
+k_effective: 3
+novel_diversity: 0.334656
+novel_confuser_overlap: 0.775
+[alpha=0.25] full_acc=73.57 full_novel_acc=67.275 full_oracle_gain=0.95
+[alpha=0.25] fused_only_acc=72.58 fused_only_novel_acc=69.5 fused_oracle_gain=1.41
+[alpha=0.25] knn_only_acc=65.24 knn_only_novel_acc=63.475
+[alpha=0.75] full_acc=73.43 full_novel_acc=68.05 full_oracle_gain=0.99
+[alpha=0.75] fused_only_acc=72.31 fused_only_novel_acc=70.8 fused_oracle_gain=1.12
+[alpha=0.75] knn_only_acc=65.24 knn_only_novel_acc=63.475

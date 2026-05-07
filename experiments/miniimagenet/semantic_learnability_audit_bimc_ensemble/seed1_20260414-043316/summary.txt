@@ -1,0 +1,15 @@
+dataset: miniimagenet
+train_cfg: configs/trainers/bimc_ensemble.yaml
+runtime_sec: 69.476
+test_pearson_gain: 0.1929
+test_precision_at_10pct: 0.0759
+test_precision_at_20pct: 0.121
+class_local_threshold: 0.95
+class_local_gain: 0.0
+class_local_precision: 0.0
+class_local_changed_rate: 0.0
+session_top1_threshold: 0.95
+session_top1_gain: 0.0
+session_top1_precision: 0.0
+session_top1_changed_rate: 0.0
+oracle_top1_mean_gain: 0.0578

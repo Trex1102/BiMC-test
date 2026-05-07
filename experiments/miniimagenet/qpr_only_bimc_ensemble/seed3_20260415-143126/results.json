@@ -1,0 +1,20 @@
+{
+  "dataset": "miniimagenet",
+  "train_cfg": "configs/trainers/bimc_ensemble.yaml",
+  "runtime_sec": 346.422,
+  "num_seen_classes": 100,
+  "num_base_classes": 60,
+  "num_novel_classes": 40,
+  "target_novel_mass": 0.4,
+  "t_base": 0.75,
+  "t_novel": 0.75,
+  "delta": -0.0015,
+  "achieved_novel_mass": 0.4,
+  "baseline_full_acc": 92.28,
+  "baseline_base_acc": 92.867,
+  "baseline_novel_acc": 91.4,
+  "final_full_acc": 92.31,
+  "final_base_acc": 93.033,
+  "final_novel_acc": 91.225,
+  "final_gain": 0.03
+}

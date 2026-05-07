@@ -1,0 +1,15 @@
+dataset: miniimagenet
+train_cfg: configs/trainers/bimc_ensemble.yaml
+runtime_sec: 49.01
+k_effective: 3
+novel_diversity: 0.164111
+novel_confuser_overlap: 0.833333
+[alpha=0.0] full_acc=92.33 full_novel_acc=91.3 full_oracle_gain=0.46
+[alpha=0.0] fused_only_acc=91.91 fused_only_novel_acc=89.85 fused_oracle_gain=0.46
+[alpha=0.0] knn_only_acc=89.41 knn_only_novel_acc=88.55
+[alpha=0.25] full_acc=92.33 full_novel_acc=91.325 full_oracle_gain=0.75
+[alpha=0.25] fused_only_acc=91.95 fused_only_novel_acc=90.0 fused_oracle_gain=0.55
+[alpha=0.25] knn_only_acc=89.41 knn_only_novel_acc=88.55
+[alpha=0.75] full_acc=92.32 full_novel_acc=91.425 full_oracle_gain=0.71
+[alpha=0.75] fused_only_acc=92.06 fused_only_novel_acc=90.175 fused_oracle_gain=0.51
+[alpha=0.75] knn_only_acc=89.41 knn_only_novel_acc=88.55

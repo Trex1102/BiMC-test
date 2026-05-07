@@ -1,0 +1,17 @@
+dataset: CIFAR100
+train_cfg: configs/trainers/bimc_ensemble.yaml
+runtime_sec: 46.797
+baseline_acc: 73.24
+trainable_acc: 73.31
+trainable_gain: 0.07
+oracle_gain: 1.05
+recovery_rate: 0.0667
+best_val_acc: 83.0
+best_val_nll: 4.520431
+test_class_balanced_nll: 4.526838
+test_class_balanced_margin: 0.01736
+changed_class_rate: 0.0
+base_atom_usage_rate: 0.0
+desc_atom_usage_rate: 0.0
+baseline_alignment_gap: 0.715308
+trainable_alignment_gap: 0.714742

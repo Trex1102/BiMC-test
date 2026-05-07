@@ -3,6 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import models.clip.clip as clip
 import json
+import numpy as np
 
 def load_clip_to_cpu(cfg):
     backbone_name = cfg.MODEL.BACKBONE.NAME
@@ -107,6 +108,12 @@ class BiMC(nn.Module):
         # Keys name should match classnames so that we could do fetching from the dict.
         # Convert the dict to lower case
         GPT_prompt_dict = {k.lower().replace("_", " "): v for k, v in GPT_prompt_dict.items()}
+        noise_ratio = float(getattr(self.cfg.DATASET, 'DESCRIPTION_NOISE_RATIO', 0.0))
+        if noise_ratio > 0:
+            noise_seed = int(getattr(self.cfg.DATASET, 'DESCRIPTION_NOISE_SEED', -1))
+            if noise_seed < 0:
+                noise_seed = int(getattr(self.cfg, 'SEED', 1))
+            GPT_prompt_dict = self._corrupt_description_dict(GPT_prompt_dict, noise_ratio, noise_seed + int(cls_begin_index))
         k = cls_begin_index
         for single_key in class_names:
             single_class_prompts = GPT_prompt_dict[single_key.lower().replace("_", " ")]
@@ -125,6 +132,28 @@ class BiMC(nn.Module):
         mean_embeddings = torch.cat(mean_embeddings, dim=0)
         mean_embeddings = F.normalize(mean_embeddings, dim=-1)
         return description_embeddings, all_targets, mean_embeddings
+
+    def _corrupt_description_dict(self, prompt_dict, noise_ratio, noise_seed):
+        rng = np.random.RandomState(noise_seed)
+        prompt_dict = {k: list(v) for k, v in prompt_dict.items()}
+        all_keys = list(prompt_dict.keys())
+        all_prompts = {k: list(v) for k, v in prompt_dict.items()}
+        for key, prompts in prompt_dict.items():
+            if not prompts:
+                continue
+            num_noisy = int(round(len(prompts) * noise_ratio))
+            if num_noisy <= 0:
+                continue
+            replace_idx = rng.choice(len(prompts), size=min(num_noisy, len(prompts)), replace=False)
+            donor_keys = [other_key for other_key in all_keys if other_key != key and all_prompts[other_key]]
+            if not donor_keys:
+                continue
+            for idx in replace_idx:
+                donor_key = donor_keys[rng.randint(len(donor_keys))]
+                donor_prompts = all_prompts[donor_key]
+                prompts[idx] = donor_prompts[rng.randint(len(donor_prompts))]
+            prompt_dict[key] = prompts
+        return prompt_dict
 
 
     def soft_calibration(self, base_protos, cur_protos):

@@ -1,0 +1,15 @@
+dataset: cub200
+train_cfg: configs/trainers/bimc_ensemble.yaml
+runtime_sec: 23.769
+k_effective: 3
+novel_diversity: 0.166006
+novel_confuser_overlap: 0.773333
+[alpha=0.0] full_acc=72.938 full_novel_acc=66.758 full_oracle_gain=2.054
+[alpha=0.0] fused_only_acc=72.316 fused_only_novel_acc=64.232 fused_oracle_gain=1.916
+[alpha=0.0] knn_only_acc=56.559 knn_only_novel_acc=49.044
+[alpha=0.25] full_acc=72.989 full_novel_acc=66.86 full_oracle_gain=1.674
+[alpha=0.25] fused_only_acc=72.42 fused_only_novel_acc=64.471 fused_oracle_gain=1.726
+[alpha=0.25] knn_only_acc=56.559 knn_only_novel_acc=49.044
+[alpha=0.75] full_acc=72.955 full_novel_acc=66.962 full_oracle_gain=1.433
+[alpha=0.75] fused_only_acc=72.299 fused_only_novel_acc=64.334 fused_oracle_gain=1.726
+[alpha=0.75] knn_only_acc=56.559 knn_only_novel_acc=49.044

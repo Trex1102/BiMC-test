@@ -20,8 +20,9 @@ class AccuracyEvaluator:
     def calc_accuracy(self, logits, targets, task_id):
         logits = logits.cpu().numpy()
         targets = targets.cpu().numpy()
+        probs = self._normalize_probs(logits)
 
-        overall_right_cnt = self._count_right_pred_num(logits, targets)
+        overall_right_cnt = self._count_right_pred_num(probs, targets)
         overall_acc_mean = overall_right_cnt / len(targets)
 
         seen_task_classes = self.class_index_per_task[:task_id + 1]
@@ -32,7 +33,7 @@ class AccuracyEvaluator:
                 task_accuracies.append(0.0)
                 continue
 
-            task_sample_logits = logits[task_sample_indices]
+            task_sample_logits = probs[task_sample_indices]
             task_sample_targets = targets[task_sample_indices]
             task_right_cnt = self._count_right_pred_num(task_sample_logits, task_sample_targets)
 
@@ -42,16 +43,57 @@ class AccuracyEvaluator:
         base_avg_acc = task_accuracies[0]
         inc_avg_acc = sum(task_accuracies[1:]) / (len(task_accuracies) - 1) if len(task_accuracies) > 1 else 0.0
         harmonic_acc = 2 * base_avg_acc * inc_avg_acc / (base_avg_acc + inc_avg_acc) if inc_avg_acc > 0 else 0.0
+        nll = self._negative_log_likelihood(probs, targets)
+        brier = self._brier_score(probs, targets)
+        ece = self._expected_calibration_error(probs, targets)
         return {'mean_acc': round(100 * overall_acc_mean, 2), 
                 'task_acc': task_accuracies,
                 'harmonic_acc': round(harmonic_acc, 2),
                 'base_avg_acc': round(base_avg_acc, 2),
-                'inc_avg_acc': round(inc_avg_acc, 2)}
+                'inc_avg_acc': round(inc_avg_acc, 2),
+                'nll': round(nll, 6),
+                'brier': round(brier, 6),
+                'ece': round(ece, 6)}
 
 
     def _count_right_pred_num(self, logits, targets):
         pred = np.argmax(logits, axis=1)
         return np.sum(pred == targets)
+
+    def _normalize_probs(self, probs, eps=1e-12):
+        probs = np.clip(probs, eps, None)
+        probs = probs / probs.sum(axis=1, keepdims=True)
+        return probs
+
+    def _negative_log_likelihood(self, probs, targets, eps=1e-12):
+        target_probs = probs[np.arange(len(targets)), targets]
+        return float(-np.log(np.clip(target_probs, eps, 1.0)).mean())
+
+    def _brier_score(self, probs, targets):
+        one_hot = np.zeros_like(probs)
+        one_hot[np.arange(len(targets)), targets] = 1.0
+        return float(np.mean(np.sum((probs - one_hot) ** 2, axis=1)))
+
+    def _expected_calibration_error(self, probs, targets, num_bins=15):
+        confidences = np.max(probs, axis=1)
+        predictions = np.argmax(probs, axis=1)
+        accuracies = (predictions == targets).astype(np.float32)
+        bin_edges = np.linspace(0.0, 1.0, num_bins + 1)
+        ece = 0.0
+        total = len(targets)
+        for bin_idx in range(num_bins):
+            lower = bin_edges[bin_idx]
+            upper = bin_edges[bin_idx + 1]
+            if bin_idx == num_bins - 1:
+                mask = (confidences >= lower) & (confidences <= upper)
+            else:
+                mask = (confidences >= lower) & (confidences < upper)
+            if not np.any(mask):
+                continue
+            bin_acc = accuracies[mask].mean()
+            bin_conf = confidences[mask].mean()
+            ece += np.abs(bin_acc - bin_conf) * (mask.sum() / total)
+        return float(ece)
 
 
     def _determine_tasks(self, samples, task_classes):

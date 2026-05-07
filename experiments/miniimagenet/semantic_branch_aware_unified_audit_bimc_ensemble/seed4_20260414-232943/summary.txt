@@ -1,0 +1,11 @@
+dataset: miniimagenet
+runtime_sec: 82.878
+threshold: 0.1
+alpha_bank: 0.25
+alpha_compose: 0.25
+diverse_branch_rate: 0.525
+compose_branch_rate: 0.475
+full_acc: 92.63
+full_base_acc: 93.067
+full_novel_acc: 91.975
+fused_only_novel_acc: 90.4

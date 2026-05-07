@@ -1,0 +1,51 @@
+{
+  "dataset": "CIFAR100",
+  "train_cfg": "configs/trainers/bimc_ensemble.yaml",
+  "runtime_sec": 47.889,
+  "k_requested": 3,
+  "k_effective": 3,
+  "alphas": [
+    0.25,
+    0.75
+  ],
+  "bank_stats": {
+    "base_fused_count_mean": 40.0,
+    "novel_fused_count_mean": 3.0,
+    "knn_description_count_mean": 40.0,
+    "novel_within_class_diversity_mean": 0.334656,
+    "novel_support_alignment_mean": 0.260992,
+    "novel_support_alignment_spread_mean": 0.012045,
+    "novel_confuser_overlap_rate_mean": 0.741667,
+    "novel_confuser_similarity_mean": 0.674463
+  },
+  "results": {
+    "0.25": {
+      "metrics": {
+        "full_acc": 73.5,
+        "full_novel_acc": 67.425,
+        "fused_only_acc": 72.72,
+        "fused_only_novel_acc": 70.275,
+        "knn_only_acc": 65.24,
+        "knn_only_novel_acc": 63.475,
+        "full_oracle_gain": 1.14,
+        "full_oracle_changed_rate": 0.7,
+        "fused_oracle_gain": 1.14,
+        "fused_oracle_changed_rate": 0.725
+      }
+    },
+    "0.75": {
+      "metrics": {
+        "full_acc": 73.58,
+        "full_novel_acc": 68.55,
+        "fused_only_acc": 72.4,
+        "fused_only_novel_acc": 71.6,
+        "knn_only_acc": 65.24,
+        "knn_only_novel_acc": 63.475,
+        "full_oracle_gain": 1.18,
+        "full_oracle_changed_rate": 0.825,
+        "fused_oracle_gain": 1.13,
+        "fused_oracle_changed_rate": 0.7
+      }
+    }
+  }
+}

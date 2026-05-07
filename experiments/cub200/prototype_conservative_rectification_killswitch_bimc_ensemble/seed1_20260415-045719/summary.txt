@@ -1,0 +1,11 @@
+dataset: cub200
+baseline_full_acc: 72.765
+best_global_gain: 0.0
+oracle_gain: 0.0
+best_gate_mass_thr: 0.4
+best_gate_top_novel_thr: 0.15
+best_gate_margin_thr: 0.0
+best_gate_gated_query_count: 0
+best_gate_gated_base_count: 0
+best_gate_gated_novel_count: 0
+best_gate_novel_recall: 0.0
