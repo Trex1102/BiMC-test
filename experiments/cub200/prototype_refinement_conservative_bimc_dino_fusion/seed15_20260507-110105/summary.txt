@@ -1,0 +1,10 @@
+dataset: cub200
+seed: 15
+baseline_full_acc: 85.606
+baseline_base_acc: 87.814
+baseline_novel_acc: 83.447
+best_alpha: 0.75
+final_full_acc: 86.469
+final_base_acc: 87.709
+final_novel_acc: 85.256
+final_gain: 0.863

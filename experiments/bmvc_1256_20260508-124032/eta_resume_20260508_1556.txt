@@ -1,0 +1,9 @@
+Run id: bmvc_1256_20260508-124032
+Tmux session: bmvc_1256_resume_20260508_1556
+Resume estimate generated: 2026-05-08 15:57:54 +06 (+0600)
+Valid completed jobs already in status.tsv: 9/540
+Ignored invalid partial duplicate: CIFAR100/bimc seed1_20260508-131614 from the failed seed-2 attempt
+Completed valid runtime credited: 2135 seconds
+Estimated remaining duration: 190989 seconds (53.05 hours)
+Estimated completion: 2026-05-10 21:01:03 +06 (+0600)
+Basis: original eta_initial total 193124 seconds minus valid completed runtime from status.tsv.

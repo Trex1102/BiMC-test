@@ -1,0 +1,2 @@
+phase	dataset	seed	status	start	end	duration_sec	log	results_json
+sessionwise_cpr	cifar100	1	OK	2026-05-07 22:59:51 +06	2026-05-07 23:08:30 +06	519	logs/fscil-sessionwise-cpr-20260507-225951/sessionwise_cpr_cifar100_seed1.log	

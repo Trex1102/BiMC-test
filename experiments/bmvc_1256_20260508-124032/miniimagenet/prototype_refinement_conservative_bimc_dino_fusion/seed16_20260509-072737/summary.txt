@@ -1,0 +1,10 @@
+dataset: miniimagenet
+seed: 16
+baseline_full_acc: 93.93
+baseline_base_acc: 96.15
+baseline_novel_acc: 90.6
+best_alpha: 1.0
+final_full_acc: 94.22
+final_base_acc: 95.883
+final_novel_acc: 91.725
+final_gain: 0.29

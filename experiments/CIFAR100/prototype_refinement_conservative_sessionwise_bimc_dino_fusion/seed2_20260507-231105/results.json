@@ -1,0 +1,478 @@
+{
+  "dataset": "CIFAR100",
+  "seed": 2,
+  "train_cfg": "configs/trainers/bimc_dino_fusion.yaml",
+  "method": "sessionwise conservative query prototype refinement on bimc_dino_fusion",
+  "runtime_sec": 470.703,
+  "alpha_grid": [
+    0.5,
+    0.75,
+    1.0
+  ],
+  "mass_thr": 0.3,
+  "min_count": 5,
+  "topk_per_class": null,
+  "baseline_acc_list": [
+    89.75,
+    87.8,
+    87.0,
+    84.653,
+    84.675,
+    84.235,
+    84.378,
+    84.147,
+    82.96
+  ],
+  "final_acc_list": [
+    89.75,
+    88.477,
+    88.171,
+    86.613,
+    86.588,
+    86.412,
+    86.567,
+    86.537,
+    85.46
+  ],
+  "gain_list": [
+    0.0,
+    0.677,
+    1.171,
+    1.96,
+    1.913,
+    2.176,
+    2.189,
+    2.389,
+    2.5
+  ],
+  "baseline_avg": 85.511,
+  "baseline_pd": 6.79,
+  "final_avg": 87.175,
+  "final_pd": 4.29,
+  "gain_avg": 1.664,
+  "session_results": [
+    {
+      "session": 0,
+      "num_seen_classes": 60,
+      "baseline_full_acc": 89.75,
+      "baseline_base_acc": 89.75,
+      "baseline_novel_acc": 0.0,
+      "best_alpha": null,
+      "final_full_acc": 89.75,
+      "final_base_acc": 89.75,
+      "final_novel_acc": 0.0,
+      "final_gain": 0.0,
+      "updated_class_count": 0,
+      "gated_query_count": 0,
+      "alpha_sweep": []
+    },
+    {
+      "session": 1,
+      "num_seen_classes": 65,
+      "baseline_full_acc": 87.8,
+      "baseline_base_acc": 89.5,
+      "baseline_novel_acc": 67.4,
+      "best_alpha": 0.75,
+      "final_full_acc": 88.477,
+      "final_base_acc": 89.383,
+      "final_novel_acc": 77.6,
+      "final_gain": 0.677,
+      "updated_class_count": 5,
+      "gated_query_count": 346,
+      "gated_base_count": 9,
+      "gated_novel_count": 337,
+      "alpha_sweep": [
+        {
+          "alpha": 0.5,
+          "full_acc": 88.462,
+          "base_acc": 89.367,
+          "novel_acc": 77.6,
+          "gain": 0.662,
+          "updated_class_count": 5,
+          "gated_query_count": 346,
+          "gated_base_count": 9,
+          "gated_novel_count": 337
+        },
+        {
+          "alpha": 0.75,
+          "full_acc": 88.477,
+          "base_acc": 89.383,
+          "novel_acc": 77.6,
+          "gain": 0.677,
+          "updated_class_count": 5,
+          "gated_query_count": 346,
+          "gated_base_count": 9,
+          "gated_novel_count": 337
+        },
+        {
+          "alpha": 1.0,
+          "full_acc": 88.446,
+          "base_acc": 89.433,
+          "novel_acc": 76.6,
+          "gain": 0.646,
+          "updated_class_count": 5,
+          "gated_query_count": 346,
+          "gated_base_count": 9,
+          "gated_novel_count": 337
+        }
+      ]
+    },
+    {
+      "session": 2,
+      "num_seen_classes": 70,
+      "baseline_full_acc": 87.0,
+      "baseline_base_acc": 89.383,
+      "baseline_novel_acc": 72.7,
+      "best_alpha": 0.75,
+      "final_full_acc": 88.171,
+      "final_base_acc": 89.217,
+      "final_novel_acc": 81.9,
+      "final_gain": 1.171,
+      "updated_class_count": 10,
+      "gated_query_count": 751,
+      "gated_base_count": 17,
+      "gated_novel_count": 734,
+      "alpha_sweep": [
+        {
+          "alpha": 0.5,
+          "full_acc": 88.114,
+          "base_acc": 89.217,
+          "novel_acc": 81.5,
+          "gain": 1.114,
+          "updated_class_count": 10,
+          "gated_query_count": 751,
+          "gated_base_count": 17,
+          "gated_novel_count": 734
+        },
+        {
+          "alpha": 0.75,
+          "full_acc": 88.171,
+          "base_acc": 89.217,
+          "novel_acc": 81.9,
+          "gain": 1.171,
+          "updated_class_count": 10,
+          "gated_query_count": 751,
+          "gated_base_count": 17,
+          "gated_novel_count": 734
+        },
+        {
+          "alpha": 1.0,
+          "full_acc": 88.086,
+          "base_acc": 89.233,
+          "novel_acc": 81.2,
+          "gain": 1.086,
+          "updated_class_count": 10,
+          "gated_query_count": 751,
+          "gated_base_count": 17,
+          "gated_novel_count": 734
+        }
+      ]
+    },
+    {
+      "session": 3,
+      "num_seen_classes": 75,
+      "baseline_full_acc": 84.653,
+      "baseline_base_acc": 89.267,
+      "baseline_novel_acc": 66.2,
+      "best_alpha": 0.75,
+      "final_full_acc": 86.613,
+      "final_base_acc": 88.85,
+      "final_novel_acc": 77.667,
+      "final_gain": 1.96,
+      "updated_class_count": 15,
+      "gated_query_count": 1066,
+      "gated_base_count": 37,
+      "gated_novel_count": 1029,
+      "alpha_sweep": [
+        {
+          "alpha": 0.5,
+          "full_acc": 86.493,
+          "base_acc": 88.867,
+          "novel_acc": 77.0,
+          "gain": 1.84,
+          "updated_class_count": 15,
+          "gated_query_count": 1066,
+          "gated_base_count": 37,
+          "gated_novel_count": 1029
+        },
+        {
+          "alpha": 0.75,
+          "full_acc": 86.613,
+          "base_acc": 88.85,
+          "novel_acc": 77.667,
+          "gain": 1.96,
+          "updated_class_count": 15,
+          "gated_query_count": 1066,
+          "gated_base_count": 37,
+          "gated_novel_count": 1029
+        },
+        {
+          "alpha": 1.0,
+          "full_acc": 86.427,
+          "base_acc": 88.833,
+          "novel_acc": 76.8,
+          "gain": 1.773,
+          "updated_class_count": 15,
+          "gated_query_count": 1066,
+          "gated_base_count": 37,
+          "gated_novel_count": 1029
+        }
+      ]
+    },
+    {
+      "session": 4,
+      "num_seen_classes": 80,
+      "baseline_full_acc": 84.675,
+      "baseline_base_acc": 89.183,
+      "baseline_novel_acc": 71.15,
+      "best_alpha": 0.75,
+      "final_full_acc": 86.588,
+      "final_base_acc": 88.667,
+      "final_novel_acc": 80.35,
+      "final_gain": 1.913,
+      "updated_class_count": 20,
+      "gated_query_count": 1514,
+      "gated_base_count": 42,
+      "gated_novel_count": 1472,
+      "alpha_sweep": [
+        {
+          "alpha": 0.5,
+          "full_acc": 86.538,
+          "base_acc": 88.717,
+          "novel_acc": 80.0,
+          "gain": 1.863,
+          "updated_class_count": 20,
+          "gated_query_count": 1514,
+          "gated_base_count": 42,
+          "gated_novel_count": 1472
+        },
+        {
+          "alpha": 0.75,
+          "full_acc": 86.588,
+          "base_acc": 88.667,
+          "novel_acc": 80.35,
+          "gain": 1.913,
+          "updated_class_count": 20,
+          "gated_query_count": 1514,
+          "gated_base_count": 42,
+          "gated_novel_count": 1472
+        },
+        {
+          "alpha": 1.0,
+          "full_acc": 86.438,
+          "base_acc": 88.7,
+          "novel_acc": 79.65,
+          "gain": 1.763,
+          "updated_class_count": 20,
+          "gated_query_count": 1514,
+          "gated_base_count": 42,
+          "gated_novel_count": 1472
+        }
+      ]
+    },
+    {
+      "session": 5,
+      "num_seen_classes": 85,
+      "baseline_full_acc": 84.235,
+      "baseline_base_acc": 89.1,
+      "baseline_novel_acc": 72.56,
+      "best_alpha": 0.75,
+      "final_full_acc": 86.412,
+      "final_base_acc": 88.517,
+      "final_novel_acc": 81.36,
+      "final_gain": 2.176,
+      "updated_class_count": 25,
+      "gated_query_count": 1921,
+      "gated_base_count": 47,
+      "gated_novel_count": 1874,
+      "alpha_sweep": [
+        {
+          "alpha": 0.5,
+          "full_acc": 86.365,
+          "base_acc": 88.6,
+          "novel_acc": 81.0,
+          "gain": 2.129,
+          "updated_class_count": 25,
+          "gated_query_count": 1921,
+          "gated_base_count": 47,
+          "gated_novel_count": 1874
+        },
+        {
+          "alpha": 0.75,
+          "full_acc": 86.412,
+          "base_acc": 88.517,
+          "novel_acc": 81.36,
+          "gain": 2.176,
+          "updated_class_count": 25,
+          "gated_query_count": 1921,
+          "gated_base_count": 47,
+          "gated_novel_count": 1874
+        },
+        {
+          "alpha": 1.0,
+          "full_acc": 86.271,
+          "base_acc": 88.533,
+          "novel_acc": 80.84,
+          "gain": 2.035,
+          "updated_class_count": 25,
+          "gated_query_count": 1921,
+          "gated_base_count": 47,
+          "gated_novel_count": 1874
+        }
+      ]
+    },
+    {
+      "session": 6,
+      "num_seen_classes": 90,
+      "baseline_full_acc": 84.378,
+      "baseline_base_acc": 88.883,
+      "baseline_novel_acc": 75.367,
+      "best_alpha": 0.75,
+      "final_full_acc": 86.567,
+      "final_base_acc": 88.267,
+      "final_novel_acc": 83.167,
+      "final_gain": 2.189,
+      "updated_class_count": 30,
+      "gated_query_count": 2394,
+      "gated_base_count": 66,
+      "gated_novel_count": 2328,
+      "alpha_sweep": [
+        {
+          "alpha": 0.5,
+          "full_acc": 86.478,
+          "base_acc": 88.333,
+          "novel_acc": 82.767,
+          "gain": 2.1,
+          "updated_class_count": 30,
+          "gated_query_count": 2394,
+          "gated_base_count": 66,
+          "gated_novel_count": 2328
+        },
+        {
+          "alpha": 0.75,
+          "full_acc": 86.567,
+          "base_acc": 88.267,
+          "novel_acc": 83.167,
+          "gain": 2.189,
+          "updated_class_count": 30,
+          "gated_query_count": 2394,
+          "gated_base_count": 66,
+          "gated_novel_count": 2328
+        },
+        {
+          "alpha": 1.0,
+          "full_acc": 86.422,
+          "base_acc": 88.283,
+          "novel_acc": 82.7,
+          "gain": 2.044,
+          "updated_class_count": 30,
+          "gated_query_count": 2394,
+          "gated_base_count": 66,
+          "gated_novel_count": 2328
+        }
+      ]
+    },
+    {
+      "session": 7,
+      "num_seen_classes": 95,
+      "baseline_full_acc": 84.147,
+      "baseline_base_acc": 88.767,
+      "baseline_novel_acc": 76.229,
+      "best_alpha": 0.75,
+      "final_full_acc": 86.537,
+      "final_base_acc": 88.2,
+      "final_novel_acc": 83.686,
+      "final_gain": 2.389,
+      "updated_class_count": 35,
+      "gated_query_count": 2854,
+      "gated_base_count": 75,
+      "gated_novel_count": 2779,
+      "alpha_sweep": [
+        {
+          "alpha": 0.5,
+          "full_acc": 86.274,
+          "base_acc": 88.217,
+          "novel_acc": 82.943,
+          "gain": 2.126,
+          "updated_class_count": 35,
+          "gated_query_count": 2854,
+          "gated_base_count": 75,
+          "gated_novel_count": 2779
+        },
+        {
+          "alpha": 0.75,
+          "full_acc": 86.537,
+          "base_acc": 88.2,
+          "novel_acc": 83.686,
+          "gain": 2.389,
+          "updated_class_count": 35,
+          "gated_query_count": 2854,
+          "gated_base_count": 75,
+          "gated_novel_count": 2779
+        },
+        {
+          "alpha": 1.0,
+          "full_acc": 86.232,
+          "base_acc": 88.2,
+          "novel_acc": 82.857,
+          "gain": 2.084,
+          "updated_class_count": 35,
+          "gated_query_count": 2854,
+          "gated_base_count": 75,
+          "gated_novel_count": 2779
+        }
+      ]
+    },
+    {
+      "session": 8,
+      "num_seen_classes": 100,
+      "baseline_full_acc": 82.96,
+      "baseline_base_acc": 88.467,
+      "baseline_novel_acc": 74.7,
+      "best_alpha": 0.75,
+      "final_full_acc": 85.46,
+      "final_base_acc": 87.85,
+      "final_novel_acc": 81.875,
+      "final_gain": 2.5,
+      "updated_class_count": 40,
+      "gated_query_count": 3199,
+      "gated_base_count": 83,
+      "gated_novel_count": 3116,
+      "alpha_sweep": [
+        {
+          "alpha": 0.5,
+          "full_acc": 85.31,
+          "base_acc": 87.933,
+          "novel_acc": 81.375,
+          "gain": 2.35,
+          "updated_class_count": 40,
+          "gated_query_count": 3199,
+          "gated_base_count": 83,
+          "gated_novel_count": 3116
+        },
+        {
+          "alpha": 0.75,
+          "full_acc": 85.46,
+          "base_acc": 87.85,
+          "novel_acc": 81.875,
+          "gain": 2.5,
+          "updated_class_count": 40,
+          "gated_query_count": 3199,
+          "gated_base_count": 83,
+          "gated_novel_count": 3116
+        },
+        {
+          "alpha": 1.0,
+          "full_acc": 85.12,
+          "base_acc": 87.9,
+          "novel_acc": 80.95,
+          "gain": 2.16,
+          "updated_class_count": 40,
+          "gated_query_count": 3199,
+          "gated_base_count": 83,
+          "gated_novel_count": 3116
+        }
+      ]
+    }
+  ]
+}

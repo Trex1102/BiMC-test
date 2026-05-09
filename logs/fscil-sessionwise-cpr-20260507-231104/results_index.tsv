@@ -1,0 +1,3 @@
+dataset	seed	results_json
+CIFAR100	1	experiments/CIFAR100/prototype_refinement_conservative_sessionwise_bimc_dino_fusion/seed1_20260507-230007/results.json
+CIFAR100	2	experiments/CIFAR100/prototype_refinement_conservative_sessionwise_bimc_dino_fusion/seed2_20260507-231105/results.json

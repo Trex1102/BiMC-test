@@ -1,0 +1,10 @@
+dataset: miniimagenet
+seed: 9
+baseline_acc_list: [97.1, 97.0, 95.643, 95.6, 95.588, 95.2, 94.378, 94.305, 94.12]
+final_acc_list: [97.1, 97.092, 95.743, 95.76, 95.775, 95.4, 94.622, 94.6, 94.48]
+gain_list: [0.0, 0.092, 0.1, 0.16, 0.187, 0.2, 0.244, 0.295, 0.36]
+baseline_avg: 95.437
+baseline_pd: 2.98
+final_avg: 95.619
+final_pd: 2.62
+gain_avg: 0.182

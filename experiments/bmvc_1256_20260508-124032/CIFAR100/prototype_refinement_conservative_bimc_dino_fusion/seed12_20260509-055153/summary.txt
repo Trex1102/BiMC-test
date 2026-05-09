@@ -1,0 +1,10 @@
+dataset: CIFAR100
+seed: 12
+baseline_full_acc: 83.19
+baseline_base_acc: 88.617
+baseline_novel_acc: 75.05
+best_alpha: 0.5
+final_full_acc: 85.25
+final_base_acc: 88.1
+final_novel_acc: 80.975
+final_gain: 2.06

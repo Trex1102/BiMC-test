@@ -1,0 +1,1124 @@
+/media/bio/data/BiMC-test/models/clip/clip.py:23: UserWarning: PyTorch version 1.7.1 or higher is recommended
+  warnings.warn("PyTorch version 1.7.1 or higher is recommended")
+manual seed: 7
+use gpu: ['0']
+Files already downloaded and verified
+Files already downloaded and verified
+Loading CLIP (backbone: ViT-B/16)
+Prompt template:['a photo of a {}.']
+Loading DinoV2 ViT-B/14 from local hub: /home/bio/.cache/torch/hub/facebookresearch_dinov2_main
+/home/bio/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/home/bio/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/attention.py:34: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/home/bio/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/block.py:41: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+Loading DinoV2 weights: /home/bio/.cache/torch/hub/checkpoints/dinov2_vitb14_pretrain.pth
+class names: ['apple' 'aquarium fish' 'baby' 'bear' 'beaver' 'bed' 'bee' 'beetle'
+ 'bicycle' 'bottle' 'bowl' 'boy' 'bridge' 'bus' 'butterfly' 'camel' 'can'
+ 'castle' 'caterpillar' 'cattle' 'chair' 'chimpanzee' 'clock' 'cloud'
+ 'cockroach' 'couch' 'crab' 'crocodile' 'cup' 'dinosaur' 'dolphin'
+ 'elephant' 'flatfish' 'forest' 'fox' 'girl' 'hamster' 'house' 'kangaroo'
+ 'keyboard' 'lamp' 'lawn mower' 'leopard' 'lion' 'lizard' 'lobster' 'man'
+ 'maple tree' 'motorcycle' 'mountain' 'mouse' 'mushroom' 'oak tree'
+ 'orange' 'orchid' 'otter' 'palm tree' 'pear' 'pickup truck' 'pine tree']
+all targets:tensor([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16, 17,
+        18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35,
+        36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53,
+        54, 55, 56, 57, 58, 59], device='cuda:0')
+dino all targets:tensor([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16, 17,
+        18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35,
+        36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53,
+        54, 55, 56, 57, 58, 59], device='cuda:0')
+finish loading CLIP/DinoV2 covariance
+class names: ['plain' 'plate' 'poppy' 'porcupine' 'possum']
+all targets:tensor([60, 61, 62, 63, 64], device='cuda:0')
+dino all targets:tensor([60, 61, 62, 63, 64], device='cuda:0')
+finish loading CLIP/DinoV2 covariance
+class names: ['rabbit' 'raccoon' 'ray' 'road' 'rocket']
+all targets:tensor([65, 66, 67, 68, 69], device='cuda:0')
+dino all targets:tensor([65, 66, 67, 68, 69], device='cuda:0')
+finish loading CLIP/DinoV2 covariance
+class names: ['rose' 'sea' 'seal' 'shark' 'shrew']
+all targets:tensor([70, 71, 72, 73, 74], device='cuda:0')
+dino all targets:tensor([70, 71, 72, 73, 74], device='cuda:0')
+finish loading CLIP/DinoV2 covariance
+class names: ['skunk' 'skyscraper' 'snail' 'snake' 'spider']
+all targets:tensor([75, 76, 77, 78, 79], device='cuda:0')
+dino all targets:tensor([75, 76, 77, 78, 79], device='cuda:0')
+finish loading CLIP/DinoV2 covariance
+class names: ['squirrel' 'streetcar' 'sunflower' 'sweet pepper' 'table']
+all targets:tensor([80, 81, 82, 83, 84], device='cuda:0')
+dino all targets:tensor([80, 81, 82, 83, 84], device='cuda:0')
+finish loading CLIP/DinoV2 covariance
+class names: ['tank' 'telephone' 'television' 'tiger' 'tractor']
+all targets:tensor([85, 86, 87, 88, 89], device='cuda:0')
+dino all targets:tensor([85, 86, 87, 88, 89], device='cuda:0')
+finish loading CLIP/DinoV2 covariance
+class names: ['train' 'trout' 'tulip' 'turtle' 'wardrobe']
+all targets:tensor([90, 91, 92, 93, 94], device='cuda:0')
+dino all targets:tensor([90, 91, 92, 93, 94], device='cuda:0')
+finish loading CLIP/DinoV2 covariance
+class names: ['whale' 'willow tree' 'wolf' 'woman' 'worm']
+all targets:tensor([95, 96, 97, 98, 99], device='cuda:0')
+dino all targets:tensor([95, 96, 97, 98, 99], device='cuda:0')
+finish loading CLIP/DinoV2 covariance
+session 0: baseline=89.750 final=89.750 gain=0.000
+session 1: baseline=87.185 final=88.154 gain=0.969
+session 2: baseline=86.471 final=87.814 gain=1.343
+session 3: baseline=84.680 final=86.600 gain=1.920
+session 4: baseline=84.538 final=86.625 gain=2.087
+session 5: baseline=84.176 final=86.400 gain=2.224
+session 6: baseline=84.333 final=86.456 gain=2.122
+session 7: baseline=83.947 final=86.189 gain=2.242
+session 8: baseline=82.410 final=85.120 gain=2.710
+{
+  "dataset": "CIFAR100",
+  "seed": 7,
+  "train_cfg": "experiments/bmvc_1256_20260508-124032/generated_configs/bimc_dino_fusion.yaml",
+  "method": "sessionwise conservative query prototype refinement on bimc_dino_fusion with pseudo-validation alpha selection",
+  "runtime_sec": 439.438,
+  "alpha_grid": [
+    0.5,
+    0.75,
+    1.0
+  ],
+  "alpha_selection": "pseudo_validation_no_test_labels",
+  "mass_thr": 0.3,
+  "min_count": 5,
+  "val_fraction": 0.2,
+  "base_val_conf_thr": 0.5,
+  "base_val_max_per_class": 50,
+  "fallback_alpha": 0.75,
+  "topk_per_class": null,
+  "baseline_acc_list": [
+    89.75,
+    87.185,
+    86.471,
+    84.68,
+    84.538,
+    84.176,
+    84.333,
+    83.947,
+    82.41
+  ],
+  "final_acc_list": [
+    89.75,
+    88.154,
+    87.814,
+    86.6,
+    86.625,
+    86.4,
+    86.456,
+    86.189,
+    85.12
+  ],
+  "gain_list": [
+    0.0,
+    0.969,
+    1.343,
+    1.92,
+    2.087,
+    2.224,
+    2.122,
+    2.242,
+    2.71
+  ],
+  "baseline_avg": 85.277,
+  "baseline_pd": 7.34,
+  "final_avg": 87.012,
+  "final_pd": 4.63,
+  "gain_avg": 1.735,
+  "session_results": [
+    {
+      "session": 0,
+      "num_seen_classes": 60,
+      "baseline_full_acc": 89.75,
+      "baseline_base_acc": 89.75,
+      "baseline_novel_acc": 0.0,
+      "best_alpha": null,
+      "final_full_acc": 89.75,
+      "final_base_acc": 89.75,
+      "final_novel_acc": 0.0,
+      "final_gain": 0.0,
+      "updated_class_count": 0,
+      "gated_query_count": 0,
+      "alpha_selection": {
+        "mode": "not_applicable_base_session",
+        "selected_alpha": null
+      }
+    },
+    {
+      "session": 1,
+      "num_seen_classes": 65,
+      "baseline_full_acc": 87.185,
+      "baseline_base_acc": 89.367,
+      "baseline_novel_acc": 61.0,
+      "selected_alpha": 0.5,
+      "final_full_acc": 88.154,
+      "final_base_acc": 89.217,
+      "final_novel_acc": 75.4,
+      "final_gain": 0.969,
+      "updated_class_count": 5,
+      "gated_query_count": 338,
+      "gated_base_count": 17,
+      "gated_novel_count": 321,
+      "alpha_selection": {
+        "mode": "pseudo_validation",
+        "fallback_used": false,
+        "selected_alpha": 0.5,
+        "candidates": [
+          {
+            "alpha": 0.5,
+            "pseudo_val_score": -0.023026,
+            "pseudo_val_nll": 0.023026,
+            "pseudo_val_agreement": 99.641
+          },
+          {
+            "alpha": 0.75,
+            "pseudo_val_score": -0.025412,
+            "pseudo_val_nll": 0.025412,
+            "pseudo_val_agreement": 99.511
+          },
+          {
+            "alpha": 1.0,
+            "pseudo_val_score": -0.027567,
+            "pseudo_val_nll": 0.027567,
+            "pseudo_val_agreement": 99.413
+          }
+        ],
+        "split": {
+          "novel_gated_query_count": 338,
+          "validation_count": 3067,
+          "novel_validation_count": 67,
+          "base_validation_count": 3000,
+          "updated_class_count": 5,
+          "per_class_counts": {
+            "60": 81,
+            "61": 55,
+            "62": 99,
+            "63": 31,
+            "64": 72
+          },
+          "per_class_update_counts": {
+            "60": 65,
+            "61": 44,
+            "62": 79,
+            "63": 25,
+            "64": 58
+          },
+          "per_class_validation_counts": {
+            "60": 16,
+            "61": 11,
+            "62": 20,
+            "63": 6,
+            "64": 14
+          }
+        }
+      }
+    },
+    {
+      "session": 2,
+      "num_seen_classes": 70,
+      "baseline_full_acc": 86.471,
+      "baseline_base_acc": 89.1,
+      "baseline_novel_acc": 70.7,
+      "selected_alpha": 0.5,
+      "final_full_acc": 87.814,
+      "final_base_acc": 88.917,
+      "final_novel_acc": 81.2,
+      "final_gain": 1.343,
+      "updated_class_count": 10,
+      "gated_query_count": 755,
+      "gated_base_count": 25,
+      "gated_novel_count": 730,
+      "alpha_selection": {
+        "mode": "pseudo_validation",
+        "fallback_used": false,
+        "selected_alpha": 0.5,
+        "candidates": [
+          {
+            "alpha": 0.5,
+            "pseudo_val_score": -0.040047,
+            "pseudo_val_nll": 0.040047,
+            "pseudo_val_agreement": 99.556
+          },
+          {
+            "alpha": 0.75,
+            "pseudo_val_score": -0.042307,
+            "pseudo_val_nll": 0.042307,
+            "pseudo_val_agreement": 99.397
+          },
+          {
+            "alpha": 1.0,
+            "pseudo_val_score": -0.044937,
+            "pseudo_val_nll": 0.044937,
+            "pseudo_val_agreement": 99.302
+          }
+        ],
+        "split": {
+          "novel_gated_query_count": 755,
+          "validation_count": 3151,
+          "novel_validation_count": 151,
+          "base_validation_count": 3000,
+          "updated_class_count": 10,
+          "per_class_counts": {
+            "60": 78,
+            "61": 56,
+            "62": 99,
+            "63": 28,
+            "64": 67,
+            "65": 85,
+            "66": 89,
+            "67": 66,
+            "68": 92,
+            "69": 95
+          },
+          "per_class_update_counts": {
+            "60": 62,
+            "61": 45,
+            "62": 79,
+            "63": 22,
+            "64": 54,
+            "65": 68,
+            "66": 71,
+            "67": 53,
+            "68": 74,
+            "69": 76
+          },
+          "per_class_validation_counts": {
+            "60": 16,
+            "61": 11,
+            "62": 20,
+            "63": 6,
+            "64": 13,
+            "65": 17,
+            "66": 18,
+            "67": 13,
+            "68": 18,
+            "69": 19
+          }
+        }
+      }
+    },
+    {
+      "session": 3,
+      "num_seen_classes": 75,
+      "baseline_full_acc": 84.68,
+      "baseline_base_acc": 89.067,
+      "baseline_novel_acc": 67.133,
+      "selected_alpha": 0.5,
+      "final_full_acc": 86.6,
+      "final_base_acc": 88.833,
+      "final_novel_acc": 77.667,
+      "final_gain": 1.92,
+      "updated_class_count": 15,
+      "gated_query_count": 1079,
+      "gated_base_count": 31,
+      "gated_novel_count": 1048,
+      "alpha_selection": {
+        "mode": "pseudo_validation",
+        "fallback_used": false,
+        "selected_alpha": 0.5,
+        "candidates": [
+          {
+            "alpha": 0.5,
+            "pseudo_val_score": -0.055116,
+            "pseudo_val_nll": 0.055116,
+            "pseudo_val_agreement": 99.347
+          },
+          {
+            "alpha": 0.75,
+            "pseudo_val_score": -0.058056,
+            "pseudo_val_nll": 0.058056,
+            "pseudo_val_agreement": 99.005
+          },
+          {
+            "alpha": 1.0,
+            "pseudo_val_score": -0.062119,
+            "pseudo_val_nll": 0.062119,
+            "pseudo_val_agreement": 98.849
+          }
+        ],
+        "split": {
+          "novel_gated_query_count": 1079,
+          "validation_count": 3216,
+          "novel_validation_count": 216,
+          "base_validation_count": 3000,
+          "updated_class_count": 15,
+          "per_class_counts": {
+            "60": 76,
+            "61": 56,
+            "62": 97,
+            "63": 26,
+            "64": 68,
+            "65": 85,
+            "66": 89,
+            "67": 62,
+            "68": 93,
+            "69": 96,
+            "70": 98,
+            "71": 79,
+            "72": 43,
+            "73": 77,
+            "74": 34
+          },
+          "per_class_update_counts": {
+            "60": 61,
+            "61": 45,
+            "62": 78,
+            "63": 21,
+            "64": 54,
+            "65": 68,
+            "66": 71,
+            "67": 50,
+            "68": 74,
+            "69": 77,
+            "70": 78,
+            "71": 63,
+            "72": 34,
+            "73": 62,
+            "74": 27
+          },
+          "per_class_validation_counts": {
+            "60": 15,
+            "61": 11,
+            "62": 19,
+            "63": 5,
+            "64": 14,
+            "65": 17,
+            "66": 18,
+            "67": 12,
+            "68": 19,
+            "69": 19,
+            "70": 20,
+            "71": 16,
+            "72": 9,
+            "73": 15,
+            "74": 7
+          }
+        }
+      }
+    },
+    {
+      "session": 4,
+      "num_seen_classes": 80,
+      "baseline_full_acc": 84.538,
+      "baseline_base_acc": 88.983,
+      "baseline_novel_acc": 71.2,
+      "selected_alpha": 0.5,
+      "final_full_acc": 86.625,
+      "final_base_acc": 88.767,
+      "final_novel_acc": 80.2,
+      "final_gain": 2.087,
+      "updated_class_count": 20,
+      "gated_query_count": 1513,
+      "gated_base_count": 40,
+      "gated_novel_count": 1473,
+      "alpha_selection": {
+        "mode": "pseudo_validation",
+        "fallback_used": false,
+        "selected_alpha": 0.5,
+        "candidates": [
+          {
+            "alpha": 0.5,
+            "pseudo_val_score": -0.069212,
+            "pseudo_val_nll": 0.069212,
+            "pseudo_val_agreement": 99.394
+          },
+          {
+            "alpha": 0.75,
+            "pseudo_val_score": -0.071761,
+            "pseudo_val_nll": 0.071761,
+            "pseudo_val_agreement": 98.88
+          },
+          {
+            "alpha": 1.0,
+            "pseudo_val_score": -0.076084,
+            "pseudo_val_nll": 0.076084,
+            "pseudo_val_agreement": 98.789
+          }
+        ],
+        "split": {
+          "novel_gated_query_count": 1513,
+          "validation_count": 3303,
+          "novel_validation_count": 303,
+          "base_validation_count": 3000,
+          "updated_class_count": 20,
+          "per_class_counts": {
+            "60": 76,
+            "61": 56,
+            "62": 97,
+            "63": 25,
+            "64": 68,
+            "65": 86,
+            "66": 89,
+            "67": 62,
+            "68": 94,
+            "69": 99,
+            "70": 99,
+            "71": 80,
+            "72": 42,
+            "73": 78,
+            "74": 33,
+            "75": 89,
+            "76": 81,
+            "77": 83,
+            "78": 95,
+            "79": 81
+          },
+          "per_class_update_counts": {
+            "60": 61,
+            "61": 45,
+            "62": 78,
+            "63": 20,
+            "64": 54,
+            "65": 69,
+            "66": 71,
+            "67": 50,
+            "68": 75,
+            "69": 79,
+            "70": 79,
+            "71": 64,
+            "72": 34,
+            "73": 62,
+            "74": 26,
+            "75": 71,
+            "76": 65,
+            "77": 66,
+            "78": 76,
+            "79": 65
+          },
+          "per_class_validation_counts": {
+            "60": 15,
+            "61": 11,
+            "62": 19,
+            "63": 5,
+            "64": 14,
+            "65": 17,
+            "66": 18,
+            "67": 12,
+            "68": 19,
+            "69": 20,
+            "70": 20,
+            "71": 16,
+            "72": 8,
+            "73": 16,
+            "74": 7,
+            "75": 18,
+            "76": 16,
+            "77": 17,
+            "78": 19,
+            "79": 16
+          }
+        }
+      }
+    },
+    {
+      "session": 5,
+      "num_seen_classes": 85,
+      "baseline_full_acc": 84.176,
+      "baseline_base_acc": 88.967,
+      "baseline_novel_acc": 72.68,
+      "selected_alpha": 0.5,
+      "final_full_acc": 86.4,
+      "final_base_acc": 88.667,
+      "final_novel_acc": 80.96,
+      "final_gain": 2.224,
+      "updated_class_count": 25,
+      "gated_query_count": 1917,
+      "gated_base_count": 43,
+      "gated_novel_count": 1874,
+      "alpha_selection": {
+        "mode": "pseudo_validation",
+        "fallback_used": false,
+        "selected_alpha": 0.5,
+        "candidates": [
+          {
+            "alpha": 0.5,
+            "pseudo_val_score": -0.082359,
+            "pseudo_val_nll": 0.082359,
+            "pseudo_val_agreement": 99.232
+          },
+          {
+            "alpha": 0.75,
+            "pseudo_val_score": -0.085611,
+            "pseudo_val_nll": 0.085611,
+            "pseudo_val_agreement": 98.788
+          },
+          {
+            "alpha": 1.0,
+            "pseudo_val_score": -0.091155,
+            "pseudo_val_nll": 0.091155,
+            "pseudo_val_agreement": 98.493
+          }
+        ],
+        "split": {
+          "novel_gated_query_count": 1917,
+          "validation_count": 3384,
+          "novel_validation_count": 384,
+          "base_validation_count": 3000,
+          "updated_class_count": 25,
+          "per_class_counts": {
+            "60": 76,
+            "61": 54,
+            "62": 98,
+            "63": 24,
+            "64": 68,
+            "65": 87,
+            "66": 87,
+            "67": 62,
+            "68": 94,
+            "69": 101,
+            "70": 100,
+            "71": 79,
+            "72": 43,
+            "73": 77,
+            "74": 31,
+            "75": 90,
+            "76": 80,
+            "77": 83,
+            "78": 96,
+            "79": 81,
+            "80": 70,
+            "81": 79,
+            "82": 98,
+            "83": 93,
+            "84": 66
+          },
+          "per_class_update_counts": {
+            "60": 61,
+            "61": 43,
+            "62": 78,
+            "63": 19,
+            "64": 54,
+            "65": 70,
+            "66": 70,
+            "67": 50,
+            "68": 75,
+            "69": 81,
+            "70": 80,
+            "71": 63,
+            "72": 34,
+            "73": 62,
+            "74": 25,
+            "75": 72,
+            "76": 64,
+            "77": 66,
+            "78": 77,
+            "79": 65,
+            "80": 56,
+            "81": 63,
+            "82": 78,
+            "83": 74,
+            "84": 53
+          },
+          "per_class_validation_counts": {
+            "60": 15,
+            "61": 11,
+            "62": 20,
+            "63": 5,
+            "64": 14,
+            "65": 17,
+            "66": 17,
+            "67": 12,
+            "68": 19,
+            "69": 20,
+            "70": 20,
+            "71": 16,
+            "72": 9,
+            "73": 15,
+            "74": 6,
+            "75": 18,
+            "76": 16,
+            "77": 17,
+            "78": 19,
+            "79": 16,
+            "80": 14,
+            "81": 16,
+            "82": 20,
+            "83": 19,
+            "84": 13
+          }
+        }
+      }
+    },
+    {
+      "session": 6,
+      "num_seen_classes": 90,
+      "baseline_full_acc": 84.333,
+      "baseline_base_acc": 88.783,
+      "baseline_novel_acc": 75.433,
+      "selected_alpha": 0.5,
+      "final_full_acc": 86.456,
+      "final_base_acc": 88.3,
+      "final_novel_acc": 82.767,
+      "final_gain": 2.122,
+      "updated_class_count": 30,
+      "gated_query_count": 2389,
+      "gated_base_count": 58,
+      "gated_novel_count": 2331,
+      "alpha_selection": {
+        "mode": "pseudo_validation",
+        "fallback_used": false,
+        "selected_alpha": 0.5,
+        "candidates": [
+          {
+            "alpha": 0.5,
+            "pseudo_val_score": -0.099606,
+            "pseudo_val_nll": 0.099606,
+            "pseudo_val_agreement": 98.908
+          },
+          {
+            "alpha": 0.75,
+            "pseudo_val_score": -0.105026,
+            "pseudo_val_nll": 0.105026,
+            "pseudo_val_agreement": 98.305
+          },
+          {
+            "alpha": 1.0,
+            "pseudo_val_score": -0.113646,
+            "pseudo_val_nll": 0.113646,
+            "pseudo_val_agreement": 97.931
+          }
+        ],
+        "split": {
+          "novel_gated_query_count": 2389,
+          "validation_count": 3480,
+          "novel_validation_count": 480,
+          "base_validation_count": 3000,
+          "updated_class_count": 30,
+          "per_class_counts": {
+            "60": 76,
+            "61": 55,
+            "62": 98,
+            "63": 24,
+            "64": 68,
+            "65": 87,
+            "66": 88,
+            "67": 62,
+            "68": 94,
+            "69": 98,
+            "70": 100,
+            "71": 79,
+            "72": 44,
+            "73": 77,
+            "74": 30,
+            "75": 90,
+            "76": 80,
+            "77": 83,
+            "78": 95,
+            "79": 81,
+            "80": 70,
+            "81": 79,
+            "82": 98,
+            "83": 93,
+            "84": 66,
+            "85": 99,
+            "86": 108,
+            "87": 81,
+            "88": 85,
+            "89": 101
+          },
+          "per_class_update_counts": {
+            "60": 61,
+            "61": 44,
+            "62": 78,
+            "63": 19,
+            "64": 54,
+            "65": 70,
+            "66": 70,
+            "67": 50,
+            "68": 75,
+            "69": 78,
+            "70": 80,
+            "71": 63,
+            "72": 35,
+            "73": 62,
+            "74": 24,
+            "75": 72,
+            "76": 64,
+            "77": 66,
+            "78": 76,
+            "79": 65,
+            "80": 56,
+            "81": 63,
+            "82": 78,
+            "83": 74,
+            "84": 53,
+            "85": 79,
+            "86": 86,
+            "87": 65,
+            "88": 68,
+            "89": 81
+          },
+          "per_class_validation_counts": {
+            "60": 15,
+            "61": 11,
+            "62": 20,
+            "63": 5,
+            "64": 14,
+            "65": 17,
+            "66": 18,
+            "67": 12,
+            "68": 19,
+            "69": 20,
+            "70": 20,
+            "71": 16,
+            "72": 9,
+            "73": 15,
+            "74": 6,
+            "75": 18,
+            "76": 16,
+            "77": 17,
+            "78": 19,
+            "79": 16,
+            "80": 14,
+            "81": 16,
+            "82": 20,
+            "83": 19,
+            "84": 13,
+            "85": 20,
+            "86": 22,
+            "87": 16,
+            "88": 17,
+            "89": 20
+          }
+        }
+      }
+    },
+    {
+      "session": 7,
+      "num_seen_classes": 95,
+      "baseline_full_acc": 83.947,
+      "baseline_base_acc": 88.667,
+      "baseline_novel_acc": 75.857,
+      "selected_alpha": 0.5,
+      "final_full_acc": 86.189,
+      "final_base_acc": 88.217,
+      "final_novel_acc": 82.714,
+      "final_gain": 2.242,
+      "updated_class_count": 35,
+      "gated_query_count": 2826,
+      "gated_base_count": 63,
+      "gated_novel_count": 2763,
+      "alpha_selection": {
+        "mode": "pseudo_validation",
+        "fallback_used": false,
+        "selected_alpha": 0.5,
+        "candidates": [
+          {
+            "alpha": 0.5,
+            "pseudo_val_score": -0.115379,
+            "pseudo_val_nll": 0.115379,
+            "pseudo_val_agreement": 98.851
+          },
+          {
+            "alpha": 0.75,
+            "pseudo_val_score": -0.121011,
+            "pseudo_val_nll": 0.121011,
+            "pseudo_val_agreement": 98.094
+          },
+          {
+            "alpha": 1.0,
+            "pseudo_val_score": -0.130546,
+            "pseudo_val_nll": 0.130546,
+            "pseudo_val_agreement": 97.477
+          }
+        ],
+        "split": {
+          "novel_gated_query_count": 2826,
+          "validation_count": 3567,
+          "novel_validation_count": 567,
+          "base_validation_count": 3000,
+          "updated_class_count": 35,
+          "per_class_counts": {
+            "60": 78,
+            "61": 56,
+            "62": 95,
+            "63": 23,
+            "64": 68,
+            "65": 88,
+            "66": 88,
+            "67": 62,
+            "68": 94,
+            "69": 98,
+            "70": 103,
+            "71": 79,
+            "72": 47,
+            "73": 77,
+            "74": 30,
+            "75": 90,
+            "76": 80,
+            "77": 83,
+            "78": 95,
+            "79": 81,
+            "80": 70,
+            "81": 97,
+            "82": 99,
+            "83": 93,
+            "84": 66,
+            "85": 98,
+            "86": 108,
+            "87": 82,
+            "88": 86,
+            "89": 101,
+            "90": 72,
+            "91": 87,
+            "92": 79,
+            "93": 83,
+            "94": 90
+          },
+          "per_class_update_counts": {
+            "60": 62,
+            "61": 45,
+            "62": 76,
+            "63": 18,
+            "64": 54,
+            "65": 70,
+            "66": 70,
+            "67": 50,
+            "68": 75,
+            "69": 78,
+            "70": 82,
+            "71": 63,
+            "72": 38,
+            "73": 62,
+            "74": 24,
+            "75": 72,
+            "76": 64,
+            "77": 66,
+            "78": 76,
+            "79": 65,
+            "80": 56,
+            "81": 78,
+            "82": 79,
+            "83": 74,
+            "84": 53,
+            "85": 78,
+            "86": 86,
+            "87": 66,
+            "88": 69,
+            "89": 81,
+            "90": 58,
+            "91": 70,
+            "92": 63,
+            "93": 66,
+            "94": 72
+          },
+          "per_class_validation_counts": {
+            "60": 16,
+            "61": 11,
+            "62": 19,
+            "63": 5,
+            "64": 14,
+            "65": 18,
+            "66": 18,
+            "67": 12,
+            "68": 19,
+            "69": 20,
+            "70": 21,
+            "71": 16,
+            "72": 9,
+            "73": 15,
+            "74": 6,
+            "75": 18,
+            "76": 16,
+            "77": 17,
+            "78": 19,
+            "79": 16,
+            "80": 14,
+            "81": 19,
+            "82": 20,
+            "83": 19,
+            "84": 13,
+            "85": 20,
+            "86": 22,
+            "87": 16,
+            "88": 17,
+            "89": 20,
+            "90": 14,
+            "91": 17,
+            "92": 16,
+            "93": 17,
+            "94": 18
+          }
+        }
+      }
+    },
+    {
+      "session": 8,
+      "num_seen_classes": 100,
+      "baseline_full_acc": 82.41,
+      "baseline_base_acc": 88.183,
+      "baseline_novel_acc": 73.75,
+      "selected_alpha": 0.5,
+      "final_full_acc": 85.12,
+      "final_base_acc": 87.85,
+      "final_novel_acc": 81.025,
+      "final_gain": 2.71,
+      "updated_class_count": 40,
+      "gated_query_count": 3144,
+      "gated_base_count": 76,
+      "gated_novel_count": 3068,
+      "alpha_selection": {
+        "mode": "pseudo_validation",
+        "fallback_used": false,
+        "selected_alpha": 0.5,
+        "candidates": [
+          {
+            "alpha": 0.5,
+            "pseudo_val_score": -0.124281,
+            "pseudo_val_nll": 0.124281,
+            "pseudo_val_agreement": 98.786
+          },
+          {
+            "alpha": 0.75,
+            "pseudo_val_score": -0.130112,
+            "pseudo_val_nll": 0.130112,
+            "pseudo_val_agreement": 97.903
+          },
+          {
+            "alpha": 1.0,
+            "pseudo_val_score": -0.140022,
+            "pseudo_val_nll": 0.140022,
+            "pseudo_val_agreement": 97.214
+          }
+        ],
+        "split": {
+          "novel_gated_query_count": 3144,
+          "validation_count": 3625,
+          "novel_validation_count": 625,
+          "base_validation_count": 3000,
+          "updated_class_count": 40,
+          "per_class_counts": {
+            "60": 77,
+            "61": 54,
+            "62": 95,
+            "63": 25,
+            "64": 68,
+            "65": 87,
+            "66": 86,
+            "67": 63,
+            "68": 94,
+            "69": 97,
+            "70": 102,
+            "71": 79,
+            "72": 46,
+            "73": 80,
+            "74": 30,
+            "75": 90,
+            "76": 80,
+            "77": 82,
+            "78": 92,
+            "79": 81,
+            "80": 70,
+            "81": 97,
+            "82": 99,
+            "83": 93,
+            "84": 66,
+            "85": 98,
+            "86": 107,
+            "87": 80,
+            "88": 85,
+            "89": 101,
+            "90": 72,
+            "91": 87,
+            "92": 79,
+            "93": 82,
+            "94": 90,
+            "95": 55,
+            "96": 30,
+            "97": 92,
+            "98": 56,
+            "99": 97
+          },
+          "per_class_update_counts": {
+            "60": 62,
+            "61": 43,
+            "62": 76,
+            "63": 20,
+            "64": 54,
+            "65": 70,
+            "66": 69,
+            "67": 50,
+            "68": 75,
+            "69": 78,
+            "70": 82,
+            "71": 63,
+            "72": 37,
+            "73": 64,
+            "74": 24,
+            "75": 72,
+            "76": 64,
+            "77": 66,
+            "78": 74,
+            "79": 65,
+            "80": 56,
+            "81": 78,
+            "82": 79,
+            "83": 74,
+            "84": 53,
+            "85": 78,
+            "86": 86,
+            "87": 64,
+            "88": 68,
+            "89": 81,
+            "90": 58,
+            "91": 70,
+            "92": 63,
+            "93": 66,
+            "94": 72,
+            "95": 44,
+            "96": 24,
+            "97": 74,
+            "98": 45,
+            "99": 78
+          },
+          "per_class_validation_counts": {
+            "60": 15,
+            "61": 11,
+            "62": 19,
+            "63": 5,
+            "64": 14,
+            "65": 17,
+            "66": 17,
+            "67": 13,
+            "68": 19,
+            "69": 19,
+            "70": 20,
+            "71": 16,
+            "72": 9,
+            "73": 16,
+            "74": 6,
+            "75": 18,
+            "76": 16,
+            "77": 16,
+            "78": 18,
+            "79": 16,
+            "80": 14,
+            "81": 19,
+            "82": 20,
+            "83": 19,
+            "84": 13,
+            "85": 20,
+            "86": 21,
+            "87": 16,
+            "88": 17,
+            "89": 20,
+            "90": 14,
+            "91": 17,
+            "92": 16,
+            "93": 16,
+            "94": 18,
+            "95": 11,
+            "96": 6,
+            "97": 18,
+            "98": 11,
+            "99": 19
+          }
+        }
+      }
+    }
+  ]
+}

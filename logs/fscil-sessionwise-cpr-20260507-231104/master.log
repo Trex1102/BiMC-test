@@ -1,0 +1,12 @@
+Run id: 20260507-231104
+Remote repo: /media/bio/data/BiMC-test
+Train cfg: configs/trainers/bimc_dino_fusion.yaml
+Datasets: configs/datasets/cifar100.yaml configs/datasets/miniimagenet.yaml configs/datasets/cub200_bimc_dino_fusion.yaml
+Seeds: 1 2 3 4 5
+Total runs: 15 session-wise CPR runs
+Started: 2026-05-07 23:11:04 +06
+=== SKIP sessionwise_cpr dataset=CIFAR100 seed=1 existing=experiments/CIFAR100/prototype_refinement_conservative_sessionwise_bimc_dino_fusion/seed1_20260507-230007/results.json ===
+=== START sessionwise_cpr dataset=CIFAR100 seed=2 at 2026-05-07 23:11:04 +06 ===
+=== END sessionwise_cpr dataset=CIFAR100 seed=2 status=OK duration=472s at 2026-05-07 23:18:56 +06 ===
+ETA after 2/15: 2026-05-08 01:01:12 +06 (avg 472s/actual-run, remaining 13)
+=== START sessionwise_cpr dataset=CIFAR100 seed=3 at 2026-05-07 23:18:56 +06 ===

@@ -1,0 +1,144 @@
+/media/bio/data/BiMC-test/models/clip/clip.py:23: UserWarning: PyTorch version 1.7.1 or higher is recommended
+  warnings.warn("PyTorch version 1.7.1 or higher is recommended")
+manual seed: 17
+use gpu: ['0']
+Loading CLIP (backbone: ViT-B/16)
+Prompt template:['a photo of a {}.']
+Loading DinoV2 ViT-B/14 from local hub: /home/bio/.cache/torch/hub/facebookresearch_dinov2_main
+/home/bio/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/home/bio/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/attention.py:34: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/home/bio/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/block.py:41: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+Loading DinoV2 weights: /home/bio/.cache/torch/hub/checkpoints/dinov2_vitb14_pretrain.pth
+class names: ['house finch' 'robin' 'triceratops' 'green mamba' 'harvestman' 'toucan'
+ 'goose' 'jellyfish' 'nematode' 'king crab' 'dugong' 'Walker hound'
+ 'Ibizan hound' 'Saluki' 'golden retriever' 'Gordon setter' 'komondor'
+ 'boxer' 'Tibetan mastiff' 'French bulldog' 'malamute' 'dalmatian'
+ 'Newfoundland' 'miniature poodle' 'white wolf' 'African hunting dog'
+ 'Arctic fox' 'lion' 'meerkat' 'ladybug' 'rhinoceros beetle' 'ant'
+ 'black-footed ferret' 'three-toed sloth' 'rock beauty' 'aircraft carrier'
+ 'ashcan' 'barrel' 'beer bottle' 'bookshop' 'cannon' 'carousel' 'carton'
+ 'catamaran' 'chime' 'clog' 'cocktail shaker' 'combination lock' 'crate'
+ 'cuirass' 'dishrag' 'dome' 'electric guitar' 'file' 'fire screen'
+ 'frying pan' 'garbage truck' 'hair slide' 'holster' 'horizontal bar']
+all targets:tensor([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16, 17,
+        18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35,
+        36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53,
+        54, 55, 56, 57, 58, 59], device='cuda:0')
+dino all targets:tensor([ 0,  1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16, 17,
+        18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35,
+        36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53,
+        54, 55, 56, 57, 58, 59], device='cuda:0')
+finish loading CLIP/DinoV2 covariance
+class names: ['hourglass' 'iPod' 'lipstick' 'miniskirt' 'missile']
+all targets:tensor([60, 61, 62, 63, 64], device='cuda:0')
+dino all targets:tensor([60, 61, 62, 63, 64], device='cuda:0')
+finish loading CLIP/DinoV2 covariance
+class names: ['mixing bowl' 'oboe' 'organ' 'parallel bars' 'pencil box']
+all targets:tensor([65, 66, 67, 68, 69], device='cuda:0')
+dino all targets:tensor([65, 66, 67, 68, 69], device='cuda:0')
+finish loading CLIP/DinoV2 covariance
+class names: ['photocopier' 'poncho' 'prayer rug' 'reel' 'school bus']
+all targets:tensor([70, 71, 72, 73, 74], device='cuda:0')
+dino all targets:tensor([70, 71, 72, 73, 74], device='cuda:0')
+finish loading CLIP/DinoV2 covariance
+class names: ['scoreboard' 'slot' 'snorkel' 'solar dish' 'spider web']
+all targets:tensor([75, 76, 77, 78, 79], device='cuda:0')
+dino all targets:tensor([75, 76, 77, 78, 79], device='cuda:0')
+finish loading CLIP/DinoV2 covariance
+class names: ['stage' 'tank' 'theater curtain' 'tile roof' 'tobacco shop']
+all targets:tensor([80, 81, 82, 83, 84], device='cuda:0')
+dino all targets:tensor([80, 81, 82, 83, 84], device='cuda:0')
+finish loading CLIP/DinoV2 covariance
+class names: ['unicycle' 'upright' 'vase' 'wok' 'worm fence']
+all targets:tensor([85, 86, 87, 88, 89], device='cuda:0')
+dino all targets:tensor([85, 86, 87, 88, 89], device='cuda:0')
+finish loading CLIP/DinoV2 covariance
+class names: ['yawl' 'street sign' 'consomme' 'trifle' 'hotdog']
+all targets:tensor([90, 91, 92, 93, 94], device='cuda:0')
+dino all targets:tensor([90, 91, 92, 93, 94], device='cuda:0')
+finish loading CLIP/DinoV2 covariance
+class names: ['orange' 'cliff' 'coral reef' 'bolete' 'ear']
+all targets:tensor([95, 96, 97, 98, 99], device='cuda:0')
+dino all targets:tensor([95, 96, 97, 98, 99], device='cuda:0')
+finish loading CLIP/DinoV2 covariance
+{
+  "dataset": "miniimagenet",
+  "train_cfg": "configs/trainers/bimc_dino_fusion.yaml",
+  "seed": 17,
+  "method": "bimc_dino_fusion + conservative_dino_query_prototype_refinement",
+  "runtime_sec": 188.434,
+  "omega": 0.7,
+  "beta": 0.65,
+  "lambda_t": 0.5,
+  "ensemble_alpha": 0.6,
+  "num_seen_classes": 100,
+  "num_base_classes": 60,
+  "alpha_grid": [
+    0.5,
+    0.75,
+    1.0
+  ],
+  "mass_thr": 0.3,
+  "min_count": 5,
+  "topk_per_class": null,
+  "baseline_full_acc": 93.76,
+  "baseline_base_acc": 96.217,
+  "baseline_novel_acc": 90.075,
+  "best_alpha": 0.5,
+  "final_full_acc": 94.17,
+  "final_base_acc": 95.767,
+  "final_novel_acc": 91.775,
+  "final_gain": 0.41,
+  "updated_class_count": 40,
+  "updated_class_rate": 1.0,
+  "gated_query_count": 3735,
+  "gated_base_count": 47,
+  "gated_novel_count": 3688,
+  "alpha_sweep": [
+    {
+      "alpha": 0.5,
+      "full_acc": 94.17,
+      "base_acc": 95.767,
+      "novel_acc": 91.775,
+      "gain": 0.41,
+      "updated_class_count": 40,
+      "updated_class_rate": 1.0,
+      "mean_queries_per_updated_class": 93.375,
+      "mean_selected_per_updated_class": 93.375,
+      "gated_query_count": 3735,
+      "gated_base_count": 47,
+      "gated_novel_count": 3688
+    },
+    {
+      "alpha": 0.75,
+      "full_acc": 94.12,
+      "base_acc": 95.717,
+      "novel_acc": 91.725,
+      "gain": 0.36,
+      "updated_class_count": 40,
+      "updated_class_rate": 1.0,
+      "mean_queries_per_updated_class": 93.375,
+      "mean_selected_per_updated_class": 93.375,
+      "gated_query_count": 3735,
+      "gated_base_count": 47,
+      "gated_novel_count": 3688
+    },
+    {
+      "alpha": 1.0,
+      "full_acc": 94.1,
+      "base_acc": 95.75,
+      "novel_acc": 91.625,
+      "gain": 0.34,
+      "updated_class_count": 40,
+      "updated_class_rate": 1.0,
+      "mean_queries_per_updated_class": 93.375,
+      "mean_selected_per_updated_class": 93.375,
+      "gated_query_count": 3735,
+      "gated_base_count": 47,
+      "gated_novel_count": 3688
+    }
+  ]
+}

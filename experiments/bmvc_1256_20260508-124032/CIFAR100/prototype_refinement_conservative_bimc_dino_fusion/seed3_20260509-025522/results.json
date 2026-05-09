@@ -1,0 +1,48 @@
+{
+  "dataset": "CIFAR100",
+  "train_cfg": "experiments/bmvc_1256_20260508-124032/generated_configs/bimc_dino_fusion.yaml",
+  "seed": 3,
+  "method": "bimc_dino_fusion + conservative_dino_query_prototype_refinement",
+  "runtime_sec": 176.186,
+  "omega": 0.7,
+  "beta": 0.65,
+  "lambda_t": 0.5,
+  "ensemble_alpha": 0.6,
+  "num_seen_classes": 100,
+  "num_base_classes": 60,
+  "alpha_grid": [
+    1.0
+  ],
+  "mass_thr": 0.3,
+  "min_count": 5,
+  "topk_per_class": null,
+  "baseline_full_acc": 82.79,
+  "baseline_base_acc": 88.35,
+  "baseline_novel_acc": 74.45,
+  "best_alpha": 1.0,
+  "final_full_acc": 85.02,
+  "final_base_acc": 87.967,
+  "final_novel_acc": 80.6,
+  "final_gain": 2.23,
+  "updated_class_count": 40,
+  "updated_class_rate": 1.0,
+  "gated_query_count": 3190,
+  "gated_base_count": 74,
+  "gated_novel_count": 3116,
+  "alpha_sweep": [
+    {
+      "alpha": 1.0,
+      "full_acc": 85.02,
+      "base_acc": 87.967,
+      "novel_acc": 80.6,
+      "gain": 2.23,
+      "updated_class_count": 40,
+      "updated_class_rate": 1.0,
+      "mean_queries_per_updated_class": 79.75,
+      "mean_selected_per_updated_class": 79.75,
+      "gated_query_count": 3190,
+      "gated_base_count": 74,
+      "gated_novel_count": 3116
+    }
+  ]
+}

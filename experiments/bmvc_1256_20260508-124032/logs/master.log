@@ -1,0 +1,802 @@
+Run id: bmvc_1256_20260508-124032
+Experiment root: /media/bio/data/BiMC-test/experiments/bmvc_1256_20260508-124032
+Full seeds: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+Sensitivity seeds: 1 2 3 4 5
+Started: 2026-05-08 12:40:33 +06
+--- 2: ablations original BiMC, BiMC ensemble, and Dino-fusion baseline ---
+=== START phase=ablation_bimc dataset=CIFAR100 seed=1 params=train_cfg=bimc.yaml at 2026-05-08 12:40:33 +06 ===
+=== END phase=ablation_bimc dataset=CIFAR100 seed=1 status=OK duration=137s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc/seed1_20260508-124039/results.json at 2026-05-08 12:42:50 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=CIFAR100 seed=1 params=train_cfg=bimc_ensemble.yaml at 2026-05-08 12:42:50 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=CIFAR100 seed=1 status=OK duration=136s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc_ensemble/seed1_20260508-124254/results.json at 2026-05-08 12:45:06 +06 ===
+=== START phase=ablation_dino_fusion dataset=CIFAR100 seed=1 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-08 12:45:06 +06 ===
+=== END phase=ablation_dino_fusion dataset=CIFAR100 seed=1 status=OK duration=499s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc_dino_fusion_ensemble/seed1_20260508-124510/results.json at 2026-05-08 12:53:25 +06 ===
+=== START phase=ablation_bimc dataset=miniimagenet seed=1 params=train_cfg=bimc.yaml at 2026-05-08 12:53:25 +06 ===
+=== END phase=ablation_bimc dataset=miniimagenet seed=1 status=OK duration=136s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc/seed1_20260508-125327/results.json at 2026-05-08 12:55:41 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=miniimagenet seed=1 params=train_cfg=bimc_ensemble.yaml at 2026-05-08 12:55:42 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=miniimagenet seed=1 status=OK duration=136s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc_ensemble/seed1_20260508-125544/results.json at 2026-05-08 12:57:58 +06 ===
+=== START phase=ablation_dino_fusion dataset=miniimagenet seed=1 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-08 12:57:58 +06 ===
+=== END phase=ablation_dino_fusion dataset=miniimagenet seed=1 status=OK duration=501s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc_dino_fusion_ensemble/seed1_20260508-125802/results.json at 2026-05-08 13:06:19 +06 ===
+=== START phase=ablation_bimc dataset=cub200 seed=1 params=train_cfg=bimc.yaml at 2026-05-08 13:06:19 +06 ===
+=== END phase=ablation_bimc dataset=cub200 seed=1 status=OK duration=84s result=experiments/bmvc_1256_20260508-124032/cub200/bimc/seed1_20260508-130622/results.json at 2026-05-08 13:07:43 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=cub200 seed=1 params=train_cfg=bimc_ensemble.yaml at 2026-05-08 13:07:43 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=cub200 seed=1 status=OK duration=85s result=experiments/bmvc_1256_20260508-124032/cub200/bimc_ensemble/seed1_20260508-130745/results.json at 2026-05-08 13:09:08 +06 ===
+=== START phase=ablation_dino_fusion dataset=cub200 seed=1 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-08 13:09:08 +06 ===
+=== END phase=ablation_dino_fusion dataset=cub200 seed=1 status=OK duration=421s result=experiments/bmvc_1256_20260508-124032/cub200/bimc_dino_fusion_ensemble/seed1_20260508-130912/results.json at 2026-05-08 13:16:09 +06 ===
+=== START phase=ablation_bimc dataset=CIFAR100 seed=2 params=train_cfg=bimc.yaml at 2026-05-08 13:16:09 +06 ===
+RESUME_STARTED 2026-05-08 15:57:37 +06
+Run id: bmvc_1256_20260508-124032
+Experiment root: /media/bio/data/BiMC-test/experiments/bmvc_1256_20260508-124032
+Full seeds: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+Sensitivity seeds: 1 2 3 4 5
+--- 2: ablations original BiMC, BiMC ensemble, and Dino-fusion baseline ---
+=== SKIP phase=ablation_bimc dataset=CIFAR100 seed=1 existing=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc/seed1_20260508-124039/results.json ===
+=== SKIP phase=ablation_bimc_ensemble dataset=CIFAR100 seed=1 existing=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc_ensemble/seed1_20260508-124254/results.json ===
+=== SKIP phase=ablation_dino_fusion dataset=CIFAR100 seed=1 existing=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc_dino_fusion_ensemble/seed1_20260508-124510/results.json ===
+=== SKIP phase=ablation_bimc dataset=miniimagenet seed=1 existing=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc/seed1_20260508-125327/results.json ===
+=== SKIP phase=ablation_bimc_ensemble dataset=miniimagenet seed=1 existing=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc_ensemble/seed1_20260508-125544/results.json ===
+=== SKIP phase=ablation_dino_fusion dataset=miniimagenet seed=1 existing=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc_dino_fusion_ensemble/seed1_20260508-125802/results.json ===
+=== SKIP phase=ablation_bimc dataset=cub200 seed=1 existing=experiments/bmvc_1256_20260508-124032/cub200/bimc/seed1_20260508-130622/results.json ===
+=== SKIP phase=ablation_bimc_ensemble dataset=cub200 seed=1 existing=experiments/bmvc_1256_20260508-124032/cub200/bimc_ensemble/seed1_20260508-130745/results.json ===
+=== SKIP phase=ablation_dino_fusion dataset=cub200 seed=1 existing=experiments/bmvc_1256_20260508-124032/cub200/bimc_dino_fusion_ensemble/seed1_20260508-130912/results.json ===
+=== START phase=ablation_bimc dataset=CIFAR100 seed=2 params=train_cfg=bimc.yaml at 2026-05-08 15:57:37 +06 ===
+=== END phase=ablation_bimc dataset=CIFAR100 seed=2 status=OK duration=139s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc/seed2_20260508-155740/results.json at 2026-05-08 15:59:56 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=CIFAR100 seed=2 params=train_cfg=bimc_ensemble.yaml at 2026-05-08 15:59:56 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=CIFAR100 seed=2 status=OK duration=143s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc_ensemble/seed2_20260508-155959/results.json at 2026-05-08 16:02:19 +06 ===
+=== START phase=ablation_dino_fusion dataset=CIFAR100 seed=2 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-08 16:02:19 +06 ===
+=== END phase=ablation_dino_fusion dataset=CIFAR100 seed=2 status=OK duration=487s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc_dino_fusion_ensemble/seed2_20260508-160223/results.json at 2026-05-08 16:10:26 +06 ===
+=== START phase=ablation_bimc dataset=miniimagenet seed=2 params=train_cfg=bimc.yaml at 2026-05-08 16:10:26 +06 ===
+=== END phase=ablation_bimc dataset=miniimagenet seed=2 status=OK duration=136s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc/seed2_20260508-161028/results.json at 2026-05-08 16:12:42 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=miniimagenet seed=2 params=train_cfg=bimc_ensemble.yaml at 2026-05-08 16:12:43 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=miniimagenet seed=2 status=OK duration=136s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc_ensemble/seed2_20260508-161245/results.json at 2026-05-08 16:14:59 +06 ===
+=== START phase=ablation_dino_fusion dataset=miniimagenet seed=2 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-08 16:14:59 +06 ===
+=== END phase=ablation_dino_fusion dataset=miniimagenet seed=2 status=OK duration=501s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc_dino_fusion_ensemble/seed2_20260508-161502/results.json at 2026-05-08 16:23:20 +06 ===
+=== START phase=ablation_bimc dataset=cub200 seed=2 params=train_cfg=bimc.yaml at 2026-05-08 16:23:20 +06 ===
+=== END phase=ablation_bimc dataset=cub200 seed=2 status=OK duration=82s result=experiments/bmvc_1256_20260508-124032/cub200/bimc/seed2_20260508-162322/results.json at 2026-05-08 16:24:42 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=cub200 seed=2 params=train_cfg=bimc_ensemble.yaml at 2026-05-08 16:24:42 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=cub200 seed=2 status=OK duration=83s result=experiments/bmvc_1256_20260508-124032/cub200/bimc_ensemble/seed2_20260508-162445/results.json at 2026-05-08 16:26:05 +06 ===
+=== START phase=ablation_dino_fusion dataset=cub200 seed=2 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-08 16:26:05 +06 ===
+=== END phase=ablation_dino_fusion dataset=cub200 seed=2 status=OK duration=269s result=experiments/bmvc_1256_20260508-124032/cub200/bimc_dino_fusion_ensemble/seed2_20260508-162608/results.json at 2026-05-08 16:30:34 +06 ===
+=== START phase=ablation_bimc dataset=CIFAR100 seed=3 params=train_cfg=bimc.yaml at 2026-05-08 16:30:34 +06 ===
+=== END phase=ablation_bimc dataset=CIFAR100 seed=3 status=OK duration=136s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc/seed3_20260508-163037/results.json at 2026-05-08 16:32:50 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=CIFAR100 seed=3 params=train_cfg=bimc_ensemble.yaml at 2026-05-08 16:32:50 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=CIFAR100 seed=3 status=OK duration=136s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc_ensemble/seed3_20260508-163253/results.json at 2026-05-08 16:35:06 +06 ===
+=== START phase=ablation_dino_fusion dataset=CIFAR100 seed=3 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-08 16:35:06 +06 ===
+=== END phase=ablation_dino_fusion dataset=CIFAR100 seed=3 status=OK duration=500s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc_dino_fusion_ensemble/seed3_20260508-163510/results.json at 2026-05-08 16:43:26 +06 ===
+=== START phase=ablation_bimc dataset=miniimagenet seed=3 params=train_cfg=bimc.yaml at 2026-05-08 16:43:26 +06 ===
+=== END phase=ablation_bimc dataset=miniimagenet seed=3 status=OK duration=137s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc/seed3_20260508-164328/results.json at 2026-05-08 16:45:43 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=miniimagenet seed=3 params=train_cfg=bimc_ensemble.yaml at 2026-05-08 16:45:43 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=miniimagenet seed=3 status=OK duration=137s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc_ensemble/seed3_20260508-164545/results.json at 2026-05-08 16:48:00 +06 ===
+=== START phase=ablation_dino_fusion dataset=miniimagenet seed=3 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-08 16:48:00 +06 ===
+=== END phase=ablation_dino_fusion dataset=miniimagenet seed=3 status=OK duration=501s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc_dino_fusion_ensemble/seed3_20260508-164803/results.json at 2026-05-08 16:56:21 +06 ===
+=== START phase=ablation_bimc dataset=cub200 seed=3 params=train_cfg=bimc.yaml at 2026-05-08 16:56:21 +06 ===
+=== END phase=ablation_bimc dataset=cub200 seed=3 status=OK duration=82s result=experiments/bmvc_1256_20260508-124032/cub200/bimc/seed3_20260508-165623/results.json at 2026-05-08 16:57:43 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=cub200 seed=3 params=train_cfg=bimc_ensemble.yaml at 2026-05-08 16:57:43 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=cub200 seed=3 status=OK duration=83s result=experiments/bmvc_1256_20260508-124032/cub200/bimc_ensemble/seed3_20260508-165746/results.json at 2026-05-08 16:59:06 +06 ===
+=== START phase=ablation_dino_fusion dataset=cub200 seed=3 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-08 16:59:06 +06 ===
+=== END phase=ablation_dino_fusion dataset=cub200 seed=3 status=OK duration=269s result=experiments/bmvc_1256_20260508-124032/cub200/bimc_dino_fusion_ensemble/seed3_20260508-165909/results.json at 2026-05-08 17:03:35 +06 ===
+=== START phase=ablation_bimc dataset=CIFAR100 seed=4 params=train_cfg=bimc.yaml at 2026-05-08 17:03:35 +06 ===
+=== END phase=ablation_bimc dataset=CIFAR100 seed=4 status=OK duration=137s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc/seed4_20260508-170338/results.json at 2026-05-08 17:05:52 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=CIFAR100 seed=4 params=train_cfg=bimc_ensemble.yaml at 2026-05-08 17:05:52 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=CIFAR100 seed=4 status=OK duration=136s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc_ensemble/seed4_20260508-170555/results.json at 2026-05-08 17:08:08 +06 ===
+=== START phase=ablation_dino_fusion dataset=CIFAR100 seed=4 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-08 17:08:08 +06 ===
+=== END phase=ablation_dino_fusion dataset=CIFAR100 seed=4 status=OK duration=499s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc_dino_fusion_ensemble/seed4_20260508-170813/results.json at 2026-05-08 17:16:27 +06 ===
+=== START phase=ablation_bimc dataset=miniimagenet seed=4 params=train_cfg=bimc.yaml at 2026-05-08 17:16:27 +06 ===
+=== END phase=ablation_bimc dataset=miniimagenet seed=4 status=OK duration=137s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc/seed4_20260508-171630/results.json at 2026-05-08 17:18:44 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=miniimagenet seed=4 params=train_cfg=bimc_ensemble.yaml at 2026-05-08 17:18:44 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=miniimagenet seed=4 status=OK duration=137s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc_ensemble/seed4_20260508-171847/results.json at 2026-05-08 17:21:01 +06 ===
+=== START phase=ablation_dino_fusion dataset=miniimagenet seed=4 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-08 17:21:01 +06 ===
+=== END phase=ablation_dino_fusion dataset=miniimagenet seed=4 status=OK duration=501s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc_dino_fusion_ensemble/seed4_20260508-172104/results.json at 2026-05-08 17:29:22 +06 ===
+=== START phase=ablation_bimc dataset=cub200 seed=4 params=train_cfg=bimc.yaml at 2026-05-08 17:29:22 +06 ===
+=== END phase=ablation_bimc dataset=cub200 seed=4 status=OK duration=82s result=experiments/bmvc_1256_20260508-124032/cub200/bimc/seed4_20260508-172924/results.json at 2026-05-08 17:30:44 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=cub200 seed=4 params=train_cfg=bimc_ensemble.yaml at 2026-05-08 17:30:44 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=cub200 seed=4 status=OK duration=83s result=experiments/bmvc_1256_20260508-124032/cub200/bimc_ensemble/seed4_20260508-173047/results.json at 2026-05-08 17:32:07 +06 ===
+=== START phase=ablation_dino_fusion dataset=cub200 seed=4 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-08 17:32:07 +06 ===
+=== END phase=ablation_dino_fusion dataset=cub200 seed=4 status=OK duration=269s result=experiments/bmvc_1256_20260508-124032/cub200/bimc_dino_fusion_ensemble/seed4_20260508-173210/results.json at 2026-05-08 17:36:36 +06 ===
+=== START phase=ablation_bimc dataset=CIFAR100 seed=5 params=train_cfg=bimc.yaml at 2026-05-08 17:36:36 +06 ===
+=== END phase=ablation_bimc dataset=CIFAR100 seed=5 status=OK duration=137s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc/seed5_20260508-173640/results.json at 2026-05-08 17:38:53 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=CIFAR100 seed=5 params=train_cfg=bimc_ensemble.yaml at 2026-05-08 17:38:53 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=CIFAR100 seed=5 status=OK duration=136s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc_ensemble/seed5_20260508-173856/results.json at 2026-05-08 17:41:09 +06 ===
+=== START phase=ablation_dino_fusion dataset=CIFAR100 seed=5 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-08 17:41:09 +06 ===
+=== END phase=ablation_dino_fusion dataset=CIFAR100 seed=5 status=OK duration=499s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc_dino_fusion_ensemble/seed5_20260508-174113/results.json at 2026-05-08 17:49:28 +06 ===
+=== START phase=ablation_bimc dataset=miniimagenet seed=5 params=train_cfg=bimc.yaml at 2026-05-08 17:49:28 +06 ===
+=== END phase=ablation_bimc dataset=miniimagenet seed=5 status=OK duration=137s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc/seed5_20260508-174930/results.json at 2026-05-08 17:51:45 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=miniimagenet seed=5 params=train_cfg=bimc_ensemble.yaml at 2026-05-08 17:51:45 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=miniimagenet seed=5 status=OK duration=137s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc_ensemble/seed5_20260508-175148/results.json at 2026-05-08 17:54:02 +06 ===
+=== START phase=ablation_dino_fusion dataset=miniimagenet seed=5 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-08 17:54:02 +06 ===
+=== END phase=ablation_dino_fusion dataset=miniimagenet seed=5 status=OK duration=501s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc_dino_fusion_ensemble/seed5_20260508-175405/results.json at 2026-05-08 18:02:23 +06 ===
+=== START phase=ablation_bimc dataset=cub200 seed=5 params=train_cfg=bimc.yaml at 2026-05-08 18:02:23 +06 ===
+=== END phase=ablation_bimc dataset=cub200 seed=5 status=OK duration=82s result=experiments/bmvc_1256_20260508-124032/cub200/bimc/seed5_20260508-180225/results.json at 2026-05-08 18:03:45 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=cub200 seed=5 params=train_cfg=bimc_ensemble.yaml at 2026-05-08 18:03:45 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=cub200 seed=5 status=OK duration=83s result=experiments/bmvc_1256_20260508-124032/cub200/bimc_ensemble/seed5_20260508-180348/results.json at 2026-05-08 18:05:08 +06 ===
+=== START phase=ablation_dino_fusion dataset=cub200 seed=5 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-08 18:05:08 +06 ===
+=== END phase=ablation_dino_fusion dataset=cub200 seed=5 status=OK duration=269s result=experiments/bmvc_1256_20260508-124032/cub200/bimc_dino_fusion_ensemble/seed5_20260508-180511/results.json at 2026-05-08 18:09:37 +06 ===
+=== START phase=ablation_bimc dataset=CIFAR100 seed=6 params=train_cfg=bimc.yaml at 2026-05-08 18:09:37 +06 ===
+=== END phase=ablation_bimc dataset=CIFAR100 seed=6 status=OK duration=136s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc/seed6_20260508-180940/results.json at 2026-05-08 18:11:53 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=CIFAR100 seed=6 params=train_cfg=bimc_ensemble.yaml at 2026-05-08 18:11:53 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=CIFAR100 seed=6 status=OK duration=137s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc_ensemble/seed6_20260508-181157/results.json at 2026-05-08 18:14:10 +06 ===
+=== START phase=ablation_dino_fusion dataset=CIFAR100 seed=6 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-08 18:14:10 +06 ===
+=== END phase=ablation_dino_fusion dataset=CIFAR100 seed=6 status=OK duration=498s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc_dino_fusion_ensemble/seed6_20260508-181414/results.json at 2026-05-08 18:22:28 +06 ===
+=== START phase=ablation_bimc dataset=miniimagenet seed=6 params=train_cfg=bimc.yaml at 2026-05-08 18:22:28 +06 ===
+=== END phase=ablation_bimc dataset=miniimagenet seed=6 status=OK duration=138s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc/seed6_20260508-182230/results.json at 2026-05-08 18:24:46 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=miniimagenet seed=6 params=train_cfg=bimc_ensemble.yaml at 2026-05-08 18:24:46 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=miniimagenet seed=6 status=OK duration=137s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc_ensemble/seed6_20260508-182449/results.json at 2026-05-08 18:27:03 +06 ===
+=== START phase=ablation_dino_fusion dataset=miniimagenet seed=6 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-08 18:27:03 +06 ===
+=== END phase=ablation_dino_fusion dataset=miniimagenet seed=6 status=OK duration=500s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc_dino_fusion_ensemble/seed6_20260508-182706/results.json at 2026-05-08 18:35:23 +06 ===
+=== START phase=ablation_bimc dataset=cub200 seed=6 params=train_cfg=bimc.yaml at 2026-05-08 18:35:23 +06 ===
+=== END phase=ablation_bimc dataset=cub200 seed=6 status=OK duration=84s result=experiments/bmvc_1256_20260508-124032/cub200/bimc/seed6_20260508-183525/results.json at 2026-05-08 18:36:47 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=cub200 seed=6 params=train_cfg=bimc_ensemble.yaml at 2026-05-08 18:36:47 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=cub200 seed=6 status=OK duration=83s result=experiments/bmvc_1256_20260508-124032/cub200/bimc_ensemble/seed6_20260508-183649/results.json at 2026-05-08 18:38:10 +06 ===
+=== START phase=ablation_dino_fusion dataset=cub200 seed=6 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-08 18:38:10 +06 ===
+=== END phase=ablation_dino_fusion dataset=cub200 seed=6 status=OK duration=268s result=experiments/bmvc_1256_20260508-124032/cub200/bimc_dino_fusion_ensemble/seed6_20260508-183813/results.json at 2026-05-08 18:42:38 +06 ===
+=== START phase=ablation_bimc dataset=CIFAR100 seed=7 params=train_cfg=bimc.yaml at 2026-05-08 18:42:38 +06 ===
+=== END phase=ablation_bimc dataset=CIFAR100 seed=7 status=OK duration=136s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc/seed7_20260508-184241/results.json at 2026-05-08 18:44:54 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=CIFAR100 seed=7 params=train_cfg=bimc_ensemble.yaml at 2026-05-08 18:44:54 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=CIFAR100 seed=7 status=OK duration=137s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc_ensemble/seed7_20260508-184458/results.json at 2026-05-08 18:47:11 +06 ===
+=== START phase=ablation_dino_fusion dataset=CIFAR100 seed=7 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-08 18:47:11 +06 ===
+=== END phase=ablation_dino_fusion dataset=CIFAR100 seed=7 status=OK duration=498s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc_dino_fusion_ensemble/seed7_20260508-184715/results.json at 2026-05-08 18:55:29 +06 ===
+=== START phase=ablation_bimc dataset=miniimagenet seed=7 params=train_cfg=bimc.yaml at 2026-05-08 18:55:29 +06 ===
+=== END phase=ablation_bimc dataset=miniimagenet seed=7 status=OK duration=138s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc/seed7_20260508-185531/results.json at 2026-05-08 18:57:47 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=miniimagenet seed=7 params=train_cfg=bimc_ensemble.yaml at 2026-05-08 18:57:47 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=miniimagenet seed=7 status=OK duration=137s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc_ensemble/seed7_20260508-185750/results.json at 2026-05-08 19:00:04 +06 ===
+=== START phase=ablation_dino_fusion dataset=miniimagenet seed=7 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-08 19:00:04 +06 ===
+=== END phase=ablation_dino_fusion dataset=miniimagenet seed=7 status=OK duration=499s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc_dino_fusion_ensemble/seed7_20260508-190007/results.json at 2026-05-08 19:08:23 +06 ===
+=== START phase=ablation_bimc dataset=cub200 seed=7 params=train_cfg=bimc.yaml at 2026-05-08 19:08:23 +06 ===
+=== END phase=ablation_bimc dataset=cub200 seed=7 status=OK duration=81s result=experiments/bmvc_1256_20260508-124032/cub200/bimc/seed7_20260508-190826/results.json at 2026-05-08 19:09:44 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=cub200 seed=7 params=train_cfg=bimc_ensemble.yaml at 2026-05-08 19:09:44 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=cub200 seed=7 status=OK duration=78s result=experiments/bmvc_1256_20260508-124032/cub200/bimc_ensemble/seed7_20260508-190946/results.json at 2026-05-08 19:11:02 +06 ===
+=== START phase=ablation_dino_fusion dataset=cub200 seed=7 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-08 19:11:02 +06 ===
+=== END phase=ablation_dino_fusion dataset=cub200 seed=7 status=OK duration=255s result=experiments/bmvc_1256_20260508-124032/cub200/bimc_dino_fusion_ensemble/seed7_20260508-191106/results.json at 2026-05-08 19:15:17 +06 ===
+=== START phase=ablation_bimc dataset=CIFAR100 seed=8 params=train_cfg=bimc.yaml at 2026-05-08 19:15:17 +06 ===
+=== END phase=ablation_bimc dataset=CIFAR100 seed=8 status=OK duration=130s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc/seed8_20260508-191520/results.json at 2026-05-08 19:17:27 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=CIFAR100 seed=8 params=train_cfg=bimc_ensemble.yaml at 2026-05-08 19:17:27 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=CIFAR100 seed=8 status=OK duration=130s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc_ensemble/seed8_20260508-191730/results.json at 2026-05-08 19:19:37 +06 ===
+=== START phase=ablation_dino_fusion dataset=CIFAR100 seed=8 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-08 19:19:37 +06 ===
+=== END phase=ablation_dino_fusion dataset=CIFAR100 seed=8 status=OK duration=471s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc_dino_fusion_ensemble/seed8_20260508-191941/results.json at 2026-05-08 19:27:28 +06 ===
+=== START phase=ablation_bimc dataset=miniimagenet seed=8 params=train_cfg=bimc.yaml at 2026-05-08 19:27:28 +06 ===
+=== END phase=ablation_bimc dataset=miniimagenet seed=8 status=OK duration=131s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc/seed8_20260508-192730/results.json at 2026-05-08 19:29:39 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=miniimagenet seed=8 params=train_cfg=bimc_ensemble.yaml at 2026-05-08 19:29:39 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=miniimagenet seed=8 status=OK duration=130s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc_ensemble/seed8_20260508-192942/results.json at 2026-05-08 19:31:49 +06 ===
+=== START phase=ablation_dino_fusion dataset=miniimagenet seed=8 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-08 19:31:49 +06 ===
+=== END phase=ablation_dino_fusion dataset=miniimagenet seed=8 status=OK duration=473s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc_dino_fusion_ensemble/seed8_20260508-193152/results.json at 2026-05-08 19:39:42 +06 ===
+=== START phase=ablation_bimc dataset=cub200 seed=8 params=train_cfg=bimc.yaml at 2026-05-08 19:39:42 +06 ===
+=== END phase=ablation_bimc dataset=cub200 seed=8 status=OK duration=80s result=experiments/bmvc_1256_20260508-124032/cub200/bimc/seed8_20260508-193944/results.json at 2026-05-08 19:41:02 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=cub200 seed=8 params=train_cfg=bimc_ensemble.yaml at 2026-05-08 19:41:02 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=cub200 seed=8 status=OK duration=78s result=experiments/bmvc_1256_20260508-124032/cub200/bimc_ensemble/seed8_20260508-194104/results.json at 2026-05-08 19:42:20 +06 ===
+=== START phase=ablation_dino_fusion dataset=cub200 seed=8 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-08 19:42:20 +06 ===
+=== END phase=ablation_dino_fusion dataset=cub200 seed=8 status=OK duration=256s result=experiments/bmvc_1256_20260508-124032/cub200/bimc_dino_fusion_ensemble/seed8_20260508-194224/results.json at 2026-05-08 19:46:36 +06 ===
+=== START phase=ablation_bimc dataset=CIFAR100 seed=9 params=train_cfg=bimc.yaml at 2026-05-08 19:46:36 +06 ===
+=== END phase=ablation_bimc dataset=CIFAR100 seed=9 status=OK duration=129s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc/seed9_20260508-194639/results.json at 2026-05-08 19:48:45 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=CIFAR100 seed=9 params=train_cfg=bimc_ensemble.yaml at 2026-05-08 19:48:45 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=CIFAR100 seed=9 status=OK duration=130s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc_ensemble/seed9_20260508-194849/results.json at 2026-05-08 19:50:55 +06 ===
+=== START phase=ablation_dino_fusion dataset=CIFAR100 seed=9 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-08 19:50:55 +06 ===
+=== END phase=ablation_dino_fusion dataset=CIFAR100 seed=9 status=OK duration=471s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc_dino_fusion_ensemble/seed9_20260508-195059/results.json at 2026-05-08 19:58:46 +06 ===
+=== START phase=ablation_bimc dataset=miniimagenet seed=9 params=train_cfg=bimc.yaml at 2026-05-08 19:58:46 +06 ===
+=== END phase=ablation_bimc dataset=miniimagenet seed=9 status=OK duration=131s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc/seed9_20260508-195848/results.json at 2026-05-08 20:00:57 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=miniimagenet seed=9 params=train_cfg=bimc_ensemble.yaml at 2026-05-08 20:00:57 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=miniimagenet seed=9 status=OK duration=133s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc_ensemble/seed9_20260508-200100/results.json at 2026-05-08 20:03:10 +06 ===
+=== START phase=ablation_dino_fusion dataset=miniimagenet seed=9 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-08 20:03:10 +06 ===
+=== END phase=ablation_dino_fusion dataset=miniimagenet seed=9 status=OK duration=500s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc_dino_fusion_ensemble/seed9_20260508-200313/results.json at 2026-05-08 20:11:30 +06 ===
+=== START phase=ablation_bimc dataset=cub200 seed=9 params=train_cfg=bimc.yaml at 2026-05-08 20:11:30 +06 ===
+=== END phase=ablation_bimc dataset=cub200 seed=9 status=OK duration=84s result=experiments/bmvc_1256_20260508-124032/cub200/bimc/seed9_20260508-201132/results.json at 2026-05-08 20:12:54 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=cub200 seed=9 params=train_cfg=bimc_ensemble.yaml at 2026-05-08 20:12:54 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=cub200 seed=9 status=OK duration=83s result=experiments/bmvc_1256_20260508-124032/cub200/bimc_ensemble/seed9_20260508-201256/results.json at 2026-05-08 20:14:17 +06 ===
+=== START phase=ablation_dino_fusion dataset=cub200 seed=9 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-08 20:14:17 +06 ===
+=== END phase=ablation_dino_fusion dataset=cub200 seed=9 status=OK duration=269s result=experiments/bmvc_1256_20260508-124032/cub200/bimc_dino_fusion_ensemble/seed9_20260508-201420/results.json at 2026-05-08 20:18:46 +06 ===
+=== START phase=ablation_bimc dataset=CIFAR100 seed=10 params=train_cfg=bimc.yaml at 2026-05-08 20:18:46 +06 ===
+=== END phase=ablation_bimc dataset=CIFAR100 seed=10 status=OK duration=137s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc/seed10_20260508-201849/results.json at 2026-05-08 20:21:03 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=CIFAR100 seed=10 params=train_cfg=bimc_ensemble.yaml at 2026-05-08 20:21:03 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=CIFAR100 seed=10 status=OK duration=136s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc_ensemble/seed10_20260508-202106/results.json at 2026-05-08 20:23:19 +06 ===
+=== START phase=ablation_dino_fusion dataset=CIFAR100 seed=10 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-08 20:23:20 +06 ===
+=== END phase=ablation_dino_fusion dataset=CIFAR100 seed=10 status=OK duration=499s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc_dino_fusion_ensemble/seed10_20260508-202324/results.json at 2026-05-08 20:31:39 +06 ===
+=== START phase=ablation_bimc dataset=miniimagenet seed=10 params=train_cfg=bimc.yaml at 2026-05-08 20:31:39 +06 ===
+=== END phase=ablation_bimc dataset=miniimagenet seed=10 status=OK duration=139s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc/seed10_20260508-203142/results.json at 2026-05-08 20:33:58 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=miniimagenet seed=10 params=train_cfg=bimc_ensemble.yaml at 2026-05-08 20:33:58 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=miniimagenet seed=10 status=OK duration=137s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc_ensemble/seed10_20260508-203400/results.json at 2026-05-08 20:36:15 +06 ===
+=== START phase=ablation_dino_fusion dataset=miniimagenet seed=10 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-08 20:36:15 +06 ===
+=== END phase=ablation_dino_fusion dataset=miniimagenet seed=10 status=OK duration=502s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc_dino_fusion_ensemble/seed10_20260508-203619/results.json at 2026-05-08 20:44:37 +06 ===
+=== START phase=ablation_bimc dataset=cub200 seed=10 params=train_cfg=bimc.yaml at 2026-05-08 20:44:37 +06 ===
+=== END phase=ablation_bimc dataset=cub200 seed=10 status=OK duration=84s result=experiments/bmvc_1256_20260508-124032/cub200/bimc/seed10_20260508-204439/results.json at 2026-05-08 20:46:01 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=cub200 seed=10 params=train_cfg=bimc_ensemble.yaml at 2026-05-08 20:46:01 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=cub200 seed=10 status=OK duration=83s result=experiments/bmvc_1256_20260508-124032/cub200/bimc_ensemble/seed10_20260508-204603/results.json at 2026-05-08 20:47:24 +06 ===
+=== START phase=ablation_dino_fusion dataset=cub200 seed=10 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-08 20:47:24 +06 ===
+=== END phase=ablation_dino_fusion dataset=cub200 seed=10 status=OK duration=270s result=experiments/bmvc_1256_20260508-124032/cub200/bimc_dino_fusion_ensemble/seed10_20260508-204727/results.json at 2026-05-08 20:51:54 +06 ===
+=== START phase=ablation_bimc dataset=CIFAR100 seed=11 params=train_cfg=bimc.yaml at 2026-05-08 20:51:54 +06 ===
+=== END phase=ablation_bimc dataset=CIFAR100 seed=11 status=OK duration=137s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc/seed11_20260508-205157/results.json at 2026-05-08 20:54:11 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=CIFAR100 seed=11 params=train_cfg=bimc_ensemble.yaml at 2026-05-08 20:54:11 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=CIFAR100 seed=11 status=OK duration=137s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc_ensemble/seed11_20260508-205415/results.json at 2026-05-08 20:56:28 +06 ===
+=== START phase=ablation_dino_fusion dataset=CIFAR100 seed=11 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-08 20:56:28 +06 ===
+=== END phase=ablation_dino_fusion dataset=CIFAR100 seed=11 status=OK duration=500s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc_dino_fusion_ensemble/seed11_20260508-205632/results.json at 2026-05-08 21:04:48 +06 ===
+=== START phase=ablation_bimc dataset=miniimagenet seed=11 params=train_cfg=bimc.yaml at 2026-05-08 21:04:48 +06 ===
+=== END phase=ablation_bimc dataset=miniimagenet seed=11 status=OK duration=139s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc/seed11_20260508-210451/results.json at 2026-05-08 21:07:07 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=miniimagenet seed=11 params=train_cfg=bimc_ensemble.yaml at 2026-05-08 21:07:07 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=miniimagenet seed=11 status=OK duration=138s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc_ensemble/seed11_20260508-210710/results.json at 2026-05-08 21:09:25 +06 ===
+=== START phase=ablation_dino_fusion dataset=miniimagenet seed=11 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-08 21:09:25 +06 ===
+=== END phase=ablation_dino_fusion dataset=miniimagenet seed=11 status=OK duration=501s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc_dino_fusion_ensemble/seed11_20260508-210928/results.json at 2026-05-08 21:17:46 +06 ===
+=== START phase=ablation_bimc dataset=cub200 seed=11 params=train_cfg=bimc.yaml at 2026-05-08 21:17:46 +06 ===
+=== END phase=ablation_bimc dataset=cub200 seed=11 status=OK duration=84s result=experiments/bmvc_1256_20260508-124032/cub200/bimc/seed11_20260508-211749/results.json at 2026-05-08 21:19:10 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=cub200 seed=11 params=train_cfg=bimc_ensemble.yaml at 2026-05-08 21:19:10 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=cub200 seed=11 status=OK duration=83s result=experiments/bmvc_1256_20260508-124032/cub200/bimc_ensemble/seed11_20260508-211912/results.json at 2026-05-08 21:20:33 +06 ===
+=== START phase=ablation_dino_fusion dataset=cub200 seed=11 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-08 21:20:33 +06 ===
+=== END phase=ablation_dino_fusion dataset=cub200 seed=11 status=OK duration=270s result=experiments/bmvc_1256_20260508-124032/cub200/bimc_dino_fusion_ensemble/seed11_20260508-212036/results.json at 2026-05-08 21:25:03 +06 ===
+=== START phase=ablation_bimc dataset=CIFAR100 seed=12 params=train_cfg=bimc.yaml at 2026-05-08 21:25:03 +06 ===
+=== END phase=ablation_bimc dataset=CIFAR100 seed=12 status=OK duration=138s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc/seed12_20260508-212507/results.json at 2026-05-08 21:27:21 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=CIFAR100 seed=12 params=train_cfg=bimc_ensemble.yaml at 2026-05-08 21:27:21 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=CIFAR100 seed=12 status=OK duration=138s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc_ensemble/seed12_20260508-212725/results.json at 2026-05-08 21:29:39 +06 ===
+=== START phase=ablation_dino_fusion dataset=CIFAR100 seed=12 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-08 21:29:39 +06 ===
+=== END phase=ablation_dino_fusion dataset=CIFAR100 seed=12 status=OK duration=500s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc_dino_fusion_ensemble/seed12_20260508-212943/results.json at 2026-05-08 21:37:59 +06 ===
+=== START phase=ablation_bimc dataset=miniimagenet seed=12 params=train_cfg=bimc.yaml at 2026-05-08 21:37:59 +06 ===
+=== END phase=ablation_bimc dataset=miniimagenet seed=12 status=OK duration=132s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc/seed12_20260508-213802/results.json at 2026-05-08 21:40:11 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=miniimagenet seed=12 params=train_cfg=bimc_ensemble.yaml at 2026-05-08 21:40:11 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=miniimagenet seed=12 status=OK duration=131s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc_ensemble/seed12_20260508-214014/results.json at 2026-05-08 21:42:22 +06 ===
+=== START phase=ablation_dino_fusion dataset=miniimagenet seed=12 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-08 21:42:22 +06 ===
+=== END phase=ablation_dino_fusion dataset=miniimagenet seed=12 status=OK duration=475s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc_dino_fusion_ensemble/seed12_20260508-214225/results.json at 2026-05-08 21:50:17 +06 ===
+=== START phase=ablation_bimc dataset=cub200 seed=12 params=train_cfg=bimc.yaml at 2026-05-08 21:50:17 +06 ===
+=== END phase=ablation_bimc dataset=cub200 seed=12 status=OK duration=80s result=experiments/bmvc_1256_20260508-124032/cub200/bimc/seed12_20260508-215019/results.json at 2026-05-08 21:51:37 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=cub200 seed=12 params=train_cfg=bimc_ensemble.yaml at 2026-05-08 21:51:37 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=cub200 seed=12 status=OK duration=79s result=experiments/bmvc_1256_20260508-124032/cub200/bimc_ensemble/seed12_20260508-215139/results.json at 2026-05-08 21:52:56 +06 ===
+=== START phase=ablation_dino_fusion dataset=cub200 seed=12 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-08 21:52:56 +06 ===
+=== END phase=ablation_dino_fusion dataset=cub200 seed=12 status=OK duration=256s result=experiments/bmvc_1256_20260508-124032/cub200/bimc_dino_fusion_ensemble/seed12_20260508-215259/results.json at 2026-05-08 21:57:12 +06 ===
+=== START phase=ablation_bimc dataset=CIFAR100 seed=13 params=train_cfg=bimc.yaml at 2026-05-08 21:57:12 +06 ===
+=== END phase=ablation_bimc dataset=CIFAR100 seed=13 status=OK duration=130s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc/seed13_20260508-215715/results.json at 2026-05-08 21:59:22 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=CIFAR100 seed=13 params=train_cfg=bimc_ensemble.yaml at 2026-05-08 21:59:22 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=CIFAR100 seed=13 status=OK duration=129s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc_ensemble/seed13_20260508-215925/results.json at 2026-05-08 22:01:31 +06 ===
+=== START phase=ablation_dino_fusion dataset=CIFAR100 seed=13 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-08 22:01:31 +06 ===
+=== END phase=ablation_dino_fusion dataset=CIFAR100 seed=13 status=OK duration=474s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc_dino_fusion_ensemble/seed13_20260508-220136/results.json at 2026-05-08 22:09:25 +06 ===
+=== START phase=ablation_bimc dataset=miniimagenet seed=13 params=train_cfg=bimc.yaml at 2026-05-08 22:09:25 +06 ===
+=== END phase=ablation_bimc dataset=miniimagenet seed=13 status=OK duration=132s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc/seed13_20260508-220928/results.json at 2026-05-08 22:11:37 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=miniimagenet seed=13 params=train_cfg=bimc_ensemble.yaml at 2026-05-08 22:11:37 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=miniimagenet seed=13 status=OK duration=130s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc_ensemble/seed13_20260508-221139/results.json at 2026-05-08 22:13:47 +06 ===
+=== START phase=ablation_dino_fusion dataset=miniimagenet seed=13 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-08 22:13:47 +06 ===
+=== END phase=ablation_dino_fusion dataset=miniimagenet seed=13 status=OK duration=476s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc_dino_fusion_ensemble/seed13_20260508-221350/results.json at 2026-05-08 22:21:43 +06 ===
+=== START phase=ablation_bimc dataset=cub200 seed=13 params=train_cfg=bimc.yaml at 2026-05-08 22:21:43 +06 ===
+=== END phase=ablation_bimc dataset=cub200 seed=13 status=OK duration=79s result=experiments/bmvc_1256_20260508-124032/cub200/bimc/seed13_20260508-222145/results.json at 2026-05-08 22:23:02 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=cub200 seed=13 params=train_cfg=bimc_ensemble.yaml at 2026-05-08 22:23:02 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=cub200 seed=13 status=OK duration=80s result=experiments/bmvc_1256_20260508-124032/cub200/bimc_ensemble/seed13_20260508-222305/results.json at 2026-05-08 22:24:22 +06 ===
+=== START phase=ablation_dino_fusion dataset=cub200 seed=13 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-08 22:24:22 +06 ===
+=== END phase=ablation_dino_fusion dataset=cub200 seed=13 status=OK duration=256s result=experiments/bmvc_1256_20260508-124032/cub200/bimc_dino_fusion_ensemble/seed13_20260508-222425/results.json at 2026-05-08 22:28:38 +06 ===
+=== START phase=ablation_bimc dataset=CIFAR100 seed=14 params=train_cfg=bimc.yaml at 2026-05-08 22:28:38 +06 ===
+=== END phase=ablation_bimc dataset=CIFAR100 seed=14 status=OK duration=130s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc/seed14_20260508-222842/results.json at 2026-05-08 22:30:48 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=CIFAR100 seed=14 params=train_cfg=bimc_ensemble.yaml at 2026-05-08 22:30:48 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=CIFAR100 seed=14 status=OK duration=130s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc_ensemble/seed14_20260508-223052/results.json at 2026-05-08 22:32:58 +06 ===
+=== START phase=ablation_dino_fusion dataset=CIFAR100 seed=14 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-08 22:32:58 +06 ===
+=== END phase=ablation_dino_fusion dataset=CIFAR100 seed=14 status=OK duration=474s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc_dino_fusion_ensemble/seed14_20260508-223302/results.json at 2026-05-08 22:40:52 +06 ===
+=== START phase=ablation_bimc dataset=miniimagenet seed=14 params=train_cfg=bimc.yaml at 2026-05-08 22:40:52 +06 ===
+=== END phase=ablation_bimc dataset=miniimagenet seed=14 status=OK duration=132s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc/seed14_20260508-224055/results.json at 2026-05-08 22:43:04 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=miniimagenet seed=14 params=train_cfg=bimc_ensemble.yaml at 2026-05-08 22:43:04 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=miniimagenet seed=14 status=OK duration=130s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc_ensemble/seed14_20260508-224306/results.json at 2026-05-08 22:45:14 +06 ===
+=== START phase=ablation_dino_fusion dataset=miniimagenet seed=14 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-08 22:45:14 +06 ===
+=== END phase=ablation_dino_fusion dataset=miniimagenet seed=14 status=OK duration=476s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc_dino_fusion_ensemble/seed14_20260508-224517/results.json at 2026-05-08 22:53:10 +06 ===
+=== START phase=ablation_bimc dataset=cub200 seed=14 params=train_cfg=bimc.yaml at 2026-05-08 22:53:10 +06 ===
+=== END phase=ablation_bimc dataset=cub200 seed=14 status=OK duration=79s result=experiments/bmvc_1256_20260508-124032/cub200/bimc/seed14_20260508-225312/results.json at 2026-05-08 22:54:29 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=cub200 seed=14 params=train_cfg=bimc_ensemble.yaml at 2026-05-08 22:54:29 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=cub200 seed=14 status=OK duration=79s result=experiments/bmvc_1256_20260508-124032/cub200/bimc_ensemble/seed14_20260508-225432/results.json at 2026-05-08 22:55:48 +06 ===
+=== START phase=ablation_dino_fusion dataset=cub200 seed=14 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-08 22:55:48 +06 ===
+=== END phase=ablation_dino_fusion dataset=cub200 seed=14 status=OK duration=257s result=experiments/bmvc_1256_20260508-124032/cub200/bimc_dino_fusion_ensemble/seed14_20260508-225551/results.json at 2026-05-08 23:00:05 +06 ===
+=== START phase=ablation_bimc dataset=CIFAR100 seed=15 params=train_cfg=bimc.yaml at 2026-05-08 23:00:05 +06 ===
+=== END phase=ablation_bimc dataset=CIFAR100 seed=15 status=OK duration=130s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc/seed15_20260508-230008/results.json at 2026-05-08 23:02:15 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=CIFAR100 seed=15 params=train_cfg=bimc_ensemble.yaml at 2026-05-08 23:02:15 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=CIFAR100 seed=15 status=OK duration=129s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc_ensemble/seed15_20260508-230218/results.json at 2026-05-08 23:04:24 +06 ===
+=== START phase=ablation_dino_fusion dataset=CIFAR100 seed=15 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-08 23:04:24 +06 ===
+=== END phase=ablation_dino_fusion dataset=CIFAR100 seed=15 status=OK duration=474s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc_dino_fusion_ensemble/seed15_20260508-230428/results.json at 2026-05-08 23:12:18 +06 ===
+=== START phase=ablation_bimc dataset=miniimagenet seed=15 params=train_cfg=bimc.yaml at 2026-05-08 23:12:18 +06 ===
+=== END phase=ablation_bimc dataset=miniimagenet seed=15 status=OK duration=132s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc/seed15_20260508-231221/results.json at 2026-05-08 23:14:30 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=miniimagenet seed=15 params=train_cfg=bimc_ensemble.yaml at 2026-05-08 23:14:30 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=miniimagenet seed=15 status=OK duration=130s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc_ensemble/seed15_20260508-231433/results.json at 2026-05-08 23:16:40 +06 ===
+=== START phase=ablation_dino_fusion dataset=miniimagenet seed=15 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-08 23:16:40 +06 ===
+=== END phase=ablation_dino_fusion dataset=miniimagenet seed=15 status=OK duration=476s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc_dino_fusion_ensemble/seed15_20260508-231644/results.json at 2026-05-08 23:24:36 +06 ===
+=== START phase=ablation_bimc dataset=cub200 seed=15 params=train_cfg=bimc.yaml at 2026-05-08 23:24:36 +06 ===
+=== END phase=ablation_bimc dataset=cub200 seed=15 status=OK duration=80s result=experiments/bmvc_1256_20260508-124032/cub200/bimc/seed15_20260508-232438/results.json at 2026-05-08 23:25:56 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=cub200 seed=15 params=train_cfg=bimc_ensemble.yaml at 2026-05-08 23:25:56 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=cub200 seed=15 status=OK duration=79s result=experiments/bmvc_1256_20260508-124032/cub200/bimc_ensemble/seed15_20260508-232558/results.json at 2026-05-08 23:27:15 +06 ===
+=== START phase=ablation_dino_fusion dataset=cub200 seed=15 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-08 23:27:15 +06 ===
+=== END phase=ablation_dino_fusion dataset=cub200 seed=15 status=OK duration=257s result=experiments/bmvc_1256_20260508-124032/cub200/bimc_dino_fusion_ensemble/seed15_20260508-232718/results.json at 2026-05-08 23:31:32 +06 ===
+=== START phase=ablation_bimc dataset=CIFAR100 seed=16 params=train_cfg=bimc.yaml at 2026-05-08 23:31:32 +06 ===
+=== END phase=ablation_bimc dataset=CIFAR100 seed=16 status=OK duration=130s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc/seed16_20260508-233135/results.json at 2026-05-08 23:33:42 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=CIFAR100 seed=16 params=train_cfg=bimc_ensemble.yaml at 2026-05-08 23:33:42 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=CIFAR100 seed=16 status=OK duration=130s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc_ensemble/seed16_20260508-233345/results.json at 2026-05-08 23:35:52 +06 ===
+=== START phase=ablation_dino_fusion dataset=CIFAR100 seed=16 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-08 23:35:52 +06 ===
+=== END phase=ablation_dino_fusion dataset=CIFAR100 seed=16 status=OK duration=473s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc_dino_fusion_ensemble/seed16_20260508-233556/results.json at 2026-05-08 23:43:45 +06 ===
+=== START phase=ablation_bimc dataset=miniimagenet seed=16 params=train_cfg=bimc.yaml at 2026-05-08 23:43:45 +06 ===
+=== END phase=ablation_bimc dataset=miniimagenet seed=16 status=OK duration=132s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc/seed16_20260508-234348/results.json at 2026-05-08 23:45:57 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=miniimagenet seed=16 params=train_cfg=bimc_ensemble.yaml at 2026-05-08 23:45:57 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=miniimagenet seed=16 status=OK duration=131s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc_ensemble/seed16_20260508-234600/results.json at 2026-05-08 23:48:08 +06 ===
+=== START phase=ablation_dino_fusion dataset=miniimagenet seed=16 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-08 23:48:08 +06 ===
+=== END phase=ablation_dino_fusion dataset=miniimagenet seed=16 status=OK duration=475s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc_dino_fusion_ensemble/seed16_20260508-234811/results.json at 2026-05-08 23:56:03 +06 ===
+=== START phase=ablation_bimc dataset=cub200 seed=16 params=train_cfg=bimc.yaml at 2026-05-08 23:56:03 +06 ===
+=== END phase=ablation_bimc dataset=cub200 seed=16 status=OK duration=80s result=experiments/bmvc_1256_20260508-124032/cub200/bimc/seed16_20260508-235605/results.json at 2026-05-08 23:57:23 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=cub200 seed=16 params=train_cfg=bimc_ensemble.yaml at 2026-05-08 23:57:23 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=cub200 seed=16 status=OK duration=79s result=experiments/bmvc_1256_20260508-124032/cub200/bimc_ensemble/seed16_20260508-235725/results.json at 2026-05-08 23:58:42 +06 ===
+=== START phase=ablation_dino_fusion dataset=cub200 seed=16 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-08 23:58:42 +06 ===
+=== END phase=ablation_dino_fusion dataset=cub200 seed=16 status=OK duration=256s result=experiments/bmvc_1256_20260508-124032/cub200/bimc_dino_fusion_ensemble/seed16_20260508-235845/results.json at 2026-05-09 00:02:58 +06 ===
+=== START phase=ablation_bimc dataset=CIFAR100 seed=17 params=train_cfg=bimc.yaml at 2026-05-09 00:02:58 +06 ===
+=== END phase=ablation_bimc dataset=CIFAR100 seed=17 status=OK duration=130s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc/seed17_20260509-000302/results.json at 2026-05-09 00:05:08 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=CIFAR100 seed=17 params=train_cfg=bimc_ensemble.yaml at 2026-05-09 00:05:08 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=CIFAR100 seed=17 status=OK duration=130s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc_ensemble/seed17_20260509-000512/results.json at 2026-05-09 00:07:18 +06 ===
+=== START phase=ablation_dino_fusion dataset=CIFAR100 seed=17 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-09 00:07:18 +06 ===
+=== END phase=ablation_dino_fusion dataset=CIFAR100 seed=17 status=OK duration=474s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc_dino_fusion_ensemble/seed17_20260509-000722/results.json at 2026-05-09 00:15:12 +06 ===
+=== START phase=ablation_bimc dataset=miniimagenet seed=17 params=train_cfg=bimc.yaml at 2026-05-09 00:15:12 +06 ===
+=== END phase=ablation_bimc dataset=miniimagenet seed=17 status=OK duration=132s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc/seed17_20260509-001515/results.json at 2026-05-09 00:17:24 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=miniimagenet seed=17 params=train_cfg=bimc_ensemble.yaml at 2026-05-09 00:17:24 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=miniimagenet seed=17 status=OK duration=130s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc_ensemble/seed17_20260509-001727/results.json at 2026-05-09 00:19:34 +06 ===
+=== START phase=ablation_dino_fusion dataset=miniimagenet seed=17 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-09 00:19:34 +06 ===
+=== END phase=ablation_dino_fusion dataset=miniimagenet seed=17 status=OK duration=476s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc_dino_fusion_ensemble/seed17_20260509-001938/results.json at 2026-05-09 00:27:30 +06 ===
+=== START phase=ablation_bimc dataset=cub200 seed=17 params=train_cfg=bimc.yaml at 2026-05-09 00:27:30 +06 ===
+=== END phase=ablation_bimc dataset=cub200 seed=17 status=OK duration=79s result=experiments/bmvc_1256_20260508-124032/cub200/bimc/seed17_20260509-002732/results.json at 2026-05-09 00:28:49 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=cub200 seed=17 params=train_cfg=bimc_ensemble.yaml at 2026-05-09 00:28:49 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=cub200 seed=17 status=OK duration=80s result=experiments/bmvc_1256_20260508-124032/cub200/bimc_ensemble/seed17_20260509-002852/results.json at 2026-05-09 00:30:09 +06 ===
+=== START phase=ablation_dino_fusion dataset=cub200 seed=17 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-09 00:30:09 +06 ===
+=== END phase=ablation_dino_fusion dataset=cub200 seed=17 status=OK duration=257s result=experiments/bmvc_1256_20260508-124032/cub200/bimc_dino_fusion_ensemble/seed17_20260509-003012/results.json at 2026-05-09 00:34:26 +06 ===
+=== START phase=ablation_bimc dataset=CIFAR100 seed=18 params=train_cfg=bimc.yaml at 2026-05-09 00:34:26 +06 ===
+=== END phase=ablation_bimc dataset=CIFAR100 seed=18 status=OK duration=129s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc/seed18_20260509-003429/results.json at 2026-05-09 00:36:35 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=CIFAR100 seed=18 params=train_cfg=bimc_ensemble.yaml at 2026-05-09 00:36:35 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=CIFAR100 seed=18 status=OK duration=130s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc_ensemble/seed18_20260509-003639/results.json at 2026-05-09 00:38:45 +06 ===
+=== START phase=ablation_dino_fusion dataset=CIFAR100 seed=18 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-09 00:38:45 +06 ===
+=== END phase=ablation_dino_fusion dataset=CIFAR100 seed=18 status=OK duration=474s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc_dino_fusion_ensemble/seed18_20260509-003849/results.json at 2026-05-09 00:46:39 +06 ===
+=== START phase=ablation_bimc dataset=miniimagenet seed=18 params=train_cfg=bimc.yaml at 2026-05-09 00:46:39 +06 ===
+=== END phase=ablation_bimc dataset=miniimagenet seed=18 status=OK duration=132s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc/seed18_20260509-004642/results.json at 2026-05-09 00:48:51 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=miniimagenet seed=18 params=train_cfg=bimc_ensemble.yaml at 2026-05-09 00:48:51 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=miniimagenet seed=18 status=OK duration=130s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc_ensemble/seed18_20260509-004853/results.json at 2026-05-09 00:51:01 +06 ===
+=== START phase=ablation_dino_fusion dataset=miniimagenet seed=18 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-09 00:51:01 +06 ===
+=== END phase=ablation_dino_fusion dataset=miniimagenet seed=18 status=OK duration=476s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc_dino_fusion_ensemble/seed18_20260509-005105/results.json at 2026-05-09 00:58:57 +06 ===
+=== START phase=ablation_bimc dataset=cub200 seed=18 params=train_cfg=bimc.yaml at 2026-05-09 00:58:57 +06 ===
+=== END phase=ablation_bimc dataset=cub200 seed=18 status=OK duration=80s result=experiments/bmvc_1256_20260508-124032/cub200/bimc/seed18_20260509-005900/results.json at 2026-05-09 01:00:17 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=cub200 seed=18 params=train_cfg=bimc_ensemble.yaml at 2026-05-09 01:00:17 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=cub200 seed=18 status=OK duration=79s result=experiments/bmvc_1256_20260508-124032/cub200/bimc_ensemble/seed18_20260509-010019/results.json at 2026-05-09 01:01:36 +06 ===
+=== START phase=ablation_dino_fusion dataset=cub200 seed=18 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-09 01:01:36 +06 ===
+=== END phase=ablation_dino_fusion dataset=cub200 seed=18 status=OK duration=257s result=experiments/bmvc_1256_20260508-124032/cub200/bimc_dino_fusion_ensemble/seed18_20260509-010139/results.json at 2026-05-09 01:05:53 +06 ===
+=== START phase=ablation_bimc dataset=CIFAR100 seed=19 params=train_cfg=bimc.yaml at 2026-05-09 01:05:53 +06 ===
+=== END phase=ablation_bimc dataset=CIFAR100 seed=19 status=OK duration=130s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc/seed19_20260509-010556/results.json at 2026-05-09 01:08:03 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=CIFAR100 seed=19 params=train_cfg=bimc_ensemble.yaml at 2026-05-09 01:08:03 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=CIFAR100 seed=19 status=OK duration=130s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc_ensemble/seed19_20260509-010806/results.json at 2026-05-09 01:10:13 +06 ===
+=== START phase=ablation_dino_fusion dataset=CIFAR100 seed=19 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-09 01:10:13 +06 ===
+=== END phase=ablation_dino_fusion dataset=CIFAR100 seed=19 status=OK duration=474s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc_dino_fusion_ensemble/seed19_20260509-011017/results.json at 2026-05-09 01:18:07 +06 ===
+=== START phase=ablation_bimc dataset=miniimagenet seed=19 params=train_cfg=bimc.yaml at 2026-05-09 01:18:07 +06 ===
+=== END phase=ablation_bimc dataset=miniimagenet seed=19 status=OK duration=132s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc/seed19_20260509-011810/results.json at 2026-05-09 01:20:19 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=miniimagenet seed=19 params=train_cfg=bimc_ensemble.yaml at 2026-05-09 01:20:19 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=miniimagenet seed=19 status=OK duration=131s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc_ensemble/seed19_20260509-012021/results.json at 2026-05-09 01:22:30 +06 ===
+=== START phase=ablation_dino_fusion dataset=miniimagenet seed=19 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-09 01:22:30 +06 ===
+=== END phase=ablation_dino_fusion dataset=miniimagenet seed=19 status=OK duration=475s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc_dino_fusion_ensemble/seed19_20260509-012233/results.json at 2026-05-09 01:30:25 +06 ===
+=== START phase=ablation_bimc dataset=cub200 seed=19 params=train_cfg=bimc.yaml at 2026-05-09 01:30:25 +06 ===
+=== END phase=ablation_bimc dataset=cub200 seed=19 status=OK duration=80s result=experiments/bmvc_1256_20260508-124032/cub200/bimc/seed19_20260509-013028/results.json at 2026-05-09 01:31:45 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=cub200 seed=19 params=train_cfg=bimc_ensemble.yaml at 2026-05-09 01:31:45 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=cub200 seed=19 status=OK duration=79s result=experiments/bmvc_1256_20260508-124032/cub200/bimc_ensemble/seed19_20260509-013147/results.json at 2026-05-09 01:33:04 +06 ===
+=== START phase=ablation_dino_fusion dataset=cub200 seed=19 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-09 01:33:04 +06 ===
+=== END phase=ablation_dino_fusion dataset=cub200 seed=19 status=OK duration=257s result=experiments/bmvc_1256_20260508-124032/cub200/bimc_dino_fusion_ensemble/seed19_20260509-013308/results.json at 2026-05-09 01:37:21 +06 ===
+=== START phase=ablation_bimc dataset=CIFAR100 seed=20 params=train_cfg=bimc.yaml at 2026-05-09 01:37:21 +06 ===
+=== END phase=ablation_bimc dataset=CIFAR100 seed=20 status=OK duration=130s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc/seed20_20260509-013724/results.json at 2026-05-09 01:39:31 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=CIFAR100 seed=20 params=train_cfg=bimc_ensemble.yaml at 2026-05-09 01:39:31 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=CIFAR100 seed=20 status=OK duration=130s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc_ensemble/seed20_20260509-013934/results.json at 2026-05-09 01:41:41 +06 ===
+=== START phase=ablation_dino_fusion dataset=CIFAR100 seed=20 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-09 01:41:41 +06 ===
+=== END phase=ablation_dino_fusion dataset=CIFAR100 seed=20 status=OK duration=474s result=experiments/bmvc_1256_20260508-124032/CIFAR100/bimc_dino_fusion_ensemble/seed20_20260509-014145/results.json at 2026-05-09 01:49:35 +06 ===
+=== START phase=ablation_bimc dataset=miniimagenet seed=20 params=train_cfg=bimc.yaml at 2026-05-09 01:49:35 +06 ===
+=== END phase=ablation_bimc dataset=miniimagenet seed=20 status=OK duration=132s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc/seed20_20260509-014938/results.json at 2026-05-09 01:51:47 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=miniimagenet seed=20 params=train_cfg=bimc_ensemble.yaml at 2026-05-09 01:51:47 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=miniimagenet seed=20 status=OK duration=131s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc_ensemble/seed20_20260509-015150/results.json at 2026-05-09 01:53:58 +06 ===
+=== START phase=ablation_dino_fusion dataset=miniimagenet seed=20 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-09 01:53:58 +06 ===
+=== END phase=ablation_dino_fusion dataset=miniimagenet seed=20 status=OK duration=475s result=experiments/bmvc_1256_20260508-124032/miniimagenet/bimc_dino_fusion_ensemble/seed20_20260509-015401/results.json at 2026-05-09 02:01:53 +06 ===
+=== START phase=ablation_bimc dataset=cub200 seed=20 params=train_cfg=bimc.yaml at 2026-05-09 02:01:53 +06 ===
+=== END phase=ablation_bimc dataset=cub200 seed=20 status=OK duration=80s result=experiments/bmvc_1256_20260508-124032/cub200/bimc/seed20_20260509-020156/results.json at 2026-05-09 02:03:13 +06 ===
+=== START phase=ablation_bimc_ensemble dataset=cub200 seed=20 params=train_cfg=bimc_ensemble.yaml at 2026-05-09 02:03:13 +06 ===
+=== END phase=ablation_bimc_ensemble dataset=cub200 seed=20 status=OK duration=79s result=experiments/bmvc_1256_20260508-124032/cub200/bimc_ensemble/seed20_20260509-020315/results.json at 2026-05-09 02:04:32 +06 ===
+=== START phase=ablation_dino_fusion dataset=cub200 seed=20 params=train_cfg=bimc_dino_fusion.yaml at 2026-05-09 02:04:32 +06 ===
+=== END phase=ablation_dino_fusion dataset=cub200 seed=20 status=OK duration=256s result=experiments/bmvc_1256_20260508-124032/cub200/bimc_dino_fusion_ensemble/seed20_20260509-020435/results.json at 2026-05-09 02:08:48 +06 ===
+--- 5: fixed-alpha CPR baselines for pseudo-validation comparison ---
+=== START phase=fixed_alpha_050 dataset=CIFAR100 seed=1 params=alpha=0.5 at 2026-05-09 02:08:48 +06 ===
+=== END phase=fixed_alpha_050 dataset=CIFAR100 seed=1 status=OK duration=178s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed1_20260509-020849/results.json at 2026-05-09 02:11:46 +06 ===
+=== START phase=fixed_alpha_075 dataset=CIFAR100 seed=1 params=alpha=0.75 at 2026-05-09 02:11:46 +06 ===
+=== END phase=fixed_alpha_075 dataset=CIFAR100 seed=1 status=OK duration=178s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed1_20260509-021147/results.json at 2026-05-09 02:14:44 +06 ===
+=== START phase=fixed_alpha_100 dataset=CIFAR100 seed=1 params=alpha=1.0 at 2026-05-09 02:14:44 +06 ===
+=== END phase=fixed_alpha_100 dataset=CIFAR100 seed=1 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed1_20260509-021444/results.json at 2026-05-09 02:17:41 +06 ===
+=== START phase=fixed_alpha_050 dataset=miniimagenet seed=1 params=alpha=0.5 at 2026-05-09 02:17:41 +06 ===
+=== END phase=fixed_alpha_050 dataset=miniimagenet seed=1 status=OK duration=178s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed1_20260509-021742/results.json at 2026-05-09 02:20:39 +06 ===
+=== START phase=fixed_alpha_075 dataset=miniimagenet seed=1 params=alpha=0.75 at 2026-05-09 02:20:39 +06 ===
+=== END phase=fixed_alpha_075 dataset=miniimagenet seed=1 status=OK duration=178s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed1_20260509-022040/results.json at 2026-05-09 02:23:37 +06 ===
+=== START phase=fixed_alpha_100 dataset=miniimagenet seed=1 params=alpha=1.0 at 2026-05-09 02:23:37 +06 ===
+=== END phase=fixed_alpha_100 dataset=miniimagenet seed=1 status=OK duration=178s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed1_20260509-022338/results.json at 2026-05-09 02:26:35 +06 ===
+=== START phase=fixed_alpha_050 dataset=cub200 seed=1 params=alpha=0.5 at 2026-05-09 02:26:35 +06 ===
+=== END phase=fixed_alpha_050 dataset=cub200 seed=1 status=OK duration=51s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed1_20260509-022635/results.json at 2026-05-09 02:27:26 +06 ===
+=== START phase=fixed_alpha_075 dataset=cub200 seed=1 params=alpha=0.75 at 2026-05-09 02:27:26 +06 ===
+=== END phase=fixed_alpha_075 dataset=cub200 seed=1 status=OK duration=51s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed1_20260509-022727/results.json at 2026-05-09 02:28:17 +06 ===
+=== START phase=fixed_alpha_100 dataset=cub200 seed=1 params=alpha=1.0 at 2026-05-09 02:28:17 +06 ===
+=== END phase=fixed_alpha_100 dataset=cub200 seed=1 status=OK duration=51s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed1_20260509-022818/results.json at 2026-05-09 02:29:08 +06 ===
+=== START phase=fixed_alpha_050 dataset=CIFAR100 seed=2 params=alpha=0.5 at 2026-05-09 02:29:08 +06 ===
+=== END phase=fixed_alpha_050 dataset=CIFAR100 seed=2 status=OK duration=178s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed2_20260509-022909/results.json at 2026-05-09 02:32:06 +06 ===
+=== START phase=fixed_alpha_075 dataset=CIFAR100 seed=2 params=alpha=0.75 at 2026-05-09 02:32:06 +06 ===
+=== END phase=fixed_alpha_075 dataset=CIFAR100 seed=2 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed2_20260509-023207/results.json at 2026-05-09 02:35:03 +06 ===
+=== START phase=fixed_alpha_100 dataset=CIFAR100 seed=2 params=alpha=1.0 at 2026-05-09 02:35:03 +06 ===
+=== END phase=fixed_alpha_100 dataset=CIFAR100 seed=2 status=OK duration=178s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed2_20260509-023504/results.json at 2026-05-09 02:38:01 +06 ===
+=== START phase=fixed_alpha_050 dataset=miniimagenet seed=2 params=alpha=0.5 at 2026-05-09 02:38:01 +06 ===
+=== END phase=fixed_alpha_050 dataset=miniimagenet seed=2 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed2_20260509-023802/results.json at 2026-05-09 02:40:58 +06 ===
+=== START phase=fixed_alpha_075 dataset=miniimagenet seed=2 params=alpha=0.75 at 2026-05-09 02:40:58 +06 ===
+=== END phase=fixed_alpha_075 dataset=miniimagenet seed=2 status=OK duration=178s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed2_20260509-024059/results.json at 2026-05-09 02:43:56 +06 ===
+=== START phase=fixed_alpha_100 dataset=miniimagenet seed=2 params=alpha=1.0 at 2026-05-09 02:43:56 +06 ===
+=== END phase=fixed_alpha_100 dataset=miniimagenet seed=2 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed2_20260509-024356/results.json at 2026-05-09 02:46:53 +06 ===
+=== START phase=fixed_alpha_050 dataset=cub200 seed=2 params=alpha=0.5 at 2026-05-09 02:46:53 +06 ===
+=== END phase=fixed_alpha_050 dataset=cub200 seed=2 status=OK duration=51s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed2_20260509-024653/results.json at 2026-05-09 02:47:44 +06 ===
+=== START phase=fixed_alpha_075 dataset=cub200 seed=2 params=alpha=0.75 at 2026-05-09 02:47:44 +06 ===
+=== END phase=fixed_alpha_075 dataset=cub200 seed=2 status=OK duration=52s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed2_20260509-024745/results.json at 2026-05-09 02:48:36 +06 ===
+=== START phase=fixed_alpha_100 dataset=cub200 seed=2 params=alpha=1.0 at 2026-05-09 02:48:36 +06 ===
+=== END phase=fixed_alpha_100 dataset=cub200 seed=2 status=OK duration=51s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed2_20260509-024836/results.json at 2026-05-09 02:49:27 +06 ===
+=== START phase=fixed_alpha_050 dataset=CIFAR100 seed=3 params=alpha=0.5 at 2026-05-09 02:49:27 +06 ===
+=== END phase=fixed_alpha_050 dataset=CIFAR100 seed=3 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed3_20260509-024927/results.json at 2026-05-09 02:52:24 +06 ===
+=== START phase=fixed_alpha_075 dataset=CIFAR100 seed=3 params=alpha=0.75 at 2026-05-09 02:52:24 +06 ===
+=== END phase=fixed_alpha_075 dataset=CIFAR100 seed=3 status=OK duration=178s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed3_20260509-025225/results.json at 2026-05-09 02:55:22 +06 ===
+=== START phase=fixed_alpha_100 dataset=CIFAR100 seed=3 params=alpha=1.0 at 2026-05-09 02:55:22 +06 ===
+=== END phase=fixed_alpha_100 dataset=CIFAR100 seed=3 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed3_20260509-025522/results.json at 2026-05-09 02:58:19 +06 ===
+=== START phase=fixed_alpha_050 dataset=miniimagenet seed=3 params=alpha=0.5 at 2026-05-09 02:58:19 +06 ===
+=== END phase=fixed_alpha_050 dataset=miniimagenet seed=3 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed3_20260509-025820/results.json at 2026-05-09 03:01:16 +06 ===
+=== START phase=fixed_alpha_075 dataset=miniimagenet seed=3 params=alpha=0.75 at 2026-05-09 03:01:16 +06 ===
+=== END phase=fixed_alpha_075 dataset=miniimagenet seed=3 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed3_20260509-030117/results.json at 2026-05-09 03:04:13 +06 ===
+=== START phase=fixed_alpha_100 dataset=miniimagenet seed=3 params=alpha=1.0 at 2026-05-09 03:04:13 +06 ===
+=== END phase=fixed_alpha_100 dataset=miniimagenet seed=3 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed3_20260509-030414/results.json at 2026-05-09 03:07:10 +06 ===
+=== START phase=fixed_alpha_050 dataset=cub200 seed=3 params=alpha=0.5 at 2026-05-09 03:07:10 +06 ===
+=== END phase=fixed_alpha_050 dataset=cub200 seed=3 status=OK duration=52s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed3_20260509-030711/results.json at 2026-05-09 03:08:02 +06 ===
+=== START phase=fixed_alpha_075 dataset=cub200 seed=3 params=alpha=0.75 at 2026-05-09 03:08:02 +06 ===
+=== END phase=fixed_alpha_075 dataset=cub200 seed=3 status=OK duration=51s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed3_20260509-030802/results.json at 2026-05-09 03:08:53 +06 ===
+=== START phase=fixed_alpha_100 dataset=cub200 seed=3 params=alpha=1.0 at 2026-05-09 03:08:53 +06 ===
+=== END phase=fixed_alpha_100 dataset=cub200 seed=3 status=OK duration=51s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed3_20260509-030853/results.json at 2026-05-09 03:09:44 +06 ===
+=== START phase=fixed_alpha_050 dataset=CIFAR100 seed=4 params=alpha=0.5 at 2026-05-09 03:09:44 +06 ===
+=== END phase=fixed_alpha_050 dataset=CIFAR100 seed=4 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed4_20260509-030945/results.json at 2026-05-09 03:12:41 +06 ===
+=== START phase=fixed_alpha_075 dataset=CIFAR100 seed=4 params=alpha=0.75 at 2026-05-09 03:12:41 +06 ===
+=== END phase=fixed_alpha_075 dataset=CIFAR100 seed=4 status=OK duration=178s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed4_20260509-031242/results.json at 2026-05-09 03:15:39 +06 ===
+=== START phase=fixed_alpha_100 dataset=CIFAR100 seed=4 params=alpha=1.0 at 2026-05-09 03:15:39 +06 ===
+=== END phase=fixed_alpha_100 dataset=CIFAR100 seed=4 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed4_20260509-031539/results.json at 2026-05-09 03:18:36 +06 ===
+=== START phase=fixed_alpha_050 dataset=miniimagenet seed=4 params=alpha=0.5 at 2026-05-09 03:18:36 +06 ===
+=== END phase=fixed_alpha_050 dataset=miniimagenet seed=4 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed4_20260509-031836/results.json at 2026-05-09 03:21:33 +06 ===
+=== START phase=fixed_alpha_075 dataset=miniimagenet seed=4 params=alpha=0.75 at 2026-05-09 03:21:33 +06 ===
+=== END phase=fixed_alpha_075 dataset=miniimagenet seed=4 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed4_20260509-032134/results.json at 2026-05-09 03:24:30 +06 ===
+=== START phase=fixed_alpha_100 dataset=miniimagenet seed=4 params=alpha=1.0 at 2026-05-09 03:24:30 +06 ===
+=== END phase=fixed_alpha_100 dataset=miniimagenet seed=4 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed4_20260509-032430/results.json at 2026-05-09 03:27:27 +06 ===
+=== START phase=fixed_alpha_050 dataset=cub200 seed=4 params=alpha=0.5 at 2026-05-09 03:27:27 +06 ===
+=== END phase=fixed_alpha_050 dataset=cub200 seed=4 status=OK duration=51s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed4_20260509-032727/results.json at 2026-05-09 03:28:18 +06 ===
+=== START phase=fixed_alpha_075 dataset=cub200 seed=4 params=alpha=0.75 at 2026-05-09 03:28:18 +06 ===
+=== END phase=fixed_alpha_075 dataset=cub200 seed=4 status=OK duration=51s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed4_20260509-032819/results.json at 2026-05-09 03:29:09 +06 ===
+=== START phase=fixed_alpha_100 dataset=cub200 seed=4 params=alpha=1.0 at 2026-05-09 03:29:09 +06 ===
+=== END phase=fixed_alpha_100 dataset=cub200 seed=4 status=OK duration=51s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed4_20260509-032910/results.json at 2026-05-09 03:30:00 +06 ===
+=== START phase=fixed_alpha_050 dataset=CIFAR100 seed=5 params=alpha=0.5 at 2026-05-09 03:30:00 +06 ===
+=== END phase=fixed_alpha_050 dataset=CIFAR100 seed=5 status=OK duration=178s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed5_20260509-033001/results.json at 2026-05-09 03:32:58 +06 ===
+=== START phase=fixed_alpha_075 dataset=CIFAR100 seed=5 params=alpha=0.75 at 2026-05-09 03:32:58 +06 ===
+=== END phase=fixed_alpha_075 dataset=CIFAR100 seed=5 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed5_20260509-033258/results.json at 2026-05-09 03:35:55 +06 ===
+=== START phase=fixed_alpha_100 dataset=CIFAR100 seed=5 params=alpha=1.0 at 2026-05-09 03:35:55 +06 ===
+=== END phase=fixed_alpha_100 dataset=CIFAR100 seed=5 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed5_20260509-033555/results.json at 2026-05-09 03:38:52 +06 ===
+=== START phase=fixed_alpha_050 dataset=miniimagenet seed=5 params=alpha=0.5 at 2026-05-09 03:38:52 +06 ===
+=== END phase=fixed_alpha_050 dataset=miniimagenet seed=5 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed5_20260509-033853/results.json at 2026-05-09 03:41:49 +06 ===
+=== START phase=fixed_alpha_075 dataset=miniimagenet seed=5 params=alpha=0.75 at 2026-05-09 03:41:49 +06 ===
+=== END phase=fixed_alpha_075 dataset=miniimagenet seed=5 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed5_20260509-034150/results.json at 2026-05-09 03:44:46 +06 ===
+=== START phase=fixed_alpha_100 dataset=miniimagenet seed=5 params=alpha=1.0 at 2026-05-09 03:44:46 +06 ===
+=== END phase=fixed_alpha_100 dataset=miniimagenet seed=5 status=OK duration=178s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed5_20260509-034447/results.json at 2026-05-09 03:47:44 +06 ===
+=== START phase=fixed_alpha_050 dataset=cub200 seed=5 params=alpha=0.5 at 2026-05-09 03:47:44 +06 ===
+=== END phase=fixed_alpha_050 dataset=cub200 seed=5 status=OK duration=51s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed5_20260509-034744/results.json at 2026-05-09 03:48:35 +06 ===
+=== START phase=fixed_alpha_075 dataset=cub200 seed=5 params=alpha=0.75 at 2026-05-09 03:48:35 +06 ===
+=== END phase=fixed_alpha_075 dataset=cub200 seed=5 status=OK duration=51s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed5_20260509-034835/results.json at 2026-05-09 03:49:26 +06 ===
+=== START phase=fixed_alpha_100 dataset=cub200 seed=5 params=alpha=1.0 at 2026-05-09 03:49:26 +06 ===
+=== END phase=fixed_alpha_100 dataset=cub200 seed=5 status=OK duration=51s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed5_20260509-034927/results.json at 2026-05-09 03:50:17 +06 ===
+=== START phase=fixed_alpha_050 dataset=CIFAR100 seed=6 params=alpha=0.5 at 2026-05-09 03:50:17 +06 ===
+=== END phase=fixed_alpha_050 dataset=CIFAR100 seed=6 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed6_20260509-035018/results.json at 2026-05-09 03:53:14 +06 ===
+=== START phase=fixed_alpha_075 dataset=CIFAR100 seed=6 params=alpha=0.75 at 2026-05-09 03:53:14 +06 ===
+=== END phase=fixed_alpha_075 dataset=CIFAR100 seed=6 status=OK duration=178s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed6_20260509-035315/results.json at 2026-05-09 03:56:12 +06 ===
+=== START phase=fixed_alpha_100 dataset=CIFAR100 seed=6 params=alpha=1.0 at 2026-05-09 03:56:12 +06 ===
+=== END phase=fixed_alpha_100 dataset=CIFAR100 seed=6 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed6_20260509-035612/results.json at 2026-05-09 03:59:09 +06 ===
+=== START phase=fixed_alpha_050 dataset=miniimagenet seed=6 params=alpha=0.5 at 2026-05-09 03:59:09 +06 ===
+=== END phase=fixed_alpha_050 dataset=miniimagenet seed=6 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed6_20260509-035909/results.json at 2026-05-09 04:02:06 +06 ===
+=== START phase=fixed_alpha_075 dataset=miniimagenet seed=6 params=alpha=0.75 at 2026-05-09 04:02:06 +06 ===
+=== END phase=fixed_alpha_075 dataset=miniimagenet seed=6 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed6_20260509-040206/results.json at 2026-05-09 04:05:03 +06 ===
+=== START phase=fixed_alpha_100 dataset=miniimagenet seed=6 params=alpha=1.0 at 2026-05-09 04:05:03 +06 ===
+=== END phase=fixed_alpha_100 dataset=miniimagenet seed=6 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed6_20260509-040503/results.json at 2026-05-09 04:08:00 +06 ===
+=== START phase=fixed_alpha_050 dataset=cub200 seed=6 params=alpha=0.5 at 2026-05-09 04:08:00 +06 ===
+=== END phase=fixed_alpha_050 dataset=cub200 seed=6 status=OK duration=51s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed6_20260509-040800/results.json at 2026-05-09 04:08:51 +06 ===
+=== START phase=fixed_alpha_075 dataset=cub200 seed=6 params=alpha=0.75 at 2026-05-09 04:08:51 +06 ===
+=== END phase=fixed_alpha_075 dataset=cub200 seed=6 status=OK duration=51s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed6_20260509-040851/results.json at 2026-05-09 04:09:42 +06 ===
+=== START phase=fixed_alpha_100 dataset=cub200 seed=6 params=alpha=1.0 at 2026-05-09 04:09:42 +06 ===
+=== END phase=fixed_alpha_100 dataset=cub200 seed=6 status=OK duration=51s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed6_20260509-040943/results.json at 2026-05-09 04:10:33 +06 ===
+=== START phase=fixed_alpha_050 dataset=CIFAR100 seed=7 params=alpha=0.5 at 2026-05-09 04:10:33 +06 ===
+=== END phase=fixed_alpha_050 dataset=CIFAR100 seed=7 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed7_20260509-041034/results.json at 2026-05-09 04:13:30 +06 ===
+=== START phase=fixed_alpha_075 dataset=CIFAR100 seed=7 params=alpha=0.75 at 2026-05-09 04:13:30 +06 ===
+=== END phase=fixed_alpha_075 dataset=CIFAR100 seed=7 status=OK duration=178s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed7_20260509-041331/results.json at 2026-05-09 04:16:28 +06 ===
+=== START phase=fixed_alpha_100 dataset=CIFAR100 seed=7 params=alpha=1.0 at 2026-05-09 04:16:28 +06 ===
+=== END phase=fixed_alpha_100 dataset=CIFAR100 seed=7 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed7_20260509-041628/results.json at 2026-05-09 04:19:25 +06 ===
+=== START phase=fixed_alpha_050 dataset=miniimagenet seed=7 params=alpha=0.5 at 2026-05-09 04:19:25 +06 ===
+=== END phase=fixed_alpha_050 dataset=miniimagenet seed=7 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed7_20260509-041926/results.json at 2026-05-09 04:22:22 +06 ===
+=== START phase=fixed_alpha_075 dataset=miniimagenet seed=7 params=alpha=0.75 at 2026-05-09 04:22:22 +06 ===
+=== END phase=fixed_alpha_075 dataset=miniimagenet seed=7 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed7_20260509-042223/results.json at 2026-05-09 04:25:19 +06 ===
+=== START phase=fixed_alpha_100 dataset=miniimagenet seed=7 params=alpha=1.0 at 2026-05-09 04:25:19 +06 ===
+=== END phase=fixed_alpha_100 dataset=miniimagenet seed=7 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed7_20260509-042519/results.json at 2026-05-09 04:28:16 +06 ===
+=== START phase=fixed_alpha_050 dataset=cub200 seed=7 params=alpha=0.5 at 2026-05-09 04:28:16 +06 ===
+=== END phase=fixed_alpha_050 dataset=cub200 seed=7 status=OK duration=51s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed7_20260509-042817/results.json at 2026-05-09 04:29:07 +06 ===
+=== START phase=fixed_alpha_075 dataset=cub200 seed=7 params=alpha=0.75 at 2026-05-09 04:29:07 +06 ===
+=== END phase=fixed_alpha_075 dataset=cub200 seed=7 status=OK duration=52s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed7_20260509-042908/results.json at 2026-05-09 04:29:59 +06 ===
+=== START phase=fixed_alpha_100 dataset=cub200 seed=7 params=alpha=1.0 at 2026-05-09 04:29:59 +06 ===
+=== END phase=fixed_alpha_100 dataset=cub200 seed=7 status=OK duration=51s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed7_20260509-042959/results.json at 2026-05-09 04:30:50 +06 ===
+=== START phase=fixed_alpha_050 dataset=CIFAR100 seed=8 params=alpha=0.5 at 2026-05-09 04:30:50 +06 ===
+=== END phase=fixed_alpha_050 dataset=CIFAR100 seed=8 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed8_20260509-043050/results.json at 2026-05-09 04:33:47 +06 ===
+=== START phase=fixed_alpha_075 dataset=CIFAR100 seed=8 params=alpha=0.75 at 2026-05-09 04:33:47 +06 ===
+=== END phase=fixed_alpha_075 dataset=CIFAR100 seed=8 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed8_20260509-043348/results.json at 2026-05-09 04:36:44 +06 ===
+=== START phase=fixed_alpha_100 dataset=CIFAR100 seed=8 params=alpha=1.0 at 2026-05-09 04:36:44 +06 ===
+=== END phase=fixed_alpha_100 dataset=CIFAR100 seed=8 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed8_20260509-043645/results.json at 2026-05-09 04:39:41 +06 ===
+=== START phase=fixed_alpha_050 dataset=miniimagenet seed=8 params=alpha=0.5 at 2026-05-09 04:39:41 +06 ===
+=== END phase=fixed_alpha_050 dataset=miniimagenet seed=8 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed8_20260509-043942/results.json at 2026-05-09 04:42:38 +06 ===
+=== START phase=fixed_alpha_075 dataset=miniimagenet seed=8 params=alpha=0.75 at 2026-05-09 04:42:38 +06 ===
+=== END phase=fixed_alpha_075 dataset=miniimagenet seed=8 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed8_20260509-044239/results.json at 2026-05-09 04:45:35 +06 ===
+=== START phase=fixed_alpha_100 dataset=miniimagenet seed=8 params=alpha=1.0 at 2026-05-09 04:45:35 +06 ===
+=== END phase=fixed_alpha_100 dataset=miniimagenet seed=8 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed8_20260509-044535/results.json at 2026-05-09 04:48:32 +06 ===
+=== START phase=fixed_alpha_050 dataset=cub200 seed=8 params=alpha=0.5 at 2026-05-09 04:48:32 +06 ===
+=== END phase=fixed_alpha_050 dataset=cub200 seed=8 status=OK duration=51s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed8_20260509-044832/results.json at 2026-05-09 04:49:23 +06 ===
+=== START phase=fixed_alpha_075 dataset=cub200 seed=8 params=alpha=0.75 at 2026-05-09 04:49:23 +06 ===
+=== END phase=fixed_alpha_075 dataset=cub200 seed=8 status=OK duration=51s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed8_20260509-044924/results.json at 2026-05-09 04:50:14 +06 ===
+=== START phase=fixed_alpha_100 dataset=cub200 seed=8 params=alpha=1.0 at 2026-05-09 04:50:14 +06 ===
+=== END phase=fixed_alpha_100 dataset=cub200 seed=8 status=OK duration=51s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed8_20260509-045015/results.json at 2026-05-09 04:51:05 +06 ===
+=== START phase=fixed_alpha_050 dataset=CIFAR100 seed=9 params=alpha=0.5 at 2026-05-09 04:51:05 +06 ===
+=== END phase=fixed_alpha_050 dataset=CIFAR100 seed=9 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed9_20260509-045106/results.json at 2026-05-09 04:54:02 +06 ===
+=== START phase=fixed_alpha_075 dataset=CIFAR100 seed=9 params=alpha=0.75 at 2026-05-09 04:54:02 +06 ===
+=== END phase=fixed_alpha_075 dataset=CIFAR100 seed=9 status=OK duration=178s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed9_20260509-045403/results.json at 2026-05-09 04:57:00 +06 ===
+=== START phase=fixed_alpha_100 dataset=CIFAR100 seed=9 params=alpha=1.0 at 2026-05-09 04:57:00 +06 ===
+=== END phase=fixed_alpha_100 dataset=CIFAR100 seed=9 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed9_20260509-045700/results.json at 2026-05-09 04:59:57 +06 ===
+=== START phase=fixed_alpha_050 dataset=miniimagenet seed=9 params=alpha=0.5 at 2026-05-09 04:59:57 +06 ===
+=== END phase=fixed_alpha_050 dataset=miniimagenet seed=9 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed9_20260509-045957/results.json at 2026-05-09 05:02:54 +06 ===
+=== START phase=fixed_alpha_075 dataset=miniimagenet seed=9 params=alpha=0.75 at 2026-05-09 05:02:54 +06 ===
+=== END phase=fixed_alpha_075 dataset=miniimagenet seed=9 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed9_20260509-050254/results.json at 2026-05-09 05:05:51 +06 ===
+=== START phase=fixed_alpha_100 dataset=miniimagenet seed=9 params=alpha=1.0 at 2026-05-09 05:05:51 +06 ===
+=== END phase=fixed_alpha_100 dataset=miniimagenet seed=9 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed9_20260509-050551/results.json at 2026-05-09 05:08:48 +06 ===
+=== START phase=fixed_alpha_050 dataset=cub200 seed=9 params=alpha=0.5 at 2026-05-09 05:08:48 +06 ===
+=== END phase=fixed_alpha_050 dataset=cub200 seed=9 status=OK duration=51s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed9_20260509-050848/results.json at 2026-05-09 05:09:39 +06 ===
+=== START phase=fixed_alpha_075 dataset=cub200 seed=9 params=alpha=0.75 at 2026-05-09 05:09:39 +06 ===
+=== END phase=fixed_alpha_075 dataset=cub200 seed=9 status=OK duration=51s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed9_20260509-050940/results.json at 2026-05-09 05:10:30 +06 ===
+=== START phase=fixed_alpha_100 dataset=cub200 seed=9 params=alpha=1.0 at 2026-05-09 05:10:30 +06 ===
+=== END phase=fixed_alpha_100 dataset=cub200 seed=9 status=OK duration=51s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed9_20260509-051031/results.json at 2026-05-09 05:11:21 +06 ===
+=== START phase=fixed_alpha_050 dataset=CIFAR100 seed=10 params=alpha=0.5 at 2026-05-09 05:11:21 +06 ===
+=== END phase=fixed_alpha_050 dataset=CIFAR100 seed=10 status=OK duration=178s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed10_20260509-051122/results.json at 2026-05-09 05:14:19 +06 ===
+=== START phase=fixed_alpha_075 dataset=CIFAR100 seed=10 params=alpha=0.75 at 2026-05-09 05:14:19 +06 ===
+=== END phase=fixed_alpha_075 dataset=CIFAR100 seed=10 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed10_20260509-051419/results.json at 2026-05-09 05:17:16 +06 ===
+=== START phase=fixed_alpha_100 dataset=CIFAR100 seed=10 params=alpha=1.0 at 2026-05-09 05:17:16 +06 ===
+=== END phase=fixed_alpha_100 dataset=CIFAR100 seed=10 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed10_20260509-051717/results.json at 2026-05-09 05:20:13 +06 ===
+=== START phase=fixed_alpha_050 dataset=miniimagenet seed=10 params=alpha=0.5 at 2026-05-09 05:20:13 +06 ===
+=== END phase=fixed_alpha_050 dataset=miniimagenet seed=10 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed10_20260509-052014/results.json at 2026-05-09 05:23:10 +06 ===
+=== START phase=fixed_alpha_075 dataset=miniimagenet seed=10 params=alpha=0.75 at 2026-05-09 05:23:10 +06 ===
+=== END phase=fixed_alpha_075 dataset=miniimagenet seed=10 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed10_20260509-052311/results.json at 2026-05-09 05:26:07 +06 ===
+=== START phase=fixed_alpha_100 dataset=miniimagenet seed=10 params=alpha=1.0 at 2026-05-09 05:26:07 +06 ===
+=== END phase=fixed_alpha_100 dataset=miniimagenet seed=10 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed10_20260509-052607/results.json at 2026-05-09 05:29:04 +06 ===
+=== START phase=fixed_alpha_050 dataset=cub200 seed=10 params=alpha=0.5 at 2026-05-09 05:29:04 +06 ===
+=== END phase=fixed_alpha_050 dataset=cub200 seed=10 status=OK duration=51s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed10_20260509-052904/results.json at 2026-05-09 05:29:55 +06 ===
+=== START phase=fixed_alpha_075 dataset=cub200 seed=10 params=alpha=0.75 at 2026-05-09 05:29:55 +06 ===
+=== END phase=fixed_alpha_075 dataset=cub200 seed=10 status=OK duration=51s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed10_20260509-052956/results.json at 2026-05-09 05:30:46 +06 ===
+=== START phase=fixed_alpha_100 dataset=cub200 seed=10 params=alpha=1.0 at 2026-05-09 05:30:46 +06 ===
+=== END phase=fixed_alpha_100 dataset=cub200 seed=10 status=OK duration=51s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed10_20260509-053047/results.json at 2026-05-09 05:31:37 +06 ===
+=== START phase=fixed_alpha_050 dataset=CIFAR100 seed=11 params=alpha=0.5 at 2026-05-09 05:31:37 +06 ===
+=== END phase=fixed_alpha_050 dataset=CIFAR100 seed=11 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed11_20260509-053138/results.json at 2026-05-09 05:34:34 +06 ===
+=== START phase=fixed_alpha_075 dataset=CIFAR100 seed=11 params=alpha=0.75 at 2026-05-09 05:34:34 +06 ===
+=== END phase=fixed_alpha_075 dataset=CIFAR100 seed=11 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed11_20260509-053435/results.json at 2026-05-09 05:37:31 +06 ===
+=== START phase=fixed_alpha_100 dataset=CIFAR100 seed=11 params=alpha=1.0 at 2026-05-09 05:37:31 +06 ===
+=== END phase=fixed_alpha_100 dataset=CIFAR100 seed=11 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed11_20260509-053732/results.json at 2026-05-09 05:40:28 +06 ===
+=== START phase=fixed_alpha_050 dataset=miniimagenet seed=11 params=alpha=0.5 at 2026-05-09 05:40:28 +06 ===
+=== END phase=fixed_alpha_050 dataset=miniimagenet seed=11 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed11_20260509-054029/results.json at 2026-05-09 05:43:25 +06 ===
+=== START phase=fixed_alpha_075 dataset=miniimagenet seed=11 params=alpha=0.75 at 2026-05-09 05:43:25 +06 ===
+=== END phase=fixed_alpha_075 dataset=miniimagenet seed=11 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed11_20260509-054326/results.json at 2026-05-09 05:46:22 +06 ===
+=== START phase=fixed_alpha_100 dataset=miniimagenet seed=11 params=alpha=1.0 at 2026-05-09 05:46:22 +06 ===
+=== END phase=fixed_alpha_100 dataset=miniimagenet seed=11 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed11_20260509-054623/results.json at 2026-05-09 05:49:19 +06 ===
+=== START phase=fixed_alpha_050 dataset=cub200 seed=11 params=alpha=0.5 at 2026-05-09 05:49:19 +06 ===
+=== END phase=fixed_alpha_050 dataset=cub200 seed=11 status=OK duration=51s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed11_20260509-054920/results.json at 2026-05-09 05:50:10 +06 ===
+=== START phase=fixed_alpha_075 dataset=cub200 seed=11 params=alpha=0.75 at 2026-05-09 05:50:10 +06 ===
+=== END phase=fixed_alpha_075 dataset=cub200 seed=11 status=OK duration=51s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed11_20260509-055011/results.json at 2026-05-09 05:51:01 +06 ===
+=== START phase=fixed_alpha_100 dataset=cub200 seed=11 params=alpha=1.0 at 2026-05-09 05:51:01 +06 ===
+=== END phase=fixed_alpha_100 dataset=cub200 seed=11 status=OK duration=51s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed11_20260509-055102/results.json at 2026-05-09 05:51:52 +06 ===
+=== START phase=fixed_alpha_050 dataset=CIFAR100 seed=12 params=alpha=0.5 at 2026-05-09 05:51:52 +06 ===
+=== END phase=fixed_alpha_050 dataset=CIFAR100 seed=12 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed12_20260509-055153/results.json at 2026-05-09 05:54:49 +06 ===
+=== START phase=fixed_alpha_075 dataset=CIFAR100 seed=12 params=alpha=0.75 at 2026-05-09 05:54:49 +06 ===
+=== END phase=fixed_alpha_075 dataset=CIFAR100 seed=12 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed12_20260509-055450/results.json at 2026-05-09 05:57:46 +06 ===
+=== START phase=fixed_alpha_100 dataset=CIFAR100 seed=12 params=alpha=1.0 at 2026-05-09 05:57:46 +06 ===
+=== END phase=fixed_alpha_100 dataset=CIFAR100 seed=12 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed12_20260509-055747/results.json at 2026-05-09 06:00:43 +06 ===
+=== START phase=fixed_alpha_050 dataset=miniimagenet seed=12 params=alpha=0.5 at 2026-05-09 06:00:43 +06 ===
+=== END phase=fixed_alpha_050 dataset=miniimagenet seed=12 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed12_20260509-060044/results.json at 2026-05-09 06:03:40 +06 ===
+=== START phase=fixed_alpha_075 dataset=miniimagenet seed=12 params=alpha=0.75 at 2026-05-09 06:03:40 +06 ===
+=== END phase=fixed_alpha_075 dataset=miniimagenet seed=12 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed12_20260509-060341/results.json at 2026-05-09 06:06:37 +06 ===
+=== START phase=fixed_alpha_100 dataset=miniimagenet seed=12 params=alpha=1.0 at 2026-05-09 06:06:37 +06 ===
+=== END phase=fixed_alpha_100 dataset=miniimagenet seed=12 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed12_20260509-060638/results.json at 2026-05-09 06:09:34 +06 ===
+=== START phase=fixed_alpha_050 dataset=cub200 seed=12 params=alpha=0.5 at 2026-05-09 06:09:34 +06 ===
+=== END phase=fixed_alpha_050 dataset=cub200 seed=12 status=OK duration=51s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed12_20260509-060935/results.json at 2026-05-09 06:10:25 +06 ===
+=== START phase=fixed_alpha_075 dataset=cub200 seed=12 params=alpha=0.75 at 2026-05-09 06:10:26 +06 ===
+=== END phase=fixed_alpha_075 dataset=cub200 seed=12 status=OK duration=51s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed12_20260509-061026/results.json at 2026-05-09 06:11:17 +06 ===
+=== START phase=fixed_alpha_100 dataset=cub200 seed=12 params=alpha=1.0 at 2026-05-09 06:11:17 +06 ===
+=== END phase=fixed_alpha_100 dataset=cub200 seed=12 status=OK duration=51s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed12_20260509-061117/results.json at 2026-05-09 06:12:08 +06 ===
+=== START phase=fixed_alpha_050 dataset=CIFAR100 seed=13 params=alpha=0.5 at 2026-05-09 06:12:08 +06 ===
+=== END phase=fixed_alpha_050 dataset=CIFAR100 seed=13 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed13_20260509-061208/results.json at 2026-05-09 06:15:05 +06 ===
+=== START phase=fixed_alpha_075 dataset=CIFAR100 seed=13 params=alpha=0.75 at 2026-05-09 06:15:05 +06 ===
+=== END phase=fixed_alpha_075 dataset=CIFAR100 seed=13 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed13_20260509-061505/results.json at 2026-05-09 06:18:02 +06 ===
+=== START phase=fixed_alpha_100 dataset=CIFAR100 seed=13 params=alpha=1.0 at 2026-05-09 06:18:02 +06 ===
+=== END phase=fixed_alpha_100 dataset=CIFAR100 seed=13 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed13_20260509-061803/results.json at 2026-05-09 06:20:59 +06 ===
+=== START phase=fixed_alpha_050 dataset=miniimagenet seed=13 params=alpha=0.5 at 2026-05-09 06:20:59 +06 ===
+=== END phase=fixed_alpha_050 dataset=miniimagenet seed=13 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed13_20260509-062059/results.json at 2026-05-09 06:23:56 +06 ===
+=== START phase=fixed_alpha_075 dataset=miniimagenet seed=13 params=alpha=0.75 at 2026-05-09 06:23:56 +06 ===
+=== END phase=fixed_alpha_075 dataset=miniimagenet seed=13 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed13_20260509-062356/results.json at 2026-05-09 06:26:53 +06 ===
+=== START phase=fixed_alpha_100 dataset=miniimagenet seed=13 params=alpha=1.0 at 2026-05-09 06:26:53 +06 ===
+=== END phase=fixed_alpha_100 dataset=miniimagenet seed=13 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed13_20260509-062653/results.json at 2026-05-09 06:29:50 +06 ===
+=== START phase=fixed_alpha_050 dataset=cub200 seed=13 params=alpha=0.5 at 2026-05-09 06:29:50 +06 ===
+=== END phase=fixed_alpha_050 dataset=cub200 seed=13 status=OK duration=51s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed13_20260509-062950/results.json at 2026-05-09 06:30:41 +06 ===
+=== START phase=fixed_alpha_075 dataset=cub200 seed=13 params=alpha=0.75 at 2026-05-09 06:30:41 +06 ===
+=== END phase=fixed_alpha_075 dataset=cub200 seed=13 status=OK duration=51s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed13_20260509-063041/results.json at 2026-05-09 06:31:32 +06 ===
+=== START phase=fixed_alpha_100 dataset=cub200 seed=13 params=alpha=1.0 at 2026-05-09 06:31:32 +06 ===
+=== END phase=fixed_alpha_100 dataset=cub200 seed=13 status=OK duration=51s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed13_20260509-063133/results.json at 2026-05-09 06:32:23 +06 ===
+=== START phase=fixed_alpha_050 dataset=CIFAR100 seed=14 params=alpha=0.5 at 2026-05-09 06:32:23 +06 ===
+=== END phase=fixed_alpha_050 dataset=CIFAR100 seed=14 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed14_20260509-063224/results.json at 2026-05-09 06:35:20 +06 ===
+=== START phase=fixed_alpha_075 dataset=CIFAR100 seed=14 params=alpha=0.75 at 2026-05-09 06:35:20 +06 ===
+=== END phase=fixed_alpha_075 dataset=CIFAR100 seed=14 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed14_20260509-063520/results.json at 2026-05-09 06:38:17 +06 ===
+=== START phase=fixed_alpha_100 dataset=CIFAR100 seed=14 params=alpha=1.0 at 2026-05-09 06:38:17 +06 ===
+=== END phase=fixed_alpha_100 dataset=CIFAR100 seed=14 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed14_20260509-063817/results.json at 2026-05-09 06:41:14 +06 ===
+=== START phase=fixed_alpha_050 dataset=miniimagenet seed=14 params=alpha=0.5 at 2026-05-09 06:41:14 +06 ===
+=== END phase=fixed_alpha_050 dataset=miniimagenet seed=14 status=OK duration=176s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed14_20260509-064114/results.json at 2026-05-09 06:44:10 +06 ===
+=== START phase=fixed_alpha_075 dataset=miniimagenet seed=14 params=alpha=0.75 at 2026-05-09 06:44:10 +06 ===
+=== END phase=fixed_alpha_075 dataset=miniimagenet seed=14 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed14_20260509-064411/results.json at 2026-05-09 06:47:07 +06 ===
+=== START phase=fixed_alpha_100 dataset=miniimagenet seed=14 params=alpha=1.0 at 2026-05-09 06:47:07 +06 ===
+=== END phase=fixed_alpha_100 dataset=miniimagenet seed=14 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed14_20260509-064708/results.json at 2026-05-09 06:50:04 +06 ===
+=== START phase=fixed_alpha_050 dataset=cub200 seed=14 params=alpha=0.5 at 2026-05-09 06:50:04 +06 ===
+=== END phase=fixed_alpha_050 dataset=cub200 seed=14 status=OK duration=51s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed14_20260509-065005/results.json at 2026-05-09 06:50:55 +06 ===
+=== START phase=fixed_alpha_075 dataset=cub200 seed=14 params=alpha=0.75 at 2026-05-09 06:50:55 +06 ===
+=== END phase=fixed_alpha_075 dataset=cub200 seed=14 status=OK duration=52s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed14_20260509-065056/results.json at 2026-05-09 06:51:47 +06 ===
+=== START phase=fixed_alpha_100 dataset=cub200 seed=14 params=alpha=1.0 at 2026-05-09 06:51:47 +06 ===
+=== END phase=fixed_alpha_100 dataset=cub200 seed=14 status=OK duration=51s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed14_20260509-065147/results.json at 2026-05-09 06:52:38 +06 ===
+=== START phase=fixed_alpha_050 dataset=CIFAR100 seed=15 params=alpha=0.5 at 2026-05-09 06:52:38 +06 ===
+=== END phase=fixed_alpha_050 dataset=CIFAR100 seed=15 status=OK duration=176s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed15_20260509-065238/results.json at 2026-05-09 06:55:34 +06 ===
+=== START phase=fixed_alpha_075 dataset=CIFAR100 seed=15 params=alpha=0.75 at 2026-05-09 06:55:34 +06 ===
+=== END phase=fixed_alpha_075 dataset=CIFAR100 seed=15 status=OK duration=178s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed15_20260509-065535/results.json at 2026-05-09 06:58:32 +06 ===
+=== START phase=fixed_alpha_100 dataset=CIFAR100 seed=15 params=alpha=1.0 at 2026-05-09 06:58:32 +06 ===
+=== END phase=fixed_alpha_100 dataset=CIFAR100 seed=15 status=OK duration=176s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed15_20260509-065832/results.json at 2026-05-09 07:01:28 +06 ===
+=== START phase=fixed_alpha_050 dataset=miniimagenet seed=15 params=alpha=0.5 at 2026-05-09 07:01:28 +06 ===
+=== END phase=fixed_alpha_050 dataset=miniimagenet seed=15 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed15_20260509-070129/results.json at 2026-05-09 07:04:25 +06 ===
+=== START phase=fixed_alpha_075 dataset=miniimagenet seed=15 params=alpha=0.75 at 2026-05-09 07:04:25 +06 ===
+=== END phase=fixed_alpha_075 dataset=miniimagenet seed=15 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed15_20260509-070426/results.json at 2026-05-09 07:07:22 +06 ===
+=== START phase=fixed_alpha_100 dataset=miniimagenet seed=15 params=alpha=1.0 at 2026-05-09 07:07:22 +06 ===
+=== END phase=fixed_alpha_100 dataset=miniimagenet seed=15 status=OK duration=176s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed15_20260509-070722/results.json at 2026-05-09 07:10:18 +06 ===
+=== START phase=fixed_alpha_050 dataset=cub200 seed=15 params=alpha=0.5 at 2026-05-09 07:10:18 +06 ===
+=== END phase=fixed_alpha_050 dataset=cub200 seed=15 status=OK duration=52s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed15_20260509-071019/results.json at 2026-05-09 07:11:10 +06 ===
+=== START phase=fixed_alpha_075 dataset=cub200 seed=15 params=alpha=0.75 at 2026-05-09 07:11:10 +06 ===
+=== END phase=fixed_alpha_075 dataset=cub200 seed=15 status=OK duration=51s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed15_20260509-071110/results.json at 2026-05-09 07:12:01 +06 ===
+=== START phase=fixed_alpha_100 dataset=cub200 seed=15 params=alpha=1.0 at 2026-05-09 07:12:01 +06 ===
+=== END phase=fixed_alpha_100 dataset=cub200 seed=15 status=OK duration=51s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed15_20260509-071201/results.json at 2026-05-09 07:12:52 +06 ===
+=== START phase=fixed_alpha_050 dataset=CIFAR100 seed=16 params=alpha=0.5 at 2026-05-09 07:12:52 +06 ===
+=== END phase=fixed_alpha_050 dataset=CIFAR100 seed=16 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed16_20260509-071252/results.json at 2026-05-09 07:15:49 +06 ===
+=== START phase=fixed_alpha_075 dataset=CIFAR100 seed=16 params=alpha=0.75 at 2026-05-09 07:15:49 +06 ===
+=== END phase=fixed_alpha_075 dataset=CIFAR100 seed=16 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed16_20260509-071549/results.json at 2026-05-09 07:18:46 +06 ===
+=== START phase=fixed_alpha_100 dataset=CIFAR100 seed=16 params=alpha=1.0 at 2026-05-09 07:18:46 +06 ===
+=== END phase=fixed_alpha_100 dataset=CIFAR100 seed=16 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed16_20260509-071846/results.json at 2026-05-09 07:21:43 +06 ===
+=== START phase=fixed_alpha_050 dataset=miniimagenet seed=16 params=alpha=0.5 at 2026-05-09 07:21:43 +06 ===
+=== END phase=fixed_alpha_050 dataset=miniimagenet seed=16 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed16_20260509-072144/results.json at 2026-05-09 07:24:40 +06 ===
+=== START phase=fixed_alpha_075 dataset=miniimagenet seed=16 params=alpha=0.75 at 2026-05-09 07:24:40 +06 ===
+=== END phase=fixed_alpha_075 dataset=miniimagenet seed=16 status=OK duration=176s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed16_20260509-072440/results.json at 2026-05-09 07:27:36 +06 ===
+=== START phase=fixed_alpha_100 dataset=miniimagenet seed=16 params=alpha=1.0 at 2026-05-09 07:27:36 +06 ===
+=== END phase=fixed_alpha_100 dataset=miniimagenet seed=16 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed16_20260509-072737/results.json at 2026-05-09 07:30:33 +06 ===
+=== START phase=fixed_alpha_050 dataset=cub200 seed=16 params=alpha=0.5 at 2026-05-09 07:30:33 +06 ===
+=== END phase=fixed_alpha_050 dataset=cub200 seed=16 status=OK duration=52s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed16_20260509-073034/results.json at 2026-05-09 07:31:25 +06 ===
+=== START phase=fixed_alpha_075 dataset=cub200 seed=16 params=alpha=0.75 at 2026-05-09 07:31:25 +06 ===
+=== END phase=fixed_alpha_075 dataset=cub200 seed=16 status=OK duration=51s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed16_20260509-073125/results.json at 2026-05-09 07:32:16 +06 ===
+=== START phase=fixed_alpha_100 dataset=cub200 seed=16 params=alpha=1.0 at 2026-05-09 07:32:16 +06 ===
+=== END phase=fixed_alpha_100 dataset=cub200 seed=16 status=OK duration=51s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed16_20260509-073216/results.json at 2026-05-09 07:33:07 +06 ===
+=== START phase=fixed_alpha_050 dataset=CIFAR100 seed=17 params=alpha=0.5 at 2026-05-09 07:33:07 +06 ===
+=== END phase=fixed_alpha_050 dataset=CIFAR100 seed=17 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed17_20260509-073308/results.json at 2026-05-09 07:36:04 +06 ===
+=== START phase=fixed_alpha_075 dataset=CIFAR100 seed=17 params=alpha=0.75 at 2026-05-09 07:36:04 +06 ===
+=== END phase=fixed_alpha_075 dataset=CIFAR100 seed=17 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed17_20260509-073605/results.json at 2026-05-09 07:39:01 +06 ===
+=== START phase=fixed_alpha_100 dataset=CIFAR100 seed=17 params=alpha=1.0 at 2026-05-09 07:39:01 +06 ===
+=== END phase=fixed_alpha_100 dataset=CIFAR100 seed=17 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed17_20260509-073902/results.json at 2026-05-09 07:41:58 +06 ===
+=== START phase=fixed_alpha_050 dataset=miniimagenet seed=17 params=alpha=0.5 at 2026-05-09 07:41:58 +06 ===
+=== END phase=fixed_alpha_050 dataset=miniimagenet seed=17 status=OK duration=176s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed17_20260509-074159/results.json at 2026-05-09 07:44:54 +06 ===
+=== START phase=fixed_alpha_075 dataset=miniimagenet seed=17 params=alpha=0.75 at 2026-05-09 07:44:54 +06 ===
+=== END phase=fixed_alpha_075 dataset=miniimagenet seed=17 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed17_20260509-074455/results.json at 2026-05-09 07:47:51 +06 ===
+=== START phase=fixed_alpha_100 dataset=miniimagenet seed=17 params=alpha=1.0 at 2026-05-09 07:47:51 +06 ===
+=== END phase=fixed_alpha_100 dataset=miniimagenet seed=17 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed17_20260509-074752/results.json at 2026-05-09 07:50:48 +06 ===
+=== START phase=fixed_alpha_050 dataset=cub200 seed=17 params=alpha=0.5 at 2026-05-09 07:50:48 +06 ===
+=== END phase=fixed_alpha_050 dataset=cub200 seed=17 status=OK duration=51s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed17_20260509-075048/results.json at 2026-05-09 07:51:39 +06 ===
+=== START phase=fixed_alpha_075 dataset=cub200 seed=17 params=alpha=0.75 at 2026-05-09 07:51:39 +06 ===
+=== END phase=fixed_alpha_075 dataset=cub200 seed=17 status=OK duration=51s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed17_20260509-075139/results.json at 2026-05-09 07:52:30 +06 ===
+=== START phase=fixed_alpha_100 dataset=cub200 seed=17 params=alpha=1.0 at 2026-05-09 07:52:30 +06 ===
+=== END phase=fixed_alpha_100 dataset=cub200 seed=17 status=OK duration=51s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed17_20260509-075231/results.json at 2026-05-09 07:53:21 +06 ===
+=== START phase=fixed_alpha_050 dataset=CIFAR100 seed=18 params=alpha=0.5 at 2026-05-09 07:53:21 +06 ===
+=== END phase=fixed_alpha_050 dataset=CIFAR100 seed=18 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed18_20260509-075322/results.json at 2026-05-09 07:56:18 +06 ===
+=== START phase=fixed_alpha_075 dataset=CIFAR100 seed=18 params=alpha=0.75 at 2026-05-09 07:56:18 +06 ===
+=== END phase=fixed_alpha_075 dataset=CIFAR100 seed=18 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed18_20260509-075619/results.json at 2026-05-09 07:59:15 +06 ===
+=== START phase=fixed_alpha_100 dataset=CIFAR100 seed=18 params=alpha=1.0 at 2026-05-09 07:59:15 +06 ===
+=== END phase=fixed_alpha_100 dataset=CIFAR100 seed=18 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed18_20260509-075915/results.json at 2026-05-09 08:02:12 +06 ===
+=== START phase=fixed_alpha_050 dataset=miniimagenet seed=18 params=alpha=0.5 at 2026-05-09 08:02:12 +06 ===
+=== END phase=fixed_alpha_050 dataset=miniimagenet seed=18 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed18_20260509-080212/results.json at 2026-05-09 08:05:09 +06 ===
+=== START phase=fixed_alpha_075 dataset=miniimagenet seed=18 params=alpha=0.75 at 2026-05-09 08:05:09 +06 ===
+=== END phase=fixed_alpha_075 dataset=miniimagenet seed=18 status=OK duration=176s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed18_20260509-080509/results.json at 2026-05-09 08:08:05 +06 ===
+=== START phase=fixed_alpha_100 dataset=miniimagenet seed=18 params=alpha=1.0 at 2026-05-09 08:08:05 +06 ===
+=== END phase=fixed_alpha_100 dataset=miniimagenet seed=18 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed18_20260509-080806/results.json at 2026-05-09 08:11:02 +06 ===
+=== START phase=fixed_alpha_050 dataset=cub200 seed=18 params=alpha=0.5 at 2026-05-09 08:11:02 +06 ===
+=== END phase=fixed_alpha_050 dataset=cub200 seed=18 status=OK duration=52s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed18_20260509-081103/results.json at 2026-05-09 08:11:54 +06 ===
+=== START phase=fixed_alpha_075 dataset=cub200 seed=18 params=alpha=0.75 at 2026-05-09 08:11:54 +06 ===
+=== END phase=fixed_alpha_075 dataset=cub200 seed=18 status=OK duration=51s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed18_20260509-081154/results.json at 2026-05-09 08:12:45 +06 ===
+=== START phase=fixed_alpha_100 dataset=cub200 seed=18 params=alpha=1.0 at 2026-05-09 08:12:45 +06 ===
+=== END phase=fixed_alpha_100 dataset=cub200 seed=18 status=OK duration=51s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed18_20260509-081245/results.json at 2026-05-09 08:13:36 +06 ===
+=== START phase=fixed_alpha_050 dataset=CIFAR100 seed=19 params=alpha=0.5 at 2026-05-09 08:13:36 +06 ===
+=== END phase=fixed_alpha_050 dataset=CIFAR100 seed=19 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed19_20260509-081337/results.json at 2026-05-09 08:16:33 +06 ===
+=== START phase=fixed_alpha_075 dataset=CIFAR100 seed=19 params=alpha=0.75 at 2026-05-09 08:16:33 +06 ===
+=== END phase=fixed_alpha_075 dataset=CIFAR100 seed=19 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed19_20260509-081634/results.json at 2026-05-09 08:19:30 +06 ===
+=== START phase=fixed_alpha_100 dataset=CIFAR100 seed=19 params=alpha=1.0 at 2026-05-09 08:19:30 +06 ===
+=== END phase=fixed_alpha_100 dataset=CIFAR100 seed=19 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed19_20260509-081931/results.json at 2026-05-09 08:22:27 +06 ===
+=== START phase=fixed_alpha_050 dataset=miniimagenet seed=19 params=alpha=0.5 at 2026-05-09 08:22:27 +06 ===
+=== END phase=fixed_alpha_050 dataset=miniimagenet seed=19 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed19_20260509-082228/results.json at 2026-05-09 08:25:24 +06 ===
+=== START phase=fixed_alpha_075 dataset=miniimagenet seed=19 params=alpha=0.75 at 2026-05-09 08:25:24 +06 ===
+=== END phase=fixed_alpha_075 dataset=miniimagenet seed=19 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed19_20260509-082525/results.json at 2026-05-09 08:28:21 +06 ===
+=== START phase=fixed_alpha_100 dataset=miniimagenet seed=19 params=alpha=1.0 at 2026-05-09 08:28:21 +06 ===
+=== END phase=fixed_alpha_100 dataset=miniimagenet seed=19 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed19_20260509-082821/results.json at 2026-05-09 08:31:18 +06 ===
+=== START phase=fixed_alpha_050 dataset=cub200 seed=19 params=alpha=0.5 at 2026-05-09 08:31:18 +06 ===
+=== END phase=fixed_alpha_050 dataset=cub200 seed=19 status=OK duration=51s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed19_20260509-083118/results.json at 2026-05-09 08:32:09 +06 ===
+=== START phase=fixed_alpha_075 dataset=cub200 seed=19 params=alpha=0.75 at 2026-05-09 08:32:09 +06 ===
+=== END phase=fixed_alpha_075 dataset=cub200 seed=19 status=OK duration=51s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed19_20260509-083210/results.json at 2026-05-09 08:33:00 +06 ===
+=== START phase=fixed_alpha_100 dataset=cub200 seed=19 params=alpha=1.0 at 2026-05-09 08:33:00 +06 ===
+=== END phase=fixed_alpha_100 dataset=cub200 seed=19 status=OK duration=51s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed19_20260509-083301/results.json at 2026-05-09 08:33:51 +06 ===
+=== START phase=fixed_alpha_050 dataset=CIFAR100 seed=20 params=alpha=0.5 at 2026-05-09 08:33:51 +06 ===
+=== END phase=fixed_alpha_050 dataset=CIFAR100 seed=20 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed20_20260509-083352/results.json at 2026-05-09 08:36:48 +06 ===
+=== START phase=fixed_alpha_075 dataset=CIFAR100 seed=20 params=alpha=0.75 at 2026-05-09 08:36:48 +06 ===
+=== END phase=fixed_alpha_075 dataset=CIFAR100 seed=20 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed20_20260509-083649/results.json at 2026-05-09 08:39:45 +06 ===
+=== START phase=fixed_alpha_100 dataset=CIFAR100 seed=20 params=alpha=1.0 at 2026-05-09 08:39:45 +06 ===
+=== END phase=fixed_alpha_100 dataset=CIFAR100 seed=20 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_bimc_dino_fusion/seed20_20260509-083946/results.json at 2026-05-09 08:42:42 +06 ===
+=== START phase=fixed_alpha_050 dataset=miniimagenet seed=20 params=alpha=0.5 at 2026-05-09 08:42:42 +06 ===
+=== END phase=fixed_alpha_050 dataset=miniimagenet seed=20 status=OK duration=176s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed20_20260509-084243/results.json at 2026-05-09 08:45:38 +06 ===
+=== START phase=fixed_alpha_075 dataset=miniimagenet seed=20 params=alpha=0.75 at 2026-05-09 08:45:38 +06 ===
+=== END phase=fixed_alpha_075 dataset=miniimagenet seed=20 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed20_20260509-084539/results.json at 2026-05-09 08:48:35 +06 ===
+=== START phase=fixed_alpha_100 dataset=miniimagenet seed=20 params=alpha=1.0 at 2026-05-09 08:48:35 +06 ===
+=== END phase=fixed_alpha_100 dataset=miniimagenet seed=20 status=OK duration=177s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_bimc_dino_fusion/seed20_20260509-084836/results.json at 2026-05-09 08:51:32 +06 ===
+=== START phase=fixed_alpha_050 dataset=cub200 seed=20 params=alpha=0.5 at 2026-05-09 08:51:32 +06 ===
+=== END phase=fixed_alpha_050 dataset=cub200 seed=20 status=OK duration=51s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed20_20260509-085132/results.json at 2026-05-09 08:52:23 +06 ===
+=== START phase=fixed_alpha_075 dataset=cub200 seed=20 params=alpha=0.75 at 2026-05-09 08:52:23 +06 ===
+=== END phase=fixed_alpha_075 dataset=cub200 seed=20 status=OK duration=51s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed20_20260509-085224/results.json at 2026-05-09 08:53:14 +06 ===
+=== START phase=fixed_alpha_100 dataset=cub200 seed=20 params=alpha=1.0 at 2026-05-09 08:53:14 +06 ===
+=== END phase=fixed_alpha_100 dataset=cub200 seed=20 status=OK duration=51s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_bimc_dino_fusion/seed20_20260509-085315/results.json at 2026-05-09 08:54:05 +06 ===
+--- 1: 20-seed sessionwise pseudo-validation CPR ---
+=== START phase=pseudoval_20seed dataset=CIFAR100 seed=1 params=--alpha_grid 0.5 0.75 1.0 --mass_thr 0.3 --min_count 5 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75 at 2026-05-09 08:54:05 +06 ===
+=== END phase=pseudoval_20seed dataset=CIFAR100 seed=1 status=OK duration=440s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_pseudoval_sessionwise_bimc_dino_fusion/seed1_20260509-085406/results.json at 2026-05-09 09:01:25 +06 ===
+=== START phase=pseudoval_20seed dataset=miniimagenet seed=1 params=--alpha_grid 0.5 0.75 1.0 --mass_thr 0.3 --min_count 5 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75 at 2026-05-09 09:01:25 +06 ===
+=== END phase=pseudoval_20seed dataset=miniimagenet seed=1 status=OK duration=448s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_pseudoval_sessionwise_bimc_dino_fusion/seed1_20260509-090126/results.json at 2026-05-09 09:08:53 +06 ===
+=== START phase=pseudoval_20seed dataset=cub200 seed=1 params=--alpha_grid 0.5 0.75 1.0 --mass_thr 0.3 --min_count 5 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75 at 2026-05-09 09:08:53 +06 ===
+=== END phase=pseudoval_20seed dataset=cub200 seed=1 status=OK duration=250s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_pseudoval_sessionwise_bimc_dino_fusion/seed1_20260509-090854/results.json at 2026-05-09 09:13:03 +06 ===
+=== START phase=pseudoval_20seed dataset=CIFAR100 seed=2 params=--alpha_grid 0.5 0.75 1.0 --mass_thr 0.3 --min_count 5 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75 at 2026-05-09 09:13:03 +06 ===
+=== END phase=pseudoval_20seed dataset=CIFAR100 seed=2 status=OK duration=471s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_pseudoval_sessionwise_bimc_dino_fusion/seed2_20260509-091304/results.json at 2026-05-09 09:20:54 +06 ===
+=== START phase=pseudoval_20seed dataset=miniimagenet seed=2 params=--alpha_grid 0.5 0.75 1.0 --mass_thr 0.3 --min_count 5 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75 at 2026-05-09 09:20:54 +06 ===
+=== END phase=pseudoval_20seed dataset=miniimagenet seed=2 status=OK duration=474s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_pseudoval_sessionwise_bimc_dino_fusion/seed2_20260509-092055/results.json at 2026-05-09 09:28:48 +06 ===
+=== START phase=pseudoval_20seed dataset=cub200 seed=2 params=--alpha_grid 0.5 0.75 1.0 --mass_thr 0.3 --min_count 5 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75 at 2026-05-09 09:28:48 +06 ===
+=== END phase=pseudoval_20seed dataset=cub200 seed=2 status=OK duration=262s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_pseudoval_sessionwise_bimc_dino_fusion/seed2_20260509-092848/results.json at 2026-05-09 09:33:10 +06 ===
+=== START phase=pseudoval_20seed dataset=CIFAR100 seed=3 params=--alpha_grid 0.5 0.75 1.0 --mass_thr 0.3 --min_count 5 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75 at 2026-05-09 09:33:10 +06 ===
+=== END phase=pseudoval_20seed dataset=CIFAR100 seed=3 status=OK duration=487s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_pseudoval_sessionwise_bimc_dino_fusion/seed3_20260509-093310/results.json at 2026-05-09 09:41:17 +06 ===
+=== START phase=pseudoval_20seed dataset=miniimagenet seed=3 params=--alpha_grid 0.5 0.75 1.0 --mass_thr 0.3 --min_count 5 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75 at 2026-05-09 09:41:17 +06 ===
+=== END phase=pseudoval_20seed dataset=miniimagenet seed=3 status=OK duration=478s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_pseudoval_sessionwise_bimc_dino_fusion/seed3_20260509-094117/results.json at 2026-05-09 09:49:15 +06 ===
+=== START phase=pseudoval_20seed dataset=cub200 seed=3 params=--alpha_grid 0.5 0.75 1.0 --mass_thr 0.3 --min_count 5 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75 at 2026-05-09 09:49:15 +06 ===
+=== END phase=pseudoval_20seed dataset=cub200 seed=3 status=OK duration=265s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_pseudoval_sessionwise_bimc_dino_fusion/seed3_20260509-094916/results.json at 2026-05-09 09:53:40 +06 ===
+=== START phase=pseudoval_20seed dataset=CIFAR100 seed=4 params=--alpha_grid 0.5 0.75 1.0 --mass_thr 0.3 --min_count 5 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75 at 2026-05-09 09:53:40 +06 ===
+=== END phase=pseudoval_20seed dataset=CIFAR100 seed=4 status=OK duration=860s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_pseudoval_sessionwise_bimc_dino_fusion/seed4_20260509-095341/results.json at 2026-05-09 10:08:00 +06 ===
+=== START phase=pseudoval_20seed dataset=miniimagenet seed=4 params=--alpha_grid 0.5 0.75 1.0 --mass_thr 0.3 --min_count 5 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75 at 2026-05-09 10:08:00 +06 ===
+=== END phase=pseudoval_20seed dataset=miniimagenet seed=4 status=OK duration=610s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_pseudoval_sessionwise_bimc_dino_fusion/seed4_20260509-100800/results.json at 2026-05-09 10:18:10 +06 ===
+=== START phase=pseudoval_20seed dataset=cub200 seed=4 params=--alpha_grid 0.5 0.75 1.0 --mass_thr 0.3 --min_count 5 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75 at 2026-05-09 10:18:10 +06 ===
+=== END phase=pseudoval_20seed dataset=cub200 seed=4 status=OK duration=238s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_pseudoval_sessionwise_bimc_dino_fusion/seed4_20260509-101811/results.json at 2026-05-09 10:22:08 +06 ===
+=== START phase=pseudoval_20seed dataset=CIFAR100 seed=5 params=--alpha_grid 0.5 0.75 1.0 --mass_thr 0.3 --min_count 5 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75 at 2026-05-09 10:22:08 +06 ===
+=== END phase=pseudoval_20seed dataset=CIFAR100 seed=5 status=OK duration=440s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_pseudoval_sessionwise_bimc_dino_fusion/seed5_20260509-102209/results.json at 2026-05-09 10:29:28 +06 ===
+=== START phase=pseudoval_20seed dataset=miniimagenet seed=5 params=--alpha_grid 0.5 0.75 1.0 --mass_thr 0.3 --min_count 5 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75 at 2026-05-09 10:29:28 +06 ===
+=== END phase=pseudoval_20seed dataset=miniimagenet seed=5 status=OK duration=439s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_pseudoval_sessionwise_bimc_dino_fusion/seed5_20260509-102929/results.json at 2026-05-09 10:36:47 +06 ===
+=== START phase=pseudoval_20seed dataset=cub200 seed=5 params=--alpha_grid 0.5 0.75 1.0 --mass_thr 0.3 --min_count 5 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75 at 2026-05-09 10:36:47 +06 ===
+=== END phase=pseudoval_20seed dataset=cub200 seed=5 status=OK duration=237s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_pseudoval_sessionwise_bimc_dino_fusion/seed5_20260509-103648/results.json at 2026-05-09 10:40:44 +06 ===
+=== START phase=pseudoval_20seed dataset=CIFAR100 seed=6 params=--alpha_grid 0.5 0.75 1.0 --mass_thr 0.3 --min_count 5 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75 at 2026-05-09 10:40:44 +06 ===
+=== END phase=pseudoval_20seed dataset=CIFAR100 seed=6 status=OK duration=440s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_pseudoval_sessionwise_bimc_dino_fusion/seed6_20260509-104045/results.json at 2026-05-09 10:48:04 +06 ===
+=== START phase=pseudoval_20seed dataset=miniimagenet seed=6 params=--alpha_grid 0.5 0.75 1.0 --mass_thr 0.3 --min_count 5 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75 at 2026-05-09 10:48:04 +06 ===
+=== END phase=pseudoval_20seed dataset=miniimagenet seed=6 status=OK duration=440s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_pseudoval_sessionwise_bimc_dino_fusion/seed6_20260509-104805/results.json at 2026-05-09 10:55:24 +06 ===
+=== START phase=pseudoval_20seed dataset=cub200 seed=6 params=--alpha_grid 0.5 0.75 1.0 --mass_thr 0.3 --min_count 5 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75 at 2026-05-09 10:55:24 +06 ===
+=== END phase=pseudoval_20seed dataset=cub200 seed=6 status=OK duration=237s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_pseudoval_sessionwise_bimc_dino_fusion/seed6_20260509-105525/results.json at 2026-05-09 10:59:21 +06 ===
+=== START phase=pseudoval_20seed dataset=CIFAR100 seed=7 params=--alpha_grid 0.5 0.75 1.0 --mass_thr 0.3 --min_count 5 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75 at 2026-05-09 10:59:21 +06 ===
+=== END phase=pseudoval_20seed dataset=CIFAR100 seed=7 status=OK duration=440s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_pseudoval_sessionwise_bimc_dino_fusion/seed7_20260509-105921/results.json at 2026-05-09 11:06:41 +06 ===
+=== START phase=pseudoval_20seed dataset=miniimagenet seed=7 params=--alpha_grid 0.5 0.75 1.0 --mass_thr 0.3 --min_count 5 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75 at 2026-05-09 11:06:41 +06 ===
+=== END phase=pseudoval_20seed dataset=miniimagenet seed=7 status=OK duration=440s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_pseudoval_sessionwise_bimc_dino_fusion/seed7_20260509-110642/results.json at 2026-05-09 11:14:01 +06 ===
+=== START phase=pseudoval_20seed dataset=cub200 seed=7 params=--alpha_grid 0.5 0.75 1.0 --mass_thr 0.3 --min_count 5 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75 at 2026-05-09 11:14:01 +06 ===
+=== END phase=pseudoval_20seed dataset=cub200 seed=7 status=OK duration=237s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_pseudoval_sessionwise_bimc_dino_fusion/seed7_20260509-111402/results.json at 2026-05-09 11:17:58 +06 ===
+=== START phase=pseudoval_20seed dataset=CIFAR100 seed=8 params=--alpha_grid 0.5 0.75 1.0 --mass_thr 0.3 --min_count 5 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75 at 2026-05-09 11:17:58 +06 ===
+=== END phase=pseudoval_20seed dataset=CIFAR100 seed=8 status=OK duration=440s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_pseudoval_sessionwise_bimc_dino_fusion/seed8_20260509-111759/results.json at 2026-05-09 11:25:18 +06 ===
+=== START phase=pseudoval_20seed dataset=miniimagenet seed=8 params=--alpha_grid 0.5 0.75 1.0 --mass_thr 0.3 --min_count 5 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75 at 2026-05-09 11:25:18 +06 ===
+=== END phase=pseudoval_20seed dataset=miniimagenet seed=8 status=OK duration=440s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_pseudoval_sessionwise_bimc_dino_fusion/seed8_20260509-112519/results.json at 2026-05-09 11:32:38 +06 ===
+=== START phase=pseudoval_20seed dataset=cub200 seed=8 params=--alpha_grid 0.5 0.75 1.0 --mass_thr 0.3 --min_count 5 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75 at 2026-05-09 11:32:38 +06 ===
+=== END phase=pseudoval_20seed dataset=cub200 seed=8 status=OK duration=247s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_pseudoval_sessionwise_bimc_dino_fusion/seed8_20260509-113239/results.json at 2026-05-09 11:36:45 +06 ===
+=== START phase=pseudoval_20seed dataset=CIFAR100 seed=9 params=--alpha_grid 0.5 0.75 1.0 --mass_thr 0.3 --min_count 5 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75 at 2026-05-09 11:36:45 +06 ===
+=== END phase=pseudoval_20seed dataset=CIFAR100 seed=9 status=OK duration=470s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_pseudoval_sessionwise_bimc_dino_fusion/seed9_20260509-113645/results.json at 2026-05-09 11:44:35 +06 ===
+=== START phase=pseudoval_20seed dataset=miniimagenet seed=9 params=--alpha_grid 0.5 0.75 1.0 --mass_thr 0.3 --min_count 5 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75 at 2026-05-09 11:44:35 +06 ===
+=== END phase=pseudoval_20seed dataset=miniimagenet seed=9 status=OK duration=474s result=experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_pseudoval_sessionwise_bimc_dino_fusion/seed9_20260509-114436/results.json at 2026-05-09 11:52:29 +06 ===
+=== START phase=pseudoval_20seed dataset=cub200 seed=9 params=--alpha_grid 0.5 0.75 1.0 --mass_thr 0.3 --min_count 5 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75 at 2026-05-09 11:52:29 +06 ===
+=== END phase=pseudoval_20seed dataset=cub200 seed=9 status=OK duration=251s result=experiments/bmvc_1256_20260508-124032/cub200/prototype_refinement_conservative_pseudoval_sessionwise_bimc_dino_fusion/seed9_20260509-115229/results.json at 2026-05-09 11:56:40 +06 ===
+=== START phase=pseudoval_20seed dataset=CIFAR100 seed=10 params=--alpha_grid 0.5 0.75 1.0 --mass_thr 0.3 --min_count 5 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75 at 2026-05-09 11:56:40 +06 ===
+=== END phase=pseudoval_20seed dataset=CIFAR100 seed=10 status=OK duration=511s result=experiments/bmvc_1256_20260508-124032/CIFAR100/prototype_refinement_conservative_pseudoval_sessionwise_bimc_dino_fusion/seed10_20260509-115641/results.json at 2026-05-09 12:05:11 +06 ===
+=== START phase=pseudoval_20seed dataset=miniimagenet seed=10 params=--alpha_grid 0.5 0.75 1.0 --mass_thr 0.3 --min_count 5 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75 at 2026-05-09 12:05:11 +06 ===
+=== END phase=pseudoval_20seed dataset=miniimagenet seed=10 status=FAIL(1) duration=264s result= at 2026-05-09 12:09:35 +06 ===

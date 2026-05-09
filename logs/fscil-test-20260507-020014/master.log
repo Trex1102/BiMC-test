@@ -188,3 +188,184 @@ ETA after 59/120: 2026-05-07 15:42:56 +06 (avg 411s/run, remaining 61)
 ETA after 60/120: 2026-05-07 15:38:29 +06 (avg 409s/run, remaining 60)
 --- Phase 2: conservative query prototype refinement on top of DinoV2 fusion ---
 === START cpr dataset=cifar100 seed=1 at 2026-05-07 08:49:29 +06 ===
+=== END cpr dataset=cifar100 seed=1 status=OK duration=186s at 2026-05-07 08:52:35 +06 ===
+ETA after 61/120: 2026-05-07 15:30:50 +06 (avg 405s/run, remaining 59)
+=== START cpr dataset=cifar100 seed=2 at 2026-05-07 08:52:35 +06 ===
+=== END cpr dataset=cifar100 seed=2 status=OK duration=182s at 2026-05-07 08:55:37 +06 ===
+ETA after 62/120: 2026-05-07 15:23:15 +06 (avg 401s/run, remaining 58)
+=== START cpr dataset=cifar100 seed=3 at 2026-05-07 08:55:37 +06 ===
+=== END cpr dataset=cifar100 seed=3 status=OK duration=189s at 2026-05-07 08:58:46 +06 ===
+ETA after 63/120: 2026-05-07 15:16:52 +06 (avg 398s/run, remaining 57)
+=== START cpr dataset=cifar100 seed=4 at 2026-05-07 08:58:46 +06 ===
+=== END cpr dataset=cifar100 seed=4 status=OK duration=189s at 2026-05-07 09:01:55 +06 ===
+ETA after 64/120: 2026-05-07 15:10:35 +06 (avg 395s/run, remaining 56)
+=== START cpr dataset=cifar100 seed=5 at 2026-05-07 09:01:55 +06 ===
+=== END cpr dataset=cifar100 seed=5 status=OK duration=178s at 2026-05-07 09:04:53 +06 ===
+ETA after 65/120: 2026-05-07 15:03:18 +06 (avg 391s/run, remaining 55)
+=== START cpr dataset=cifar100 seed=6 at 2026-05-07 09:04:53 +06 ===
+=== END cpr dataset=cifar100 seed=6 status=OK duration=178s at 2026-05-07 09:07:51 +06 ===
+ETA after 66/120: 2026-05-07 14:57:03 +06 (avg 388s/run, remaining 54)
+=== START cpr dataset=cifar100 seed=7 at 2026-05-07 09:07:51 +06 ===
+=== END cpr dataset=cifar100 seed=7 status=OK duration=178s at 2026-05-07 09:10:49 +06 ===
+ETA after 67/120: 2026-05-07 14:50:54 +06 (avg 385s/run, remaining 53)
+=== START cpr dataset=cifar100 seed=8 at 2026-05-07 09:10:49 +06 ===
+=== END cpr dataset=cifar100 seed=8 status=OK duration=178s at 2026-05-07 09:13:47 +06 ===
+ETA after 68/120: 2026-05-07 14:44:51 +06 (avg 382s/run, remaining 52)
+=== START cpr dataset=cifar100 seed=9 at 2026-05-07 09:13:47 +06 ===
+=== END cpr dataset=cifar100 seed=9 status=OK duration=177s at 2026-05-07 09:16:44 +06 ===
+ETA after 69/120: 2026-05-07 14:38:54 +06 (avg 379s/run, remaining 51)
+=== START cpr dataset=cifar100 seed=10 at 2026-05-07 09:16:45 +06 ===
+=== END cpr dataset=cifar100 seed=10 status=OK duration=177s at 2026-05-07 09:19:42 +06 ===
+ETA after 70/120: 2026-05-07 14:33:02 +06 (avg 376s/run, remaining 50)
+=== START cpr dataset=cifar100 seed=11 at 2026-05-07 09:19:42 +06 ===
+=== END cpr dataset=cifar100 seed=11 status=OK duration=178s at 2026-05-07 09:22:40 +06 ===
+ETA after 71/120: 2026-05-07 14:27:17 +06 (avg 373s/run, remaining 49)
+=== START cpr dataset=cifar100 seed=12 at 2026-05-07 09:22:40 +06 ===
+=== END cpr dataset=cifar100 seed=12 status=OK duration=178s at 2026-05-07 09:25:38 +06 ===
+ETA after 72/120: 2026-05-07 14:22:26 +06 (avg 371s/run, remaining 48)
+=== START cpr dataset=cifar100 seed=13 at 2026-05-07 09:25:38 +06 ===
+=== END cpr dataset=cifar100 seed=13 status=OK duration=178s at 2026-05-07 09:28:36 +06 ===
+ETA after 73/120: 2026-05-07 14:16:52 +06 (avg 368s/run, remaining 47)
+=== START cpr dataset=cifar100 seed=14 at 2026-05-07 09:28:36 +06 ===
+=== END cpr dataset=cifar100 seed=14 status=OK duration=178s at 2026-05-07 09:31:34 +06 ===
+ETA after 74/120: 2026-05-07 14:11:24 +06 (avg 365s/run, remaining 46)
+=== START cpr dataset=cifar100 seed=15 at 2026-05-07 09:31:34 +06 ===
+=== END cpr dataset=cifar100 seed=15 status=OK duration=178s at 2026-05-07 09:34:32 +06 ===
+ETA after 75/120: 2026-05-07 14:06:47 +06 (avg 363s/run, remaining 45)
+=== START cpr dataset=cifar100 seed=16 at 2026-05-07 09:34:32 +06 ===
+=== END cpr dataset=cifar100 seed=16 status=OK duration=178s at 2026-05-07 09:37:30 +06 ===
+ETA after 76/120: 2026-05-07 14:02:14 +06 (avg 361s/run, remaining 44)
+=== START cpr dataset=cifar100 seed=17 at 2026-05-07 09:37:30 +06 ===
+=== END cpr dataset=cifar100 seed=17 status=OK duration=178s at 2026-05-07 09:40:28 +06 ===
+ETA after 77/120: 2026-05-07 13:57:02 +06 (avg 358s/run, remaining 43)
+=== START cpr dataset=cifar100 seed=18 at 2026-05-07 09:40:28 +06 ===
+=== END cpr dataset=cifar100 seed=18 status=OK duration=178s at 2026-05-07 09:43:26 +06 ===
+ETA after 78/120: 2026-05-07 13:52:38 +06 (avg 356s/run, remaining 42)
+=== START cpr dataset=cifar100 seed=19 at 2026-05-07 09:43:26 +06 ===
+=== END cpr dataset=cifar100 seed=19 status=OK duration=177s at 2026-05-07 09:46:23 +06 ===
+ETA after 79/120: 2026-05-07 13:48:17 +06 (avg 354s/run, remaining 41)
+=== START cpr dataset=cifar100 seed=20 at 2026-05-07 09:46:23 +06 ===
+=== END cpr dataset=cifar100 seed=20 status=OK duration=178s at 2026-05-07 09:49:21 +06 ===
+ETA after 80/120: 2026-05-07 13:43:21 +06 (avg 351s/run, remaining 40)
+=== START cpr dataset=miniimagenet seed=1 at 2026-05-07 09:49:22 +06 ===
+=== END cpr dataset=miniimagenet seed=1 status=OK duration=177s at 2026-05-07 09:52:19 +06 ===
+ETA after 81/120: 2026-05-07 13:39:10 +06 (avg 349s/run, remaining 39)
+=== START cpr dataset=miniimagenet seed=2 at 2026-05-07 09:52:19 +06 ===
+=== END cpr dataset=miniimagenet seed=2 status=OK duration=178s at 2026-05-07 09:55:17 +06 ===
+ETA after 82/120: 2026-05-07 13:35:03 +06 (avg 347s/run, remaining 38)
+=== START cpr dataset=miniimagenet seed=3 at 2026-05-07 09:55:17 +06 ===
+=== END cpr dataset=miniimagenet seed=3 status=OK duration=178s at 2026-05-07 09:58:15 +06 ===
+ETA after 83/120: 2026-05-07 13:31:00 +06 (avg 345s/run, remaining 37)
+=== START cpr dataset=miniimagenet seed=4 at 2026-05-07 09:58:15 +06 ===
+=== END cpr dataset=miniimagenet seed=4 status=OK duration=177s at 2026-05-07 10:01:12 +06 ===
+ETA after 84/120: 2026-05-07 13:27:00 +06 (avg 343s/run, remaining 36)
+=== START cpr dataset=miniimagenet seed=5 at 2026-05-07 10:01:12 +06 ===
+=== END cpr dataset=miniimagenet seed=5 status=OK duration=178s at 2026-05-07 10:04:10 +06 ===
+ETA after 85/120: 2026-05-07 13:23:05 +06 (avg 341s/run, remaining 35)
+=== START cpr dataset=miniimagenet seed=6 at 2026-05-07 10:04:10 +06 ===
+=== END cpr dataset=miniimagenet seed=6 status=OK duration=177s at 2026-05-07 10:07:07 +06 ===
+ETA after 86/120: 2026-05-07 13:19:13 +06 (avg 339s/run, remaining 34)
+=== START cpr dataset=miniimagenet seed=7 at 2026-05-07 10:07:07 +06 ===
+=== END cpr dataset=miniimagenet seed=7 status=OK duration=178s at 2026-05-07 10:10:05 +06 ===
+ETA after 87/120: 2026-05-07 13:15:26 +06 (avg 337s/run, remaining 33)
+=== START cpr dataset=miniimagenet seed=8 at 2026-05-07 10:10:05 +06 ===
+=== END cpr dataset=miniimagenet seed=8 status=OK duration=177s at 2026-05-07 10:13:02 +06 ===
+ETA after 88/120: 2026-05-07 13:12:14 +06 (avg 336s/run, remaining 32)
+=== START cpr dataset=miniimagenet seed=9 at 2026-05-07 10:13:02 +06 ===
+=== END cpr dataset=miniimagenet seed=9 status=OK duration=178s at 2026-05-07 10:16:00 +06 ===
+ETA after 89/120: 2026-05-07 13:08:34 +06 (avg 334s/run, remaining 31)
+=== START cpr dataset=miniimagenet seed=10 at 2026-05-07 10:16:00 +06 ===
+=== END cpr dataset=miniimagenet seed=10 status=OK duration=178s at 2026-05-07 10:18:58 +06 ===
+ETA after 90/120: 2026-05-07 13:04:58 +06 (avg 332s/run, remaining 30)
+=== START cpr dataset=miniimagenet seed=11 at 2026-05-07 10:18:58 +06 ===
+=== END cpr dataset=miniimagenet seed=11 status=OK duration=177s at 2026-05-07 10:21:55 +06 ===
+ETA after 91/120: 2026-05-07 13:01:25 +06 (avg 330s/run, remaining 29)
+=== START cpr dataset=miniimagenet seed=12 at 2026-05-07 10:21:55 +06 ===
+=== END cpr dataset=miniimagenet seed=12 status=OK duration=178s at 2026-05-07 10:24:53 +06 ===
+ETA after 92/120: 2026-05-07 12:58:25 +06 (avg 329s/run, remaining 28)
+=== START cpr dataset=miniimagenet seed=13 at 2026-05-07 10:24:53 +06 ===
+=== END cpr dataset=miniimagenet seed=13 status=OK duration=178s at 2026-05-07 10:27:51 +06 ===
+ETA after 93/120: 2026-05-07 12:55:00 +06 (avg 327s/run, remaining 27)
+=== START cpr dataset=miniimagenet seed=14 at 2026-05-07 10:27:51 +06 ===
+=== END cpr dataset=miniimagenet seed=14 status=OK duration=178s at 2026-05-07 10:30:49 +06 ===
+ETA after 94/120: 2026-05-07 12:51:39 +06 (avg 325s/run, remaining 26)
+=== START cpr dataset=miniimagenet seed=15 at 2026-05-07 10:30:49 +06 ===
+=== END cpr dataset=miniimagenet seed=15 status=OK duration=177s at 2026-05-07 10:33:46 +06 ===
+ETA after 95/120: 2026-05-07 12:48:46 +06 (avg 324s/run, remaining 25)
+=== START cpr dataset=miniimagenet seed=16 at 2026-05-07 10:33:46 +06 ===
+=== END cpr dataset=miniimagenet seed=16 status=OK duration=185s at 2026-05-07 10:36:51 +06 ===
+ETA after 96/120: 2026-05-07 12:45:39 +06 (avg 322s/run, remaining 24)
+=== START cpr dataset=miniimagenet seed=17 at 2026-05-07 10:36:51 +06 ===
+=== END cpr dataset=miniimagenet seed=17 status=OK duration=190s at 2026-05-07 10:40:01 +06 ===
+ETA after 97/120: 2026-05-07 12:43:04 +06 (avg 321s/run, remaining 23)
+=== START cpr dataset=miniimagenet seed=18 at 2026-05-07 10:40:01 +06 ===
+=== END cpr dataset=miniimagenet seed=18 status=OK duration=178s at 2026-05-07 10:42:59 +06 ===
+ETA after 98/120: 2026-05-07 12:40:19 +06 (avg 320s/run, remaining 22)
+=== START cpr dataset=miniimagenet seed=19 at 2026-05-07 10:42:59 +06 ===
+=== END cpr dataset=miniimagenet seed=19 status=OK duration=178s at 2026-05-07 10:45:57 +06 ===
+ETA after 99/120: 2026-05-07 12:37:15 +06 (avg 318s/run, remaining 21)
+=== START cpr dataset=miniimagenet seed=20 at 2026-05-07 10:45:57 +06 ===
+=== END cpr dataset=miniimagenet seed=20 status=OK duration=177s at 2026-05-07 10:48:54 +06 ===
+ETA after 100/120: 2026-05-07 12:34:34 +06 (avg 317s/run, remaining 20)
+=== START cpr dataset=cub200_bimc_dino_fusion seed=1 at 2026-05-07 10:48:54 +06 ===
+=== END cpr dataset=cub200_bimc_dino_fusion seed=1 status=OK duration=52s at 2026-05-07 10:49:46 +06 ===
+ETA after 101/120: 2026-05-07 12:29:12 +06 (avg 314s/run, remaining 19)
+=== START cpr dataset=cub200_bimc_dino_fusion seed=2 at 2026-05-07 10:49:46 +06 ===
+=== END cpr dataset=cub200_bimc_dino_fusion seed=2 status=OK duration=53s at 2026-05-07 10:50:39 +06 ===
+ETA after 102/120: 2026-05-07 12:24:15 +06 (avg 312s/run, remaining 18)
+=== START cpr dataset=cub200_bimc_dino_fusion seed=3 at 2026-05-07 10:50:39 +06 ===
+=== END cpr dataset=cub200_bimc_dino_fusion seed=3 status=OK duration=52s at 2026-05-07 10:51:31 +06 ===
+ETA after 103/120: 2026-05-07 12:19:04 +06 (avg 309s/run, remaining 17)
+=== START cpr dataset=cub200_bimc_dino_fusion seed=4 at 2026-05-07 10:51:31 +06 ===
+=== END cpr dataset=cub200_bimc_dino_fusion seed=4 status=OK duration=52s at 2026-05-07 10:52:23 +06 ===
+ETA after 104/120: 2026-05-07 12:14:15 +06 (avg 307s/run, remaining 16)
+=== START cpr dataset=cub200_bimc_dino_fusion seed=5 at 2026-05-07 10:52:23 +06 ===
+=== END cpr dataset=cub200_bimc_dino_fusion seed=5 status=OK duration=52s at 2026-05-07 10:53:15 +06 ===
+ETA after 105/120: 2026-05-07 12:09:15 +06 (avg 304s/run, remaining 15)
+=== START cpr dataset=cub200_bimc_dino_fusion seed=6 at 2026-05-07 10:53:15 +06 ===
+=== END cpr dataset=cub200_bimc_dino_fusion seed=6 status=OK duration=52s at 2026-05-07 10:54:07 +06 ===
+ETA after 106/120: 2026-05-07 12:04:35 +06 (avg 302s/run, remaining 14)
+=== START cpr dataset=cub200_bimc_dino_fusion seed=7 at 2026-05-07 10:54:07 +06 ===
+=== END cpr dataset=cub200_bimc_dino_fusion seed=7 status=OK duration=52s at 2026-05-07 10:54:59 +06 ===
+ETA after 107/120: 2026-05-07 11:59:46 +06 (avg 299s/run, remaining 13)
+=== START cpr dataset=cub200_bimc_dino_fusion seed=8 at 2026-05-07 10:54:59 +06 ===
+=== END cpr dataset=cub200_bimc_dino_fusion seed=8 status=OK duration=53s at 2026-05-07 10:55:52 +06 ===
+ETA after 108/120: 2026-05-07 11:55:16 +06 (avg 297s/run, remaining 12)
+=== START cpr dataset=cub200_bimc_dino_fusion seed=9 at 2026-05-07 10:55:52 +06 ===
+=== END cpr dataset=cub200_bimc_dino_fusion seed=9 status=OK duration=52s at 2026-05-07 10:56:44 +06 ===
+ETA after 109/120: 2026-05-07 11:50:49 +06 (avg 295s/run, remaining 11)
+=== START cpr dataset=cub200_bimc_dino_fusion seed=10 at 2026-05-07 10:56:44 +06 ===
+=== END cpr dataset=cub200_bimc_dino_fusion seed=10 status=OK duration=52s at 2026-05-07 10:57:36 +06 ===
+ETA after 110/120: 2026-05-07 11:46:26 +06 (avg 293s/run, remaining 10)
+=== START cpr dataset=cub200_bimc_dino_fusion seed=11 at 2026-05-07 10:57:36 +06 ===
+=== END cpr dataset=cub200_bimc_dino_fusion seed=11 status=OK duration=52s at 2026-05-07 10:58:28 +06 ===
+ETA after 111/120: 2026-05-07 11:41:58 +06 (avg 290s/run, remaining 9)
+=== START cpr dataset=cub200_bimc_dino_fusion seed=12 at 2026-05-07 10:58:28 +06 ===
+=== END cpr dataset=cub200_bimc_dino_fusion seed=12 status=OK duration=52s at 2026-05-07 10:59:20 +06 ===
+ETA after 112/120: 2026-05-07 11:37:44 +06 (avg 288s/run, remaining 8)
+=== START cpr dataset=cub200_bimc_dino_fusion seed=13 at 2026-05-07 10:59:20 +06 ===
+=== END cpr dataset=cub200_bimc_dino_fusion seed=13 status=OK duration=53s at 2026-05-07 11:00:13 +06 ===
+ETA after 113/120: 2026-05-07 11:33:35 +06 (avg 286s/run, remaining 7)
+=== START cpr dataset=cub200_bimc_dino_fusion seed=14 at 2026-05-07 11:00:13 +06 ===
+=== END cpr dataset=cub200_bimc_dino_fusion seed=14 status=OK duration=52s at 2026-05-07 11:01:05 +06 ===
+ETA after 114/120: 2026-05-07 11:29:29 +06 (avg 284s/run, remaining 6)
+=== START cpr dataset=cub200_bimc_dino_fusion seed=15 at 2026-05-07 11:01:05 +06 ===
+=== END cpr dataset=cub200_bimc_dino_fusion seed=15 status=OK duration=52s at 2026-05-07 11:01:57 +06 ===
+ETA after 115/120: 2026-05-07 11:25:27 +06 (avg 282s/run, remaining 5)
+=== START cpr dataset=cub200_bimc_dino_fusion seed=16 at 2026-05-07 11:01:57 +06 ===
+=== END cpr dataset=cub200_bimc_dino_fusion seed=16 status=OK duration=52s at 2026-05-07 11:02:49 +06 ===
+ETA after 116/120: 2026-05-07 11:21:29 +06 (avg 280s/run, remaining 4)
+=== START cpr dataset=cub200_bimc_dino_fusion seed=17 at 2026-05-07 11:02:49 +06 ===
+=== END cpr dataset=cub200_bimc_dino_fusion seed=17 status=OK duration=52s at 2026-05-07 11:03:41 +06 ===
+ETA after 117/120: 2026-05-07 11:17:35 +06 (avg 278s/run, remaining 3)
+=== START cpr dataset=cub200_bimc_dino_fusion seed=18 at 2026-05-07 11:03:41 +06 ===
+=== END cpr dataset=cub200_bimc_dino_fusion seed=18 status=OK duration=53s at 2026-05-07 11:04:34 +06 ===
+ETA after 118/120: 2026-05-07 11:13:46 +06 (avg 276s/run, remaining 2)
+=== START cpr dataset=cub200_bimc_dino_fusion seed=19 at 2026-05-07 11:04:34 +06 ===
+=== END cpr dataset=cub200_bimc_dino_fusion seed=19 status=OK duration=52s at 2026-05-07 11:05:26 +06 ===
+ETA after 119/120: 2026-05-07 11:10:00 +06 (avg 274s/run, remaining 1)
+=== START cpr dataset=cub200_bimc_dino_fusion seed=20 at 2026-05-07 11:05:26 +06 ===
+=== END cpr dataset=cub200_bimc_dino_fusion seed=20 status=OK duration=53s at 2026-05-07 11:06:19 +06 ===
+ETA after 120/120: 2026-05-07 11:06:19 +06 (avg 273s/run, remaining 0)
+ALL_DONE 2026-05-07 11:06:19 +06
+Status file: logs/fscil-test-20260507-020014/status.tsv

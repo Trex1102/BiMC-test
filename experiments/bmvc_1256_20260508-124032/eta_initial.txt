@@ -1,0 +1,6 @@
+Run id: bmvc_1256_20260508-124032
+Tmux session: bmvc_1256_20260508_124032
+Started: 2026-05-08 12:40:33 +06
+Estimated duration from previous run means: 193124 seconds (53.65 hours)
+Estimated finish: 2026-05-10 18:19:17 +06
+Breakdown hours: ablations 10.71, fixed-alpha CPR 6.84, pseudoval 20-seed 12.03, sensitivity 24.06
