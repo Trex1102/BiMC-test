@@ -1,0 +1,393 @@
+Aggregate summary
+=================
+
+ablation_bimc | CIFAR100 | n=20 | params=train_cfg=bimc.yaml
+  final_mean: 72.613
+  final_std: 0.2252
+
+ablation_bimc | cub200 | n=20 | params=train_cfg=bimc.yaml
+  final_mean: 72.272
+  final_std: 0.3732
+
+ablation_bimc | miniimagenet | n=20 | params=train_cfg=bimc.yaml
+  final_mean: 91.881
+  final_std: 0.2304
+
+ablation_bimc_ensemble | CIFAR100 | n=20 | params=train_cfg=bimc_ensemble.yaml
+  final_mean: 73.2405
+  final_std: 0.1964
+
+ablation_bimc_ensemble | cub200 | n=20 | params=train_cfg=bimc_ensemble.yaml
+  final_mean: 72.7615
+  final_std: 0.5368
+
+ablation_bimc_ensemble | miniimagenet | n=20 | params=train_cfg=bimc_ensemble.yaml
+  final_mean: 92.4105
+  final_std: 0.1575
+
+ablation_dino_fusion | CIFAR100 | n=20 | params=train_cfg=bimc_dino_fusion.yaml
+  final_mean: 83.07
+  final_std: 0.2837
+
+ablation_dino_fusion | cub200 | n=20 | params=train_cfg=bimc_dino_fusion.yaml
+  final_mean: 85.2905
+  final_std: 0.3522
+
+ablation_dino_fusion | miniimagenet | n=20 | params=train_cfg=bimc_dino_fusion.yaml
+  final_mean: 93.727
+  final_std: 0.2727
+
+fixed_alpha_050 | CIFAR100 | n=20 | params=alpha=0.5
+  base_final_mean: 83.07
+  base_final_std: 0.2839
+  final_mean: 85.4155
+  final_std: 0.2643
+  gain_final_mean: 2.3455
+  gain_final_std: 0.173
+
+fixed_alpha_050 | cub200 | n=20 | params=alpha=0.5
+  base_final_mean: 85.2909
+  base_final_std: 0.3526
+  final_mean: 86.1209
+  final_std: 0.3084
+  gain_final_mean: 0.83
+  gain_final_std: 0.1622
+
+fixed_alpha_050 | miniimagenet | n=20 | params=alpha=0.5
+  base_final_mean: 93.727
+  base_final_std: 0.2727
+  final_mean: 94.224
+  final_std: 0.2374
+  gain_final_mean: 0.497
+  gain_final_std: 0.1194
+
+fixed_alpha_075 | CIFAR100 | n=20 | params=alpha=0.75
+  base_final_mean: 83.07
+  base_final_std: 0.2839
+  final_mean: 85.5045
+  final_std: 0.2496
+  gain_final_mean: 2.4345
+  gain_final_std: 0.1755
+
+fixed_alpha_075 | cub200 | n=20 | params=alpha=0.75
+  base_final_mean: 85.2909
+  base_final_std: 0.3526
+  final_mean: 86.1746
+  final_std: 0.311
+  gain_final_mean: 0.8838
+  gain_final_std: 0.1894
+
+fixed_alpha_075 | miniimagenet | n=20 | params=alpha=0.75
+  base_final_mean: 93.727
+  base_final_std: 0.2727
+  final_mean: 94.242
+  final_std: 0.2138
+  gain_final_mean: 0.515
+  gain_final_std: 0.1458
+
+fixed_alpha_100 | CIFAR100 | n=20 | params=alpha=1.0
+  base_final_mean: 83.07
+  base_final_std: 0.2839
+  final_mean: 85.252
+  final_std: 0.2376
+  gain_final_mean: 2.182
+  gain_final_std: 0.1601
+
+fixed_alpha_100 | cub200 | n=20 | params=alpha=1.0
+  base_final_mean: 85.2909
+  base_final_std: 0.3526
+  final_mean: 86.0812
+  final_std: 0.3125
+  gain_final_mean: 0.7904
+  gain_final_std: 0.1485
+
+fixed_alpha_100 | miniimagenet | n=20 | params=alpha=1.0
+  base_final_mean: 93.727
+  base_final_std: 0.2727
+  final_mean: 94.192
+  final_std: 0.211
+  gain_final_mean: 0.465
+  gain_final_std: 0.1395
+
+pseudoval_20seed | CIFAR100 | n=20 | params=--alpha_grid 0.5 0.75 1.0 --mass_thr 0.3 --min_count 5 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75
+  base_final_mean: 83.07
+  base_final_std: 0.2839
+  final_mean: 85.4155
+  final_std: 0.2643
+  gain_final_mean: 2.3455
+  gain_final_std: 0.173
+  base_avg_mean: 85.7682
+  gain_avg_mean: 1.4546
+
+pseudoval_20seed | cub200 | n=20 | params=--alpha_grid 0.5 0.75 1.0 --mass_thr 0.3 --min_count 5 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75
+  base_final_mean: 85.2909
+  base_final_std: 0.3526
+  final_mean: 86.1209
+  final_std: 0.3084
+  gain_final_mean: 0.83
+  gain_final_std: 0.1622
+  base_avg_mean: 85.3892
+  gain_avg_mean: 0.6462
+
+pseudoval_20seed | miniimagenet | n=20 | params=--alpha_grid 0.5 0.75 1.0 --mass_thr 0.3 --min_count 5 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75
+  base_final_mean: 93.727
+  base_final_std: 0.2727
+  final_mean: 94.224
+  final_std: 0.2374
+  gain_final_mean: 0.497
+  gain_final_std: 0.1194
+  base_avg_mean: 95.2406
+  gain_avg_mean: 0.2567
+
+sens_alphagrid025 | CIFAR100 | n=5 | params=--alpha_grid 0.25 0.5 0.75 1.0 --mass_thr 0.3 --min_count 5 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75
+  base_final_mean: 83.088
+  base_final_std: 0.2186
+  final_mean: 84.802
+  final_std: 0.375
+  gain_final_mean: 1.714
+  gain_final_std: 0.1794
+  base_avg_mean: 85.7208
+  gain_avg_mean: 1.1386
+
+sens_alphagrid025 | cub200 | n=5 | params=--alpha_grid 0.25 0.5 0.75 1.0 --mass_thr 0.3 --min_count 5 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75
+  base_final_mean: 85.164
+  base_final_std: 0.3485
+  final_mean: 85.7026
+  final_std: 0.3073
+  gain_final_mean: 0.5386
+  gain_final_std: 0.0972
+  base_avg_mean: 85.2782
+  gain_avg_mean: 0.426
+
+sens_alphagrid025 | miniimagenet | n=5 | params=--alpha_grid 0.25 0.5 0.75 1.0 --mass_thr 0.3 --min_count 5 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75
+  base_final_mean: 93.66
+  base_final_std: 0.2639
+  final_mean: 94.044
+  final_std: 0.2916
+  gain_final_mean: 0.384
+  gain_final_std: 0.1128
+  base_avg_mean: 95.2652
+  gain_avg_mean: 0.21
+
+sens_alphagrid_sparse | CIFAR100 | n=5 | params=--alpha_grid 0.5 1.0 --mass_thr 0.3 --min_count 5 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75
+  base_final_mean: 83.088
+  base_final_std: 0.2186
+  final_mean: 85.502
+  final_std: 0.2953
+  gain_final_mean: 2.414
+  gain_final_std: 0.118
+  base_avg_mean: 85.7208
+  gain_avg_mean: 1.5416
+
+sens_alphagrid_sparse | cub200 | n=5 | params=--alpha_grid 0.5 1.0 --mass_thr 0.3 --min_count 5 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75
+  base_final_mean: 85.164
+  base_final_std: 0.3485
+  final_mean: 85.9374
+  final_std: 0.2496
+  gain_final_mean: 0.7734
+  gain_final_std: 0.1955
+  base_avg_mean: 85.2782
+  gain_avg_mean: 0.6338
+
+sens_alphagrid_sparse | miniimagenet | n=5 | params=--alpha_grid 0.5 1.0 --mass_thr 0.3 --min_count 5 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75
+  base_final_mean: 93.66
+  base_final_std: 0.2639
+  final_mean: 94.2
+  final_std: 0.3032
+  gain_final_mean: 0.54
+  gain_final_std: 0.1432
+  base_avg_mean: 95.2652
+  gain_avg_mean: 0.2728
+
+sens_mass020 | CIFAR100 | n=5 | params=--alpha_grid 0.5 0.75 1.0 --mass_thr 0.2 --min_count 5 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75
+  base_final_mean: 83.088
+  base_final_std: 0.2186
+  final_mean: 85.502
+  final_std: 0.2953
+  gain_final_mean: 2.414
+  gain_final_std: 0.118
+  base_avg_mean: 85.7208
+  gain_avg_mean: 1.5422
+
+sens_mass020 | cub200 | n=5 | params=--alpha_grid 0.5 0.75 1.0 --mass_thr 0.2 --min_count 5 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75
+  base_final_mean: 85.164
+  base_final_std: 0.3485
+  final_mean: 85.9374
+  final_std: 0.2496
+  gain_final_mean: 0.7734
+  gain_final_std: 0.1955
+  base_avg_mean: 85.2782
+  gain_avg_mean: 0.6338
+
+sens_mass020 | miniimagenet | n=5 | params=--alpha_grid 0.5 0.75 1.0 --mass_thr 0.2 --min_count 5 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75
+  base_final_mean: 93.66
+  base_final_std: 0.2639
+  final_mean: 94.2
+  final_std: 0.3032
+  gain_final_mean: 0.54
+  gain_final_std: 0.1432
+  base_avg_mean: 95.2652
+  gain_avg_mean: 0.273
+
+sens_mass040 | CIFAR100 | n=5 | params=--alpha_grid 0.5 0.75 1.0 --mass_thr 0.4 --min_count 5 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75
+  base_final_mean: 83.088
+  base_final_std: 0.2186
+  final_mean: 85.504
+  final_std: 0.2953
+  gain_final_mean: 2.416
+  gain_final_std: 0.1165
+  base_avg_mean: 85.7208
+  gain_avg_mean: 1.5406
+
+sens_mass040 | cub200 | n=5 | params=--alpha_grid 0.5 0.75 1.0 --mass_thr 0.4 --min_count 5 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75
+  base_final_mean: 85.164
+  base_final_std: 0.3485
+  final_mean: 85.9374
+  final_std: 0.2496
+  gain_final_mean: 0.7734
+  gain_final_std: 0.1955
+  base_avg_mean: 85.2782
+  gain_avg_mean: 0.6304
+
+sens_mass040 | miniimagenet | n=5 | params=--alpha_grid 0.5 0.75 1.0 --mass_thr 0.4 --min_count 5 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75
+  base_final_mean: 93.66
+  base_final_std: 0.2639
+  final_mean: 94.2
+  final_std: 0.3032
+  gain_final_mean: 0.54
+  gain_final_std: 0.1432
+  base_avg_mean: 95.2652
+  gain_avg_mean: 0.2722
+
+sens_mincount003 | CIFAR100 | n=5 | params=--alpha_grid 0.5 0.75 1.0 --mass_thr 0.3 --min_count 3 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75
+  base_final_mean: 83.088
+  base_final_std: 0.2186
+  final_mean: 85.502
+  final_std: 0.2953
+  gain_final_mean: 2.414
+  gain_final_std: 0.118
+  base_avg_mean: 85.7208
+  gain_avg_mean: 1.5416
+
+sens_mincount003 | cub200 | n=5 | params=--alpha_grid 0.5 0.75 1.0 --mass_thr 0.3 --min_count 3 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75
+  base_final_mean: 85.164
+  base_final_std: 0.3485
+  final_mean: 85.9442
+  final_std: 0.2592
+  gain_final_mean: 0.7802
+  gain_final_std: 0.1992
+  base_avg_mean: 85.2782
+  gain_avg_mean: 0.6392
+
+sens_mincount003 | miniimagenet | n=5 | params=--alpha_grid 0.5 0.75 1.0 --mass_thr 0.3 --min_count 3 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75
+  base_final_mean: 93.66
+  base_final_std: 0.2639
+  final_mean: 94.2
+  final_std: 0.3032
+  gain_final_mean: 0.54
+  gain_final_std: 0.1432
+  base_avg_mean: 95.2652
+  gain_avg_mean: 0.2728
+
+sens_mincount010 | CIFAR100 | n=5 | params=--alpha_grid 0.5 0.75 1.0 --mass_thr 0.3 --min_count 10 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75
+  base_final_mean: 83.088
+  base_final_std: 0.2186
+  final_mean: 85.502
+  final_std: 0.2953
+  gain_final_mean: 2.414
+  gain_final_std: 0.118
+  base_avg_mean: 85.7208
+  gain_avg_mean: 1.5416
+
+sens_mincount010 | cub200 | n=5 | params=--alpha_grid 0.5 0.75 1.0 --mass_thr 0.3 --min_count 10 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75
+  base_final_mean: 85.164
+  base_final_std: 0.3485
+  final_mean: 85.8958
+  final_std: 0.3163
+  gain_final_mean: 0.7318
+  gain_final_std: 0.146
+  base_avg_mean: 85.2782
+  gain_avg_mean: 0.597
+
+sens_mincount010 | miniimagenet | n=5 | params=--alpha_grid 0.5 0.75 1.0 --mass_thr 0.3 --min_count 10 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75
+  base_final_mean: 93.66
+  base_final_std: 0.2639
+  final_mean: 94.2
+  final_std: 0.3032
+  gain_final_mean: 0.54
+  gain_final_std: 0.1432
+  base_avg_mean: 95.2652
+  gain_avg_mean: 0.2728
+
+sens_valfrac010 | CIFAR100 | n=5 | params=--alpha_grid 0.5 0.75 1.0 --mass_thr 0.3 --min_count 5 --val_fraction 0.1 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75
+  base_final_mean: 83.088
+  base_final_std: 0.2186
+  final_mean: 85.502
+  final_std: 0.2953
+  gain_final_mean: 2.414
+  gain_final_std: 0.118
+  base_avg_mean: 85.7208
+  gain_avg_mean: 1.5416
+
+sens_valfrac010 | cub200 | n=5 | params=--alpha_grid 0.5 0.75 1.0 --mass_thr 0.3 --min_count 5 --val_fraction 0.1 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75
+  base_final_mean: 85.164
+  base_final_std: 0.3485
+  final_mean: 85.9374
+  final_std: 0.2496
+  gain_final_mean: 0.7734
+  gain_final_std: 0.1955
+  base_avg_mean: 85.2782
+  gain_avg_mean: 0.6298
+
+sens_valfrac010 | miniimagenet | n=5 | params=--alpha_grid 0.5 0.75 1.0 --mass_thr 0.3 --min_count 5 --val_fraction 0.1 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75
+  base_final_mean: 93.66
+  base_final_std: 0.2639
+  final_mean: 94.2
+  final_std: 0.3032
+  gain_final_mean: 0.54
+  gain_final_std: 0.1432
+  base_avg_mean: 95.2652
+  gain_avg_mean: 0.2728
+
+sens_valfrac030 | CIFAR100 | n=5 | params=--alpha_grid 0.5 0.75 1.0 --mass_thr 0.3 --min_count 5 --val_fraction 0.3 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75
+  base_final_mean: 83.088
+  base_final_std: 0.2186
+  final_mean: 85.502
+  final_std: 0.2953
+  gain_final_mean: 2.414
+  gain_final_std: 0.118
+  base_avg_mean: 85.7208
+  gain_avg_mean: 1.5416
+
+sens_valfrac030 | cub200 | n=5 | params=--alpha_grid 0.5 0.75 1.0 --mass_thr 0.3 --min_count 5 --val_fraction 0.3 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75
+  base_final_mean: 85.164
+  base_final_std: 0.3485
+  final_mean: 85.9374
+  final_std: 0.2496
+  gain_final_mean: 0.7734
+  gain_final_std: 0.1955
+  base_avg_mean: 85.2782
+  gain_avg_mean: 0.6338
+
+sens_valfrac030 | miniimagenet | n=5 | params=--alpha_grid 0.5 0.75 1.0 --mass_thr 0.3 --min_count 5 --val_fraction 0.3 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75
+  base_final_mean: 93.66
+  base_final_std: 0.2639
+  final_mean: 94.2
+  final_std: 0.3032
+  gain_final_mean: 0.54
+  gain_final_std: 0.1432
+  base_avg_mean: 95.2652
+  gain_avg_mean: 0.2728
+
+Negative gain sessions
+======================
+{"baseline": 96.954, "dataset": "miniimagenet", "final": 96.938, "gain": -0.015, "params": "--alpha_grid 0.5 0.75 1.0 --mass_thr 0.3 --min_count 5 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75", "phase": "pseudoval_20seed", "result": "experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_pseudoval_sessionwise_bimc_dino_fusion/seed4_20260509-100800/results.json", "seed": 4, "session": 1}
+{"baseline": 95.457, "dataset": "miniimagenet", "final": 95.414, "gain": -0.043, "params": "--alpha_grid 0.5 0.75 1.0 --mass_thr 0.3 --min_count 5 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75", "phase": "pseudoval_20seed", "result": "experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_pseudoval_sessionwise_bimc_dino_fusion/seed13_20260509-133052/results.json", "seed": 13, "session": 2}
+{"baseline": 96.954, "dataset": "miniimagenet", "final": 96.938, "gain": -0.015, "params": "--alpha_grid 0.5 0.75 1.0 --mass_thr 0.2 --min_count 5 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75", "phase": "sens_mass020", "result": "experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_pseudoval_sessionwise_bimc_dino_fusion/seed4_20260509-165940/results.json", "seed": 4, "session": 1}
+{"baseline": 96.954, "dataset": "miniimagenet", "final": 96.938, "gain": -0.015, "params": "--alpha_grid 0.5 0.75 1.0 --mass_thr 0.4 --min_count 5 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75", "phase": "sens_mass040", "result": "experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_pseudoval_sessionwise_bimc_dino_fusion/seed4_20260509-183452/results.json", "seed": 4, "session": 1}
+{"baseline": 96.954, "dataset": "miniimagenet", "final": 96.938, "gain": -0.015, "params": "--alpha_grid 0.5 0.75 1.0 --mass_thr 0.3 --min_count 3 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75", "phase": "sens_mincount003", "result": "experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_pseudoval_sessionwise_bimc_dino_fusion/seed4_20260509-201008/results.json", "seed": 4, "session": 1}
+{"baseline": 96.954, "dataset": "miniimagenet", "final": 96.938, "gain": -0.015, "params": "--alpha_grid 0.5 0.75 1.0 --mass_thr 0.3 --min_count 10 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75", "phase": "sens_mincount010", "result": "experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_pseudoval_sessionwise_bimc_dino_fusion/seed4_20260509-214519/results.json", "seed": 4, "session": 1}
+{"baseline": 96.954, "dataset": "miniimagenet", "final": 96.938, "gain": -0.015, "params": "--alpha_grid 0.5 0.75 1.0 --mass_thr 0.3 --min_count 5 --val_fraction 0.1 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75", "phase": "sens_valfrac010", "result": "experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_pseudoval_sessionwise_bimc_dino_fusion/seed4_20260509-232011/results.json", "seed": 4, "session": 1}
+{"baseline": 96.954, "dataset": "miniimagenet", "final": 96.938, "gain": -0.015, "params": "--alpha_grid 0.5 0.75 1.0 --mass_thr 0.3 --min_count 5 --val_fraction 0.3 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75", "phase": "sens_valfrac030", "result": "experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_pseudoval_sessionwise_bimc_dino_fusion/seed4_20260510-005501/results.json", "seed": 4, "session": 1}
+{"baseline": 96.954, "dataset": "miniimagenet", "final": 96.938, "gain": -0.015, "params": "--alpha_grid 0.25 0.5 0.75 1.0 --mass_thr 0.3 --min_count 5 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75", "phase": "sens_alphagrid025", "result": "experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_pseudoval_sessionwise_bimc_dino_fusion/seed4_20260510-023004/results.json", "seed": 4, "session": 1}
+{"baseline": 96.954, "dataset": "miniimagenet", "final": 96.938, "gain": -0.015, "params": "--alpha_grid 0.5 1.0 --mass_thr 0.3 --min_count 5 --val_fraction 0.2 --base_val_conf_thr 0.5 --base_val_max_per_class 50 --fallback_alpha 0.75", "phase": "sens_alphagrid_sparse", "result": "experiments/bmvc_1256_20260508-124032/miniimagenet/prototype_refinement_conservative_pseudoval_sessionwise_bimc_dino_fusion/seed4_20260510-040445/results.json", "seed": 4, "session": 1}

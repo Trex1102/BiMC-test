@@ -1,0 +1,10 @@
+Run id: bmvc_1256_20260508-124032
+Host: ndag
+Repo: /media/ndag/newVolume/BiMC-test
+Tmux session: bmvc_1256_ndag_remaining_20260509_1236
+Estimate generated: 2026-05-09 12:33:53 +06 (+0600)
+Valid OK jobs already in status.tsv: 388/540
+Next retry starts from failed row: pseudoval_20seed miniimagenet seed=10
+Estimated remaining duration: 61641 seconds (17.12 hours)
+Estimated completion: 2026-05-10 05:41:14 +06 (+0600)
+Basis: actual successful pseudoval dataset means on this run, projected over remaining pseudoval + sensitivity jobs.
