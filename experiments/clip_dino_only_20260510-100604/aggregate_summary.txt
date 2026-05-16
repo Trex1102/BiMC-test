@@ -1,0 +1,39 @@
+Aggregate summary
+=================
+
+clip_visual_only | CIFAR100 | n=20 | params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false
+  final_mean: 61.9795
+  final_std: 0.563
+  avg_mean: 67.7022
+  avg_std: 0.4115
+
+clip_visual_only | cub200 | n=20 | params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false
+  final_mean: 68.3725
+  final_std: 0.4921
+  avg_mean: 72.8986
+  avg_std: 0.2837
+
+clip_visual_only | miniimagenet | n=20 | params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false
+  final_mean: 86.764
+  final_std: 0.4746
+  avg_mean: 88.9027
+  avg_std: 0.3347
+
+dino_visual_only | CIFAR100 | n=20 | params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false
+  final_mean: 83.3405
+  final_std: 0.3038
+  avg_mean: 85.8691
+  avg_std: 0.2551
+
+dino_visual_only | cub200 | n=20 | params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false
+  final_mean: 84.0105
+  final_std: 0.4558
+  avg_mean: 83.8799
+  avg_std: 0.3831
+
+dino_visual_only | miniimagenet | n=20 | params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false
+  final_mean: 91.8965
+  final_std: 0.3154
+  avg_mean: 93.9412
+  avg_std: 0.1969
+

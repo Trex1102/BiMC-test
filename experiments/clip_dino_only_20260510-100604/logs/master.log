@@ -1,0 +1,298 @@
+RUN_STARTED 2026-05-10 10:06:04 +06
+Run id: clip_dino_only_20260510-100604
+Experiment root: /media/ndag/newVolume/BiMC-test/experiments/clip_dino_only_20260510-100604
+Seeds: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+Branches: clip_visual_only, dino_visual_only
+=== START phase=clip_visual_only dataset=CIFAR100 seed=1 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 10:06:04 +06 ===
+=== END phase=clip_visual_only dataset=CIFAR100 seed=1 status=OK duration=129s result=experiments/clip_dino_only_20260510-100604/CIFAR100/bimc/seed1_20260510-100608/results.json at 2026-05-10 10:08:13 +06 ===
+=== START phase=dino_visual_only dataset=CIFAR100 seed=1 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 10:08:13 +06 ===
+=== END phase=dino_visual_only dataset=CIFAR100 seed=1 status=FAIL(1) duration=1s result= at 2026-05-10 10:08:14 +06 ===
+RUN_STARTED 2026-05-10 10:09:06 +06
+Run id: clip_dino_only_20260510-100604
+Experiment root: /media/ndag/newVolume/BiMC-test/experiments/clip_dino_only_20260510-100604
+Seeds: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+Branches: clip_visual_only, dino_visual_only
+=== SKIP phase=clip_visual_only dataset=CIFAR100 seed=1 existing=experiments/clip_dino_only_20260510-100604/CIFAR100/bimc/seed1_20260510-100608/results.json ===
+=== START phase=dino_visual_only dataset=CIFAR100 seed=1 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 10:09:06 +06 ===
+=== END phase=dino_visual_only dataset=CIFAR100 seed=1 status=OK duration=480s result=experiments/clip_dino_only_20260510-100604/CIFAR100/bimc_dino_fusion/seed1_20260510-100911/results.json at 2026-05-10 10:17:06 +06 ===
+=== START phase=clip_visual_only dataset=miniimagenet seed=1 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 10:17:06 +06 ===
+=== END phase=clip_visual_only dataset=miniimagenet seed=1 status=OK duration=131s result=experiments/clip_dino_only_20260510-100604/miniimagenet/bimc/seed1_20260510-101708/results.json at 2026-05-10 10:19:17 +06 ===
+=== START phase=dino_visual_only dataset=miniimagenet seed=1 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 10:19:17 +06 ===
+=== END phase=dino_visual_only dataset=miniimagenet seed=1 status=OK duration=482s result=experiments/clip_dino_only_20260510-100604/miniimagenet/bimc_dino_fusion/seed1_20260510-101920/results.json at 2026-05-10 10:27:19 +06 ===
+=== START phase=clip_visual_only dataset=cub200 seed=1 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 10:27:19 +06 ===
+=== END phase=clip_visual_only dataset=cub200 seed=1 status=OK duration=79s result=experiments/clip_dino_only_20260510-100604/cub200/bimc/seed1_20260510-102721/results.json at 2026-05-10 10:28:38 +06 ===
+=== START phase=dino_visual_only dataset=cub200 seed=1 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 10:28:38 +06 ===
+=== END phase=dino_visual_only dataset=cub200 seed=1 status=OK duration=259s result=experiments/clip_dino_only_20260510-100604/cub200/bimc_dino_fusion/seed1_20260510-102841/results.json at 2026-05-10 10:32:57 +06 ===
+=== START phase=clip_visual_only dataset=CIFAR100 seed=2 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 10:32:57 +06 ===
+=== END phase=clip_visual_only dataset=CIFAR100 seed=2 status=OK duration=130s result=experiments/clip_dino_only_20260510-100604/CIFAR100/bimc/seed2_20260510-103300/results.json at 2026-05-10 10:35:07 +06 ===
+=== START phase=dino_visual_only dataset=CIFAR100 seed=2 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 10:35:07 +06 ===
+=== END phase=dino_visual_only dataset=CIFAR100 seed=2 status=OK duration=480s result=experiments/clip_dino_only_20260510-100604/CIFAR100/bimc_dino_fusion/seed2_20260510-103511/results.json at 2026-05-10 10:43:07 +06 ===
+=== START phase=clip_visual_only dataset=miniimagenet seed=2 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 10:43:07 +06 ===
+=== END phase=clip_visual_only dataset=miniimagenet seed=2 status=OK duration=131s result=experiments/clip_dino_only_20260510-100604/miniimagenet/bimc/seed2_20260510-104309/results.json at 2026-05-10 10:45:18 +06 ===
+=== START phase=dino_visual_only dataset=miniimagenet seed=2 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 10:45:18 +06 ===
+=== END phase=dino_visual_only dataset=miniimagenet seed=2 status=OK duration=482s result=experiments/clip_dino_only_20260510-100604/miniimagenet/bimc_dino_fusion/seed2_20260510-104521/results.json at 2026-05-10 10:53:20 +06 ===
+=== START phase=clip_visual_only dataset=cub200 seed=2 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 10:53:20 +06 ===
+=== END phase=clip_visual_only dataset=cub200 seed=2 status=OK duration=79s result=experiments/clip_dino_only_20260510-100604/cub200/bimc/seed2_20260510-105322/results.json at 2026-05-10 10:54:39 +06 ===
+=== START phase=dino_visual_only dataset=cub200 seed=2 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 10:54:39 +06 ===
+=== END phase=dino_visual_only dataset=cub200 seed=2 status=OK duration=259s result=experiments/clip_dino_only_20260510-100604/cub200/bimc_dino_fusion/seed2_20260510-105442/results.json at 2026-05-10 10:58:58 +06 ===
+=== START phase=clip_visual_only dataset=CIFAR100 seed=3 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 10:58:58 +06 ===
+=== END phase=clip_visual_only dataset=CIFAR100 seed=3 status=OK duration=130s result=experiments/clip_dino_only_20260510-100604/CIFAR100/bimc/seed3_20260510-105901/results.json at 2026-05-10 11:01:08 +06 ===
+=== START phase=dino_visual_only dataset=CIFAR100 seed=3 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 11:01:08 +06 ===
+=== END phase=dino_visual_only dataset=CIFAR100 seed=3 status=OK duration=479s result=experiments/clip_dino_only_20260510-100604/CIFAR100/bimc_dino_fusion/seed3_20260510-110112/results.json at 2026-05-10 11:09:07 +06 ===
+=== START phase=clip_visual_only dataset=miniimagenet seed=3 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 11:09:07 +06 ===
+=== END phase=clip_visual_only dataset=miniimagenet seed=3 status=OK duration=131s result=experiments/clip_dino_only_20260510-100604/miniimagenet/bimc/seed3_20260510-110910/results.json at 2026-05-10 11:11:18 +06 ===
+=== START phase=dino_visual_only dataset=miniimagenet seed=3 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 11:11:18 +06 ===
+=== END phase=dino_visual_only dataset=miniimagenet seed=3 status=OK duration=481s result=experiments/clip_dino_only_20260510-100604/miniimagenet/bimc_dino_fusion/seed3_20260510-111121/results.json at 2026-05-10 11:19:19 +06 ===
+=== START phase=clip_visual_only dataset=cub200 seed=3 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 11:19:19 +06 ===
+=== END phase=clip_visual_only dataset=cub200 seed=3 status=OK duration=79s result=experiments/clip_dino_only_20260510-100604/cub200/bimc/seed3_20260510-111922/results.json at 2026-05-10 11:20:38 +06 ===
+=== START phase=dino_visual_only dataset=cub200 seed=3 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 11:20:38 +06 ===
+=== END phase=dino_visual_only dataset=cub200 seed=3 status=OK duration=259s result=experiments/clip_dino_only_20260510-100604/cub200/bimc_dino_fusion/seed3_20260510-112041/results.json at 2026-05-10 11:24:57 +06 ===
+=== START phase=clip_visual_only dataset=CIFAR100 seed=4 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 11:24:57 +06 ===
+=== END phase=clip_visual_only dataset=CIFAR100 seed=4 status=OK duration=130s result=experiments/clip_dino_only_20260510-100604/CIFAR100/bimc/seed4_20260510-112500/results.json at 2026-05-10 11:27:07 +06 ===
+=== START phase=dino_visual_only dataset=CIFAR100 seed=4 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 11:27:07 +06 ===
+=== END phase=dino_visual_only dataset=CIFAR100 seed=4 status=OK duration=480s result=experiments/clip_dino_only_20260510-100604/CIFAR100/bimc_dino_fusion/seed4_20260510-112711/results.json at 2026-05-10 11:35:07 +06 ===
+=== START phase=clip_visual_only dataset=miniimagenet seed=4 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 11:35:07 +06 ===
+=== END phase=clip_visual_only dataset=miniimagenet seed=4 status=OK duration=131s result=experiments/clip_dino_only_20260510-100604/miniimagenet/bimc/seed4_20260510-113509/results.json at 2026-05-10 11:37:18 +06 ===
+=== START phase=dino_visual_only dataset=miniimagenet seed=4 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 11:37:18 +06 ===
+=== END phase=dino_visual_only dataset=miniimagenet seed=4 status=OK duration=481s result=experiments/clip_dino_only_20260510-100604/miniimagenet/bimc_dino_fusion/seed4_20260510-113721/results.json at 2026-05-10 11:45:19 +06 ===
+=== START phase=clip_visual_only dataset=cub200 seed=4 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 11:45:19 +06 ===
+=== END phase=clip_visual_only dataset=cub200 seed=4 status=OK duration=79s result=experiments/clip_dino_only_20260510-100604/cub200/bimc/seed4_20260510-114522/results.json at 2026-05-10 11:46:38 +06 ===
+=== START phase=dino_visual_only dataset=cub200 seed=4 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 11:46:38 +06 ===
+=== END phase=dino_visual_only dataset=cub200 seed=4 status=OK duration=260s result=experiments/clip_dino_only_20260510-100604/cub200/bimc_dino_fusion/seed4_20260510-114641/results.json at 2026-05-10 11:50:58 +06 ===
+=== START phase=clip_visual_only dataset=CIFAR100 seed=5 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 11:50:58 +06 ===
+=== END phase=clip_visual_only dataset=CIFAR100 seed=5 status=OK duration=130s result=experiments/clip_dino_only_20260510-100604/CIFAR100/bimc/seed5_20260510-115101/results.json at 2026-05-10 11:53:08 +06 ===
+=== START phase=dino_visual_only dataset=CIFAR100 seed=5 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 11:53:08 +06 ===
+=== END phase=dino_visual_only dataset=CIFAR100 seed=5 status=OK duration=479s result=experiments/clip_dino_only_20260510-100604/CIFAR100/bimc_dino_fusion/seed5_20260510-115311/results.json at 2026-05-10 12:01:07 +06 ===
+=== START phase=clip_visual_only dataset=miniimagenet seed=5 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 12:01:07 +06 ===
+=== END phase=clip_visual_only dataset=miniimagenet seed=5 status=OK duration=131s result=experiments/clip_dino_only_20260510-100604/miniimagenet/bimc/seed5_20260510-120109/results.json at 2026-05-10 12:03:18 +06 ===
+=== START phase=dino_visual_only dataset=miniimagenet seed=5 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 12:03:18 +06 ===
+=== END phase=dino_visual_only dataset=miniimagenet seed=5 status=OK duration=481s result=experiments/clip_dino_only_20260510-100604/miniimagenet/bimc_dino_fusion/seed5_20260510-120321/results.json at 2026-05-10 12:11:19 +06 ===
+=== START phase=clip_visual_only dataset=cub200 seed=5 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 12:11:19 +06 ===
+=== END phase=clip_visual_only dataset=cub200 seed=5 status=OK duration=79s result=experiments/clip_dino_only_20260510-100604/cub200/bimc/seed5_20260510-121122/results.json at 2026-05-10 12:12:38 +06 ===
+=== START phase=dino_visual_only dataset=cub200 seed=5 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 12:12:38 +06 ===
+=== END phase=dino_visual_only dataset=cub200 seed=5 status=OK duration=260s result=experiments/clip_dino_only_20260510-100604/cub200/bimc_dino_fusion/seed5_20260510-121241/results.json at 2026-05-10 12:16:58 +06 ===
+=== START phase=clip_visual_only dataset=CIFAR100 seed=6 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 12:16:58 +06 ===
+=== END phase=clip_visual_only dataset=CIFAR100 seed=6 status=OK duration=130s result=experiments/clip_dino_only_20260510-100604/CIFAR100/bimc/seed6_20260510-121701/results.json at 2026-05-10 12:19:08 +06 ===
+=== START phase=dino_visual_only dataset=CIFAR100 seed=6 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 12:19:08 +06 ===
+=== END phase=dino_visual_only dataset=CIFAR100 seed=6 status=OK duration=480s result=experiments/clip_dino_only_20260510-100604/CIFAR100/bimc_dino_fusion/seed6_20260510-121912/results.json at 2026-05-10 12:27:08 +06 ===
+=== START phase=clip_visual_only dataset=miniimagenet seed=6 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 12:27:08 +06 ===
+=== END phase=clip_visual_only dataset=miniimagenet seed=6 status=OK duration=132s result=experiments/clip_dino_only_20260510-100604/miniimagenet/bimc/seed6_20260510-122710/results.json at 2026-05-10 12:29:20 +06 ===
+=== START phase=dino_visual_only dataset=miniimagenet seed=6 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 12:29:20 +06 ===
+=== END phase=dino_visual_only dataset=miniimagenet seed=6 status=OK duration=482s result=experiments/clip_dino_only_20260510-100604/miniimagenet/bimc_dino_fusion/seed6_20260510-122924/results.json at 2026-05-10 12:37:22 +06 ===
+=== START phase=clip_visual_only dataset=cub200 seed=6 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 12:37:22 +06 ===
+=== END phase=clip_visual_only dataset=cub200 seed=6 status=OK duration=80s result=experiments/clip_dino_only_20260510-100604/cub200/bimc/seed6_20260510-123725/results.json at 2026-05-10 12:38:42 +06 ===
+=== START phase=dino_visual_only dataset=cub200 seed=6 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 12:38:42 +06 ===
+=== END phase=dino_visual_only dataset=cub200 seed=6 status=OK duration=259s result=experiments/clip_dino_only_20260510-100604/cub200/bimc_dino_fusion/seed6_20260510-123845/results.json at 2026-05-10 12:43:01 +06 ===
+=== START phase=clip_visual_only dataset=CIFAR100 seed=7 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 12:43:01 +06 ===
+=== END phase=clip_visual_only dataset=CIFAR100 seed=7 status=OK duration=130s result=experiments/clip_dino_only_20260510-100604/CIFAR100/bimc/seed7_20260510-124305/results.json at 2026-05-10 12:45:11 +06 ===
+=== START phase=dino_visual_only dataset=CIFAR100 seed=7 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 12:45:11 +06 ===
+=== END phase=dino_visual_only dataset=CIFAR100 seed=7 status=OK duration=481s result=experiments/clip_dino_only_20260510-100604/CIFAR100/bimc_dino_fusion/seed7_20260510-124515/results.json at 2026-05-10 12:53:12 +06 ===
+=== START phase=clip_visual_only dataset=miniimagenet seed=7 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 12:53:12 +06 ===
+=== END phase=clip_visual_only dataset=miniimagenet seed=7 status=OK duration=132s result=experiments/clip_dino_only_20260510-100604/miniimagenet/bimc/seed7_20260510-125314/results.json at 2026-05-10 12:55:24 +06 ===
+=== START phase=dino_visual_only dataset=miniimagenet seed=7 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 12:55:24 +06 ===
+=== END phase=dino_visual_only dataset=miniimagenet seed=7 status=OK duration=483s result=experiments/clip_dino_only_20260510-100604/miniimagenet/bimc_dino_fusion/seed7_20260510-125528/results.json at 2026-05-10 13:03:27 +06 ===
+=== START phase=clip_visual_only dataset=cub200 seed=7 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 13:03:27 +06 ===
+=== END phase=clip_visual_only dataset=cub200 seed=7 status=OK duration=79s result=experiments/clip_dino_only_20260510-100604/cub200/bimc/seed7_20260510-130329/results.json at 2026-05-10 13:04:46 +06 ===
+=== START phase=dino_visual_only dataset=cub200 seed=7 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 13:04:46 +06 ===
+=== END phase=dino_visual_only dataset=cub200 seed=7 status=OK duration=260s result=experiments/clip_dino_only_20260510-100604/cub200/bimc_dino_fusion/seed7_20260510-130449/results.json at 2026-05-10 13:09:06 +06 ===
+=== START phase=clip_visual_only dataset=CIFAR100 seed=8 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 13:09:06 +06 ===
+=== END phase=clip_visual_only dataset=CIFAR100 seed=8 status=OK duration=130s result=experiments/clip_dino_only_20260510-100604/CIFAR100/bimc/seed8_20260510-130909/results.json at 2026-05-10 13:11:16 +06 ===
+=== START phase=dino_visual_only dataset=CIFAR100 seed=8 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 13:11:16 +06 ===
+=== END phase=dino_visual_only dataset=CIFAR100 seed=8 status=OK duration=480s result=experiments/clip_dino_only_20260510-100604/CIFAR100/bimc_dino_fusion/seed8_20260510-131120/results.json at 2026-05-10 13:19:16 +06 ===
+=== START phase=clip_visual_only dataset=miniimagenet seed=8 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 13:19:16 +06 ===
+=== END phase=clip_visual_only dataset=miniimagenet seed=8 status=OK duration=132s result=experiments/clip_dino_only_20260510-100604/miniimagenet/bimc/seed8_20260510-131918/results.json at 2026-05-10 13:21:28 +06 ===
+=== START phase=dino_visual_only dataset=miniimagenet seed=8 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 13:21:28 +06 ===
+=== END phase=dino_visual_only dataset=miniimagenet seed=8 status=OK duration=483s result=experiments/clip_dino_only_20260510-100604/miniimagenet/bimc_dino_fusion/seed8_20260510-132132/results.json at 2026-05-10 13:29:31 +06 ===
+=== START phase=clip_visual_only dataset=cub200 seed=8 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 13:29:31 +06 ===
+=== END phase=clip_visual_only dataset=cub200 seed=8 status=OK duration=79s result=experiments/clip_dino_only_20260510-100604/cub200/bimc/seed8_20260510-132933/results.json at 2026-05-10 13:30:50 +06 ===
+=== START phase=dino_visual_only dataset=cub200 seed=8 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 13:30:50 +06 ===
+=== END phase=dino_visual_only dataset=cub200 seed=8 status=OK duration=260s result=experiments/clip_dino_only_20260510-100604/cub200/bimc_dino_fusion/seed8_20260510-133053/results.json at 2026-05-10 13:35:10 +06 ===
+=== START phase=clip_visual_only dataset=CIFAR100 seed=9 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 13:35:10 +06 ===
+=== END phase=clip_visual_only dataset=CIFAR100 seed=9 status=OK duration=130s result=experiments/clip_dino_only_20260510-100604/CIFAR100/bimc/seed9_20260510-133513/results.json at 2026-05-10 13:37:20 +06 ===
+=== START phase=dino_visual_only dataset=CIFAR100 seed=9 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 13:37:21 +06 ===
+=== END phase=dino_visual_only dataset=CIFAR100 seed=9 status=OK duration=480s result=experiments/clip_dino_only_20260510-100604/CIFAR100/bimc_dino_fusion/seed9_20260510-133724/results.json at 2026-05-10 13:45:21 +06 ===
+=== START phase=clip_visual_only dataset=miniimagenet seed=9 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 13:45:21 +06 ===
+=== END phase=clip_visual_only dataset=miniimagenet seed=9 status=OK duration=133s result=experiments/clip_dino_only_20260510-100604/miniimagenet/bimc/seed9_20260510-134523/results.json at 2026-05-10 13:47:34 +06 ===
+=== START phase=dino_visual_only dataset=miniimagenet seed=9 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 13:47:34 +06 ===
+=== END phase=dino_visual_only dataset=miniimagenet seed=9 status=OK duration=482s result=experiments/clip_dino_only_20260510-100604/miniimagenet/bimc_dino_fusion/seed9_20260510-134737/results.json at 2026-05-10 13:55:36 +06 ===
+=== START phase=clip_visual_only dataset=cub200 seed=9 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 13:55:36 +06 ===
+=== END phase=clip_visual_only dataset=cub200 seed=9 status=OK duration=80s result=experiments/clip_dino_only_20260510-100604/cub200/bimc/seed9_20260510-135538/results.json at 2026-05-10 13:56:56 +06 ===
+=== START phase=dino_visual_only dataset=cub200 seed=9 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 13:56:56 +06 ===
+=== END phase=dino_visual_only dataset=cub200 seed=9 status=OK duration=260s result=experiments/clip_dino_only_20260510-100604/cub200/bimc_dino_fusion/seed9_20260510-135659/results.json at 2026-05-10 14:01:16 +06 ===
+=== START phase=clip_visual_only dataset=CIFAR100 seed=10 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 14:01:16 +06 ===
+=== END phase=clip_visual_only dataset=CIFAR100 seed=10 status=OK duration=130s result=experiments/clip_dino_only_20260510-100604/CIFAR100/bimc/seed10_20260510-140119/results.json at 2026-05-10 14:03:26 +06 ===
+=== START phase=dino_visual_only dataset=CIFAR100 seed=10 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 14:03:26 +06 ===
+=== END phase=dino_visual_only dataset=CIFAR100 seed=10 status=OK duration=482s result=experiments/clip_dino_only_20260510-100604/CIFAR100/bimc_dino_fusion/seed10_20260510-140330/results.json at 2026-05-10 14:11:28 +06 ===
+=== START phase=clip_visual_only dataset=miniimagenet seed=10 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 14:11:28 +06 ===
+=== END phase=clip_visual_only dataset=miniimagenet seed=10 status=OK duration=132s result=experiments/clip_dino_only_20260510-100604/miniimagenet/bimc/seed10_20260510-141131/results.json at 2026-05-10 14:13:40 +06 ===
+=== START phase=dino_visual_only dataset=miniimagenet seed=10 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 14:13:40 +06 ===
+=== END phase=dino_visual_only dataset=miniimagenet seed=10 status=OK duration=484s result=experiments/clip_dino_only_20260510-100604/miniimagenet/bimc_dino_fusion/seed10_20260510-141343/results.json at 2026-05-10 14:21:44 +06 ===
+=== START phase=clip_visual_only dataset=cub200 seed=10 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 14:21:44 +06 ===
+=== END phase=clip_visual_only dataset=cub200 seed=10 status=OK duration=79s result=experiments/clip_dino_only_20260510-100604/cub200/bimc/seed10_20260510-142146/results.json at 2026-05-10 14:23:03 +06 ===
+=== START phase=dino_visual_only dataset=cub200 seed=10 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 14:23:03 +06 ===
+=== END phase=dino_visual_only dataset=cub200 seed=10 status=OK duration=261s result=experiments/clip_dino_only_20260510-100604/cub200/bimc_dino_fusion/seed10_20260510-142306/results.json at 2026-05-10 14:27:24 +06 ===
+=== START phase=clip_visual_only dataset=CIFAR100 seed=11 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 14:27:24 +06 ===
+=== END phase=clip_visual_only dataset=CIFAR100 seed=11 status=OK duration=131s result=experiments/clip_dino_only_20260510-100604/CIFAR100/bimc/seed11_20260510-142727/results.json at 2026-05-10 14:29:35 +06 ===
+=== START phase=dino_visual_only dataset=CIFAR100 seed=11 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 14:29:35 +06 ===
+=== END phase=dino_visual_only dataset=CIFAR100 seed=11 status=OK duration=481s result=experiments/clip_dino_only_20260510-100604/CIFAR100/bimc_dino_fusion/seed11_20260510-142939/results.json at 2026-05-10 14:37:36 +06 ===
+=== START phase=clip_visual_only dataset=miniimagenet seed=11 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 14:37:36 +06 ===
+=== END phase=clip_visual_only dataset=miniimagenet seed=11 status=OK duration=132s result=experiments/clip_dino_only_20260510-100604/miniimagenet/bimc/seed11_20260510-143739/results.json at 2026-05-10 14:39:48 +06 ===
+=== START phase=dino_visual_only dataset=miniimagenet seed=11 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 14:39:48 +06 ===
+=== END phase=dino_visual_only dataset=miniimagenet seed=11 status=OK duration=484s result=experiments/clip_dino_only_20260510-100604/miniimagenet/bimc_dino_fusion/seed11_20260510-143951/results.json at 2026-05-10 14:47:52 +06 ===
+=== START phase=clip_visual_only dataset=cub200 seed=11 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 14:47:52 +06 ===
+=== END phase=clip_visual_only dataset=cub200 seed=11 status=OK duration=80s result=experiments/clip_dino_only_20260510-100604/cub200/bimc/seed11_20260510-144755/results.json at 2026-05-10 14:49:12 +06 ===
+=== START phase=dino_visual_only dataset=cub200 seed=11 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 14:49:12 +06 ===
+=== END phase=dino_visual_only dataset=cub200 seed=11 status=OK duration=261s result=experiments/clip_dino_only_20260510-100604/cub200/bimc_dino_fusion/seed11_20260510-144915/results.json at 2026-05-10 14:53:33 +06 ===
+=== START phase=clip_visual_only dataset=CIFAR100 seed=12 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 14:53:33 +06 ===
+=== END phase=clip_visual_only dataset=CIFAR100 seed=12 status=OK duration=131s result=experiments/clip_dino_only_20260510-100604/CIFAR100/bimc/seed12_20260510-145336/results.json at 2026-05-10 14:55:44 +06 ===
+=== START phase=dino_visual_only dataset=CIFAR100 seed=12 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 14:55:44 +06 ===
+=== END phase=dino_visual_only dataset=CIFAR100 seed=12 status=OK duration=483s result=experiments/clip_dino_only_20260510-100604/CIFAR100/bimc_dino_fusion/seed12_20260510-145548/results.json at 2026-05-10 15:03:47 +06 ===
+=== START phase=clip_visual_only dataset=miniimagenet seed=12 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 15:03:47 +06 ===
+=== END phase=clip_visual_only dataset=miniimagenet seed=12 status=OK duration=131s result=experiments/clip_dino_only_20260510-100604/miniimagenet/bimc/seed12_20260510-150349/results.json at 2026-05-10 15:05:58 +06 ===
+=== START phase=dino_visual_only dataset=miniimagenet seed=12 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 15:05:58 +06 ===
+=== END phase=dino_visual_only dataset=miniimagenet seed=12 status=OK duration=485s result=experiments/clip_dino_only_20260510-100604/miniimagenet/bimc_dino_fusion/seed12_20260510-150601/results.json at 2026-05-10 15:14:03 +06 ===
+=== START phase=clip_visual_only dataset=cub200 seed=12 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 15:14:03 +06 ===
+=== END phase=clip_visual_only dataset=cub200 seed=12 status=OK duration=79s result=experiments/clip_dino_only_20260510-100604/cub200/bimc/seed12_20260510-151405/results.json at 2026-05-10 15:15:22 +06 ===
+=== START phase=dino_visual_only dataset=cub200 seed=12 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 15:15:22 +06 ===
+=== END phase=dino_visual_only dataset=cub200 seed=12 status=OK duration=261s result=experiments/clip_dino_only_20260510-100604/cub200/bimc_dino_fusion/seed12_20260510-151525/results.json at 2026-05-10 15:19:43 +06 ===
+=== START phase=clip_visual_only dataset=CIFAR100 seed=13 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 15:19:43 +06 ===
+=== END phase=clip_visual_only dataset=CIFAR100 seed=13 status=OK duration=131s result=experiments/clip_dino_only_20260510-100604/CIFAR100/bimc/seed13_20260510-151946/results.json at 2026-05-10 15:21:54 +06 ===
+=== START phase=dino_visual_only dataset=CIFAR100 seed=13 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 15:21:54 +06 ===
+=== END phase=dino_visual_only dataset=CIFAR100 seed=13 status=OK duration=482s result=experiments/clip_dino_only_20260510-100604/CIFAR100/bimc_dino_fusion/seed13_20260510-152158/results.json at 2026-05-10 15:29:56 +06 ===
+=== START phase=clip_visual_only dataset=miniimagenet seed=13 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 15:29:56 +06 ===
+=== END phase=clip_visual_only dataset=miniimagenet seed=13 status=OK duration=132s result=experiments/clip_dino_only_20260510-100604/miniimagenet/bimc/seed13_20260510-152959/results.json at 2026-05-10 15:32:08 +06 ===
+=== START phase=dino_visual_only dataset=miniimagenet seed=13 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 15:32:08 +06 ===
+=== END phase=dino_visual_only dataset=miniimagenet seed=13 status=OK duration=485s result=experiments/clip_dino_only_20260510-100604/miniimagenet/bimc_dino_fusion/seed13_20260510-153211/results.json at 2026-05-10 15:40:13 +06 ===
+=== START phase=clip_visual_only dataset=cub200 seed=13 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 15:40:13 +06 ===
+=== END phase=clip_visual_only dataset=cub200 seed=13 status=OK duration=80s result=experiments/clip_dino_only_20260510-100604/cub200/bimc/seed13_20260510-154015/results.json at 2026-05-10 15:41:33 +06 ===
+=== START phase=dino_visual_only dataset=cub200 seed=13 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 15:41:33 +06 ===
+=== END phase=dino_visual_only dataset=cub200 seed=13 status=OK duration=261s result=experiments/clip_dino_only_20260510-100604/cub200/bimc_dino_fusion/seed13_20260510-154136/results.json at 2026-05-10 15:45:54 +06 ===
+=== START phase=clip_visual_only dataset=CIFAR100 seed=14 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 15:45:54 +06 ===
+=== END phase=clip_visual_only dataset=CIFAR100 seed=14 status=OK duration=132s result=experiments/clip_dino_only_20260510-100604/CIFAR100/bimc/seed14_20260510-154558/results.json at 2026-05-10 15:48:06 +06 ===
+=== START phase=dino_visual_only dataset=CIFAR100 seed=14 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 15:48:06 +06 ===
+=== END phase=dino_visual_only dataset=CIFAR100 seed=14 status=OK duration=482s result=experiments/clip_dino_only_20260510-100604/CIFAR100/bimc_dino_fusion/seed14_20260510-154810/results.json at 2026-05-10 15:56:08 +06 ===
+=== START phase=clip_visual_only dataset=miniimagenet seed=14 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 15:56:08 +06 ===
+=== END phase=clip_visual_only dataset=miniimagenet seed=14 status=OK duration=132s result=experiments/clip_dino_only_20260510-100604/miniimagenet/bimc/seed14_20260510-155611/results.json at 2026-05-10 15:58:20 +06 ===
+=== START phase=dino_visual_only dataset=miniimagenet seed=14 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 15:58:20 +06 ===
+=== END phase=dino_visual_only dataset=miniimagenet seed=14 status=OK duration=485s result=experiments/clip_dino_only_20260510-100604/miniimagenet/bimc_dino_fusion/seed14_20260510-155824/results.json at 2026-05-10 16:06:25 +06 ===
+=== START phase=clip_visual_only dataset=cub200 seed=14 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 16:06:25 +06 ===
+=== END phase=clip_visual_only dataset=cub200 seed=14 status=OK duration=80s result=experiments/clip_dino_only_20260510-100604/cub200/bimc/seed14_20260510-160628/results.json at 2026-05-10 16:07:45 +06 ===
+=== START phase=dino_visual_only dataset=cub200 seed=14 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 16:07:45 +06 ===
+=== END phase=dino_visual_only dataset=cub200 seed=14 status=OK duration=261s result=experiments/clip_dino_only_20260510-100604/cub200/bimc_dino_fusion/seed14_20260510-160748/results.json at 2026-05-10 16:12:06 +06 ===
+=== START phase=clip_visual_only dataset=CIFAR100 seed=15 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 16:12:06 +06 ===
+=== END phase=clip_visual_only dataset=CIFAR100 seed=15 status=OK duration=131s result=experiments/clip_dino_only_20260510-100604/CIFAR100/bimc/seed15_20260510-161210/results.json at 2026-05-10 16:14:17 +06 ===
+=== START phase=dino_visual_only dataset=CIFAR100 seed=15 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 16:14:17 +06 ===
+=== END phase=dino_visual_only dataset=CIFAR100 seed=15 status=OK duration=483s result=experiments/clip_dino_only_20260510-100604/CIFAR100/bimc_dino_fusion/seed15_20260510-161421/results.json at 2026-05-10 16:22:20 +06 ===
+=== START phase=clip_visual_only dataset=miniimagenet seed=15 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 16:22:20 +06 ===
+=== END phase=clip_visual_only dataset=miniimagenet seed=15 status=OK duration=132s result=experiments/clip_dino_only_20260510-100604/miniimagenet/bimc/seed15_20260510-162222/results.json at 2026-05-10 16:24:32 +06 ===
+=== START phase=dino_visual_only dataset=miniimagenet seed=15 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 16:24:32 +06 ===
+=== END phase=dino_visual_only dataset=miniimagenet seed=15 status=OK duration=485s result=experiments/clip_dino_only_20260510-100604/miniimagenet/bimc_dino_fusion/seed15_20260510-162435/results.json at 2026-05-10 16:32:37 +06 ===
+=== START phase=clip_visual_only dataset=cub200 seed=15 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 16:32:37 +06 ===
+=== END phase=clip_visual_only dataset=cub200 seed=15 status=OK duration=80s result=experiments/clip_dino_only_20260510-100604/cub200/bimc/seed15_20260510-163239/results.json at 2026-05-10 16:33:57 +06 ===
+=== START phase=dino_visual_only dataset=cub200 seed=15 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 16:33:57 +06 ===
+=== END phase=dino_visual_only dataset=cub200 seed=15 status=OK duration=262s result=experiments/clip_dino_only_20260510-100604/cub200/bimc_dino_fusion/seed15_20260510-163400/results.json at 2026-05-10 16:38:19 +06 ===
+=== START phase=clip_visual_only dataset=CIFAR100 seed=16 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 16:38:19 +06 ===
+=== END phase=clip_visual_only dataset=CIFAR100 seed=16 status=OK duration=131s result=experiments/clip_dino_only_20260510-100604/CIFAR100/bimc/seed16_20260510-163822/results.json at 2026-05-10 16:40:30 +06 ===
+=== START phase=dino_visual_only dataset=CIFAR100 seed=16 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 16:40:30 +06 ===
+=== END phase=dino_visual_only dataset=CIFAR100 seed=16 status=OK duration=483s result=experiments/clip_dino_only_20260510-100604/CIFAR100/bimc_dino_fusion/seed16_20260510-164034/results.json at 2026-05-10 16:48:33 +06 ===
+=== START phase=clip_visual_only dataset=miniimagenet seed=16 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 16:48:33 +06 ===
+=== END phase=clip_visual_only dataset=miniimagenet seed=16 status=OK duration=132s result=experiments/clip_dino_only_20260510-100604/miniimagenet/bimc/seed16_20260510-164835/results.json at 2026-05-10 16:50:45 +06 ===
+=== START phase=dino_visual_only dataset=miniimagenet seed=16 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 16:50:45 +06 ===
+=== END phase=dino_visual_only dataset=miniimagenet seed=16 status=OK duration=485s result=experiments/clip_dino_only_20260510-100604/miniimagenet/bimc_dino_fusion/seed16_20260510-165048/results.json at 2026-05-10 16:58:50 +06 ===
+=== START phase=clip_visual_only dataset=cub200 seed=16 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 16:58:50 +06 ===
+=== END phase=clip_visual_only dataset=cub200 seed=16 status=OK duration=80s result=experiments/clip_dino_only_20260510-100604/cub200/bimc/seed16_20260510-165852/results.json at 2026-05-10 17:00:10 +06 ===
+=== START phase=dino_visual_only dataset=cub200 seed=16 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 17:00:10 +06 ===
+=== END phase=dino_visual_only dataset=cub200 seed=16 status=OK duration=261s result=experiments/clip_dino_only_20260510-100604/cub200/bimc_dino_fusion/seed16_20260510-170013/results.json at 2026-05-10 17:04:31 +06 ===
+=== START phase=clip_visual_only dataset=CIFAR100 seed=17 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 17:04:31 +06 ===
+=== END phase=clip_visual_only dataset=CIFAR100 seed=17 status=OK duration=131s result=experiments/clip_dino_only_20260510-100604/CIFAR100/bimc/seed17_20260510-170434/results.json at 2026-05-10 17:06:42 +06 ===
+=== START phase=dino_visual_only dataset=CIFAR100 seed=17 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 17:06:42 +06 ===
+=== END phase=dino_visual_only dataset=CIFAR100 seed=17 status=OK duration=484s result=experiments/clip_dino_only_20260510-100604/CIFAR100/bimc_dino_fusion/seed17_20260510-170646/results.json at 2026-05-10 17:14:46 +06 ===
+=== START phase=clip_visual_only dataset=miniimagenet seed=17 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 17:14:46 +06 ===
+=== END phase=clip_visual_only dataset=miniimagenet seed=17 status=OK duration=132s result=experiments/clip_dino_only_20260510-100604/miniimagenet/bimc/seed17_20260510-171448/results.json at 2026-05-10 17:16:58 +06 ===
+=== START phase=dino_visual_only dataset=miniimagenet seed=17 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 17:16:58 +06 ===
+=== END phase=dino_visual_only dataset=miniimagenet seed=17 status=OK duration=485s result=experiments/clip_dino_only_20260510-100604/miniimagenet/bimc_dino_fusion/seed17_20260510-171701/results.json at 2026-05-10 17:25:03 +06 ===
+=== START phase=clip_visual_only dataset=cub200 seed=17 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 17:25:03 +06 ===
+=== END phase=clip_visual_only dataset=cub200 seed=17 status=OK duration=80s result=experiments/clip_dino_only_20260510-100604/cub200/bimc/seed17_20260510-172505/results.json at 2026-05-10 17:26:23 +06 ===
+=== START phase=dino_visual_only dataset=cub200 seed=17 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 17:26:23 +06 ===
+=== END phase=dino_visual_only dataset=cub200 seed=17 status=OK duration=262s result=experiments/clip_dino_only_20260510-100604/cub200/bimc_dino_fusion/seed17_20260510-172626/results.json at 2026-05-10 17:30:45 +06 ===
+=== START phase=clip_visual_only dataset=CIFAR100 seed=18 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 17:30:45 +06 ===
+=== END phase=clip_visual_only dataset=CIFAR100 seed=18 status=OK duration=131s result=experiments/clip_dino_only_20260510-100604/CIFAR100/bimc/seed18_20260510-173048/results.json at 2026-05-10 17:32:56 +06 ===
+=== START phase=dino_visual_only dataset=CIFAR100 seed=18 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 17:32:56 +06 ===
+=== END phase=dino_visual_only dataset=CIFAR100 seed=18 status=OK duration=484s result=experiments/clip_dino_only_20260510-100604/CIFAR100/bimc_dino_fusion/seed18_20260510-173300/results.json at 2026-05-10 17:41:00 +06 ===
+=== START phase=clip_visual_only dataset=miniimagenet seed=18 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 17:41:00 +06 ===
+=== END phase=clip_visual_only dataset=miniimagenet seed=18 status=OK duration=132s result=experiments/clip_dino_only_20260510-100604/miniimagenet/bimc/seed18_20260510-174102/results.json at 2026-05-10 17:43:12 +06 ===
+=== START phase=dino_visual_only dataset=miniimagenet seed=18 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 17:43:12 +06 ===
+=== END phase=dino_visual_only dataset=miniimagenet seed=18 status=OK duration=486s result=experiments/clip_dino_only_20260510-100604/miniimagenet/bimc_dino_fusion/seed18_20260510-174315/results.json at 2026-05-10 17:51:18 +06 ===
+=== START phase=clip_visual_only dataset=cub200 seed=18 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 17:51:18 +06 ===
+=== END phase=clip_visual_only dataset=cub200 seed=18 status=OK duration=79s result=experiments/clip_dino_only_20260510-100604/cub200/bimc/seed18_20260510-175120/results.json at 2026-05-10 17:52:37 +06 ===
+=== START phase=dino_visual_only dataset=cub200 seed=18 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 17:52:37 +06 ===
+=== END phase=dino_visual_only dataset=cub200 seed=18 status=OK duration=262s result=experiments/clip_dino_only_20260510-100604/cub200/bimc_dino_fusion/seed18_20260510-175240/results.json at 2026-05-10 17:56:59 +06 ===
+=== START phase=clip_visual_only dataset=CIFAR100 seed=19 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 17:56:59 +06 ===
+=== END phase=clip_visual_only dataset=CIFAR100 seed=19 status=OK duration=131s result=experiments/clip_dino_only_20260510-100604/CIFAR100/bimc/seed19_20260510-175702/results.json at 2026-05-10 17:59:10 +06 ===
+=== START phase=dino_visual_only dataset=CIFAR100 seed=19 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 17:59:10 +06 ===
+=== END phase=dino_visual_only dataset=CIFAR100 seed=19 status=OK duration=483s result=experiments/clip_dino_only_20260510-100604/CIFAR100/bimc_dino_fusion/seed19_20260510-175914/results.json at 2026-05-10 18:07:13 +06 ===
+=== START phase=clip_visual_only dataset=miniimagenet seed=19 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 18:07:13 +06 ===
+=== END phase=clip_visual_only dataset=miniimagenet seed=19 status=OK duration=132s result=experiments/clip_dino_only_20260510-100604/miniimagenet/bimc/seed19_20260510-180715/results.json at 2026-05-10 18:09:25 +06 ===
+=== START phase=dino_visual_only dataset=miniimagenet seed=19 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 18:09:25 +06 ===
+=== END phase=dino_visual_only dataset=miniimagenet seed=19 status=OK duration=485s result=experiments/clip_dino_only_20260510-100604/miniimagenet/bimc_dino_fusion/seed19_20260510-180928/results.json at 2026-05-10 18:17:30 +06 ===
+=== START phase=clip_visual_only dataset=cub200 seed=19 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 18:17:30 +06 ===
+=== END phase=clip_visual_only dataset=cub200 seed=19 status=OK duration=80s result=experiments/clip_dino_only_20260510-100604/cub200/bimc/seed19_20260510-181732/results.json at 2026-05-10 18:18:50 +06 ===
+=== START phase=dino_visual_only dataset=cub200 seed=19 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 18:18:50 +06 ===
+=== END phase=dino_visual_only dataset=cub200 seed=19 status=OK duration=261s result=experiments/clip_dino_only_20260510-100604/cub200/bimc_dino_fusion/seed19_20260510-181853/results.json at 2026-05-10 18:23:11 +06 ===
+=== START phase=clip_visual_only dataset=CIFAR100 seed=20 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 18:23:11 +06 ===
+=== END phase=clip_visual_only dataset=CIFAR100 seed=20 status=OK duration=131s result=experiments/clip_dino_only_20260510-100604/CIFAR100/bimc/seed20_20260510-182314/results.json at 2026-05-10 18:25:22 +06 ===
+=== START phase=dino_visual_only dataset=CIFAR100 seed=20 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 18:25:22 +06 ===
+=== END phase=dino_visual_only dataset=CIFAR100 seed=20 status=OK duration=483s result=experiments/clip_dino_only_20260510-100604/CIFAR100/bimc_dino_fusion/seed20_20260510-182526/results.json at 2026-05-10 18:33:25 +06 ===
+=== START phase=clip_visual_only dataset=miniimagenet seed=20 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 18:33:25 +06 ===
+=== END phase=clip_visual_only dataset=miniimagenet seed=20 status=OK duration=133s result=experiments/clip_dino_only_20260510-100604/miniimagenet/bimc/seed20_20260510-183328/results.json at 2026-05-10 18:35:38 +06 ===
+=== START phase=dino_visual_only dataset=miniimagenet seed=20 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 18:35:38 +06 ===
+=== END phase=dino_visual_only dataset=miniimagenet seed=20 status=OK duration=485s result=experiments/clip_dino_only_20260510-100604/miniimagenet/bimc_dino_fusion/seed20_20260510-183541/results.json at 2026-05-10 18:43:43 +06 ===
+=== START phase=clip_visual_only dataset=cub200 seed=20 params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false at 2026-05-10 18:43:43 +06 ===
+=== END phase=clip_visual_only dataset=cub200 seed=20 status=OK duration=80s result=experiments/clip_dino_only_20260510-100604/cub200/bimc/seed20_20260510-184345/results.json at 2026-05-10 18:45:03 +06 ===
+=== START phase=dino_visual_only dataset=cub200 seed=20 params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false at 2026-05-10 18:45:03 +06 ===
+=== END phase=dino_visual_only dataset=cub200 seed=20 status=OK duration=261s result=experiments/clip_dino_only_20260510-100604/cub200/bimc_dino_fusion/seed20_20260510-184506/results.json at 2026-05-10 18:49:24 +06 ===
+Aggregate summary
+=================
+
+clip_visual_only | CIFAR100 | n=20 | params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false
+  final_mean: 61.9795
+  final_std: 0.563
+  avg_mean: 67.7022
+  avg_std: 0.4115
+
+clip_visual_only | cub200 | n=20 | params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false
+  final_mean: 68.3725
+  final_std: 0.4921
+  avg_mean: 72.8986
+  avg_std: 0.2837
+
+clip_visual_only | miniimagenet | n=20 | params=branch=clip_visual_only,beta=0,ensemble=false,vision_calibration=false
+  final_mean: 86.764
+  final_std: 0.4746
+  avg_mean: 88.9027
+  avg_std: 0.3347
+
+dino_visual_only | CIFAR100 | n=20 | params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false
+  final_mean: 83.3405
+  final_std: 0.3038
+  avg_mean: 85.8691
+  avg_std: 0.2551
+
+dino_visual_only | cub200 | n=20 | params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false
+  final_mean: 84.0105
+  final_std: 0.4558
+  avg_mean: 83.8799
+  avg_std: 0.3831
+
+dino_visual_only | miniimagenet | n=20 | params=branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false
+  final_mean: 91.8965
+  final_std: 0.3154
+  avg_mean: 93.9412
+  avg_std: 0.1969
+
+
+ALL_DONE 2026-05-10 18:49:24 +06
+Experiment root: /media/ndag/newVolume/BiMC-test/experiments/clip_dino_only_20260510-100604
+Status file: /media/ndag/newVolume/BiMC-test/experiments/clip_dino_only_20260510-100604/logs/status.tsv
+Results index: /media/ndag/newVolume/BiMC-test/experiments/clip_dino_only_20260510-100604/logs/results_index.tsv
+Aggregate summary: /media/ndag/newVolume/BiMC-test/experiments/clip_dino_only_20260510-100604/aggregate_summary.txt
