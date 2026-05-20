@@ -1,0 +1,37 @@
+framework: tric_dinov2
+dataset: cub200
+seed: 1
+started_at: 2026-05-19T01:42:18+06:00
+completed_at: 2026-05-19T01:43:44+06:00
+runtime_sec: 86.127
+
+params:
+  novel_only: True
+  shared_rank: 1
+  subspace_rank: 3
+  lambda_unique: 0.35
+  beta_residual: 0.15
+  weighted_unique: True
+
+full accuracy:
+  baseline: 85.295
+  mean_rebuild: 85.295
+  refined: 82.102
+
+visual accuracy:
+  baseline: 84.104
+  mean_rebuild: 84.104
+  refined: 80.1
+
+gains:
+  mean_full_gain: 0.0
+  refined_full_gain: -3.193
+  mean_visual_gain: 0.0
+  refined_visual_gain: -4.004
+
+geometry:
+  shared_rank_used: 1
+  shared_energy_ratio: 0.092863
+  mean_orig_proto_cos: 1.0
+  mean_refined_vs_mean_cos: 0.918722
+  mean_refined_vs_orig_cos: 0.918722

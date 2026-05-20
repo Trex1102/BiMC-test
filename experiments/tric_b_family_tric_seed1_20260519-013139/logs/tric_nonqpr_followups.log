@@ -1,0 +1,264 @@
+/media/ndag/newVolume/BiMC-test/models/clip/clip.py:23: UserWarning: PyTorch version 1.7.1 or higher is recommended
+  warnings.warn("PyTorch version 1.7.1 or higher is recommended")
+{
+  "analysis": "tric_nonqpr_followup_suite_final_session",
+  "started_at": "2026-05-19T01:56:53+06:00",
+  "completed_at": "2026-05-19T02:08:56+06:00",
+  "runtime_sec": 723.135,
+  "seed": 1,
+  "train_cfg": "configs/trainers/bimc_dino_fusion.yaml",
+  "data_cfgs": [
+    "configs/datasets/cifar100.yaml",
+    "configs/datasets/miniimagenet.yaml",
+    "configs/datasets/cub200_bimc_dino_fusion.yaml"
+  ],
+  "output_root": "experiments/tric_b_family_tric_seed1_20260519-013139/tric_nonqpr_followup_suite_20260519-015653",
+  "runs": [
+    {
+      "dataset": "CIFAR100",
+      "completed_at": "2026-05-19T02:02:13+06:00",
+      "runtime_sec": 319.895,
+      "variant_summary": {
+        "semantic_branch_only": {
+          "full_acc": 68.38,
+          "base_acc": 68.75,
+          "novel_acc": 67.825,
+          "correct_count": 6838,
+          "gain_vs_reference": -14.79
+        },
+        "clip_visual_only": {
+          "full_acc": 61.24,
+          "base_acc": 72.917,
+          "novel_acc": 43.725,
+          "correct_count": 6124,
+          "gain_vs_reference": -21.93
+        },
+        "dino_visual_only": {
+          "full_acc": 83.9,
+          "base_acc": 88.233,
+          "novel_acc": 77.4,
+          "correct_count": 8390,
+          "gain_vs_reference": 0.73
+        },
+        "clip_dino_visual_only": {
+          "full_acc": 84.17,
+          "base_acc": 88.783,
+          "novel_acc": 77.25,
+          "correct_count": 8417,
+          "gain_vs_reference": 1.0
+        },
+        "tric_no_mask": {
+          "full_acc": 86.08,
+          "base_acc": 89.217,
+          "novel_acc": 81.375,
+          "correct_count": 8608,
+          "gain_vs_reference": 2.91
+        },
+        "tric": {
+          "full_acc": 83.17,
+          "base_acc": 88.25,
+          "novel_acc": 75.55,
+          "correct_count": 8317,
+          "gain_vs_reference": 0.0
+        },
+        "dino_subspace_only": {
+          "full_acc": 76.46,
+          "base_acc": 90.317,
+          "novel_acc": 55.675,
+          "correct_count": 7646,
+          "gain_vs_reference": -6.71
+        },
+        "tric_semantic_repair_noqpr": {
+          "full_acc": 83.17,
+          "base_acc": 88.25,
+          "novel_acc": 75.55,
+          "correct_count": 8317,
+          "gain_vs_reference": 0.0
+        },
+        "tric_subspace_repair_noqpr": {
+          "full_acc": 83.62,
+          "base_acc": 89.0,
+          "novel_acc": 75.55,
+          "correct_count": 8362,
+          "gain_vs_reference": 0.45
+        },
+        "tric_safe_router_noqpr": {
+          "full_acc": 82.91,
+          "base_acc": 88.317,
+          "novel_acc": 74.8,
+          "correct_count": 8291,
+          "gain_vs_reference": -0.26
+        }
+      },
+      "files": {
+        "results_json": "experiments/tric_b_family_tric_seed1_20260519-013139/tric_nonqpr_followup_suite_20260519-015653/CIFAR100/seed1_20260519-015653/results.json",
+        "summary_txt": "experiments/tric_b_family_tric_seed1_20260519-013139/tric_nonqpr_followup_suite_20260519-015653/CIFAR100/seed1_20260519-015653/summary.txt",
+        "driver_log": "experiments/tric_b_family_tric_seed1_20260519-013139/tric_nonqpr_followup_suite_20260519-015653/CIFAR100/seed1_20260519-015653/driver.log"
+      }
+    },
+    {
+      "dataset": "miniimagenet",
+      "completed_at": "2026-05-19T02:07:31+06:00",
+      "runtime_sec": 318.026,
+      "variant_summary": {
+        "semantic_branch_only": {
+          "full_acc": 86.01,
+          "base_acc": 86.633,
+          "novel_acc": 85.075,
+          "correct_count": 8601,
+          "gain_vs_reference": -7.46
+        },
+        "clip_visual_only": {
+          "full_acc": 86.18,
+          "base_acc": 91.667,
+          "novel_acc": 77.95,
+          "correct_count": 8618,
+          "gain_vs_reference": -7.29
+        },
+        "dino_visual_only": {
+          "full_acc": 91.91,
+          "base_acc": 95.283,
+          "novel_acc": 86.85,
+          "correct_count": 9191,
+          "gain_vs_reference": -1.56
+        },
+        "clip_dino_visual_only": {
+          "full_acc": 92.19,
+          "base_acc": 95.733,
+          "novel_acc": 86.875,
+          "correct_count": 9219,
+          "gain_vs_reference": -1.28
+        },
+        "tric_no_mask": {
+          "full_acc": 93.99,
+          "base_acc": 96.25,
+          "novel_acc": 90.6,
+          "correct_count": 9399,
+          "gain_vs_reference": 0.52
+        },
+        "tric": {
+          "full_acc": 93.47,
+          "base_acc": 96.3,
+          "novel_acc": 89.225,
+          "correct_count": 9347,
+          "gain_vs_reference": 0.0
+        },
+        "dino_subspace_only": {
+          "full_acc": 88.21,
+          "base_acc": 96.55,
+          "novel_acc": 75.7,
+          "correct_count": 8821,
+          "gain_vs_reference": -5.26
+        },
+        "tric_semantic_repair_noqpr": {
+          "full_acc": 93.47,
+          "base_acc": 96.3,
+          "novel_acc": 89.225,
+          "correct_count": 9347,
+          "gain_vs_reference": 0.0
+        },
+        "tric_subspace_repair_noqpr": {
+          "full_acc": 93.54,
+          "base_acc": 96.367,
+          "novel_acc": 89.3,
+          "correct_count": 9354,
+          "gain_vs_reference": 0.07
+        },
+        "tric_safe_router_noqpr": {
+          "full_acc": 93.13,
+          "base_acc": 96.35,
+          "novel_acc": 88.3,
+          "correct_count": 9313,
+          "gain_vs_reference": -0.34
+        }
+      },
+      "files": {
+        "results_json": "experiments/tric_b_family_tric_seed1_20260519-013139/tric_nonqpr_followup_suite_20260519-015653/miniimagenet/seed1_20260519-020213/results.json",
+        "summary_txt": "experiments/tric_b_family_tric_seed1_20260519-013139/tric_nonqpr_followup_suite_20260519-015653/miniimagenet/seed1_20260519-020213/summary.txt",
+        "driver_log": "experiments/tric_b_family_tric_seed1_20260519-013139/tric_nonqpr_followup_suite_20260519-015653/miniimagenet/seed1_20260519-020213/driver.log"
+      }
+    },
+    {
+      "dataset": "cub200",
+      "completed_at": "2026-05-19T02:08:56+06:00",
+      "runtime_sec": 85.204,
+      "variant_summary": {
+        "semantic_branch_only": {
+          "full_acc": 55.091,
+          "base_acc": 62.744,
+          "novel_acc": 47.611,
+          "correct_count": 3192,
+          "gain_vs_reference": -30.204
+        },
+        "clip_visual_only": {
+          "full_acc": 68.778,
+          "base_acc": 79.993,
+          "novel_acc": 57.816,
+          "correct_count": 3985,
+          "gain_vs_reference": -16.517
+        },
+        "dino_visual_only": {
+          "full_acc": 84.104,
+          "base_acc": 86.138,
+          "novel_acc": 82.116,
+          "correct_count": 4873,
+          "gain_vs_reference": -1.191
+        },
+        "clip_dino_visual_only": {
+          "full_acc": 84.622,
+          "base_acc": 86.802,
+          "novel_acc": 82.491,
+          "correct_count": 4903,
+          "gain_vs_reference": -0.673
+        },
+        "tric_no_mask": {
+          "full_acc": 85.088,
+          "base_acc": 87.5,
+          "novel_acc": 82.73,
+          "correct_count": 4930,
+          "gain_vs_reference": -0.207
+        },
+        "tric": {
+          "full_acc": 85.295,
+          "base_acc": 87.884,
+          "novel_acc": 82.765,
+          "correct_count": 4942,
+          "gain_vs_reference": 0.0
+        },
+        "dino_subspace_only": {
+          "full_acc": 84.501,
+          "base_acc": 88.408,
+          "novel_acc": 80.683,
+          "correct_count": 4896,
+          "gain_vs_reference": -0.794
+        },
+        "tric_semantic_repair_noqpr": {
+          "full_acc": 85.295,
+          "base_acc": 87.884,
+          "novel_acc": 82.765,
+          "correct_count": 4942,
+          "gain_vs_reference": 0.0
+        },
+        "tric_subspace_repair_noqpr": {
+          "full_acc": 85.243,
+          "base_acc": 87.849,
+          "novel_acc": 82.696,
+          "correct_count": 4939,
+          "gain_vs_reference": -0.052
+        },
+        "tric_safe_router_noqpr": {
+          "full_acc": 85.226,
+          "base_acc": 87.884,
+          "novel_acc": 82.628,
+          "correct_count": 4938,
+          "gain_vs_reference": -0.069
+        }
+      },
+      "files": {
+        "results_json": "experiments/tric_b_family_tric_seed1_20260519-013139/tric_nonqpr_followup_suite_20260519-015653/cub200/seed1_20260519-020731/results.json",
+        "summary_txt": "experiments/tric_b_family_tric_seed1_20260519-013139/tric_nonqpr_followup_suite_20260519-015653/cub200/seed1_20260519-020731/summary.txt",
+        "driver_log": "experiments/tric_b_family_tric_seed1_20260519-013139/tric_nonqpr_followup_suite_20260519-015653/cub200/seed1_20260519-020731/driver.log"
+      }
+    }
+  ]
+}

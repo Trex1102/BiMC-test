@@ -1,0 +1,19 @@
+dataset: miniimagenet
+data_cfg: configs/datasets/miniimagenet.yaml
+train_cfg: configs/trainers/bimc_dino_fusion.yaml
+seed: 1
+started_at: 2026-05-19T02:02:13+06:00
+completed_at: 2026-05-19T02:07:31+06:00
+runtime_sec: 318.026
+num_queries: 10000
+
+semantic_branch_only: full=86.01 base=86.633 novel=85.075 gain_vs_tric=-7.46
+clip_visual_only: full=86.18 base=91.667 novel=77.95 gain_vs_tric=-7.29
+dino_visual_only: full=91.91 base=95.283 novel=86.85 gain_vs_tric=-1.56
+clip_dino_visual_only: full=92.19 base=95.733 novel=86.875 gain_vs_tric=-1.28
+tric_no_mask: full=93.99 base=96.25 novel=90.6 gain_vs_tric=0.52
+tric: full=93.47 base=96.3 novel=89.225 gain_vs_tric=0.0
+dino_subspace_only: full=88.21 base=96.55 novel=75.7 gain_vs_tric=-5.26
+tric_semantic_repair_noqpr: full=93.47 base=96.3 novel=89.225 gain_vs_tric=0.0
+tric_subspace_repair_noqpr: full=93.54 base=96.367 novel=89.3 gain_vs_tric=0.07
+tric_safe_router_noqpr: full=93.13 base=96.35 novel=88.3 gain_vs_tric=-0.34

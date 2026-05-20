@@ -1,0 +1,12 @@
+eval_session,num_seen_classes,baseline_full_acc,baseline_base_acc,baseline_novel_acc,final_full_acc,final_base_acc,final_novel_acc,gain,selected_alpha,alpha_mode,updated_class_count,gated_query_count,gated_base_count,gated_novel_count
+0,100,88.163,88.163,0.0,88.163,88.163,0.0,0.0,,not_applicable_base_session,0,0,0,0
+1,110,86.796,88.059,73.835,87.241,87.989,79.57,0.445,0.5,pseudo_validation,9,221,8,213
+2,120,86.268,88.094,77.032,86.735,87.989,80.389,0.466,0.5,pseudo_validation,19,507,8,499
+3,130,85.166,88.198,75.116,85.595,88.059,77.431,0.429,0.5,pseudo_validation,29,803,7,796
+4,140,85.204,88.128,78.007,85.775,87.954,80.412,0.571,0.5,pseudo_validation,39,1101,8,1093
+5,150,83.749,88.128,75.171,84.258,87.989,76.949,0.509,0.5,pseudo_validation,49,1399,10,1389
+6,160,84.179,88.059,77.829,84.634,87.849,79.371,0.455,0.5,pseudo_validation,59,1691,15,1676
+7,170,84.687,87.989,80.068,85.156,87.849,81.387,0.468,0.5,pseudo_validation,69,1989,17,1972
+8,180,84.383,87.954,80.017,84.96,87.779,81.512,0.576,0.5,pseudo_validation,79,2282,18,2264
+9,190,84.929,87.884,81.711,85.439,87.709,82.966,0.51,0.5,pseudo_validation,89,2570,18,2552
+10,200,85.295,87.884,82.765,85.796,87.709,83.925,0.501,0.5,pseudo_validation,99,2868,18,2850

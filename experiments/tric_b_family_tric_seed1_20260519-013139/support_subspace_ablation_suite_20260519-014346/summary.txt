@@ -1,0 +1,27 @@
+started_at: 2026-05-19T01:43:46+06:00
+completed_at: 2026-05-19T01:56:52+06:00
+runtime_sec: 786.362
+
+tric_dinov2 / CIFAR100
+  baseline_full: 83.17
+  shared_only: 82.18
+  subspace_only: 82.16
+  residual_only: 81.26
+  full_refined: 81.32
+  shared_rank0_control: 82.26
+
+tric_dinov2 / miniimagenet
+  baseline_full: 93.47
+  shared_only: 93.48
+  subspace_only: 93.46
+  residual_only: 93.32
+  full_refined: 93.33
+  shared_rank0_control: 93.32
+
+tric_dinov2 / cub200
+  baseline_full: 85.295
+  shared_only: 82.982
+  subspace_only: 83.017
+  residual_only: 82.016
+  full_refined: 82.102
+  shared_rank0_control: 84.518

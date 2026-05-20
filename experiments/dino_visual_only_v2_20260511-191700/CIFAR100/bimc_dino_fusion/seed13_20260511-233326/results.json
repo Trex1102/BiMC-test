@@ -1,0 +1,273 @@
+{
+  "dataset": "CIFAR100",
+  "trainer": "bimc_dino_fusion",
+  "seed": 13,
+  "runtime_sec": 480.021,
+  "acc_list": [
+    89.63,
+    87.86,
+    87.26,
+    84.89,
+    84.84,
+    84.56,
+    84.53,
+    84.09,
+    83.04
+  ],
+  "task_acc_list": [
+    [
+      89.63
+    ],
+    [
+      89.38,
+      69.6
+    ],
+    [
+      89.2,
+      68.2,
+      83.0
+    ],
+    [
+      88.97,
+      67.0,
+      82.8,
+      56.0
+    ],
+    [
+      88.93,
+      66.8,
+      82.8,
+      55.8,
+      84.8
+    ],
+    [
+      88.78,
+      66.8,
+      82.8,
+      55.8,
+      84.6,
+      82.2
+    ],
+    [
+      88.42,
+      66.8,
+      82.6,
+      55.8,
+      84.4,
+      82.2,
+      88.8
+    ],
+    [
+      88.28,
+      66.6,
+      82.6,
+      55.8,
+      84.4,
+      80.0,
+      88.0,
+      81.0
+    ],
+    [
+      88.23,
+      66.6,
+      82.6,
+      55.8,
+      82.6,
+      80.0,
+      88.0,
+      81.0,
+      65.4
+    ]
+  ],
+  "task_results": [
+    {
+      "task_id": 0,
+      "elapsed_time_sec": 28.764,
+      "metrics": {
+        "mean_acc": 89.63,
+        "task_acc": [
+          89.63
+        ],
+        "harmonic_acc": 0.0,
+        "base_avg_acc": 89.63,
+        "inc_avg_acc": 0.0,
+        "nll": 0.802648,
+        "brier": 0.176749,
+        "ece": 0.079458,
+        "beta_prior": 0.0
+      }
+    },
+    {
+      "task_id": 1,
+      "elapsed_time_sec": 31.101,
+      "metrics": {
+        "mean_acc": 87.86,
+        "task_acc": [
+          89.38,
+          69.6
+        ],
+        "harmonic_acc": 78.26,
+        "base_avg_acc": 89.38,
+        "inc_avg_acc": 69.6,
+        "nll": 0.965735,
+        "brier": 0.207516,
+        "ece": 0.09441,
+        "beta_prior": 0.0
+      }
+    },
+    {
+      "task_id": 2,
+      "elapsed_time_sec": 33.496,
+      "metrics": {
+        "mean_acc": 87.26,
+        "task_acc": [
+          89.2,
+          68.2,
+          83.0
+        ],
+        "harmonic_acc": 81.84,
+        "base_avg_acc": 89.2,
+        "inc_avg_acc": 75.6,
+        "nll": 1.058038,
+        "brier": 0.218805,
+        "ece": 0.099821,
+        "beta_prior": 0.0
+      }
+    },
+    {
+      "task_id": 3,
+      "elapsed_time_sec": 35.865,
+      "metrics": {
+        "mean_acc": 84.89,
+        "task_acc": [
+          88.97,
+          67.0,
+          82.8,
+          56.0
+        ],
+        "harmonic_acc": 77.47,
+        "base_avg_acc": 88.97,
+        "inc_avg_acc": 68.6,
+        "nll": 1.317777,
+        "brier": 0.261207,
+        "ece": 0.120174,
+        "beta_prior": 0.0
+      }
+    },
+    {
+      "task_id": 4,
+      "elapsed_time_sec": 38.321,
+      "metrics": {
+        "mean_acc": 84.84,
+        "task_acc": [
+          88.93,
+          66.8,
+          82.8,
+          55.8,
+          84.8
+        ],
+        "harmonic_acc": 79.91,
+        "base_avg_acc": 88.93,
+        "inc_avg_acc": 72.55,
+        "nll": 1.312687,
+        "brier": 0.26095,
+        "ece": 0.11981,
+        "beta_prior": 0.0
+      }
+    },
+    {
+      "task_id": 5,
+      "elapsed_time_sec": 40.763,
+      "metrics": {
+        "mean_acc": 84.56,
+        "task_acc": [
+          88.78,
+          66.8,
+          82.8,
+          55.8,
+          84.6,
+          82.2
+        ],
+        "harmonic_acc": 80.98,
+        "base_avg_acc": 88.78,
+        "inc_avg_acc": 74.44,
+        "nll": 1.361669,
+        "brier": 0.265317,
+        "ece": 0.12181,
+        "beta_prior": 0.0
+      }
+    },
+    {
+      "task_id": 6,
+      "elapsed_time_sec": 43.17,
+      "metrics": {
+        "mean_acc": 84.53,
+        "task_acc": [
+          88.42,
+          66.8,
+          82.6,
+          55.8,
+          84.4,
+          82.2,
+          88.8
+        ],
+        "harmonic_acc": 82.18,
+        "base_avg_acc": 88.42,
+        "inc_avg_acc": 76.77,
+        "nll": 1.348485,
+        "brier": 0.265232,
+        "ece": 0.121428,
+        "beta_prior": 0.0
+      }
+    },
+    {
+      "task_id": 7,
+      "elapsed_time_sec": 45.602,
+      "metrics": {
+        "mean_acc": 84.09,
+        "task_acc": [
+          88.28,
+          66.6,
+          82.6,
+          55.8,
+          84.4,
+          80.0,
+          88.0,
+          81.0
+        ],
+        "harmonic_acc": 82.21,
+        "base_avg_acc": 88.28,
+        "inc_avg_acc": 76.91,
+        "nll": 1.403218,
+        "brier": 0.272816,
+        "ece": 0.124848,
+        "beta_prior": 0.0
+      }
+    },
+    {
+      "task_id": 8,
+      "elapsed_time_sec": 47.969,
+      "metrics": {
+        "mean_acc": 83.04,
+        "task_acc": [
+          88.23,
+          66.6,
+          82.6,
+          55.8,
+          82.6,
+          80.0,
+          88.0,
+          81.0,
+          65.4
+        ],
+        "harmonic_acc": 81.22,
+        "base_avg_acc": 88.23,
+        "inc_avg_acc": 75.25,
+        "nll": 1.523028,
+        "brier": 0.292728,
+        "ece": 0.133794,
+        "beta_prior": 0.0
+      }
+    }
+  ]
+}

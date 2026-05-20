@@ -1,0 +1,18 @@
+started_at: 2026-05-19T01:31:40+06:00
+completed_at: 2026-05-19T01:43:44+06:00
+runtime_sec: 724.373
+
+tric_dinov2 / CIFAR100
+  baseline_full: 83.17
+  refined_full: 81.32
+  refined_gain: -1.85
+
+tric_dinov2 / miniimagenet
+  baseline_full: 93.47
+  refined_full: 93.33
+  refined_gain: -0.14
+
+tric_dinov2 / cub200
+  baseline_full: 85.295
+  refined_full: 82.102
+  refined_gain: -3.193

@@ -1,0 +1,10 @@
+eval_session,num_seen_classes,baseline_full_acc,baseline_base_acc,baseline_novel_acc,final_full_acc,final_base_acc,final_novel_acc,gain,selected_alpha,alpha_mode,updated_class_count,gated_query_count,gated_base_count,gated_novel_count
+0,60,89.75,89.75,0.0,89.75,89.75,0.0,0.0,,not_applicable_base_session,0,0,0,0
+1,65,88.015,89.467,70.6,88.6,89.317,80.0,0.585,0.5,pseudo_validation,5,364,11,353
+2,70,87.429,89.283,76.3,88.271,89.117,83.2,0.843,0.5,pseudo_validation,10,799,23,776
+3,75,85.573,89.05,71.667,87.12,88.867,80.133,1.547,0.5,pseudo_validation,15,1159,38,1121
+4,80,85.263,88.867,74.45,87.2,88.683,82.75,1.938,0.5,pseudo_validation,20,1585,45,1540
+5,85,85.047,88.783,76.08,87.071,88.583,83.44,2.024,0.5,pseudo_validation,25,2012,50,1962
+6,90,85.133,88.617,78.167,87.233,88.4,84.9,2.1,0.5,pseudo_validation,30,2466,57,2409
+7,95,84.895,88.683,78.4,87.116,88.367,84.971,2.221,0.5,pseudo_validation,35,2909,67,2842
+8,100,83.17,88.25,75.55,85.79,87.9,82.625,2.62,0.5,pseudo_validation,40,3224,77,3147

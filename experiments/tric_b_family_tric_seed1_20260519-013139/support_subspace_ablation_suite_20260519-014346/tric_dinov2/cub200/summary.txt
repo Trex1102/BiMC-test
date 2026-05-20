@@ -1,0 +1,63 @@
+framework: tric_dinov2
+dataset: cub200
+seed: 1
+started_at: 2026-05-19T01:55:09+06:00
+completed_at: 2026-05-19T01:56:52+06:00
+runtime_sec: 102.457
+
+baseline_full: 85.295
+baseline_visual: 84.104
+mean_rebuild_full: 85.295
+mean_rebuild_visual: 84.104
+
+shared_removal_only:
+  full_acc: 82.982
+  visual_acc: 81.187
+  full_gain: -2.313
+  visual_gain: -2.917
+  shared_rank: 1
+  lambda_unique: 0.0
+  beta_residual: 0.0
+
+subspace_term_only:
+  full_acc: 83.017
+  visual_acc: 81.256
+  full_gain: -2.278
+  visual_gain: -2.848
+  shared_rank: 1
+  lambda_unique: 0.35
+  beta_residual: 0.0
+
+competitor_residual_only:
+  full_acc: 82.016
+  visual_acc: 80.048
+  full_gain: -3.279
+  visual_gain: -4.056
+  shared_rank: 1
+  lambda_unique: 0.0
+  beta_residual: 0.15
+
+full_refined:
+  full_acc: 82.102
+  visual_acc: 80.1
+  full_gain: -3.193
+  visual_gain: -4.004
+  shared_rank: 1
+  lambda_unique: 0.35
+  beta_residual: 0.15
+
+shared_rank0_control:
+  full_acc: 84.518
+  visual_acc: 83.103
+  full_gain: -0.777
+  visual_gain: -1.001
+  shared_rank: 0
+  lambda_unique: 0.35
+  beta_residual: 0.15
+
+comparisons:
+  full_shared_removal_effect_vs_baseline: -2.313
+  full_subspace_increment_over_shared: 0.035
+  full_residual_increment_over_shared: -0.966
+  full_shared_rank0_minus_full: 2.416
+  visual_shared_rank0_minus_full: 3.003

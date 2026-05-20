@@ -1,0 +1,598 @@
+{
+  "summary": [
+    {
+      "phase": "dino_visual_only",
+      "dataset": "CIFAR100",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false",
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "n": 20,
+      "session_mean": [
+        89.63,
+        87.8705,
+        87.2125,
+        85.1625,
+        85.2155,
+        84.904,
+        84.918,
+        84.5685,
+        83.3405
+      ],
+      "session_std": [
+        0.0,
+        0.2748,
+        0.2803,
+        0.3656,
+        0.3574,
+        0.3292,
+        0.347,
+        0.3592,
+        0.3038
+      ],
+      "avg_mean": 85.8691,
+      "avg_std": 0.2551,
+      "pd_mean": 6.2895,
+      "pd_std": 0.3038,
+      "final_mean": 83.3405,
+      "final_std": 0.3038
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "cub200",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false",
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "n": 20,
+      "session_mean": [
+        86.35,
+        85.187,
+        84.655,
+        83.6695,
+        83.6815,
+        82.3355,
+        82.722,
+        83.2845,
+        83.1355,
+        83.6475,
+        84.0105
+      ],
+      "session_std": [
+        0.0,
+        0.2958,
+        0.4018,
+        0.4525,
+        0.5222,
+        0.5157,
+        0.4852,
+        0.5031,
+        0.4833,
+        0.4617,
+        0.4558
+      ],
+      "avg_mean": 83.8799,
+      "avg_std": 0.3831,
+      "pd_mean": 2.3395,
+      "pd_std": 0.4558,
+      "final_mean": 84.0105,
+      "final_std": 0.4558
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "miniimagenet",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false",
+      "seeds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "n": 20,
+      "session_mean": [
+        96.42,
+        96.0155,
+        94.467,
+        94.384,
+        94.4265,
+        93.4895,
+        92.302,
+        92.07,
+        91.8965
+      ],
+      "session_std": [
+        0.0,
+        0.0929,
+        0.2499,
+        0.2562,
+        0.2427,
+        0.2811,
+        0.3082,
+        0.3209,
+        0.3154
+      ],
+      "avg_mean": 93.9412,
+      "avg_std": 0.1969,
+      "pd_mean": 4.5235,
+      "pd_std": 0.3154,
+      "final_mean": 91.8965,
+      "final_std": 0.3154
+    }
+  ],
+  "records": [
+    {
+      "phase": "dino_visual_only",
+      "dataset": "CIFAR100",
+      "seed": 1,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/CIFAR100/bimc_dino_fusion/seed1_20260511-191707/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "miniimagenet",
+      "seed": 1,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/miniimagenet/bimc_dino_fusion/seed1_20260511-192505/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "cub200",
+      "seed": 1,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/cub200/bimc_dino_fusion/seed1_20260511-193929/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "CIFAR100",
+      "seed": 2,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/CIFAR100/bimc_dino_fusion/seed2_20260511-194455/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "miniimagenet",
+      "seed": 2,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/miniimagenet/bimc_dino_fusion/seed2_20260511-195255/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "cub200",
+      "seed": 2,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/cub200/bimc_dino_fusion/seed2_20260511-200059/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "CIFAR100",
+      "seed": 3,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/CIFAR100/bimc_dino_fusion/seed3_20260511-200523/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "miniimagenet",
+      "seed": 3,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/miniimagenet/bimc_dino_fusion/seed3_20260511-201323/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "cub200",
+      "seed": 3,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/cub200/bimc_dino_fusion/seed3_20260511-202128/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "CIFAR100",
+      "seed": 4,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/CIFAR100/bimc_dino_fusion/seed4_20260511-202605/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "miniimagenet",
+      "seed": 4,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/miniimagenet/bimc_dino_fusion/seed4_20260511-203430/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "cub200",
+      "seed": 4,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/cub200/bimc_dino_fusion/seed4_20260511-204305/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "CIFAR100",
+      "seed": 5,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/CIFAR100/bimc_dino_fusion/seed5_20260511-204735/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "miniimagenet",
+      "seed": 5,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/miniimagenet/bimc_dino_fusion/seed5_20260511-205548/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "cub200",
+      "seed": 5,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/cub200/bimc_dino_fusion/seed5_20260511-210424/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "CIFAR100",
+      "seed": 6,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/CIFAR100/bimc_dino_fusion/seed6_20260511-210908/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "miniimagenet",
+      "seed": 6,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/miniimagenet/bimc_dino_fusion/seed6_20260511-211725/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "cub200",
+      "seed": 6,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/cub200/bimc_dino_fusion/seed6_20260511-212532/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "CIFAR100",
+      "seed": 7,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/CIFAR100/bimc_dino_fusion/seed7_20260511-212957/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "miniimagenet",
+      "seed": 7,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/miniimagenet/bimc_dino_fusion/seed7_20260511-213800/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "cub200",
+      "seed": 7,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/cub200/bimc_dino_fusion/seed7_20260511-214607/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "CIFAR100",
+      "seed": 8,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/CIFAR100/bimc_dino_fusion/seed8_20260511-215031/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "miniimagenet",
+      "seed": 8,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/miniimagenet/bimc_dino_fusion/seed8_20260511-215834/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "cub200",
+      "seed": 8,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/cub200/bimc_dino_fusion/seed8_20260511-220642/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "CIFAR100",
+      "seed": 9,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/CIFAR100/bimc_dino_fusion/seed9_20260511-221106/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "miniimagenet",
+      "seed": 9,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/miniimagenet/bimc_dino_fusion/seed9_20260511-221910/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "cub200",
+      "seed": 9,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/cub200/bimc_dino_fusion/seed9_20260511-222717/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "CIFAR100",
+      "seed": 10,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/CIFAR100/bimc_dino_fusion/seed10_20260511-223141/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "miniimagenet",
+      "seed": 10,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/miniimagenet/bimc_dino_fusion/seed10_20260511-223945/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "cub200",
+      "seed": 10,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/cub200/bimc_dino_fusion/seed10_20260511-224753/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "CIFAR100",
+      "seed": 11,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/CIFAR100/bimc_dino_fusion/seed11_20260511-225217/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "miniimagenet",
+      "seed": 11,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/miniimagenet/bimc_dino_fusion/seed11_20260511-230020/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "cub200",
+      "seed": 11,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/cub200/bimc_dino_fusion/seed11_20260511-230827/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "CIFAR100",
+      "seed": 12,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/CIFAR100/bimc_dino_fusion/seed12_20260511-231251/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "miniimagenet",
+      "seed": 12,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/miniimagenet/bimc_dino_fusion/seed12_20260511-232054/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "cub200",
+      "seed": 12,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/cub200/bimc_dino_fusion/seed12_20260511-232902/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "CIFAR100",
+      "seed": 13,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/CIFAR100/bimc_dino_fusion/seed13_20260511-233326/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "miniimagenet",
+      "seed": 13,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/miniimagenet/bimc_dino_fusion/seed13_20260511-234130/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "cub200",
+      "seed": 13,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/cub200/bimc_dino_fusion/seed13_20260511-234938/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "CIFAR100",
+      "seed": 14,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/CIFAR100/bimc_dino_fusion/seed14_20260511-235402/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "miniimagenet",
+      "seed": 14,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/miniimagenet/bimc_dino_fusion/seed14_20260512-000206/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "cub200",
+      "seed": 14,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/cub200/bimc_dino_fusion/seed14_20260512-001014/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "CIFAR100",
+      "seed": 15,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/CIFAR100/bimc_dino_fusion/seed15_20260512-001437/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "miniimagenet",
+      "seed": 15,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/miniimagenet/bimc_dino_fusion/seed15_20260512-002242/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "cub200",
+      "seed": 15,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/cub200/bimc_dino_fusion/seed15_20260512-003050/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "CIFAR100",
+      "seed": 16,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/CIFAR100/bimc_dino_fusion/seed16_20260512-003514/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "miniimagenet",
+      "seed": 16,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/miniimagenet/bimc_dino_fusion/seed16_20260512-004318/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "cub200",
+      "seed": 16,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/cub200/bimc_dino_fusion/seed16_20260512-005126/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "CIFAR100",
+      "seed": 17,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/CIFAR100/bimc_dino_fusion/seed17_20260512-005550/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "miniimagenet",
+      "seed": 17,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/miniimagenet/bimc_dino_fusion/seed17_20260512-010354/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "cub200",
+      "seed": 17,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/cub200/bimc_dino_fusion/seed17_20260512-011218/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "CIFAR100",
+      "seed": 18,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/CIFAR100/bimc_dino_fusion/seed18_20260512-011710/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "miniimagenet",
+      "seed": 18,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/miniimagenet/bimc_dino_fusion/seed18_20260512-012549/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "cub200",
+      "seed": 18,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/cub200/bimc_dino_fusion/seed18_20260512-013450/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "CIFAR100",
+      "seed": 19,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/CIFAR100/bimc_dino_fusion/seed19_20260512-013945/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "miniimagenet",
+      "seed": 19,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/miniimagenet/bimc_dino_fusion/seed19_20260512-014833/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "cub200",
+      "seed": 19,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/cub200/bimc_dino_fusion/seed19_20260512-015728/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "CIFAR100",
+      "seed": 20,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/CIFAR100/bimc_dino_fusion/seed20_20260512-020221/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "miniimagenet",
+      "seed": 20,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/miniimagenet/bimc_dino_fusion/seed20_20260512-021110/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    },
+    {
+      "phase": "dino_visual_only",
+      "dataset": "cub200",
+      "seed": 20,
+      "result": "experiments/dino_visual_only_v2_20260511-191700/cub200/bimc_dino_fusion/seed20_20260512-022006/results.json",
+      "params": "branch=dino_visual_only,beta=0,omega=1,ensemble=false,vision_calibration=false"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "analysis": "tric_nonqpr_followup_suite_final_session",
+  "dataset": "cub200",
+  "data_cfg": "configs/datasets/cub200_bimc_dino_fusion.yaml",
+  "train_cfg": "configs/trainers/bimc_dino_fusion.yaml",
+  "seed": 1,
+  "started_at": "2026-05-19T02:07:31+06:00",
+  "completed_at": "2026-05-19T02:08:56+06:00",
+  "runtime_sec": 85.204,
+  "hostname": "NDAG-M-Lab",
+  "num_queries": 5794,
+  "num_seen_classes": 200,
+  "num_base_classes": 100,
+  "beta": 0.3,
+  "lambda_t": 0.5,
+  "ensemble_alpha": 0.8,
+  "omega": 0.7,
+  "variant_summary": {
+    "semantic_branch_only": {
+      "full_acc": 55.091,
+      "base_acc": 62.744,
+      "novel_acc": 47.611,
+      "correct_count": 3192,
+      "gain_vs_reference": -30.204
+    },
+    "clip_visual_only": {
+      "full_acc": 68.778,
+      "base_acc": 79.993,
+      "novel_acc": 57.816,
+      "correct_count": 3985,
+      "gain_vs_reference": -16.517
+    },
+    "dino_visual_only": {
+      "full_acc": 84.104,
+      "base_acc": 86.138,
+      "novel_acc": 82.116,
+      "correct_count": 4873,
+      "gain_vs_reference": -1.191
+    },
+    "clip_dino_visual_only": {
+      "full_acc": 84.622,
+      "base_acc": 86.802,
+      "novel_acc": 82.491,
+      "correct_count": 4903,
+      "gain_vs_reference": -0.673
+    },
+    "tric_no_mask": {
+      "full_acc": 85.088,
+      "base_acc": 87.5,
+      "novel_acc": 82.73,
+      "correct_count": 4930,
+      "gain_vs_reference": -0.207
+    },
+    "tric": {
+      "full_acc": 85.295,
+      "base_acc": 87.884,
+      "novel_acc": 82.765,
+      "correct_count": 4942,
+      "gain_vs_reference": 0.0
+    },
+    "dino_subspace_only": {
+      "full_acc": 84.501,
+      "base_acc": 88.408,
+      "novel_acc": 80.683,
+      "correct_count": 4896,
+      "gain_vs_reference": -0.794
+    },
+    "tric_semantic_repair_noqpr": {
+      "full_acc": 85.295,
+      "base_acc": 87.884,
+      "novel_acc": 82.765,
+      "correct_count": 4942,
+      "gain_vs_reference": 0.0
+    },
+    "tric_subspace_repair_noqpr": {
+      "full_acc": 85.243,
+      "base_acc": 87.849,
+      "novel_acc": 82.696,
+      "correct_count": 4939,
+      "gain_vs_reference": -0.052
+    },
+    "tric_safe_router_noqpr": {
+      "full_acc": 85.226,
+      "base_acc": 87.884,
+      "novel_acc": 82.628,
+      "correct_count": 4938,
+      "gain_vs_reference": -0.069
+    }
+  },
+  "variant_metadata": {
+    "dino_subspace_only": {
+      "subspace_dim": 3,
+      "subspace_temp": 40.0
+    },
+    "tric_semantic_repair_noqpr": {
+      "repair_query_count": 0,
+      "repair_query_rate": 0.0
+    },
+    "tric_subspace_repair_noqpr": {
+      "repair_query_count": 19,
+      "repair_query_rate": 0.0033
+    },
+    "tric_safe_router_noqpr": {
+      "route_counts": {
+        "default": 2151,
+        "covariance": 908,
+        "visual_subspace": 2543,
+        "semantic_repair": 0,
+        "visual_override": 192
+      }
+    }
+  },
+  "files": {
+    "results_json": "experiments/tric_b_family_tric_seed1_20260519-013139/tric_nonqpr_followup_suite_20260519-015653/cub200/seed1_20260519-020731/results.json",
+    "summary_txt": "experiments/tric_b_family_tric_seed1_20260519-013139/tric_nonqpr_followup_suite_20260519-015653/cub200/seed1_20260519-020731/summary.txt",
+    "driver_log": "experiments/tric_b_family_tric_seed1_20260519-013139/tric_nonqpr_followup_suite_20260519-015653/cub200/seed1_20260519-020731/driver.log"
+  }
+}

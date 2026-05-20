@@ -1,0 +1,37 @@
+framework: tric_dinov2
+dataset: miniimagenet
+seed: 1
+started_at: 2026-05-19T01:37:00+06:00
+completed_at: 2026-05-19T01:42:18+06:00
+runtime_sec: 317.874
+
+params:
+  novel_only: True
+  shared_rank: 1
+  subspace_rank: 3
+  lambda_unique: 0.35
+  beta_residual: 0.15
+  weighted_unique: True
+
+full accuracy:
+  baseline: 93.47
+  mean_rebuild: 93.47
+  refined: 93.33
+
+visual accuracy:
+  baseline: 91.91
+  mean_rebuild: 91.91
+  refined: 91.47
+
+gains:
+  mean_full_gain: 0.0
+  refined_full_gain: -0.14
+  mean_visual_gain: 0.0
+  refined_visual_gain: -0.44
+
+geometry:
+  shared_rank_used: 1
+  shared_energy_ratio: 0.027479
+  mean_orig_proto_cos: 1.0
+  mean_refined_vs_mean_cos: 0.988136
+  mean_refined_vs_orig_cos: 0.988137

@@ -1,0 +1,19 @@
+dataset: cub200
+data_cfg: configs/datasets/cub200_bimc_dino_fusion.yaml
+train_cfg: configs/trainers/bimc_dino_fusion.yaml
+seed: 1
+started_at: 2026-05-19T02:07:31+06:00
+completed_at: 2026-05-19T02:08:56+06:00
+runtime_sec: 85.204
+num_queries: 5794
+
+semantic_branch_only: full=55.091 base=62.744 novel=47.611 gain_vs_tric=-30.204
+clip_visual_only: full=68.778 base=79.993 novel=57.816 gain_vs_tric=-16.517
+dino_visual_only: full=84.104 base=86.138 novel=82.116 gain_vs_tric=-1.191
+clip_dino_visual_only: full=84.622 base=86.802 novel=82.491 gain_vs_tric=-0.673
+tric_no_mask: full=85.088 base=87.5 novel=82.73 gain_vs_tric=-0.207
+tric: full=85.295 base=87.884 novel=82.765 gain_vs_tric=0.0
+dino_subspace_only: full=84.501 base=88.408 novel=80.683 gain_vs_tric=-0.794
+tric_semantic_repair_noqpr: full=85.295 base=87.884 novel=82.765 gain_vs_tric=0.0
+tric_subspace_repair_noqpr: full=85.243 base=87.849 novel=82.696 gain_vs_tric=-0.052
+tric_safe_router_noqpr: full=85.226 base=87.884 novel=82.628 gain_vs_tric=-0.069

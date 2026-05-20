@@ -1,0 +1,10 @@
+dataset,intro_session,baseline_mean_class_acc,final_mean_class_acc,gain,class_count
+CIFAR100,0,88.25,87.9,-0.35,60
+CIFAR100,1,66.6,77.2,10.6,5
+CIFAR100,2,80.6,86.4,5.8,5
+CIFAR100,3,65.8,74.4,8.6,5
+CIFAR100,4,80.4,89.2,8.8,5
+CIFAR100,5,80.8,85.4,4.6,5
+CIFAR100,6,89.4,92.0,2.6,5
+CIFAR100,7,80.8,86.2,5.4,5
+CIFAR100,8,60.0,70.2,10.2,5

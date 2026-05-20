@@ -1,0 +1,318 @@
+{
+  "seed": 1,
+  "train_cfg": "configs/trainers/bimc_dino_fusion.yaml",
+  "datasets": [
+    "CIFAR100",
+    "miniimagenet",
+    "cub200"
+  ],
+  "alpha_grid": [
+    0.5,
+    0.75,
+    1.0
+  ],
+  "mass_thr": 0.3,
+  "min_count": 5,
+  "val_fraction": 0.2,
+  "base_val_conf_thr": 0.5,
+  "base_val_max_per_class": 50,
+  "fallback_alpha": 0.75,
+  "topk_per_class": null,
+  "dataset_summaries": [
+    {
+      "dataset": "CIFAR100",
+      "baseline_avg_session_acc": 86.031,
+      "final_avg_session_acc": 87.572,
+      "baseline_performance_drop": 6.58,
+      "final_performance_drop": 3.96,
+      "final_session_baseline_acc": 83.17,
+      "final_session_final_acc": 85.79,
+      "final_session_gain": 2.62,
+      "final_session_intro_corr_baseline": -0.348467,
+      "final_session_intro_corr_final": -0.199188,
+      "first_intro_session": 0,
+      "last_intro_session": 8,
+      "first_intro_baseline_mean_class_acc": 88.25,
+      "first_intro_final_mean_class_acc": 87.9,
+      "last_intro_baseline_mean_class_acc": 60.0,
+      "last_intro_final_mean_class_acc": 70.2,
+      "intro_summary_rows": [
+        {
+          "dataset": "CIFAR100",
+          "intro_session": 0,
+          "baseline_mean_class_acc": 88.25,
+          "final_mean_class_acc": 87.9,
+          "gain": -0.35,
+          "class_count": 60
+        },
+        {
+          "dataset": "CIFAR100",
+          "intro_session": 1,
+          "baseline_mean_class_acc": 66.6,
+          "final_mean_class_acc": 77.2,
+          "gain": 10.6,
+          "class_count": 5
+        },
+        {
+          "dataset": "CIFAR100",
+          "intro_session": 2,
+          "baseline_mean_class_acc": 80.6,
+          "final_mean_class_acc": 86.4,
+          "gain": 5.8,
+          "class_count": 5
+        },
+        {
+          "dataset": "CIFAR100",
+          "intro_session": 3,
+          "baseline_mean_class_acc": 65.8,
+          "final_mean_class_acc": 74.4,
+          "gain": 8.6,
+          "class_count": 5
+        },
+        {
+          "dataset": "CIFAR100",
+          "intro_session": 4,
+          "baseline_mean_class_acc": 80.4,
+          "final_mean_class_acc": 89.2,
+          "gain": 8.8,
+          "class_count": 5
+        },
+        {
+          "dataset": "CIFAR100",
+          "intro_session": 5,
+          "baseline_mean_class_acc": 80.8,
+          "final_mean_class_acc": 85.4,
+          "gain": 4.6,
+          "class_count": 5
+        },
+        {
+          "dataset": "CIFAR100",
+          "intro_session": 6,
+          "baseline_mean_class_acc": 89.4,
+          "final_mean_class_acc": 92.0,
+          "gain": 2.6,
+          "class_count": 5
+        },
+        {
+          "dataset": "CIFAR100",
+          "intro_session": 7,
+          "baseline_mean_class_acc": 80.8,
+          "final_mean_class_acc": 86.2,
+          "gain": 5.4,
+          "class_count": 5
+        },
+        {
+          "dataset": "CIFAR100",
+          "intro_session": 8,
+          "baseline_mean_class_acc": 60.0,
+          "final_mean_class_acc": 70.2,
+          "gain": 10.2,
+          "class_count": 5
+        }
+      ],
+      "runtime_sec": 790.167
+    },
+    {
+      "dataset": "miniimagenet",
+      "baseline_avg_session_acc": 95.168,
+      "final_avg_session_acc": 95.467,
+      "baseline_performance_drop": 3.63,
+      "final_performance_drop": 3.1,
+      "final_session_baseline_acc": 93.47,
+      "final_session_final_acc": 94.0,
+      "final_session_gain": 0.53,
+      "final_session_intro_corr_baseline": -0.233586,
+      "final_session_intro_corr_final": -0.18886,
+      "first_intro_session": 0,
+      "last_intro_session": 8,
+      "first_intro_baseline_mean_class_acc": 96.3,
+      "first_intro_final_mean_class_acc": 96.117,
+      "last_intro_baseline_mean_class_acc": 93.8,
+      "last_intro_final_mean_class_acc": 94.6,
+      "intro_summary_rows": [
+        {
+          "dataset": "miniimagenet",
+          "intro_session": 0,
+          "baseline_mean_class_acc": 96.3,
+          "final_mean_class_acc": 96.117,
+          "gain": -0.183,
+          "class_count": 60
+        },
+        {
+          "dataset": "miniimagenet",
+          "intro_session": 1,
+          "baseline_mean_class_acc": 95.4,
+          "final_mean_class_acc": 96.0,
+          "gain": 0.6,
+          "class_count": 5
+        },
+        {
+          "dataset": "miniimagenet",
+          "intro_session": 2,
+          "baseline_mean_class_acc": 74.8,
+          "final_mean_class_acc": 77.0,
+          "gain": 2.2,
+          "class_count": 5
+        },
+        {
+          "dataset": "miniimagenet",
+          "intro_session": 3,
+          "baseline_mean_class_acc": 94.0,
+          "final_mean_class_acc": 95.8,
+          "gain": 1.8,
+          "class_count": 5
+        },
+        {
+          "dataset": "miniimagenet",
+          "intro_session": 4,
+          "baseline_mean_class_acc": 97.2,
+          "final_mean_class_acc": 97.2,
+          "gain": 0.0,
+          "class_count": 5
+        },
+        {
+          "dataset": "miniimagenet",
+          "intro_session": 5,
+          "baseline_mean_class_acc": 90.0,
+          "final_mean_class_acc": 92.4,
+          "gain": 2.4,
+          "class_count": 5
+        },
+        {
+          "dataset": "miniimagenet",
+          "intro_session": 6,
+          "baseline_mean_class_acc": 78.6,
+          "final_mean_class_acc": 82.4,
+          "gain": 3.8,
+          "class_count": 5
+        },
+        {
+          "dataset": "miniimagenet",
+          "intro_session": 7,
+          "baseline_mean_class_acc": 90.0,
+          "final_mean_class_acc": 91.2,
+          "gain": 1.2,
+          "class_count": 5
+        },
+        {
+          "dataset": "miniimagenet",
+          "intro_session": 8,
+          "baseline_mean_class_acc": 93.8,
+          "final_mean_class_acc": 94.6,
+          "gain": 0.8,
+          "class_count": 5
+        }
+      ],
+      "runtime_sec": 786.747
+    },
+    {
+      "dataset": "cub200",
+      "baseline_avg_session_acc": 85.347,
+      "final_avg_session_acc": 85.796,
+      "baseline_performance_drop": 2.868,
+      "final_performance_drop": 2.367,
+      "final_session_baseline_acc": 85.295,
+      "final_session_final_acc": 85.796,
+      "final_session_gain": 0.501,
+      "final_session_intro_corr_baseline": 0.045288,
+      "final_session_intro_corr_final": 0.053936,
+      "first_intro_session": 0,
+      "last_intro_session": 10,
+      "first_intro_baseline_mean_class_acc": 87.9,
+      "first_intro_final_mean_class_acc": 87.73,
+      "last_intro_baseline_mean_class_acc": 92.0,
+      "last_intro_final_mean_class_acc": 92.667,
+      "intro_summary_rows": [
+        {
+          "dataset": "cub200",
+          "intro_session": 0,
+          "baseline_mean_class_acc": 87.9,
+          "final_mean_class_acc": 87.73,
+          "gain": -0.17,
+          "class_count": 100
+        },
+        {
+          "dataset": "cub200",
+          "intro_session": 1,
+          "baseline_mean_class_acc": 72.053,
+          "final_mean_class_acc": 77.719,
+          "gain": 5.667,
+          "class_count": 10
+        },
+        {
+          "dataset": "cub200",
+          "intro_session": 2,
+          "baseline_mean_class_acc": 75.977,
+          "final_mean_class_acc": 76.011,
+          "gain": 0.034,
+          "class_count": 10
+        },
+        {
+          "dataset": "cub200",
+          "intro_session": 3,
+          "baseline_mean_class_acc": 73.414,
+          "final_mean_class_acc": 75.103,
+          "gain": 1.69,
+          "class_count": 10
+        },
+        {
+          "dataset": "cub200",
+          "intro_session": 4,
+          "baseline_mean_class_acc": 87.0,
+          "final_mean_class_acc": 89.667,
+          "gain": 2.667,
+          "class_count": 10
+        },
+        {
+          "dataset": "cub200",
+          "intro_session": 5,
+          "baseline_mean_class_acc": 64.046,
+          "final_mean_class_acc": 63.046,
+          "gain": -1.0,
+          "class_count": 10
+        },
+        {
+          "dataset": "cub200",
+          "intro_session": 6,
+          "baseline_mean_class_acc": 90.885,
+          "final_mean_class_acc": 90.731,
+          "gain": -0.154,
+          "class_count": 10
+        },
+        {
+          "dataset": "cub200",
+          "intro_session": 7,
+          "baseline_mean_class_acc": 89.264,
+          "final_mean_class_acc": 88.908,
+          "gain": -0.356,
+          "class_count": 10
+        },
+        {
+          "dataset": "cub200",
+          "intro_session": 8,
+          "baseline_mean_class_acc": 84.927,
+          "final_mean_class_acc": 86.989,
+          "gain": 2.063,
+          "class_count": 10
+        },
+        {
+          "dataset": "cub200",
+          "intro_session": 9,
+          "baseline_mean_class_acc": 96.31,
+          "final_mean_class_acc": 96.31,
+          "gain": 0.0,
+          "class_count": 10
+        },
+        {
+          "dataset": "cub200",
+          "intro_session": 10,
+          "baseline_mean_class_acc": 92.0,
+          "final_mean_class_acc": 92.667,
+          "gain": 0.667,
+          "class_count": 10
+        }
+      ],
+      "runtime_sec": 419.381
+    }
+  ]
+}

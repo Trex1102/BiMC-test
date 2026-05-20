@@ -1,0 +1,4 @@
+dataset,baseline_avg_session_acc,final_avg_session_acc,baseline_performance_drop,final_performance_drop,final_session_baseline_acc,final_session_final_acc,final_session_gain,final_session_intro_corr_baseline,final_session_intro_corr_final,first_intro_session,last_intro_session,first_intro_baseline_mean_class_acc,first_intro_final_mean_class_acc,last_intro_baseline_mean_class_acc,last_intro_final_mean_class_acc,runtime_sec
+CIFAR100,86.031,87.572,6.58,3.96,83.17,85.79,2.62,-0.348467,-0.199188,0,8,88.25,87.9,60.0,70.2,790.167
+miniimagenet,95.168,95.467,3.63,3.1,93.47,94.0,0.53,-0.233586,-0.18886,0,8,96.3,96.117,93.8,94.6,786.747
+cub200,85.347,85.796,2.868,2.367,85.295,85.796,0.501,0.045288,0.053936,0,10,87.9,87.73,92.0,92.667,419.381

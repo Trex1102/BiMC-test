@@ -1,0 +1,93 @@
+{
+  "dataset": "CIFAR100",
+  "baseline_avg_session_acc": 86.031,
+  "final_avg_session_acc": 87.572,
+  "baseline_performance_drop": 6.58,
+  "final_performance_drop": 3.96,
+  "final_session_baseline_acc": 83.17,
+  "final_session_final_acc": 85.79,
+  "final_session_gain": 2.62,
+  "final_session_intro_corr_baseline": -0.348467,
+  "final_session_intro_corr_final": -0.199188,
+  "first_intro_session": 0,
+  "last_intro_session": 8,
+  "first_intro_baseline_mean_class_acc": 88.25,
+  "first_intro_final_mean_class_acc": 87.9,
+  "last_intro_baseline_mean_class_acc": 60.0,
+  "last_intro_final_mean_class_acc": 70.2,
+  "intro_summary_rows": [
+    {
+      "dataset": "CIFAR100",
+      "intro_session": 0,
+      "baseline_mean_class_acc": 88.25,
+      "final_mean_class_acc": 87.9,
+      "gain": -0.35,
+      "class_count": 60
+    },
+    {
+      "dataset": "CIFAR100",
+      "intro_session": 1,
+      "baseline_mean_class_acc": 66.6,
+      "final_mean_class_acc": 77.2,
+      "gain": 10.6,
+      "class_count": 5
+    },
+    {
+      "dataset": "CIFAR100",
+      "intro_session": 2,
+      "baseline_mean_class_acc": 80.6,
+      "final_mean_class_acc": 86.4,
+      "gain": 5.8,
+      "class_count": 5
+    },
+    {
+      "dataset": "CIFAR100",
+      "intro_session": 3,
+      "baseline_mean_class_acc": 65.8,
+      "final_mean_class_acc": 74.4,
+      "gain": 8.6,
+      "class_count": 5
+    },
+    {
+      "dataset": "CIFAR100",
+      "intro_session": 4,
+      "baseline_mean_class_acc": 80.4,
+      "final_mean_class_acc": 89.2,
+      "gain": 8.8,
+      "class_count": 5
+    },
+    {
+      "dataset": "CIFAR100",
+      "intro_session": 5,
+      "baseline_mean_class_acc": 80.8,
+      "final_mean_class_acc": 85.4,
+      "gain": 4.6,
+      "class_count": 5
+    },
+    {
+      "dataset": "CIFAR100",
+      "intro_session": 6,
+      "baseline_mean_class_acc": 89.4,
+      "final_mean_class_acc": 92.0,
+      "gain": 2.6,
+      "class_count": 5
+    },
+    {
+      "dataset": "CIFAR100",
+      "intro_session": 7,
+      "baseline_mean_class_acc": 80.8,
+      "final_mean_class_acc": 86.2,
+      "gain": 5.4,
+      "class_count": 5
+    },
+    {
+      "dataset": "CIFAR100",
+      "intro_session": 8,
+      "baseline_mean_class_acc": 60.0,
+      "final_mean_class_acc": 70.2,
+      "gain": 10.2,
+      "class_count": 5
+    }
+  ],
+  "runtime_sec": 790.167
+}

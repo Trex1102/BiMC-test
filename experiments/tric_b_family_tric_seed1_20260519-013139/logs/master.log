@@ -1,0 +1,10 @@
+RUN_ID=tric_b_family_tric_seed1_20260519-013139
+EXP_ROOT=experiments/tric_b_family_tric_seed1_20260519-013139
+=== START phase=support_subspace_prototype_tric at 2026-05-19 01:31:39 +06 ===
+=== END phase=support_subspace_prototype_tric status=OK duration=726s at 2026-05-19 01:43:45 +06 ===
+=== START phase=support_subspace_ablation_tric at 2026-05-19 01:43:45 +06 ===
+=== END phase=support_subspace_ablation_tric status=OK duration=787s at 2026-05-19 01:56:52 +06 ===
+=== START phase=tric_nonqpr_followups at 2026-05-19 01:56:52 +06 ===
+=== END phase=tric_nonqpr_followups status=OK duration=725s at 2026-05-19 02:08:57 +06 ===
+All phases completed.
+Primary output root: experiments/tric_b_family_tric_seed1_20260519-013139

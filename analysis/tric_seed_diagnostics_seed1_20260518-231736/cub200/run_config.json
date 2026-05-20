@@ -1,0 +1,18 @@
+{
+  "dataset": "cub200",
+  "data_cfg": "configs/datasets/cub200_bimc_dino_fusion.yaml",
+  "train_cfg": "configs/trainers/bimc_dino_fusion.yaml",
+  "seed": 1,
+  "alpha_grid": [
+    0.5,
+    0.75,
+    1.0
+  ],
+  "mass_thr": 0.3,
+  "min_count": 5,
+  "val_fraction": 0.2,
+  "base_val_conf_thr": 0.5,
+  "base_val_max_per_class": 50,
+  "fallback_alpha": 0.75,
+  "topk_per_class": null
+}

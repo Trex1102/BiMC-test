@@ -1,0 +1,10 @@
+dataset,intro_session,baseline_mean_class_acc,final_mean_class_acc,gain,class_count
+miniimagenet,0,96.3,96.117,-0.183,60
+miniimagenet,1,95.4,96.0,0.6,5
+miniimagenet,2,74.8,77.0,2.2,5
+miniimagenet,3,94.0,95.8,1.8,5
+miniimagenet,4,97.2,97.2,0.0,5
+miniimagenet,5,90.0,92.4,2.4,5
+miniimagenet,6,78.6,82.4,3.8,5
+miniimagenet,7,90.0,91.2,1.2,5
+miniimagenet,8,93.8,94.6,0.8,5

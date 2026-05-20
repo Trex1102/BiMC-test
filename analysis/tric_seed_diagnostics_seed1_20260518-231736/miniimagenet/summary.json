@@ -1,0 +1,93 @@
+{
+  "dataset": "miniimagenet",
+  "baseline_avg_session_acc": 95.168,
+  "final_avg_session_acc": 95.467,
+  "baseline_performance_drop": 3.63,
+  "final_performance_drop": 3.1,
+  "final_session_baseline_acc": 93.47,
+  "final_session_final_acc": 94.0,
+  "final_session_gain": 0.53,
+  "final_session_intro_corr_baseline": -0.233586,
+  "final_session_intro_corr_final": -0.18886,
+  "first_intro_session": 0,
+  "last_intro_session": 8,
+  "first_intro_baseline_mean_class_acc": 96.3,
+  "first_intro_final_mean_class_acc": 96.117,
+  "last_intro_baseline_mean_class_acc": 93.8,
+  "last_intro_final_mean_class_acc": 94.6,
+  "intro_summary_rows": [
+    {
+      "dataset": "miniimagenet",
+      "intro_session": 0,
+      "baseline_mean_class_acc": 96.3,
+      "final_mean_class_acc": 96.117,
+      "gain": -0.183,
+      "class_count": 60
+    },
+    {
+      "dataset": "miniimagenet",
+      "intro_session": 1,
+      "baseline_mean_class_acc": 95.4,
+      "final_mean_class_acc": 96.0,
+      "gain": 0.6,
+      "class_count": 5
+    },
+    {
+      "dataset": "miniimagenet",
+      "intro_session": 2,
+      "baseline_mean_class_acc": 74.8,
+      "final_mean_class_acc": 77.0,
+      "gain": 2.2,
+      "class_count": 5
+    },
+    {
+      "dataset": "miniimagenet",
+      "intro_session": 3,
+      "baseline_mean_class_acc": 94.0,
+      "final_mean_class_acc": 95.8,
+      "gain": 1.8,
+      "class_count": 5
+    },
+    {
+      "dataset": "miniimagenet",
+      "intro_session": 4,
+      "baseline_mean_class_acc": 97.2,
+      "final_mean_class_acc": 97.2,
+      "gain": 0.0,
+      "class_count": 5
+    },
+    {
+      "dataset": "miniimagenet",
+      "intro_session": 5,
+      "baseline_mean_class_acc": 90.0,
+      "final_mean_class_acc": 92.4,
+      "gain": 2.4,
+      "class_count": 5
+    },
+    {
+      "dataset": "miniimagenet",
+      "intro_session": 6,
+      "baseline_mean_class_acc": 78.6,
+      "final_mean_class_acc": 82.4,
+      "gain": 3.8,
+      "class_count": 5
+    },
+    {
+      "dataset": "miniimagenet",
+      "intro_session": 7,
+      "baseline_mean_class_acc": 90.0,
+      "final_mean_class_acc": 91.2,
+      "gain": 1.2,
+      "class_count": 5
+    },
+    {
+      "dataset": "miniimagenet",
+      "intro_session": 8,
+      "baseline_mean_class_acc": 93.8,
+      "final_mean_class_acc": 94.6,
+      "gain": 0.8,
+      "class_count": 5
+    }
+  ],
+  "runtime_sec": 786.747
+}
