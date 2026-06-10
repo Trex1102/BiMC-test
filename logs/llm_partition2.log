@@ -1,0 +1,40 @@
+LLM partition with qwen3:14b over 200 classes, parts=['throat', 'breast', 'belly', 'back', 'crown', 'wing', 'primary']
+  20/200 (18s)
+  40/200 (37s)
+  60/200 (53s)
+  80/200 (72s)
+  100/200 (90s)
+  120/200 (108s)
+  140/200 (127s)
+  160/200 (145s)
+  180/200 (162s)
+  200/200 (189s)
+{
+  "model": "qwen3:14b",
+  "n_classes": 200,
+  "parts": [
+    "throat",
+    "breast",
+    "belly",
+    "back",
+    "crown",
+    "wing",
+    "primary"
+  ],
+  "agreement_pct": 40.6,
+  "n_compared": 1389,
+  "per_part_agreement": {
+    "throat": 56.3,
+    "breast": 43.7,
+    "belly": 50.5,
+    "back": 27.1,
+    "crown": 46.7,
+    "wing": 37.7,
+    "primary": 22.5
+  },
+  "n_llm_attrs": 44,
+  "n_gt_attrs": 57,
+  "runtime_sec": 189.3
+}
+AGREEMENT (LLM vs GT dominant part-color): 40.60% over 1389 (class,part) pairs
+Saved partitions to /media/ndag/newVolume/BiMC-test/llm_partition/

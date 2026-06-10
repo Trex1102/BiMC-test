@@ -1,0 +1,12 @@
+PREDCOV across backbone | dinov2_vits14 R=448 dim=384
+baseline V1 (beta0): avg 85.30 base 88.9 inc 80.58 harm 84.54
+
+  beta=  0.0: avg   85.30 base   88.9 inc  80.58 harm  84.54 dVS +0.00
+  beta=  0.5: avg   85.51 base  88.69 inc  81.11 harm  84.73 dVS +0.21
+  beta=  1.0: avg   85.62 base  88.41 inc   81.5 harm  84.81 dVS +0.32
+  beta=  2.0: avg   85.76 base  87.81 inc  82.15 harm  84.89 dVS +0.45
+  beta=  5.0: avg   83.67 base  82.72 inc   82.8 harm  82.76 dVS -1.64
+  beta= 10.0: avg   77.87 base  71.26 inc  82.71 harm  76.56 dVS -7.43
+
+BEST beta=2.0: avg 85.76 (dVS +0.45) inc 82.15 harm 84.89
+runtime_sec 141.9

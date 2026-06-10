@@ -1,0 +1,4 @@
+dinov2_vitb14 R=224 dim=768 ceiling=89.7
+dinov2_vitb14 R=448 dim=768 ceiling=90.49
+dinov2_vitl14 R=224 dim=1024 ceiling=90.65
+dinov2_vitl14 R=448 dim=1024 ceiling=91.03

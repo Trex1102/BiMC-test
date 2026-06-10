@@ -1,0 +1,106 @@
+{
+  "resolution": 448,
+  "methods": [
+    "baseline",
+    "teen_visual",
+    "oracle_attr",
+    "oracle_fam"
+  ],
+  "alphas": [
+    0.0,
+    0.1,
+    0.2,
+    0.3,
+    0.5,
+    0.7
+  ],
+  "has_llm_tax": false,
+  "baseline": {
+    "avg": 86.859,
+    "final": 86.88,
+    "last": {
+      "base_avg_acc": 89.0,
+      "inc_avg_acc": 84.79,
+      "harmonic_acc": 86.85
+    }
+  },
+  "by_method": {
+    "baseline": {
+      "best_alpha": 0.0,
+      "avg": 86.859,
+      "final": 86.88,
+      "last": {
+        "base_avg_acc": 89.0,
+        "inc_avg_acc": 84.79,
+        "harmonic_acc": 86.85
+      },
+      "delta": 0.0,
+      "by_alpha": {
+        "0.0": 86.859,
+        "0.1": 86.859,
+        "0.2": 86.859,
+        "0.3": 86.859,
+        "0.5": 86.859,
+        "0.7": 86.859
+      }
+    },
+    "teen_visual": {
+      "best_alpha": 0.3,
+      "avg": 87.017,
+      "final": 86.93,
+      "last": {
+        "base_avg_acc": 88.83,
+        "inc_avg_acc": 85.1,
+        "harmonic_acc": 86.93
+      },
+      "delta": 0.158,
+      "by_alpha": {
+        "0.0": 86.859,
+        "0.1": 86.977,
+        "0.2": 86.942,
+        "0.3": 87.017,
+        "0.5": 86.805,
+        "0.7": 86.075
+      }
+    },
+    "oracle_attr": {
+      "best_alpha": 0.1,
+      "avg": 86.86,
+      "final": 86.92,
+      "last": {
+        "base_avg_acc": 89.0,
+        "inc_avg_acc": 84.87,
+        "harmonic_acc": 86.89
+      },
+      "delta": 0.001,
+      "by_alpha": {
+        "0.0": 86.859,
+        "0.1": 86.86,
+        "0.2": 86.831,
+        "0.3": 86.718,
+        "0.5": 86.164,
+        "0.7": 84.619
+      }
+    },
+    "oracle_fam": {
+      "best_alpha": 0.0,
+      "avg": 86.859,
+      "final": 86.88,
+      "last": {
+        "base_avg_acc": 89.0,
+        "inc_avg_acc": 84.79,
+        "harmonic_acc": 86.85
+      },
+      "delta": 0.0,
+      "by_alpha": {
+        "0.0": 86.859,
+        "0.1": 86.859,
+        "0.2": 86.859,
+        "0.3": 86.859,
+        "0.5": 86.859,
+        "0.7": 86.784
+      }
+    }
+  },
+  "runtime_sec": 6.0
+}

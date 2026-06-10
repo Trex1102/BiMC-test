@@ -1,0 +1,48 @@
+[
+  {
+    "backbone": "dinov2_vitb14",
+    "resolution": 224,
+    "dim": 768,
+    "ceiling": 89.7,
+    "per_C": {
+      "1.0": [
+        100.0,
+        89.7
+      ],
+      "10.0": [
+        100.0,
+        89.51
+      ],
+      "100.0": [
+        100.0,
+        89.56
+      ],
+      "1000.0": [
+        100.0,
+        89.11
+      ],
+      "10000.0": [
+        100.0,
+        89.07
+      ]
+    }
+  },
+  {
+    "backbone": "dinov2_vitb14",
+    "resolution": 448,
+    "dim": 768,
+    "ceiling": 90.49
+  },
+  {
+    "backbone": "dinov2_vitl14",
+    "resolution": 224,
+    "dim": 1024,
+    "ceiling": 90.65
+  },
+  {
+    "backbone": "dinov2_vitl14",
+    "resolution": 448,
+    "dim": 1024,
+    "ceiling": 91.03
+  }
+]

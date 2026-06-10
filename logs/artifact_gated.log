@@ -1,0 +1,40 @@
+manual seed: 1
+use gpu: ['0']
+/home/ndag/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/home/ndag/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/attention.py:36: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/home/ndag/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+=== artifact + gated fusion :: cub200 seed 1 R=518 num_base=100 ===
+Extracting test once ...
+Traceback (most recent call last):
+  File "dino_artifact_gatedfusion_cub.py", line 263, in <module>
+    main()
+  File "dino_artifact_gatedfusion_cub.py", line 144, in main
+    test_bank, test_labels, test_hi = extract(model, dm.get_dataloader(T - 1, "test", mode="test"), device)
+  File "/home/ndag/anaconda3/envs/fscil-env/lib/python3.8/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "dino_artifact_gatedfusion_cub.py", line 77, in extract
+    (patch, cls), = model.get_intermediate_layers(x, n=[BLOCK], return_class_token=True, norm=True)
+  File "/home/ndag/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/models/vision_transformer.py", line 317, in get_intermediate_layers
+    outputs = self._get_intermediate_layers_not_chunked(x, n)
+  File "/home/ndag/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/models/vision_transformer.py", line 281, in _get_intermediate_layers_not_chunked
+    x = blk(x)
+  File "/home/ndag/anaconda3/envs/fscil-env/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/ndag/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/block.py", line 310, in forward
+    return super().forward(x_or_x_list)
+  File "/home/ndag/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/block.py", line 112, in forward
+    x = x + attn_residual_func(x)
+  File "/home/ndag/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/block.py", line 91, in attn_residual_func
+    return self.ls1(self.attn(self.norm1(x)))
+  File "/home/ndag/anaconda3/envs/fscil-env/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/ndag/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/attention.py", line 90, in forward
+    return super().forward(x)
+  File "/home/ndag/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/attention.py", line 77, in forward
+    x = nn.functional.scaled_dot_product_attention(
+  File "dino_artifact_gatedfusion_cub.py", line 52, in sdpa
+    return torch.matmul(torch.softmax(torch.matmul(q, k.transpose(-2, -1)) * sf, -1), v)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 8.39 GiB (GPU 0; 23.56 GiB total capacity; 3.37 GiB already allocated; 6.63 GiB free; 3.42 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

@@ -1,0 +1,1802 @@
+{
+  "Black footed Albatross": {
+    "throat": "white",
+    "breast": "white",
+    "belly": "white",
+    "back": "grey",
+    "crown": "black",
+    "wing": "grey",
+    "primary": "black"
+  },
+  "Laysan Albatross": {
+    "throat": "white",
+    "breast": "white",
+    "belly": "white",
+    "back": "grey",
+    "crown": "white",
+    "wing": "grey",
+    "primary": "black"
+  },
+  "Sooty Albatross": {
+    "throat": "black",
+    "breast": "white",
+    "belly": "white",
+    "back": "black",
+    "crown": "black",
+    "wing": "black",
+    "primary": "black"
+  },
+  "Groove billed Ani": {
+    "throat": "black",
+    "breast": "black",
+    "belly": "white",
+    "back": "black",
+    "crown": "black",
+    "wing": "black",
+    "primary": "black"
+  },
+  "Crested Auklet": {
+    "throat": "white",
+    "breast": "buff",
+    "belly": "white",
+    "back": "grey",
+    "crown": "black",
+    "wing": "grey",
+    "primary": "black"
+  },
+  "Least Auklet": {
+    "throat": "white",
+    "breast": "white",
+    "belly": "white",
+    "back": "grey",
+    "crown": "black",
+    "wing": "grey",
+    "primary": "black"
+  },
+  "Parakeet Auklet": {
+    "throat": "white",
+    "breast": "grey",
+    "belly": "white",
+    "back": "black",
+    "crown": "black",
+    "wing": "grey",
+    "primary": "black"
+  },
+  "Rhinoceros Auklet": {
+    "throat": "white",
+    "breast": "grey",
+    "belly": "white",
+    "back": "black",
+    "crown": "black",
+    "wing": "black",
+    "primary": "black"
+  },
+  "Brewer Blackbird": {
+    "throat": "black",
+    "breast": "black",
+    "belly": "buff",
+    "back": "black",
+    "crown": "black",
+    "wing": "black",
+    "primary": "black"
+  },
+  "Red winged Blackbird": {
+    "throat": "black",
+    "breast": "buff",
+    "belly": "white",
+    "back": "black",
+    "crown": "black",
+    "wing": "black",
+    "primary": "black"
+  },
+  "Rusty Blackbird": {
+    "throat": "black",
+    "breast": "black",
+    "belly": "white",
+    "back": "black",
+    "crown": "black",
+    "wing": "black",
+    "primary": "black"
+  },
+  "Yellow headed Blackbird": {
+    "throat": "black",
+    "breast": "black",
+    "belly": "yellow",
+    "back": "black",
+    "crown": "yellow",
+    "wing": "black",
+    "primary": "black"
+  },
+  "Bobolink": {
+    "throat": "black",
+    "breast": "buff",
+    "belly": "white",
+    "back": "olive",
+    "crown": "black",
+    "wing": "black",
+    "primary": "black"
+  },
+  "Indigo Bunting": {
+    "throat": "white",
+    "breast": "buff",
+    "belly": "white",
+    "back": "olive",
+    "crown": "blue",
+    "wing": "blue",
+    "primary": "black"
+  },
+  "Lazuli Bunting": {
+    "throat": "black",
+    "breast": "buff",
+    "belly": "white",
+    "back": "olive",
+    "crown": "blue",
+    "wing": "blue",
+    "primary": "black"
+  },
+  "Painted Bunting": {
+    "throat": "yellow",
+    "breast": "orange",
+    "belly": "white",
+    "back": "olive",
+    "crown": "blue",
+    "wing": "olive",
+    "primary": "black"
+  },
+  "Cardinal": {
+    "throat": "red",
+    "breast": "red",
+    "belly": "buff",
+    "back": "brown",
+    "crown": "red",
+    "wing": "black",
+    "primary": "black"
+  },
+  "Spotted Catbird": {
+    "throat": "black",
+    "breast": "buff",
+    "belly": "white",
+    "back": "olive",
+    "crown": "black",
+    "wing": "brown",
+    "primary": "black"
+  },
+  "Gray Catbird": {
+    "throat": "grey",
+    "breast": "grey",
+    "belly": "white",
+    "back": "olive",
+    "crown": "black",
+    "wing": "grey",
+    "primary": "black"
+  },
+  "Yellow breasted Chat": {
+    "throat": "yellow",
+    "breast": "yellow",
+    "belly": "white",
+    "back": "olive",
+    "crown": "black",
+    "wing": "brown",
+    "primary": "black"
+  },
+  "Eastern Towhee": {
+    "throat": "black",
+    "breast": "black",
+    "belly": "white",
+    "back": "olive",
+    "crown": "black",
+    "wing": "black",
+    "primary": "black"
+  },
+  "Chuck will Widow": {
+    "throat": "white",
+    "breast": "buff",
+    "belly": "white",
+    "back": "grey",
+    "crown": "black",
+    "wing": "brown",
+    "primary": "black"
+  },
+  "Brandt Cormorant": {
+    "throat": "black",
+    "breast": "black",
+    "belly": "white",
+    "back": "black",
+    "crown": "black",
+    "wing": "black",
+    "primary": "black"
+  },
+  "Red faced Cormorant": {
+    "throat": "black",
+    "breast": "white",
+    "belly": "white",
+    "back": "black",
+    "crown": "black",
+    "wing": "black",
+    "primary": "black"
+  },
+  "Pelagic Cormorant": {
+    "throat": "black",
+    "breast": "black",
+    "belly": "white",
+    "back": "black",
+    "crown": "black",
+    "wing": "black",
+    "primary": "black"
+  },
+  "Bronzed Cowbird": {
+    "throat": "black",
+    "breast": "buff",
+    "belly": "white",
+    "back": "brown",
+    "crown": "black",
+    "wing": "black",
+    "primary": "black"
+  },
+  "Shiny Cowbird": {
+    "throat": "black",
+    "breast": "black",
+    "belly": "white",
+    "back": "black",
+    "crown": "black",
+    "wing": "black",
+    "primary": "black"
+  },
+  "Brown Creeper": {
+    "throat": "buff",
+    "breast": "buff",
+    "belly": "buff",
+    "back": "grey",
+    "crown": "buff",
+    "wing": "grey",
+    "primary": "grey"
+  },
+  "American Crow": {
+    "throat": "black",
+    "breast": "black",
+    "belly": "black",
+    "back": "black",
+    "crown": "black",
+    "wing": "black",
+    "primary": "black"
+  },
+  "Fish Crow": {
+    "throat": "black",
+    "breast": "black",
+    "belly": "white",
+    "back": "black",
+    "crown": "black",
+    "wing": "black",
+    "primary": "black"
+  },
+  "Black billed Cuckoo": {
+    "throat": "buff",
+    "breast": "buff",
+    "belly": "white",
+    "back": "black",
+    "crown": "black",
+    "wing": "black",
+    "primary": "black"
+  },
+  "Mangrove Cuckoo": {
+    "throat": "white",
+    "breast": "buff",
+    "belly": "white",
+    "back": "olive",
+    "crown": "black",
+    "wing": "black",
+    "primary": "black"
+  },
+  "Yellow billed Cuckoo": {
+    "throat": "white",
+    "breast": "buff",
+    "belly": "white",
+    "back": "olive",
+    "crown": "black",
+    "wing": "black",
+    "primary": "black"
+  },
+  "Gray crowned Rosy Finch": {
+    "throat": "pink",
+    "breast": "buff",
+    "belly": "white",
+    "back": "grey",
+    "crown": "grey",
+    "wing": "grey",
+    "primary": "black"
+  },
+  "Purple Finch": {
+    "throat": "buff",
+    "breast": "red",
+    "belly": "buff",
+    "back": "brown",
+    "crown": "purple",
+    "wing": "purple",
+    "primary": "black"
+  },
+  "Northern Flicker": {
+    "throat": "yellow",
+    "breast": "buff",
+    "belly": "white",
+    "back": "olive",
+    "crown": "red",
+    "wing": "black",
+    "primary": "yellow"
+  },
+  "Acadian Flycatcher": {
+    "throat": "white",
+    "breast": "buff",
+    "belly": "white",
+    "back": "olive",
+    "crown": "olive",
+    "wing": "olive",
+    "primary": "olive"
+  },
+  "Great Crested Flycatcher": {
+    "throat": "white",
+    "breast": "buff",
+    "belly": "white",
+    "back": "olive",
+    "crown": "black",
+    "wing": "olive",
+    "primary": "black"
+  },
+  "Least Flycatcher": {
+    "throat": "white",
+    "breast": "buff",
+    "belly": "white",
+    "back": "olive",
+    "crown": "olive",
+    "wing": "olive",
+    "primary": "black"
+  },
+  "Olive sided Flycatcher": {
+    "throat": "white",
+    "breast": "buff",
+    "belly": "white",
+    "back": "olive",
+    "crown": "black",
+    "wing": "olive",
+    "primary": "black"
+  },
+  "Scissor tailed Flycatcher": {
+    "throat": "white",
+    "breast": "buff",
+    "belly": "white",
+    "back": "black",
+    "crown": "black",
+    "wing": "black",
+    "primary": "black"
+  },
+  "Vermilion Flycatcher": {
+    "throat": "red",
+    "breast": "red",
+    "belly": "white",
+    "back": "black",
+    "crown": "black",
+    "wing": "black",
+    "primary": "black"
+  },
+  "Yellow bellied Flycatcher": {
+    "throat": "yellow",
+    "breast": "buff",
+    "belly": "yellow",
+    "back": "olive",
+    "crown": "black",
+    "wing": "olive",
+    "primary": "black"
+  },
+  "Frigatebird": {
+    "throat": "black",
+    "breast": "white",
+    "belly": "white",
+    "back": "black",
+    "crown": "black",
+    "wing": "black",
+    "primary": "black"
+  },
+  "Northern Fulmar": {
+    "throat": "white",
+    "breast": "white",
+    "belly": "white",
+    "back": "grey",
+    "crown": "grey",
+    "wing": "grey",
+    "primary": "black"
+  },
+  "Gadwall": {
+    "throat": "buff",
+    "breast": "buff",
+    "belly": "white",
+    "back": "grey",
+    "crown": "grey",
+    "wing": "grey",
+    "primary": "grey"
+  },
+  "American Goldfinch": {
+    "throat": "yellow",
+    "breast": "yellow",
+    "belly": "yellow",
+    "back": "olive",
+    "crown": "black",
+    "wing": "yellow",
+    "primary": "black"
+  },
+  "European Goldfinch": {
+    "throat": "yellow",
+    "breast": "buff",
+    "belly": "white",
+    "back": "olive",
+    "crown": "black",
+    "wing": "yellow",
+    "primary": "black"
+  },
+  "Boat tailed Grackle": {
+    "throat": "black",
+    "breast": "black",
+    "belly": "white",
+    "back": "black",
+    "crown": "black",
+    "wing": "black",
+    "primary": "black"
+  },
+  "Eared Grebe": {
+    "throat": "black",
+    "breast": "buff",
+    "belly": "white",
+    "back": "black",
+    "crown": "black",
+    "wing": "black",
+    "primary": "black"
+  },
+  "Horned Grebe": {
+    "throat": "black",
+    "breast": "buff",
+    "belly": "white",
+    "back": "black",
+    "crown": "black",
+    "wing": "black",
+    "primary": "black"
+  },
+  "Pied billed Grebe": {
+    "throat": "black",
+    "breast": "buff",
+    "belly": "white",
+    "back": "grey",
+    "crown": "black",
+    "wing": "grey",
+    "primary": "black"
+  },
+  "Western Grebe": {
+    "throat": "black",
+    "breast": "white",
+    "belly": "white",
+    "back": "black",
+    "crown": "black",
+    "wing": "black",
+    "primary": "black"
+  },
+  "Blue Grosbeak": {
+    "throat": "black",
+    "breast": "blue",
+    "belly": "white",
+    "back": "blue",
+    "crown": "black",
+    "wing": "blue",
+    "primary": "black"
+  },
+  "Evening Grosbeak": {
+    "throat": "white",
+    "breast": "buff",
+    "belly": "white",
+    "back": "olive",
+    "crown": "black",
+    "wing": "olive",
+    "primary": "black"
+  },
+  "Pine Grosbeak": {
+    "throat": "red",
+    "breast": "red",
+    "belly": "buff",
+    "back": "black",
+    "crown": "red",
+    "wing": "black",
+    "primary": "black"
+  },
+  "Rose breasted Grosbeak": {
+    "throat": "black",
+    "breast": "rose",
+    "belly": "white",
+    "back": "black",
+    "crown": "black",
+    "wing": "black",
+    "primary": "black"
+  },
+  "Pigeon Guillemot": {
+    "throat": "black",
+    "breast": "black",
+    "belly": "white",
+    "back": "black",
+    "crown": "black",
+    "wing": "black",
+    "primary": "black"
+  },
+  "California Gull": {
+    "throat": "white",
+    "breast": "white",
+    "belly": "white",
+    "back": "grey",
+    "crown": "grey",
+    "wing": "grey",
+    "primary": "black"
+  },
+  "Glaucous winged Gull": {
+    "throat": "white",
+    "breast": "white",
+    "belly": "white",
+    "back": "grey",
+    "crown": "grey",
+    "wing": "grey",
+    "primary": "black"
+  },
+  "Heermann Gull": {
+    "throat": "white",
+    "breast": "white",
+    "belly": "white",
+    "back": "grey",
+    "crown": "black",
+    "wing": "grey",
+    "primary": "black"
+  },
+  "Herring Gull": {
+    "throat": "yellow",
+    "breast": "grey",
+    "belly": "white",
+    "back": "grey",
+    "crown": "grey",
+    "wing": "grey",
+    "primary": "black"
+  },
+  "Ivory Gull": {
+    "throat": "white",
+    "breast": "white",
+    "belly": "white",
+    "back": "white",
+    "crown": "black",
+    "wing": "white",
+    "primary": "black"
+  },
+  "Ring billed Gull": {
+    "throat": "black",
+    "breast": "white",
+    "belly": "white",
+    "back": "grey",
+    "crown": "black",
+    "wing": "grey",
+    "primary": "black"
+  },
+  "Slaty backed Gull": {
+    "throat": "white",
+    "breast": "white",
+    "belly": "white",
+    "back": "slaty grey",
+    "crown": "black",
+    "wing": "slaty grey",
+    "primary": "black"
+  },
+  "Western Gull": {
+    "throat": "white",
+    "breast": "grey",
+    "belly": "white",
+    "back": "grey",
+    "crown": "black",
+    "wing": "grey",
+    "primary": "black"
+  },
+  "Anna Hummingbird": {
+    "throat": "iridescent",
+    "breast": "iridescent",
+    "belly": "white",
+    "back": "green",
+    "crown": "rufous",
+    "wing": "iridescent",
+    "primary": "iridescent"
+  },
+  "Ruby throated Hummingbird": {
+    "throat": "red",
+    "breast": "green",
+    "belly": "white",
+    "back": "green",
+    "crown": "green",
+    "wing": "green",
+    "primary": "black"
+  },
+  "Rufous Hummingbird": {
+    "throat": "white",
+    "breast": "rufous",
+    "belly": "white",
+    "back": "green",
+    "crown": "black",
+    "wing": "green",
+    "primary": "black"
+  },
+  "Green Violetear": {
+    "throat": "green",
+    "breast": "green",
+    "belly": "white",
+    "back": "green",
+    "crown": "blue",
+    "wing": "green",
+    "primary": "blue"
+  },
+  "Long tailed Jaeger": {
+    "throat": "white",
+    "breast": "grey",
+    "belly": "white",
+    "back": "grey",
+    "crown": "black",
+    "wing": "grey",
+    "primary": "black"
+  },
+  "Pomarine Jaeger": {
+    "throat": "white",
+    "breast": "white",
+    "belly": "white",
+    "back": "grey",
+    "crown": "black",
+    "wing": "grey",
+    "primary": "black"
+  },
+  "Blue Jay": {
+    "throat": "black",
+    "breast": "white",
+    "belly": "white",
+    "back": "blue",
+    "crown": "blue",
+    "wing": "blue",
+    "primary": "black"
+  },
+  "Florida Jay": {
+    "throat": "black",
+    "breast": "blue",
+    "belly": "white",
+    "back": "blue",
+    "crown": "black",
+    "wing": "blue",
+    "primary": "black"
+  },
+  "Green Jay": {
+    "throat": "black",
+    "breast": "green",
+    "belly": "yellow",
+    "back": "green",
+    "crown": "blue",
+    "wing": "green",
+    "primary": "blue"
+  },
+  "Dark eyed Junco": {
+    "throat": "black",
+    "breast": "grey",
+    "belly": "white",
+    "back": "grey",
+    "crown": "black",
+    "wing": "grey",
+    "primary": "black"
+  },
+  "Tropical Kingbird": {
+    "throat": "black",
+    "breast": "white",
+    "belly": "white",
+    "back": "olive",
+    "crown": "black",
+    "wing": "olive",
+    "primary": "black"
+  },
+  "Gray Kingbird": {
+    "throat": "black",
+    "breast": "white",
+    "belly": "white",
+    "back": "olive",
+    "crown": "black",
+    "wing": "olive",
+    "primary": "black"
+  },
+  "Belted Kingfisher": {
+    "throat": "white",
+    "breast": "white",
+    "belly": "white",
+    "back": "blue",
+    "crown": "blue",
+    "wing": "blue",
+    "primary": "blue"
+  },
+  "Green Kingfisher": {
+    "throat": "white",
+    "breast": "buff",
+    "belly": "white",
+    "back": "green",
+    "crown": "blue",
+    "wing": "blue",
+    "primary": "black"
+  },
+  "Pied Kingfisher": {
+    "throat": "white",
+    "breast": "white",
+    "belly": "white",
+    "back": "blue",
+    "crown": "black",
+    "wing": "blue",
+    "primary": "black"
+  },
+  "Ringed Kingfisher": {
+    "throat": "blue",
+    "breast": "white",
+    "belly": "white",
+    "back": "blue",
+    "crown": "blue",
+    "wing": "blue",
+    "primary": "blue"
+  },
+  "White breasted Kingfisher": {
+    "throat": "white",
+    "breast": "white",
+    "belly": "white",
+    "back": "blue",
+    "crown": "blue",
+    "wing": "blue",
+    "primary": "blue"
+  },
+  "Red legged Kittiwake": {
+    "throat": "white",
+    "breast": "white",
+    "belly": "white",
+    "back": "grey",
+    "crown": "black",
+    "wing": "grey",
+    "primary": "black"
+  },
+  "Horned Lark": {
+    "throat": "buff",
+    "breast": "buff",
+    "belly": "white",
+    "back": "brown",
+    "crown": "black",
+    "wing": "grey",
+    "primary": "black"
+  },
+  "Pacific Loon": {
+    "throat": "white",
+    "breast": "grey",
+    "belly": "white",
+    "back": "grey",
+    "crown": "black",
+    "wing": "grey",
+    "primary": "black"
+  },
+  "Mallard": {
+    "throat": "yellow",
+    "breast": "russet",
+    "belly": "white",
+    "back": "green",
+    "crown": "green",
+    "wing": "grey",
+    "primary": "black"
+  },
+  "Western Meadowlark": {
+    "throat": "black",
+    "breast": "buff",
+    "belly": "white",
+    "back": "olive",
+    "crown": "black",
+    "wing": "buff",
+    "primary": "black"
+  },
+  "Hooded Merganser": {
+    "throat": "buff",
+    "breast": "buff",
+    "belly": "white",
+    "back": "brown",
+    "crown": "black",
+    "wing": "black",
+    "primary": "black"
+  },
+  "Red breasted Merganser": {
+    "throat": "black",
+    "breast": "rufous",
+    "belly": "white",
+    "back": "green",
+    "crown": "black",
+    "wing": "grey",
+    "primary": "black"
+  },
+  "Mockingbird": {
+    "throat": "white",
+    "breast": "grey",
+    "belly": "white",
+    "back": "grey",
+    "crown": "black",
+    "wing": "grey",
+    "primary": "black"
+  },
+  "Nighthawk": {
+    "throat": "black",
+    "breast": "white",
+    "belly": "white",
+    "back": "grey",
+    "crown": "black",
+    "wing": "grey",
+    "primary": "black"
+  },
+  "Clark Nutcracker": {
+    "throat": "buff",
+    "breast": "buff",
+    "belly": "white",
+    "back": "black",
+    "crown": "black",
+    "wing": "black",
+    "primary": "black"
+  },
+  "White breasted Nuthatch": {
+    "throat": "white",
+    "breast": "white",
+    "belly": "white",
+    "back": "grey",
+    "crown": "black",
+    "wing": "grey",
+    "primary": "black"
+  },
+  "Baltimore Oriole": {
+    "throat": "black",
+    "breast": "orange",
+    "belly": "white",
+    "back": "olive",
+    "crown": "black",
+    "wing": "olive",
+    "primary": "black"
+  },
+  "Hooded Oriole": {
+    "throat": "yellow",
+    "breast": "black",
+    "belly": "yellow",
+    "back": "black",
+    "crown": "yellow",
+    "wing": "black",
+    "primary": "black"
+  },
+  "Orchard Oriole": {
+    "throat": "black",
+    "breast": "buff",
+    "belly": "white",
+    "back": "olive",
+    "crown": "black",
+    "wing": "black",
+    "primary": "black"
+  },
+  "Scott Oriole": {
+    "throat": "black",
+    "breast": "yellow",
+    "belly": "yellow",
+    "back": "olive",
+    "crown": "black",
+    "wing": "olive",
+    "primary": "black"
+  },
+  "Ovenbird": {
+    "throat": "buff",
+    "breast": "buff",
+    "belly": "white",
+    "back": "olive",
+    "crown": "black",
+    "wing": "brown",
+    "primary": "olive"
+  },
+  "Brown Pelican": {
+    "throat": "white",
+    "breast": "white",
+    "belly": "white",
+    "back": "brown",
+    "crown": "white",
+    "wing": "grey",
+    "primary": "black"
+  },
+  "White Pelican": {
+    "throat": "white",
+    "breast": "white",
+    "belly": "white",
+    "back": "grey",
+    "crown": "white",
+    "wing": "white",
+    "primary": "black"
+  },
+  "Western Wood Pewee": {
+    "throat": "white",
+    "breast": "buff",
+    "belly": "white",
+    "back": "grey",
+    "crown": "black",
+    "wing": "grey",
+    "primary": "black"
+  },
+  "Sayornis": {
+    "throat": "black",
+    "breast": "buff",
+    "belly": "white",
+    "back": "olive",
+    "crown": "black",
+    "wing": "olive",
+    "primary": "black"
+  },
+  "American Pipit": {
+    "throat": "buff",
+    "breast": "buff",
+    "belly": "white",
+    "back": "grey",
+    "crown": "black",
+    "wing": "grey",
+    "primary": "black"
+  },
+  "Whip poor Will": {
+    "throat": "white",
+    "breast": "buff",
+    "belly": "white",
+    "back": "grey",
+    "crown": "black",
+    "wing": "grey",
+    "primary": "black"
+  },
+  "Horned Puffin": {
+    "throat": "black",
+    "breast": "white",
+    "belly": "white",
+    "back": "black",
+    "crown": "yellow",
+    "wing": "black",
+    "primary": "black"
+  },
+  "Common Raven": {
+    "throat": "black",
+    "breast": "black",
+    "belly": "black",
+    "back": "black",
+    "crown": "black",
+    "wing": "black",
+    "primary": "black"
+  },
+  "White necked Raven": {
+    "throat": "black",
+    "breast": "black",
+    "belly": "white",
+    "back": "black",
+    "crown": "black",
+    "wing": "black",
+    "primary": "black"
+  },
+  "American Redstart": {
+    "throat": "black",
+    "breast": "black",
+    "belly": "white",
+    "back": "olive",
+    "crown": "black",
+    "wing": "black",
+    "primary": "black"
+  },
+  "Geococcyx": {
+    "throat": "white",
+    "breast": "buff",
+    "belly": "white",
+    "back": "grey",
+    "crown": "black",
+    "wing": "grey",
+    "primary": "black"
+  },
+  "Loggerhead Shrike": {
+    "throat": "black",
+    "breast": "white",
+    "belly": "white",
+    "back": "grey",
+    "crown": "black",
+    "wing": "grey",
+    "primary": "black"
+  },
+  "Great Grey Shrike": {
+    "throat": "black",
+    "breast": "white",
+    "belly": "white",
+    "back": "grey",
+    "crown": "black",
+    "wing": "grey",
+    "primary": "black"
+  },
+  "Baird Sparrow": {
+    "throat": "buff",
+    "breast": "buff",
+    "belly": "white",
+    "back": "brown",
+    "crown": "black",
+    "wing": "buff",
+    "primary": "black"
+  },
+  "Black throated Sparrow": {
+    "throat": "black",
+    "breast": "buff",
+    "belly": "white",
+    "back": "grey",
+    "crown": "black",
+    "wing": "grey",
+    "primary": "black"
+  },
+  "Brewer Sparrow": {
+    "throat": "buff",
+    "breast": "buff",
+    "belly": "white",
+    "back": "olive",
+    "crown": "black",
+    "wing": "brown",
+    "primary": "black"
+  },
+  "Chipping Sparrow": {
+    "throat": "black",
+    "breast": "buff",
+    "belly": "white",
+    "back": "olive",
+    "crown": "black",
+    "wing": "olive",
+    "primary": "black"
+  },
+  "Clay colored Sparrow": {
+    "throat": "buff",
+    "breast": "buff",
+    "belly": "white",
+    "back": "olive",
+    "crown": "black",
+    "wing": "grey",
+    "primary": "black"
+  },
+  "House Sparrow": {
+    "throat": "black",
+    "breast": "buff",
+    "belly": "white",
+    "back": "brown",
+    "crown": "grey",
+    "wing": "grey",
+    "primary": "black"
+  },
+  "Field Sparrow": {
+    "throat": "buff",
+    "breast": "buff",
+    "belly": "white",
+    "back": "grey",
+    "crown": "grey",
+    "wing": "grey",
+    "primary": "black"
+  },
+  "Fox Sparrow": {
+    "throat": "buff",
+    "breast": "buff",
+    "belly": "white",
+    "back": "grey",
+    "crown": "black",
+    "wing": "brown",
+    "primary": "black"
+  },
+  "Grasshopper Sparrow": {
+    "throat": "buff",
+    "breast": "buff",
+    "belly": "white",
+    "back": "olive",
+    "crown": "black",
+    "wing": "brown",
+    "primary": "black"
+  },
+  "Harris Sparrow": {
+    "throat": "black",
+    "breast": "buff",
+    "belly": "white",
+    "back": "grey",
+    "crown": "black",
+    "wing": "grey",
+    "primary": "black"
+  },
+  "Henslow Sparrow": {
+    "throat": "buff",
+    "breast": "buff",
+    "belly": "white",
+    "back": "olive",
+    "crown": "black",
+    "wing": "brown",
+    "primary": "black"
+  },
+  "Le Conte Sparrow": {
+    "throat": "buff",
+    "breast": "buff",
+    "belly": "white",
+    "back": "olive",
+    "crown": "buff",
+    "wing": "buff",
+    "primary": "black"
+  },
+  "Lincoln Sparrow": {
+    "throat": "buff",
+    "breast": "buff",
+    "belly": "white",
+    "back": "olive",
+    "crown": "black",
+    "wing": "grey",
+    "primary": "black"
+  },
+  "Nelson Sharp tailed Sparrow": {
+    "throat": "white",
+    "breast": "buff",
+    "belly": "white",
+    "back": "olive",
+    "crown": "black",
+    "wing": "grey",
+    "primary": "black"
+  },
+  "Savannah Sparrow": {
+    "throat": "buff",
+    "breast": "buff",
+    "belly": "white",
+    "back": "olive",
+    "crown": "black",
+    "wing": "brown",
+    "primary": "black"
+  },
+  "Seaside Sparrow": {
+    "throat": "white",
+    "breast": "buff",
+    "belly": "white",
+    "back": "grey",
+    "crown": "black",
+    "wing": "grey",
+    "primary": "black"
+  },
+  "Song Sparrow": {
+    "throat": "buff",
+    "breast": "buff",
+    "belly": "white",
+    "back": "grey",
+    "crown": "black",
+    "wing": "brown",
+    "primary": "black"
+  },
+  "Tree Sparrow": {
+    "throat": "buff",
+    "breast": "buff",
+    "belly": "white",
+    "back": "brown",
+    "crown": "black",
+    "wing": "grey",
+    "primary": "black"
+  },
+  "Vesper Sparrow": {
+    "throat": "buff",
+    "breast": "buff",
+    "belly": "white",
+    "back": "brown",
+    "crown": "black",
+    "wing": "brown",
+    "primary": "black"
+  },
+  "White crowned Sparrow": {
+    "throat": "buff",
+    "breast": "buff",
+    "belly": "white",
+    "back": "grey",
+    "crown": "black",
+    "wing": "grey",
+    "primary": "black"
+  },
+  "White throated Sparrow": {
+    "throat": "white",
+    "breast": "buff",
+    "belly": "white",
+    "back": "grey",
+    "crown": "black",
+    "wing": "grey",
+    "primary": "black"
+  },
+  "Cape Glossy Starling": {
+    "throat": "black",
+    "breast": "green",
+    "belly": "white",
+    "back": "green",
+    "crown": "blue",
+    "wing": "green",
+    "primary": "green"
+  },
+  "Bank Swallow": {
+    "throat": "white",
+    "breast": "buff",
+    "belly": "white",
+    "back": "blue",
+    "crown": "black",
+    "wing": "blue",
+    "primary": "black"
+  },
+  "Barn Swallow": {
+    "throat": "black",
+    "breast": "white",
+    "belly": "white",
+    "back": "blue",
+    "crown": "black",
+    "wing": "blue",
+    "primary": "black"
+  },
+  "Cliff Swallow": {
+    "throat": "white",
+    "breast": "buff",
+    "belly": "white",
+    "back": "blue",
+    "crown": "black",
+    "wing": "blue",
+    "primary": "black"
+  },
+  "Tree Swallow": {
+    "throat": "white",
+    "breast": "white",
+    "belly": "white",
+    "back": "blue",
+    "crown": "blue",
+    "wing": "blue",
+    "primary": "black"
+  },
+  "Scarlet Tanager": {
+    "throat": "black",
+    "breast": "red",
+    "belly": "yellow",
+    "back": "olive",
+    "crown": "black",
+    "wing": "black",
+    "primary": "black"
+  },
+  "Summer Tanager": {
+    "throat": "red",
+    "breast": "red",
+    "belly": "yellow",
+    "back": "black",
+    "crown": "black",
+    "wing": "black",
+    "primary": "black"
+  },
+  "Artic Tern": {
+    "throat": "white",
+    "breast": "white",
+    "belly": "white",
+    "back": "grey",
+    "crown": "black",
+    "wing": "grey",
+    "primary": "black"
+  },
+  "Black Tern": {
+    "throat": "black",
+    "breast": "black",
+    "belly": "white",
+    "back": "black",
+    "crown": "black",
+    "wing": "black",
+    "primary": "black"
+  },
+  "Caspian Tern": {
+    "throat": "white",
+    "breast": "white",
+    "belly": "white",
+    "back": "grey",
+    "crown": "black",
+    "wing": "white",
+    "primary": "black"
+  },
+  "Common Tern": {
+    "throat": "black",
+    "breast": "white",
+    "belly": "white",
+    "back": "grey",
+    "crown": "black",
+    "wing": "grey",
+    "primary": "black"
+  },
+  "Elegant Tern": {
+    "throat": "white",
+    "breast": "buff",
+    "belly": "white",
+    "back": "grey",
+    "crown": "black",
+    "wing": "grey",
+    "primary": "black"
+  },
+  "Forsters Tern": {
+    "throat": "black",
+    "breast": "white",
+    "belly": "white",
+    "back": "grey",
+    "crown": "black",
+    "wing": "grey",
+    "primary": "black"
+  },
+  "Least Tern": {
+    "throat": "black",
+    "breast": "white",
+    "belly": "white",
+    "back": "grey",
+    "crown": "black",
+    "wing": "grey",
+    "primary": "black"
+  },
+  "Green tailed Towhee": {
+    "throat": "black",
+    "breast": "buff",
+    "belly": "white",
+    "back": "olive",
+    "crown": "black",
+    "wing": "olive",
+    "primary": "black"
+  },
+  "Brown Thrasher": {
+    "throat": "buff",
+    "breast": "buff",
+    "belly": "white",
+    "back": "brown",
+    "crown": "black",
+    "wing": "brown",
+    "primary": "black"
+  },
+  "Sage Thrasher": {
+    "throat": "white",
+    "breast": "buff",
+    "belly": "white",
+    "back": "grey",
+    "crown": "black",
+    "wing": "grey",
+    "primary": "black"
+  },
+  "Black capped Vireo": {
+    "throat": "white",
+    "breast": "buff",
+    "belly": "white",
+    "back": "olive",
+    "crown": "black",
+    "wing": "olive",
+    "primary": "black"
+  },
+  "Blue headed Vireo": {
+    "throat": "white",
+    "breast": "buff",
+    "belly": "white",
+    "back": "olive",
+    "crown": "blue",
+    "wing": "olive",
+    "primary": "olive"
+  },
+  "Philadelphia Vireo": {
+    "throat": "white",
+    "breast": "buff",
+    "belly": "white",
+    "back": "olive",
+    "crown": "black",
+    "wing": "olive",
+    "primary": "black"
+  },
+  "Red eyed Vireo": {
+    "throat": "white",
+    "breast": "buff",
+    "belly": "white",
+    "back": "olive",
+    "crown": "black",
+    "wing": "olive",
+    "primary": "black"
+  },
+  "Warbling Vireo": {
+    "throat": "white",
+    "breast": "buff",
+    "belly": "white",
+    "back": "olive",
+    "crown": "grey",
+    "wing": "olive",
+    "primary": "black"
+  },
+  "White eyed Vireo": {
+    "throat": "white",
+    "breast": "buff",
+    "belly": "white",
+    "back": "olive",
+    "crown": "black",
+    "wing": "olive",
+    "primary": "black"
+  },
+  "Yellow throated Vireo": {
+    "throat": "yellow",
+    "breast": "buff",
+    "belly": "white",
+    "back": "olive",
+    "crown": "olive",
+    "wing": "olive",
+    "primary": "olive"
+  },
+  "Bay breasted Warbler": {
+    "throat": "buff",
+    "breast": "rufous",
+    "belly": "white",
+    "back": "olive",
+    "crown": "black",
+    "wing": "olive",
+    "primary": "black"
+  },
+  "Black and white Warbler": {
+    "throat": "black",
+    "breast": "white",
+    "belly": "white",
+    "back": "olive",
+    "crown": "black",
+    "wing": "olive",
+    "primary": "black"
+  },
+  "Black throated Blue Warbler": {
+    "throat": "black",
+    "breast": "blue",
+    "belly": "white",
+    "back": "olive",
+    "crown": "black",
+    "wing": "blue",
+    "primary": "black"
+  },
+  "Blue winged Warbler": {
+    "throat": "yellow",
+    "breast": "yellow",
+    "belly": "yellow",
+    "back": "olive",
+    "crown": "yellow",
+    "wing": "blue",
+    "primary": "black"
+  },
+  "Canada Warbler": {
+    "throat": "yellow",
+    "breast": "buff",
+    "belly": "white",
+    "back": "olive",
+    "crown": "black",
+    "wing": "olive",
+    "primary": "black"
+  },
+  "Cape May Warbler": {
+    "throat": "yellow",
+    "breast": "yellow",
+    "belly": "yellow",
+    "back": "olive",
+    "crown": "yellow",
+    "wing": "olive",
+    "primary": "olive"
+  },
+  "Cerulean Warbler": {
+    "throat": "blue",
+    "breast": "buff",
+    "belly": "white",
+    "back": "blue",
+    "crown": "black",
+    "wing": "blue",
+    "primary": "black"
+  },
+  "Chestnut sided Warbler": {
+    "throat": "yellow",
+    "breast": "buff",
+    "belly": "white",
+    "back": "olive",
+    "crown": "black",
+    "wing": "olive",
+    "primary": "black"
+  },
+  "Golden winged Warbler": {
+    "throat": "yellow",
+    "breast": "buff",
+    "belly": "white",
+    "back": "olive",
+    "crown": "black",
+    "wing": "yellow",
+    "primary": "black"
+  },
+  "Hooded Warbler": {
+    "throat": "yellow",
+    "breast": "buff",
+    "belly": "white",
+    "back": "olive",
+    "crown": "black",
+    "wing": "olive",
+    "primary": "black"
+  },
+  "Kentucky Warbler": {
+    "throat": "yellow",
+    "breast": "buff",
+    "belly": "white",
+    "back": "olive",
+    "crown": "black",
+    "wing": "olive",
+    "primary": "black"
+  },
+  "Magnolia Warbler": {
+    "throat": "yellow",
+    "breast": "yellow",
+    "belly": "white",
+    "back": "olive",
+    "crown": "black",
+    "wing": "olive",
+    "primary": "black"
+  },
+  "Mourning Warbler": {
+    "throat": "black",
+    "breast": "buff",
+    "belly": "white",
+    "back": "olive",
+    "crown": "black",
+    "wing": "olive",
+    "primary": "black"
+  },
+  "Myrtle Warbler": {
+    "throat": "yellow",
+    "breast": "buff",
+    "belly": "white",
+    "back": "olive",
+    "crown": "black",
+    "wing": "olive",
+    "primary": "black"
+  },
+  "Nashville Warbler": {
+    "throat": "yellow",
+    "breast": "yellow",
+    "belly": "white",
+    "back": "olive",
+    "crown": "black",
+    "wing": "olive",
+    "primary": "olive"
+  },
+  "Orange crowned Warbler": {
+    "throat": "yellow",
+    "breast": "buff",
+    "belly": "white",
+    "back": "olive",
+    "crown": "orange",
+    "wing": "olive",
+    "primary": "olive"
+  },
+  "Palm Warbler": {
+    "throat": "yellow",
+    "breast": "buff",
+    "belly": "white",
+    "back": "olive",
+    "crown": "rufous",
+    "wing": "yellow",
+    "primary": "black"
+  },
+  "Pine Warbler": {
+    "throat": "yellow",
+    "breast": "buff",
+    "belly": "white",
+    "back": "olive",
+    "crown": "yellow",
+    "wing": "olive",
+    "primary": "black"
+  },
+  "Prairie Warbler": {
+    "throat": "yellow",
+    "breast": "yellow",
+    "belly": "white",
+    "back": "olive",
+    "crown": "yellow",
+    "wing": "olive",
+    "primary": "olive"
+  },
+  "Prothonotary Warbler": {
+    "throat": "yellow",
+    "breast": "yellow",
+    "belly": "yellow",
+    "back": "olive",
+    "crown": "yellow",
+    "wing": "olive",
+    "primary": "olive"
+  },
+  "Swainson Warbler": {
+    "throat": "buff",
+    "breast": "buff",
+    "belly": "white",
+    "back": "olive",
+    "crown": "black",
+    "wing": "olive",
+    "primary": "black"
+  },
+  "Tennessee Warbler": {
+    "throat": "yellow",
+    "breast": "yellow",
+    "belly": "yellow",
+    "back": "olive",
+    "crown": "olive",
+    "wing": "olive",
+    "primary": "olive"
+  },
+  "Wilson Warbler": {
+    "throat": "yellow",
+    "breast": "yellow",
+    "belly": "yellow",
+    "back": "olive",
+    "crown": "black",
+    "wing": "olive",
+    "primary": "black"
+  },
+  "Worm eating Warbler": {
+    "throat": "yellow",
+    "breast": "buff",
+    "belly": "white",
+    "back": "olive",
+    "crown": "black",
+    "wing": "olive",
+    "primary": "black"
+  },
+  "Yellow Warbler": {
+    "throat": "yellow",
+    "breast": "yellow",
+    "belly": "yellow",
+    "back": "green",
+    "crown": "yellow",
+    "wing": "yellow",
+    "primary": "olive"
+  },
+  "Northern Waterthrush": {
+    "throat": "white",
+    "breast": "buff",
+    "belly": "white",
+    "back": "olive",
+    "crown": "black",
+    "wing": "olive",
+    "primary": "black"
+  },
+  "Louisiana Waterthrush": {
+    "throat": "buff",
+    "breast": "buff",
+    "belly": "white",
+    "back": "olive",
+    "crown": "black",
+    "wing": "olive",
+    "primary": "black"
+  },
+  "Bohemian Waxwing": {
+    "throat": "red",
+    "breast": "red",
+    "belly": "white",
+    "back": "black",
+    "crown": "orange",
+    "wing": "black",
+    "primary": "black"
+  },
+  "Cedar Waxwing": {
+    "throat": "buff",
+    "breast": "buff",
+    "belly": "white",
+    "back": "olive",
+    "crown": "black",
+    "wing": "yellow",
+    "primary": "black"
+  },
+  "American Three toed Woodpecker": {
+    "throat": "white",
+    "breast": "buff",
+    "belly": "white",
+    "back": "black",
+    "crown": "black",
+    "wing": "black",
+    "primary": "black"
+  },
+  "Pileated Woodpecker": {
+    "throat": "black",
+    "breast": "black",
+    "belly": "white",
+    "back": "black",
+    "crown": "red",
+    "wing": "black",
+    "primary": "black"
+  },
+  "Red bellied Woodpecker": {
+    "throat": "white",
+    "breast": "red",
+    "belly": "white",
+    "back": "grey",
+    "crown": "red",
+    "wing": "black",
+    "primary": "black"
+  },
+  "Red cockaded Woodpecker": {
+    "throat": "white",
+    "breast": "black",
+    "belly": "white",
+    "back": "black",
+    "crown": "black",
+    "wing": "black",
+    "primary": "black"
+  },
+  "Red headed Woodpecker": {
+    "throat": "white",
+    "breast": "white",
+    "belly": "white",
+    "back": "black",
+    "crown": "red",
+    "wing": "black",
+    "primary": "black"
+  },
+  "Downy Woodpecker": {
+    "throat": "white",
+    "breast": "white",
+    "belly": "white",
+    "back": "black",
+    "crown": "black",
+    "wing": "black",
+    "primary": "black"
+  },
+  "Bewick Wren": {
+    "throat": "buff",
+    "breast": "buff",
+    "belly": "white",
+    "back": "grey",
+    "crown": "grey",
+    "wing": "grey",
+    "primary": "black"
+  },
+  "Cactus Wren": {
+    "throat": "white",
+    "breast": "buff",
+    "belly": "white",
+    "back": "grey",
+    "crown": "black",
+    "wing": "grey",
+    "primary": "black"
+  },
+  "Carolina Wren": {
+    "throat": "white",
+    "breast": "buff",
+    "belly": "white",
+    "back": "brown",
+    "crown": "rufous",
+    "wing": "rufous",
+    "primary": "black"
+  },
+  "House Wren": {
+    "throat": "buff",
+    "breast": "buff",
+    "belly": "white",
+    "back": "grey",
+    "crown": "rufous",
+    "wing": "grey",
+    "primary": "black"
+  },
+  "Marsh Wren": {
+    "throat": "buff",
+    "breast": "buff",
+    "belly": "white",
+    "back": "brown",
+    "crown": "black",
+    "wing": "brown",
+    "primary": "black"
+  },
+  "Rock Wren": {
+    "throat": "white",
+    "breast": "buff",
+    "belly": "white",
+    "back": "grey",
+    "crown": "rufous",
+    "wing": "grey",
+    "primary": "black"
+  },
+  "Winter Wren": {
+    "throat": "buff",
+    "breast": "buff",
+    "belly": "buff",
+    "back": "grey",
+    "crown": "buff",
+    "wing": "grey",
+    "primary": "black"
+  },
+  "Common Yellowthroat": {
+    "throat": "yellow",
+    "breast": "buff",
+    "belly": "white",
+    "back": "olive",
+    "crown": "black",
+    "wing": "olive",
+    "primary": "black"
+  }
+}

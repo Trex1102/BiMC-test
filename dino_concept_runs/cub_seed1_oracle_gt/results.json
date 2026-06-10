@@ -1,0 +1,266 @@
+{
+  "summary": {
+    "tag": "oracle_gt",
+    "partition": "gt",
+    "resolution": 448,
+    "n_attrs": 312,
+    "gamma": 1.0,
+    "baseline_lam0": {
+      "avg": 86.859,
+      "final": 86.88,
+      "last": {
+        "base_avg_acc": 89.0,
+        "inc_avg_acc": 84.79,
+        "harmonic_acc": 86.85
+      }
+    },
+    "by_lambda": {
+      "0.0": {
+        "avg": 86.859,
+        "final": 86.88,
+        "last": {
+          "base_avg_acc": 89.0,
+          "inc_avg_acc": 84.79,
+          "harmonic_acc": 86.85
+        }
+      },
+      "0.25": {
+        "avg": 86.859,
+        "final": 86.9,
+        "last": {
+          "base_avg_acc": 89.0,
+          "inc_avg_acc": 84.83,
+          "harmonic_acc": 86.87
+        }
+      },
+      "0.5": {
+        "avg": 86.864,
+        "final": 86.88,
+        "last": {
+          "base_avg_acc": 88.97,
+          "inc_avg_acc": 84.83,
+          "harmonic_acc": 86.85
+        }
+      },
+      "1.0": {
+        "avg": 86.865,
+        "final": 86.88,
+        "last": {
+          "base_avg_acc": 88.97,
+          "inc_avg_acc": 84.83,
+          "harmonic_acc": 86.85
+        }
+      },
+      "2.0": {
+        "avg": 86.874,
+        "final": 86.92,
+        "last": {
+          "base_avg_acc": 88.97,
+          "inc_avg_acc": 84.9,
+          "harmonic_acc": 86.89
+        }
+      },
+      "4.0": {
+        "avg": 86.859,
+        "final": 86.9,
+        "last": {
+          "base_avg_acc": 89.0,
+          "inc_avg_acc": 84.84,
+          "harmonic_acc": 86.87
+        }
+      },
+      "8.0": {
+        "avg": 86.801,
+        "final": 86.88,
+        "last": {
+          "base_avg_acc": 88.93,
+          "inc_avg_acc": 84.87,
+          "harmonic_acc": 86.85
+        }
+      },
+      "16.0": {
+        "avg": 86.669,
+        "final": 86.69,
+        "last": {
+          "base_avg_acc": 88.72,
+          "inc_avg_acc": 84.7,
+          "harmonic_acc": 86.66
+        }
+      }
+    },
+    "best": {
+      "lambda": 2.0,
+      "avg": 86.874,
+      "final": 86.92,
+      "last": {
+        "base_avg_acc": 88.97,
+        "inc_avg_acc": 84.9,
+        "harmonic_acc": 86.89
+      },
+      "delta_vs_baseline": 0.015
+    },
+    "runtime_sec": 447.1
+  },
+  "raw": {
+    "lam=0.0": {
+      "acc": [
+        89.32,
+        88.07,
+        87.76,
+        86.91,
+        86.77,
+        85.34,
+        85.63,
+        86.13,
+        86.05,
+        86.59,
+        86.88
+      ],
+      "last": {
+        "base_avg_acc": 89.0,
+        "inc_avg_acc": 84.79,
+        "harmonic_acc": 86.85
+      }
+    },
+    "lam=0.25": {
+      "acc": [
+        89.28,
+        88.07,
+        87.76,
+        86.91,
+        86.77,
+        85.34,
+        85.61,
+        86.15,
+        86.07,
+        86.59,
+        86.9
+      ],
+      "last": {
+        "base_avg_acc": 89.0,
+        "inc_avg_acc": 84.83,
+        "harmonic_acc": 86.87
+      }
+    },
+    "lam=0.5": {
+      "acc": [
+        89.28,
+        88.07,
+        87.76,
+        86.94,
+        86.77,
+        85.34,
+        85.63,
+        86.17,
+        86.07,
+        86.59,
+        86.88
+      ],
+      "last": {
+        "base_avg_acc": 88.97,
+        "inc_avg_acc": 84.83,
+        "harmonic_acc": 86.85
+      }
+    },
+    "lam=1.0": {
+      "acc": [
+        89.32,
+        88.07,
+        87.76,
+        86.91,
+        86.79,
+        85.32,
+        85.63,
+        86.17,
+        86.07,
+        86.59,
+        86.88
+      ],
+      "last": {
+        "base_avg_acc": 88.97,
+        "inc_avg_acc": 84.83,
+        "harmonic_acc": 86.85
+      }
+    },
+    "lam=2.0": {
+      "acc": [
+        89.32,
+        88.07,
+        87.76,
+        86.91,
+        86.72,
+        85.28,
+        85.67,
+        86.19,
+        86.13,
+        86.64,
+        86.92
+      ],
+      "last": {
+        "base_avg_acc": 88.97,
+        "inc_avg_acc": 84.9,
+        "harmonic_acc": 86.89
+      }
+    },
+    "lam=4.0": {
+      "acc": [
+        89.32,
+        88.07,
+        87.76,
+        86.83,
+        86.72,
+        85.32,
+        85.65,
+        86.17,
+        86.07,
+        86.64,
+        86.9
+      ],
+      "last": {
+        "base_avg_acc": 89.0,
+        "inc_avg_acc": 84.84,
+        "harmonic_acc": 86.87
+      }
+    },
+    "lam=8.0": {
+      "acc": [
+        89.28,
+        88.04,
+        87.7,
+        86.72,
+        86.64,
+        85.23,
+        85.59,
+        86.13,
+        86.07,
+        86.53,
+        86.88
+      ],
+      "last": {
+        "base_avg_acc": 88.93,
+        "inc_avg_acc": 84.87,
+        "harmonic_acc": 86.85
+      }
+    },
+    "lam=16.0": {
+      "acc": [
+        89.25,
+        87.91,
+        87.67,
+        86.64,
+        86.57,
+        85.07,
+        85.46,
+        85.93,
+        85.82,
+        86.35,
+        86.69
+      ],
+      "last": {
+        "base_avg_acc": 88.72,
+        "inc_avg_acc": 84.7,
+        "harmonic_acc": 86.66
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+manual seed: 1
+use gpu: ['0']
+/home/ndag/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/home/ndag/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/attention.py:36: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/home/ndag/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+[dinov2_vitb14 R=448] extracting
+[dinov2_vitb14 R=448] CEILING=90.49
+[dinov2_vitl14 R=224] extracting
+[dinov2_vitl14 R=224] CEILING=90.65
+[dinov2_vitl14 R=448] extracting
+[dinov2_vitl14 R=448] CEILING=91.03
+DONE ceiling robust

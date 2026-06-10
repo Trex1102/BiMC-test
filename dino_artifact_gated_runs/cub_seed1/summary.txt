@@ -1,0 +1,21 @@
+ARTIFACT + GATED FUSION | cub200 seed 1 | ViT-B/14 @ 448
+high-norm artifact-token fraction (norm>2*median): 0.00%
+CLS-only V1 @ 448: avg 86.86  final 86.88
+
+Artifact drop -> pure patch head (avg acc):
+   drop  0% : 64.53
+   drop  2% : 64.11
+   drop  5% : 62.78
+   drop 10% : 61.14
+   best drop p_star = 0%
+
+Global fused best: p=0% w=0.0 avg=86.86  (dVS_CLS +0.00)
+omega-curve (p_star, global avg): 0.0:86.86 0.1:86.35 0.2:86.07 0.3:85.47 0.4:84.50 0.5:83.38 0.6:81.75 0.7:80.12 0.8:77.31 0.9:72.56 1.0:64.53
+
+CONDITIONAL omega refit (final session, p_star):
+   all       n=5794  w*=0.0  acc@w*=86.88  acc@0=86.88  (gain +0.00)
+   novel     n=2930  w*=0.0  acc@w*=84.81  acc@0=84.81  (gain +0.00)
+   lowmargin n=1159  w*=0.0  acc@w*=57.46  acc@0=57.46  (gain +0.00)
+
+Deployable gated fusion best: p=10% tau=10% w_gate=0.3 avg=86.42  (dVS_CLS -0.44)
+runtime_sec: 370.4

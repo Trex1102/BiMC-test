@@ -1,0 +1,51 @@
+manual seed: 1
+use gpu: ['0']
+=== V1 on enriched DINOv2 reps :: cub200 seed=1 layers=(5, 8, 11) tau=0.1 ===
+Loading DinoV2 ViT-B/14 (local hub): /home/ndag/.cache/torch/hub/facebookresearch_dinov2_main
+/home/ndag/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/home/ndag/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/attention.py:36: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/home/ndag/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+Extracting full test-set banks once ...
+  test bank: (5794, 5376)
+[task  0] seen=100  R0:V1*=89.07  R1:V1*=62.33  R2:V1*=38.83  R3:V1*=68.44  R4:V1*=78.28  R5:V1*=88.30  R6:V1*=88.90  R7:V1*=87.53
+[task  1] seen=110  R0:V1*=87.27  R1:V1*=58.54  R2:V1*=36.24  R3:V1*=65.03  R4:V1*=74.16  R5:V1*=85.81  R6:V1*=86.99  R7:V1*=85.17
+[task  2] seen=120  R0:V1*=86.53  R1:V1*=54.52  R2:V1*=33.35  R3:V1*=62.71  R4:V1*=71.81  R5:V1*=85.25  R6:V1*=86.47  R7:V1*=84.58
+[task  3] seen=130  R0:V1*=85.19  R1:V1*=51.58  R2:V1*=31.36  R3:V1*=59.28  R4:V1*=67.89  R5:V1*=83.99  R6:V1*=85.22  R7:V1*=82.75
+[task  4] seen=140  R0:V1*=84.96  R1:V1*=48.56  R2:V1*=29.47  R3:V1*=56.55  R4:V1*=65.34  R5:V1*=83.79  R6:V1*=85.23  R7:V1*=82.27
+[task  5] seen=150  R0:V1*=83.45  R1:V1*=45.63  R2:V1*=27.60  R3:V1*=54.65  R4:V1*=63.45  R5:V1*=82.41  R6:V1*=83.80  R7:V1*=80.84
+[task  6] seen=160  R0:V1*=83.77  R1:V1*=43.87  R2:V1*=26.03  R3:V1*=52.45  R4:V1*=61.16  R5:V1*=82.70  R6:V1*=84.05  R7:V1*=80.97
+[task  7] seen=170  R0:V1*=84.42  R1:V1*=41.52  R2:V1*=24.43  R3:V1*=50.23  R4:V1*=59.17  R5:V1*=83.40  R6:V1*=84.54  R7:V1*=81.63
+[task  8] seen=180  R0:V1*=84.40  R1:V1*=39.68  R2:V1*=23.17  R3:V1*=48.16  R4:V1*=56.76  R5:V1*=83.23  R6:V1*=84.46  R7:V1*=81.27
+[task  9] seen=190  R0:V1*=85.00  R1:V1*=38.90  R2:V1*=22.24  R3:V1*=48.40  R4:V1*=57.04  R5:V1*=83.65  R6:V1*=85.00  R7:V1*=81.85
+[task 10] seen=200  R0:V1*=85.30  R1:V1*=37.61  R2:V1*=21.18  R3:V1*=47.05  R4:V1*=56.30  R5:V1*=84.05  R6:V1*=85.28  R7:V1*=82.17
+
+V1 (tied-cov Mahalanobis) on enriched DINOv2 reps | cub200 seed 1 | layers (5, 8, 11) tau 0.1
+Baseline R0 (final CLS) V1 avg = 85.38  (prev experiment best). dim shown per rep.
+
+  representation             dim  B0avg |  V1best  final  gamma  dVS_R0 |  V1g=1
+  R0_final_cls_b11           768  83.87 |   85.38  85.30    1.0   +0.00 |  85.38
+  R1_mid_cls_b8              768  22.02 |   47.52  37.61    0.1  -37.85 |  46.38
+  R2_earlymid_cls_b5         768   9.43 |   28.54  21.18    0.1  -56.84 |  25.84
+  R3_patch_meanpool_b11      768  34.25 |   55.72  47.05    0.1  -29.65 |  55.07
+  R4_patch_fgpool_b11        768  43.32 |   64.67  56.30    0.1  -20.71 |  62.76
+  R5_cls+fgpatch_b11        1536  78.96 |   84.23  84.05    1.0   -1.14 |  84.23
+  R6_multicls_5_8_11        2304  83.09 |   85.41  85.28   10.0   +0.03 |  85.21
+  R7_multi_cls+fg_5_8_11    4608  69.64 |   82.82  82.17   10.0   -2.56 |  82.56
+
+  representation             base    inc   harm  (V1 best, final session)
+  R0_final_cls_b11          88.41  82.23  85.21
+  R1_mid_cls_b8             62.12  13.71  22.46
+  R2_earlymid_cls_b5        38.16    4.6   8.21
+  R3_patch_meanpool_b11     66.59  28.07  39.49
+  R4_patch_fgpool_b11       77.44  35.69  48.86
+  R5_cls+fgpatch_b11        88.16  79.97  83.87
+  R6_multicls_5_8_11        87.85  82.74  85.22
+  R7_multi_cls+fg_5_8_11     87.4  77.02  81.88
+
+BEST REP: R6_multicls_5_8_11  V1 avg=85.41 (R0 baseline 85.38, delta +0.03)
+runtime_sec: 82.6
+
+Saved: /media/ndag/newVolume/BiMC-test/dino_richfeat_runs/cub_seed1/results.json and summary.txt

@@ -1,0 +1,46 @@
+manual seed: 1
+use gpu: ['0']
+/home/ndag/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/home/ndag/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/attention.py:36: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/home/ndag/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+=== artifact + gated fusion :: cub200 seed 1 R=448 num_base=100 ===
+Extracting test once ...
+  test bank (5794, 3840)  mean high-norm-token fraction = 0.00%
+[task  0] seen=100 CLS=89.32  pure_fg0=77.4 pure_fg2=77.1 pure_fg5=75.9 pure_fg10=74.1
+[task  1] seen=110 CLS=88.07  pure_fg0=74.2 pure_fg2=73.9 pure_fg5=72.4 pure_fg10=71.0
+[task  2] seen=120 CLS=87.75  pure_fg0=72.0 pure_fg2=71.7 pure_fg5=70.3 pure_fg10=68.6
+[task  3] seen=130 CLS=86.91  pure_fg0=68.2 pure_fg2=67.9 pure_fg5=66.4 pure_fg10=65.1
+[task  4] seen=140 CLS=86.77  pure_fg0=65.1 pure_fg2=64.7 pure_fg5=63.4 pure_fg10=62.0
+[task  5] seen=150 CLS=85.34  pure_fg0=63.1 pure_fg2=62.6 pure_fg5=61.2 pure_fg10=59.9
+[task  6] seen=160 CLS=85.63  pure_fg0=61.1 pure_fg2=60.6 pure_fg5=59.4 pure_fg10=57.8
+[task  7] seen=170 CLS=86.13  pure_fg0=59.2 pure_fg2=58.7 pure_fg5=57.3 pure_fg10=55.5
+[task  8] seen=180 CLS=86.06  pure_fg0=56.7 pure_fg2=56.3 pure_fg5=55.0 pure_fg10=53.0
+[task  9] seen=190 CLS=86.58  pure_fg0=56.8 pure_fg2=56.4 pure_fg5=55.2 pure_fg10=53.4
+[task 10] seen=200 CLS=86.88  pure_fg0=56.1 pure_fg2=55.5 pure_fg5=54.1 pure_fg10=52.1
+
+ARTIFACT + GATED FUSION | cub200 seed 1 | ViT-B/14 @ 448
+high-norm artifact-token fraction (norm>2*median): 0.00%
+CLS-only V1 @ 448: avg 86.86  final 86.88
+
+Artifact drop -> pure patch head (avg acc):
+   drop  0% : 64.53
+   drop  2% : 64.11
+   drop  5% : 62.78
+   drop 10% : 61.14
+   best drop p_star = 0%
+
+Global fused best: p=0% w=0.0 avg=86.86  (dVS_CLS +0.00)
+omega-curve (p_star, global avg): 0.0:86.86 0.1:86.35 0.2:86.07 0.3:85.47 0.4:84.50 0.5:83.38 0.6:81.75 0.7:80.12 0.8:77.31 0.9:72.56 1.0:64.53
+
+CONDITIONAL omega refit (final session, p_star):
+   all       n=5794  w*=0.0  acc@w*=86.88  acc@0=86.88  (gain +0.00)
+   novel     n=2930  w*=0.0  acc@w*=84.81  acc@0=84.81  (gain +0.00)
+   lowmargin n=1159  w*=0.0  acc@w*=57.46  acc@0=57.46  (gain +0.00)
+
+Deployable gated fusion best: p=10% tau=10% w_gate=0.3 avg=86.42  (dVS_CLS -0.44)
+runtime_sec: 370.4
+
+Saved: /media/ndag/newVolume/BiMC-test/dino_artifact_gated_runs/cub_seed1

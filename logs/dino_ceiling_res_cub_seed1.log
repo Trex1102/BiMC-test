@@ -1,0 +1,27 @@
+manual seed: 1
+use gpu: ['0']
+=== ceiling + resolution :: cub200 seed 1 | train 5994 test 5794 ===
+Loading dinov2_vitb14 from /home/ndag/.cache/torch/hub/facebookresearch_dinov2_main
+/home/ndag/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/home/ndag/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/attention.py:36: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/home/ndag/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+[dinov2_vitb14 R=224] extracting train ...
+[dinov2_vitb14 R=224] extracting test ...
+[dinov2_vitb14 R=224] LINEAR-PROBE CEILING = 79.53
+manual seed: 1
+[dinov2_vitb14 R=224] FSCIL  B0 avg=83.87  V1 avg=85.38 (final 85.30, V1|g=1.0)
+[dinov2_vitb14 R=448] extracting train ...
+[dinov2_vitb14 R=448] extracting test ...
+[dinov2_vitb14 R=448] LINEAR-PROBE CEILING = 80.36
+manual seed: 1
+[dinov2_vitb14 R=448] FSCIL  B0 avg=84.35  V1 avg=86.86 (final 86.88, V1|g=1.0)
+[dinov2_vitb14 R=518] extracting train ...
+[dinov2_vitb14 R=518] extracting test ...
+[dinov2_vitb14 R=518] LINEAR-PROBE CEILING = 80.34
+manual seed: 1
+[dinov2_vitb14 R=518] FSCIL  B0 avg=84.69  V1 avg=86.64 (final 86.69, V1|g=1.0)
+Loading dinov2_vitl14 from /home/ndag/.cache/torch/hub/facebookresearch_dinov2_main
+[dinov2_vitl14 R=224] extracting train ...

@@ -1,0 +1,8 @@
+PROTOTYPE CALIBRATION (Direction 2) | CUB seed1 @448 | llm_tax=no
+V1 baseline: avg 86.86 final 86.88 base 89.0 inc 84.79 harm 86.85
+
+  method         bestA     avg   final    inc   harm    dVS
+  baseline         0.0   86.86   86.88  84.79  86.85  +0.00
+  teen_visual      0.3   87.02   86.93   85.1  86.93  +0.16
+  oracle_attr      0.1   86.86   86.92  84.87  86.89  +0.00
+  oracle_fam       0.0   86.86   86.88  84.79  86.85  +0.00

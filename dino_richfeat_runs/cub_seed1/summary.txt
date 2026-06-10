@@ -1,0 +1,25 @@
+V1 (tied-cov Mahalanobis) on enriched DINOv2 reps | cub200 seed 1 | layers (5, 8, 11) tau 0.1
+Baseline R0 (final CLS) V1 avg = 85.38  (prev experiment best). dim shown per rep.
+
+  representation             dim  B0avg |  V1best  final  gamma  dVS_R0 |  V1g=1
+  R0_final_cls_b11           768  83.87 |   85.38  85.30    1.0   +0.00 |  85.38
+  R1_mid_cls_b8              768  22.02 |   47.52  37.61    0.1  -37.85 |  46.38
+  R2_earlymid_cls_b5         768   9.43 |   28.54  21.18    0.1  -56.84 |  25.84
+  R3_patch_meanpool_b11      768  34.25 |   55.72  47.05    0.1  -29.65 |  55.07
+  R4_patch_fgpool_b11        768  43.32 |   64.67  56.30    0.1  -20.71 |  62.76
+  R5_cls+fgpatch_b11        1536  78.96 |   84.23  84.05    1.0   -1.14 |  84.23
+  R6_multicls_5_8_11        2304  83.09 |   85.41  85.28   10.0   +0.03 |  85.21
+  R7_multi_cls+fg_5_8_11    4608  69.64 |   82.82  82.17   10.0   -2.56 |  82.56
+
+  representation             base    inc   harm  (V1 best, final session)
+  R0_final_cls_b11          88.41  82.23  85.21
+  R1_mid_cls_b8             62.12  13.71  22.46
+  R2_earlymid_cls_b5        38.16    4.6   8.21
+  R3_patch_meanpool_b11     66.59  28.07  39.49
+  R4_patch_fgpool_b11       77.44  35.69  48.86
+  R5_cls+fgpatch_b11        88.16  79.97  83.87
+  R6_multicls_5_8_11        87.85  82.74  85.22
+  R7_multi_cls+fg_5_8_11     87.4  77.02  81.88
+
+BEST REP: R6_multicls_5_8_11  V1 avg=85.41 (R0 baseline 85.38, delta +0.03)
+runtime_sec: 82.6

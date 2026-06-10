@@ -1,0 +1,27 @@
+{
+  "model": "qwen3:14b",
+  "n_classes": 200,
+  "parts": [
+    "throat",
+    "breast",
+    "belly",
+    "back",
+    "crown",
+    "wing",
+    "primary"
+  ],
+  "agreement_pct": 40.6,
+  "n_compared": 1389,
+  "per_part_agreement": {
+    "throat": 56.3,
+    "breast": 43.7,
+    "belly": 50.5,
+    "back": 27.1,
+    "crown": 46.7,
+    "wing": 37.7,
+    "primary": 22.5
+  },
+  "n_llm_attrs": 44,
+  "n_gt_attrs": 57,
+  "runtime_sec": 189.3
+}

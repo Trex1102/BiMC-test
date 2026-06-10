@@ -1,0 +1,98 @@
+{
+  "resolution": 448,
+  "betas": [
+    0.0,
+    0.5,
+    1.0,
+    2.0,
+    5.0,
+    10.0,
+    20.0
+  ],
+  "baseline_b0": {
+    "avg": 86.859,
+    "final": 86.88,
+    "last": {
+      "base_avg_acc": 89.0,
+      "inc_avg_acc": 84.79,
+      "harmonic_acc": 86.85
+    }
+  },
+  "by_beta": {
+    "0.0": {
+      "avg": 86.859,
+      "final": 86.88,
+      "last": {
+        "base_avg_acc": 89.0,
+        "inc_avg_acc": 84.79,
+        "harmonic_acc": 86.85
+      }
+    },
+    "0.5": {
+      "avg": 86.978,
+      "final": 86.99,
+      "last": {
+        "base_avg_acc": 88.86,
+        "inc_avg_acc": 85.15,
+        "harmonic_acc": 86.96
+      }
+    },
+    "1.0": {
+      "avg": 87.025,
+      "final": 87.04,
+      "last": {
+        "base_avg_acc": 88.76,
+        "inc_avg_acc": 85.36,
+        "harmonic_acc": 87.03
+      }
+    },
+    "2.0": {
+      "avg": 87.105,
+      "final": 87.04,
+      "last": {
+        "base_avg_acc": 88.41,
+        "inc_avg_acc": 85.72,
+        "harmonic_acc": 87.05
+      }
+    },
+    "5.0": {
+      "avg": 85.928,
+      "final": 85.76,
+      "last": {
+        "base_avg_acc": 85.13,
+        "inc_avg_acc": 86.44,
+        "harmonic_acc": 85.78
+      }
+    },
+    "10.0": {
+      "avg": 82.92,
+      "final": 82.93,
+      "last": {
+        "base_avg_acc": 79.26,
+        "inc_avg_acc": 86.59,
+        "harmonic_acc": 82.76
+      }
+    },
+    "20.0": {
+      "avg": 77.89,
+      "final": 78.34,
+      "last": {
+        "base_avg_acc": 69.97,
+        "inc_avg_acc": 86.58,
+        "harmonic_acc": 77.4
+      }
+    }
+  },
+  "best": {
+    "beta": 2.0,
+    "avg": 87.105,
+    "final": 87.04,
+    "last": {
+      "base_avg_acc": 88.41,
+      "inc_avg_acc": 85.72,
+      "harmonic_acc": 87.05
+    },
+    "delta": 0.246
+  },
+  "runtime_sec": 9.5
+}

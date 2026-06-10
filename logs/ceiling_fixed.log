@@ -1,0 +1,44 @@
+manual seed: 1
+use gpu: ['0']
+=== CEILING (fixed) :: train 5994 test 5794 ===
+/home/ndag/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/home/ndag/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/attention.py:36: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/home/ndag/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+[dinov2_vitb14 R=224] extracting ...
+[dinov2_vitb14 R=224] CEILING(best test top-1) = 89.68   per-C(tr,te): C1:89.7 C10:89.5 C100:89.5 C1000:89.2 C10000:89.0
+[dinov2_vitb14 R=518] extracting ...
+Traceback (most recent call last):
+  File "dino_ceiling_fixed_cub.py", line 139, in <module>
+    main()
+  File "dino_ceiling_fixed_cub.py", line 119, in main
+    Xtr, ytr = extract_raw(model, tr, device)
+  File "/home/ndag/anaconda3/envs/fscil-env/lib/python3.8/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "dino_ceiling_fixed_cub.py", line 64, in extract_raw
+    feats.append(model(b["image"].to(device)).float())   # RAW CLS, no normalize
+  File "/home/ndag/anaconda3/envs/fscil-env/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/ndag/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/models/vision_transformer.py", line 349, in forward
+    ret = self.forward_features(*args, **kwargs)
+  File "/home/ndag/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/models/vision_transformer.py", line 264, in forward_features
+    x = blk(x)
+  File "/home/ndag/anaconda3/envs/fscil-env/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/ndag/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/block.py", line 310, in forward
+    return super().forward(x_or_x_list)
+  File "/home/ndag/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/block.py", line 112, in forward
+    x = x + attn_residual_func(x)
+  File "/home/ndag/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/block.py", line 91, in attn_residual_func
+    return self.ls1(self.attn(self.norm1(x)))
+  File "/home/ndag/anaconda3/envs/fscil-env/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/ndag/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/attention.py", line 90, in forward
+    return super().forward(x)
+  File "/home/ndag/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/attention.py", line 77, in forward
+    x = nn.functional.scaled_dot_product_attention(
+  File "dino_ceiling_fixed_cub.py", line 41, in sdpa
+    return torch.matmul(torch.softmax(torch.matmul(q, k.transpose(-2, -1)) * sf, dim=-1), v)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 688.00 MiB (GPU 0; 23.56 GiB total capacity; 8.45 GiB already allocated; 705.31 MiB free; 9.36 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

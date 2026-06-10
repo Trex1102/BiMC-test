@@ -1,0 +1,30 @@
+manual seed: 1
+use gpu: ['0']
+=== CONCEPT DIRS [oracle_gt] R=448 | partition=gt attrs=312 ===
+/home/ndag/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/home/ndag/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/attention.py:36: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/home/ndag/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+extracting train ...
+extracting test ...
+manual seed: 1
+[task 10] seen=200 n_concept_dirs=159
+
+CONCEPT DIRECTIONS [oracle_gt] | CUB seed1 @ 448 | partition=gt | 312 attrs
+V1 baseline (lambda=0): avg 86.86 final 86.88  base 89.0 inc 84.79 harm 86.85
+
+   lambda     avg   final   base    inc   harm
+     0.00   86.86   86.88   89.0  84.79  86.85
+     0.25   86.86   86.90   89.0  84.83  86.87
+     0.50   86.86   86.88  88.97  84.83  86.85
+     1.00   86.86   86.88  88.97  84.83  86.85
+     2.00   86.87   86.92  88.97   84.9  86.89
+     4.00   86.86   86.90   89.0  84.84  86.87
+     8.00   86.80   86.88  88.93  84.87  86.85
+    16.00   86.67   86.69  88.72   84.7  86.66
+
+BEST lambda=2.0: avg 86.87 (dVS_baseline +0.01)  base 88.97 inc 84.9 harm 86.89
+runtime_sec: 447.1
+Saved: /media/ndag/newVolume/BiMC-test/dino_concept_runs/cub_seed1_oracle_gt

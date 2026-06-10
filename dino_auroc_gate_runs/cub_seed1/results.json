@@ -1,0 +1,162 @@
+{
+  "resolution": 448,
+  "per_session": [
+    {
+      "task": 0,
+      "seen": 100,
+      "ntest": 2864,
+      "acc": 89.32,
+      "auroc_err_msp": 0.7918,
+      "auroc_err_margin": 0.8943,
+      "auroc_err_maxdens": 0.6586,
+      "auroc_err_rmd": 0.7252
+    },
+    {
+      "task": 1,
+      "seen": 110,
+      "ntest": 3143,
+      "acc": 88.07,
+      "auroc_err_msp": 0.7806,
+      "auroc_err_margin": 0.8915,
+      "auroc_err_maxdens": 0.6485,
+      "auroc_err_rmd": 0.7201,
+      "auroc_basenovel": 0.9974,
+      "novel_to_base_rate": 20.79
+    },
+    {
+      "task": 2,
+      "seen": 120,
+      "ntest": 3430,
+      "acc": 87.76,
+      "auroc_err_msp": 0.7667,
+      "auroc_err_margin": 0.8857,
+      "auroc_err_maxdens": 0.6391,
+      "auroc_err_rmd": 0.7023,
+      "auroc_basenovel": 0.9973,
+      "novel_to_base_rate": 10.42
+    },
+    {
+      "task": 3,
+      "seen": 130,
+      "ntest": 3728,
+      "acc": 86.91,
+      "auroc_err_msp": 0.7505,
+      "auroc_err_margin": 0.8677,
+      "auroc_err_maxdens": 0.6442,
+      "auroc_err_rmd": 0.6929,
+      "auroc_basenovel": 0.9981,
+      "novel_to_base_rate": 6.83
+    },
+    {
+      "task": 4,
+      "seen": 140,
+      "ntest": 4028,
+      "acc": 86.77,
+      "auroc_err_msp": 0.7499,
+      "auroc_err_margin": 0.8618,
+      "auroc_err_maxdens": 0.6543,
+      "auroc_err_rmd": 0.7049,
+      "auroc_basenovel": 0.9981,
+      "novel_to_base_rate": 5.5
+    },
+    {
+      "task": 5,
+      "seen": 150,
+      "ntest": 4326,
+      "acc": 85.34,
+      "auroc_err_msp": 0.7307,
+      "auroc_err_margin": 0.8615,
+      "auroc_err_maxdens": 0.6202,
+      "auroc_err_rmd": 0.6574,
+      "auroc_basenovel": 0.9981,
+      "novel_to_base_rate": 4.51
+    },
+    {
+      "task": 6,
+      "seen": 160,
+      "ntest": 4614,
+      "acc": 85.63,
+      "auroc_err_msp": 0.713,
+      "auroc_err_margin": 0.8611,
+      "auroc_err_maxdens": 0.6187,
+      "auroc_err_rmd": 0.6571,
+      "auroc_basenovel": 0.9981,
+      "novel_to_base_rate": 3.66
+    },
+    {
+      "task": 7,
+      "seen": 170,
+      "ntest": 4911,
+      "acc": 86.13,
+      "auroc_err_msp": 0.6948,
+      "auroc_err_margin": 0.866,
+      "auroc_err_maxdens": 0.6178,
+      "auroc_err_rmd": 0.6583,
+      "auroc_basenovel": 0.9983,
+      "novel_to_base_rate": 3.22
+    },
+    {
+      "task": 8,
+      "seen": 180,
+      "ntest": 5206,
+      "acc": 86.05,
+      "auroc_err_msp": 0.673,
+      "auroc_err_margin": 0.8651,
+      "auroc_err_maxdens": 0.6247,
+      "auroc_err_rmd": 0.6627,
+      "auroc_basenovel": 0.9984,
+      "novel_to_base_rate": 2.86
+    },
+    {
+      "task": 9,
+      "seen": 190,
+      "ntest": 5494,
+      "acc": 86.59,
+      "auroc_err_msp": 0.6771,
+      "auroc_err_margin": 0.8633,
+      "auroc_err_maxdens": 0.6325,
+      "auroc_err_rmd": 0.6724,
+      "auroc_basenovel": 0.9984,
+      "novel_to_base_rate": 2.62
+    },
+    {
+      "task": 10,
+      "seen": 200,
+      "ntest": 5794,
+      "acc": 86.88,
+      "auroc_err_msp": 0.6774,
+      "auroc_err_margin": 0.8593,
+      "auroc_err_maxdens": 0.6303,
+      "auroc_err_rmd": 0.6701,
+      "auroc_basenovel": 0.9985,
+      "novel_to_base_rate": 2.39
+    }
+  ],
+  "avg": {
+    "auroc_err_msp": 0.7278,
+    "auroc_err_margin": 0.8707,
+    "auroc_err_maxdens": 0.6354,
+    "auroc_err_rmd": 0.6839,
+    "auroc_basenovel": 0.9981,
+    "novel_to_base_rate": 6.28
+  },
+  "best_err_score": "margin",
+  "err_auroc_seq": [
+    0.8943,
+    0.8915,
+    0.8857,
+    0.8677,
+    0.8618,
+    0.8615,
+    0.8611,
+    0.866,
+    0.8651,
+    0.8633,
+    0.8593
+  ],
+  "err_auroc_first": 0.8943,
+  "err_auroc_last": 0.8593,
+  "err_auroc_drop": 0.035,
+  "runtime_sec": 1.3,
+  "verdict": "PASS"
+}

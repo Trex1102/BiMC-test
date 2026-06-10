@@ -1,0 +1,53 @@
+manual seed: 1
+use gpu: ['0']
+=== DINOv2-only FSCIL :: dataset=cub200 seed=1 inc_shot=5 ===
+Loading DinoV2 ViT-B/14 from local hub: /home/ndag/.cache/torch/hub/facebookresearch_dinov2_main
+/home/ndag/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/home/ndag/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/attention.py:36: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/home/ndag/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+Loading DinoV2 weights: /home/ndag/.cache/torch/hub/checkpoints/dinov2_vitb14_pretrain.pth
+Extracting full test set features once ...
+  test feats: (5794, 768)  labels in [0,199]
+[task  0] seen=100 ntest=2864  B0=86.35  V1*=89.07  V2*=89.07  V3*=89.28
+[task  1] seen=110 ntest=3143  B0=85.43  V1*=87.27  V2*=87.27  V3*=86.57
+[task  2] seen=120 ntest=3430  B0=84.81  V1*=86.53  V2*=86.53  V3*=85.86
+[task  3] seen=130 ntest=3728  B0=83.56  V1*=85.19  V2*=85.19  V3*=84.44
+[task  4] seen=140 ntest=4028  B0=83.66  V1*=84.96  V2*=85.13  V3*=84.36
+[task  5] seen=150 ntest=4326  B0=82.09  V1*=83.45  V2*=83.68  V3*=82.87
+[task  6] seen=160 ntest=4614  B0=82.57  V1*=83.77  V2*=84.07  V3*=83.20
+[task  7] seen=170 ntest=4911  B0=83.20  V1*=84.42  V2*=84.65  V3*=83.59
+[task  8] seen=180 ntest=5206  B0=83.12  V1*=84.40  V2*=84.59  V3*=83.69
+[task  9] seen=190 ntest=5494  B0=83.71  V1*=85.00  V2*=85.07  V3*=84.29
+[task 10] seen=200 ntest=5794  B0=84.10  V1*=85.30  V2*=85.31  V3*=84.59
+
+DINOv2-only FSCIL on cub200 (seed 1) | 11 sessions
+Reference (context, NOT this experiment): full CLIP+DINOv2+LLM = 84.93 final / ~85.1 avg
+
+BEST CONFIG PER VARIANT (config chosen on these sessions => optimistic upper bound):
+  variant                    avg   final    base    inc   harm  config
+  B0_cosine                83.87   84.10   86.14  82.12  84.08  B0
+  V1_tied_cov              85.38   85.30   88.41  82.23  85.21  g=1.0
+  V2_shrinkage             85.41   85.31   88.16   82.5  85.23  g=10.0|rho=0.8
+  V3_common_subspace       84.72   84.59    88.3   80.9  84.44  g=10.0|rho=0.8|r=5
+
+FIXED DEFAULT (gamma=1.0, rho=0.8, r=5) - non-cherry-picked:
+  variant                    avg   final
+  B0_cosine                83.87   84.10
+  V1_tied_cov              85.38   85.30
+  V2_shrinkage             84.74   84.81
+  V3_common_subspace       84.30   84.29
+
+KILL SWITCH: V1 avg 85.38 vs B0 avg 83.87  =>  PASS (anisotropy helps)
+
+Per-session best-config acc_list:
+  B0_cosine              [86.35, 85.43, 84.81, 83.56, 83.66, 82.09, 82.57, 83.2, 83.12, 83.71, 84.1]
+  V1_tied_cov            [88.86, 87.27, 86.53, 85.19, 84.96, 83.45, 83.77, 84.42, 84.4, 85.0, 85.3]
+  V2_shrinkage           [88.55, 86.92, 86.38, 85.17, 85.13, 83.68, 84.07, 84.65, 84.59, 85.07, 85.31]
+  V3_common_subspace     [88.41, 86.57, 85.86, 84.44, 84.36, 82.87, 83.2, 83.59, 83.69, 84.29, 84.59]
+
+runtime_sec: 171.5
+
+Saved: /media/ndag/newVolume/BiMC-test/dino_only_runs/cub_seed1/results.json and summary.txt

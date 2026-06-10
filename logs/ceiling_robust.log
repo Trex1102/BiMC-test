@@ -1,0 +1,27 @@
+manual seed: 1
+use gpu: ['0']
+/home/ndag/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/home/ndag/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/attention.py:36: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/home/ndag/.cache/torch/hub/facebookresearch_dinov2_main/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+[dinov2_vitb14 R=448] extracting
+Traceback (most recent call last):
+  File "dino_ceiling_robust.py", line 74, in <module>
+    if __name__=="__main__": main()
+  File "dino_ceiling_robust.py", line 66, in main
+    print(f"[{n} R={R}] extracting",flush=True); Xtr,ytr=extract(model,tr,dev); Xte,yte=extract(model,te,dev)
+  File "/home/ndag/anaconda3/envs/fscil-env/lib/python3.8/site-packages/torch/autograd/grad_mode.py", line 27, in decorate_context
+    return func(*args, **kwargs)
+  File "dino_ceiling_robust.py", line 34, in extract
+    for b in loader:
+  File "/home/ndag/anaconda3/envs/fscil-env/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 628, in __next__
+    data = self._next_data()
+  File "/home/ndag/anaconda3/envs/fscil-env/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1316, in _next_data
+    idx, data = self._get_data()
+  File "/home/ndag/anaconda3/envs/fscil-env/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1282, in _get_data
+    success, data = self._try_get_data()
+  File "/home/ndag/anaconda3/envs/fscil-env/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1147, in _try_get_data
+    raise RuntimeError(
+RuntimeError: Too many open files. Communication with the workers is no longer possible. Please increase the limit using `ulimit -n` in the shell or change the sharing strategy by calling `torch.multiprocessing.set_sharing_strategy('file_system')` at the beginning of your code

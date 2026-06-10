@@ -1,0 +1,37 @@
+manual seed: 1
+use gpu: ['0']
+loaded cached @448 feats
+manual seed: 1
+{'task': 0, 'seen': 100, 'ntest': 2864, 'acc': 89.32, 'auroc_err_msp': 0.7918, 'auroc_err_margin': 0.8943, 'auroc_err_maxdens': 0.6586, 'auroc_err_rmd': 0.7252}
+{'task': 1, 'seen': 110, 'ntest': 3143, 'acc': 88.07, 'auroc_err_msp': 0.7806, 'auroc_err_margin': 0.8915, 'auroc_err_maxdens': 0.6485, 'auroc_err_rmd': 0.7201, 'auroc_basenovel': 0.9974, 'novel_to_base_rate': 20.79}
+{'task': 2, 'seen': 120, 'ntest': 3430, 'acc': 87.76, 'auroc_err_msp': 0.7667, 'auroc_err_margin': 0.8857, 'auroc_err_maxdens': 0.6391, 'auroc_err_rmd': 0.7023, 'auroc_basenovel': 0.9973, 'novel_to_base_rate': 10.42}
+{'task': 3, 'seen': 130, 'ntest': 3728, 'acc': 86.91, 'auroc_err_msp': 0.7505, 'auroc_err_margin': 0.8677, 'auroc_err_maxdens': 0.6442, 'auroc_err_rmd': 0.6929, 'auroc_basenovel': 0.9981, 'novel_to_base_rate': 6.83}
+{'task': 4, 'seen': 140, 'ntest': 4028, 'acc': 86.77, 'auroc_err_msp': 0.7499, 'auroc_err_margin': 0.8618, 'auroc_err_maxdens': 0.6543, 'auroc_err_rmd': 0.7049, 'auroc_basenovel': 0.9981, 'novel_to_base_rate': 5.5}
+{'task': 5, 'seen': 150, 'ntest': 4326, 'acc': 85.34, 'auroc_err_msp': 0.7307, 'auroc_err_margin': 0.8615, 'auroc_err_maxdens': 0.6202, 'auroc_err_rmd': 0.6574, 'auroc_basenovel': 0.9981, 'novel_to_base_rate': 4.51}
+{'task': 6, 'seen': 160, 'ntest': 4614, 'acc': 85.63, 'auroc_err_msp': 0.713, 'auroc_err_margin': 0.8611, 'auroc_err_maxdens': 0.6187, 'auroc_err_rmd': 0.6571, 'auroc_basenovel': 0.9981, 'novel_to_base_rate': 3.66}
+{'task': 7, 'seen': 170, 'ntest': 4911, 'acc': 86.13, 'auroc_err_msp': 0.6948, 'auroc_err_margin': 0.866, 'auroc_err_maxdens': 0.6178, 'auroc_err_rmd': 0.6583, 'auroc_basenovel': 0.9983, 'novel_to_base_rate': 3.22}
+{'task': 8, 'seen': 180, 'ntest': 5206, 'acc': 86.05, 'auroc_err_msp': 0.673, 'auroc_err_margin': 0.8651, 'auroc_err_maxdens': 0.6247, 'auroc_err_rmd': 0.6627, 'auroc_basenovel': 0.9984, 'novel_to_base_rate': 2.86}
+{'task': 9, 'seen': 190, 'ntest': 5494, 'acc': 86.59, 'auroc_err_msp': 0.6771, 'auroc_err_margin': 0.8633, 'auroc_err_maxdens': 0.6325, 'auroc_err_rmd': 0.6724, 'auroc_basenovel': 0.9984, 'novel_to_base_rate': 2.62}
+{'task': 10, 'seen': 200, 'ntest': 5794, 'acc': 86.88, 'auroc_err_msp': 0.6774, 'auroc_err_margin': 0.8593, 'auroc_err_maxdens': 0.6303, 'auroc_err_rmd': 0.6701, 'auroc_basenovel': 0.9985, 'novel_to_base_rate': 2.39}
+
+AUROC-VS-SESSION GATE | CUB seed1 @448 V1
+
+  task seen    acc | err_msp err_marg err_dens err_rmd | base/nov nov2base%
+     0  100  89.32 |  0.7918   0.8943   0.6586  0.7252 |        -         -
+     1  110  88.07 |  0.7806   0.8915   0.6485  0.7201 |   0.9974     20.79
+     2  120  87.76 |  0.7667   0.8857   0.6391  0.7023 |   0.9973     10.42
+     3  130  86.91 |  0.7505   0.8677   0.6442  0.6929 |   0.9981      6.83
+     4  140  86.77 |  0.7499   0.8618   0.6543  0.7049 |   0.9981       5.5
+     5  150  85.34 |  0.7307   0.8615   0.6202  0.6574 |   0.9981      4.51
+     6  160  85.63 |   0.713   0.8611   0.6187  0.6571 |   0.9981      3.66
+     7  170  86.13 |  0.6948    0.866   0.6178  0.6583 |   0.9983      3.22
+     8  180  86.05 |   0.673   0.8651   0.6247  0.6627 |   0.9984      2.86
+     9  190  86.59 |  0.6771   0.8633   0.6325  0.6724 |   0.9984      2.62
+    10  200  86.88 |  0.6774   0.8593   0.6303  0.6701 |   0.9985      2.39
+
+AVG error-detection AUROC: msp=0.728, margin=0.871, maxdens=0.635, rmd=0.684
+AVG base-vs-novel AUROC: 0.998   AVG novel->base confusion: 6.3%
+Best error score: margin; AUROC seq first->last = 0.894 -> 0.859 (drop +0.035)
+VERDICT: PASS  (pass if avg err-AUROC>=0.80 and session drop<=0.07)
+runtime_sec: 1.3
+Saved /media/ndag/newVolume/BiMC-test/dino_auroc_gate_runs/cub_seed1
